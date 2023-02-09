@@ -1,0 +1,268 @@
+/*
+Theme name: Decona_
+*/
+ 
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('http://decona.ru/wp-content/themes/decona_craft/fonts/ALSHauss-Light.woff');
+    font-style: normal;
+ }
+
+@font-face {
+    font-family: 'ALS Hauss Hairline';
+    src: url('http://decona.ru/wp-content/themes/decona_craft/fonts/ALSHauss-Hairline.woff');
+    font-style: normal;
+}
+
+
+body {
+	font-family: 'ALS Hauss', 'Georgia', serif;
+	/*color: #5E5B5B;*/
+	margin: 0;
+}
+h1, h2, h3 {
+	font-family: 'ALS Hauss Hairline';
+	color: #5E5B5B;
+}
+h4, h5, h6 {
+	font-family: 'ALS Hauss';
+	color: #5E5B5B;
+}
+h1{
+	font-size: 5.5rem!important;
+}
+h2{
+	font-size: 3rem!important;
+}
+h4{
+	padding-bottom: 3rem;
+}
+p {
+	font-size: 1.125rem;
+	color: #5E5B5B;
+}
+.small-text{
+	font-size: 0.75rem!important;
+	color: #5E5B5B!important;
+}
+
+
+/* THEME COLORS */
+
+/* Backgrounds */
+.latte_bg {
+	background-color: #F6F1EE; /* footer */
+}
+.middle-gray{
+	background-color: #CDCECF; /* info rectangle */
+}
+.dark-gray{
+	background-color:#50504E;
+}
+.milk-white_bg {
+	background-color: #F5F5F5!important; /* bg */
+}
+.white_bg {
+	background-color: #fff!important; /* bg */
+}
+
+/* Fonts */
+.cacao {
+	color: #9F8A88!important; /* old prices etc */
+}
+.general-gray{
+	color: #5E5B5B!important;
+}
+.white{
+	color: #fff!important;
+}
+.milk-white {
+	color: #F5F5F5!important; /*  */
+}
+
+
+a{
+	color: #5E5B5B!important;
+	text-decoration: none!important;
+	background-color: transparent;
+}
+a:hover{
+	color: #9F8A88!important; 
+}
+
+/* BOOTSTRUP UPDATE */
+
+/* header */
+.header {
+	padding-top: 0!important;
+	margin-top: -5!important;
+	z-index: 3;
+	position: relative;
+}
+.nav-link{
+	background-color: transparent;
+	font-size: 1.125rem!important;
+	text-decoration: none!important;
+}
+
+
+
+li .nav-link .nav-link-text{
+	padding-bottom: 2rem;
+}
+.navbar-brand {
+	font-family: 'ALS Hauss Hairline';
+	font-size: 2.6rem!important;
+}
+.accordion-header{
+	font-family: 'ALS Hauss'!important;
+	font-size: 1.125rem!important;
+}
+.accordion-button{
+	color: #5E5B5B!important;
+
+}
+.accordion-button:focus{
+	border-color: #CDCECF!important;
+	box-shadow: 0 0 0 .1rem #CDCECF!important;
+}
+.accordion-button:not(.collapsed){
+	background-color: #F6F1EE!important;
+}
+.accordion-button:not(.collapsed)::after{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
+}
+
+
+/* hover effect in the header */
+
+.header-milk-white-bg:{
+	background-color: transperent!important;
+	transition: 1s linear;
+}
+.header-milk-white-bg:hover {
+	background-color: #F5F5F5!important;
+	color: #9F8A88!important;
+	transition: background-color 1s linear;
+}
+/* SVG ICONS */
+a .icon-header{
+	fill: #fff!important;
+	width: 30px!important;
+	height: 30px!important;
+	margin: 0;
+	padding: 0;
+}
+a .icon-header:hover{
+	fill: #F5F5F5!important;
+	width: 30px!important;
+	height: 30px!important;
+}
+
+#header-hover-change{
+	color: transparent;
+}
+
+
+
+
+
+.big-fields-content {
+	max-width: 70%!important;
+	margin-left: auto!important;
+	margin-right:auto!important;
+	font-size: 1.6em!important;
+
+}
+
+.over-width{
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.banner{
+	/*width:100!important;*/
+	margin: 0px auto!important;
+	
+	}
+.banner-img{
+	z-index: 1;
+}
+.banner-info{
+	z-index: 2;
+	margin-top: -36em;
+	padding-bottom: 20em;
+}
+
+.card-title{
+	padding-top: -5em;
+}
+
+
+
+.card-product-category:hover{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* outline buttons */
+.btn-outline-white{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 1.125rem;
+	height: 2.25rem;
+	width: 10rem;
+	line-height: 1;
+	padding: .5em;
+	margin-top: 3rem;
+	z-index: 5;
+}
+.btn-outline-gray{
+	background-color: transparent;
+	border: 1px solid #5E5B5B;
+	color: #5E5B5B!important;
+	font-size: 1.125rem;
+	height: 2.25rem;
+	width: 10rem;
+	line-height: 1;
+	padding: .5em;
+	margin-top: 3rem;
+	z-index: 5;
+}
+.btn-outline-gray:hover{
+	border: 1px solid #9F8A88;
+	color: #9F8A88!important;
+}
+
+
+
+/* INFO CARDS */
+.rectangle {
+	padding-left: 14em;
+	paddind-right: 14em;
+	padding-top: 8em;
+	padding-bottom: 2em;
+}
+.rect-card {
+	padding-top: 4em;
+}
+
+/* Static page cover */
+
+/*.header-back-img{
+	margin-top: -16em!important;
+	position: relative;
+	z-index: -1!important;
+	min-width: 100%!important;
+}
+*/
+
+/* Main page slider */
+.main-head-slider{
+	margin-top: -10em!important;
+	z-index: -1!important;
+	min-width: 100%!important;
+}
+.img-cover{
+	min-width: 100%!important;
+}

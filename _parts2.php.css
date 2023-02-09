@@ -1,0 +1,234 @@
+Look at:
+
+--branding--title--font-weight
+--branding--color-link
+
+
+<h2>Продукция</h2>
+<p><a href="#">Модульные системы</a>
+<p><a href="#">Угловые диваны</a>
+<p><a href="#">Прямые диваны</a>
+<p><a href="#">Модульные системы</a>
+<p><a href="#">Кресла</a>
+<p><a href="#">Кровати</a>
+<p><a href="#">Пуфы и банкетки</a>
+<p><a href="#">Столики</a>
+<h2>Новости</h2>
+<p><a href="#">Вакансии</a>
+<p><a href="#">Акции</a>
+<p><a href="#">Новости</a>
+<p><a href="#">Статьи</a>
+<h2>О компании</h2>
+<p><a href="#">Материалы</a>
+<p><a href="#">Салоны</a>
+<p><a href="#">Вход для партнеров</a>
+<h2>DECONA</h2>
+<p>info@decona.ru
+<p><a href="#">Угловые диваны</a>
+<p>8 800 500 13 72
+
+
+<img src="http://decona.ru/wp-content/uploads/2023/01/icon_dark_inst.png" alt="" class="wp-image-110"/>
+
+Заголовки футера
+
+font-family: 'ALS Hauss';
+font-style: normal;
+font-weight: 350;
+font-size: 24px;
+line-height: 36px;
+color: #5E5B5B;
+
+________________
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url('http://decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Light.woff');
+    font-style: normal;
+ }
+
+@font-face {
+    font-family: 'ALS Hauss Hairline';
+    src: url('http://decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Hairline.woff');
+    font-style: normal;
+}
+
+/* Variables */
+:root {
+
+	/* Font Family */
+--global--font-primary: var(--font-headings, 'ALS Hauss Hairline', sans-serif);
+--global--font-secondary: var(--font-base, 'ALS Hauss', sans-serif);
+
+
+
+
+	--global--font-size-base: 1.5rem; /* just text */
+	--global--font-size-xs: 0.75rem; /* footer copyright */
+	--global--font-size-sm: 1.125rem; /* menu, buttons*/
+	--global--font-size-md: 1.25rem;
+	--global--font-size-lg: 1.5rem;
+	--global--font-size-xl: 2.25rem;
+	--global--font-size-xxl: 3rem; /* h2 */
+	--global--font-size-xxxl: 5.5rem; /* h1 */
+
+
+LOGO
+font-size: 44px; //mob: 28px
+
+menu
+font-size: 18px;
+
+
+main slider desctop
+font-size: 90px;
+font-size: 18px; //double
+
+main slider middle
+font-size: 70px;
+font-size: 18px; //double
+
+main slider mobile
+font-size: 56px;
+font-size: 16px; //double
+
+h1 
+font-size: 90px; // 5.6rem
+/*font-size: 70px; //4.4rem
+font-size: 56px; //3.5rem*/
+
+h2
+font-size: 48px; //3rem
+/*font-size: 34px; //mobile*/
+
+p
+font-size: 24px; 1.5rem
+
+.text
+font-size: 18px; 1.1rem
+//footer sub menu
+
+.text-small
+font-size: 12px; 0.75rem
+ // footer copyright
+font-size:
+font-size:
+font-size:
+font-size:
+
+@font-face{font-family:'SmartSliderAdminMenu';src:url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAK8AA0AAAAABlQAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GYACCXhEICoFsgVwLDgABNgIkAxgEIAWDGwdFG00FUZQNxjayrwp4MjSeQ66jMQKJgPF8h4/ZXyhUfE1bD+usho4GNBH6Gg9f+72eu7tvX4AUYCsJJSpyBKgzdciyulMhI3TLLjZTI/7fz+39IZ5cm9l1ooUmLq2o14UOJFiJQDKT97fLAgfM/oeqqDl4s0f3WSArkAQSCCyx//VopOdNO+M+0MDCqMsk0kS6MPFnHw5wuvPhcGDPd/4D8NwHRlO3jXN4G28PT4JiSC8iaDW6CQG/vhjp8O9Gd8OjA30YRhJCIxQk5Lw3nmtIHxI8Q3P8tza6USWGdG6G5uXZDm5zFgkI4BcK5JsnBTiAJDCpWI8eXZIkLJzXGZA/ZzqNNLLQAyBkohIZiIQEAAgKeSxEh0FQQR8abAMOA1AAgRBSPIPqpHCv/smyhUnDixQF06sErFMmC4dtCJ32wnhds/ySj448uvffS+gxuuehb//aN+sQPK2dr5MAgIUP5zOXH5g4nhGzbCgaWhhP5x/3Le0Xjn/LiTk9FAstRK7hzJhNMLk6Zld3+VNiLVIHdUfvDpZrGjM4QAAb/ldPmLG+9NwW9Z6FIp8DuiQQKtmugMK+EGoBxF4ACQUC1SYJJAAADPgqQGgNCZC0FgmQtTZDoGgdgECj1wMIVK3XAvQY910WpVsYIEEioyCTVaCQbawx7ASrBjwc2WOdzy6KKysqKyuBiwt6SbkEsEtSWlNBVA28OSsDowVb4j5JNXVZX2W1FVZxGlVc7XP7bFFW0qByXlJJUk1UQ1KCyildKttB/NbEFTi1Odvt8fJvDWuQeP9KJCmyHKWev9KtZKzt3WtZC3Q4n3fVAQ==) format('woff2');font-weight:400;font-style:normal}div.dashicons-smart_slider__admin_menu:before,i.dashicons-smart_slider__admin_menu:before{font-family:SmartSliderAdminMenu;content:"\e900";vertical-align:top}.smart_slider__admin_menu_go_pro{color:#00b9eb;font-weight:700}
+
+
+
+
+border: 1px solid var(--primary-nav--border-color);
+
+border: 1px solid ;
+
+--global--color-black: #000;
+	--global--color-gray: #5E5B5B; /* for texts */
+	--global--color-cacao: #9F8A88;
+	--global--color-light-gray: #F6F1EE; /*rect*/
+	--global--color-middle-gray: #CDCECF;/*rect*/
+	--global--color-dark-gray: #50504E;/*rect*/
+	--global--color-milk-white: #F5F5F5;
+	--global--color-white: #fff;
+	--global--color-white-50: rgba(255, 255, 255, 0.5);
+	--global--color-white-90: rgba(255, 255, 255, 0.9);
+	--global--color-primary: var(--global--color-gray); 
+
+
+	<?php
+echo do_shortcode('[smartslider3 slider="5"]');
+?> 
+
+.main-head-slider
+
+1.125rem
+
+
+
+Россия, 192102, Санкт-Петербург, улица Самойловой, 5
+
+Часы работы: 10.00 - 18.00
+
+Телефон офиса: 8 (800) 500 13 72
+
+E-mail: info@di-van.com
+
+
+/* Font Size */
+	--global--font-size-base: 1.5rem; /* just text */
+	--global--font-size-xs: 0.75rem; /* footer copyright */
+	--global--font-size-sm: 1.125rem; /* menu, buttons*/
+	--global--font-size-md: 1.25rem;
+	--global--font-size-lg: 1.5rem;
+	--global--font-size-xl: 2.25rem;
+	--global--font-size-xxl: 3rem; /* h2 */
+	--global--font-size-xxxl: 5.5rem; /* h1 */
+	--global--font-size-page-title: var(--global--font-size-xxl);
+	--global--letter-spacing: normal;
+
+
+
+
+$smm = "
+	<div id='site-socials' class='socials-nav menu-item'>
+			<ul class='socials-navigation'>
+				<li class='inline'><a href='#'>
+					<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_inst.png' class='wp-image-110' alt='instagram'></a>
+				</li>
+				<li class='inline'><a href='#'>
+					<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_tg.png' class='wp-image-110' alt='telegram'></a>
+				</li>
+				<li class='inline'><a href='#'>
+					<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_vk.png' class='wp-image-110' alt='vkontakte'></a>
+				</li>
+				<li class='inline'><a href='#'>
+						<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_ok.png' class='wp-image-110' alt='odnoklassniky'></a>
+				</li>
+				<li class='inline'><a href='#'>
+						<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_fb.png' class='wp-image-110' alt='facebook'></a>
+					</li>
+				</ul>
+			</div>";
+
+
+
+
+
+
+
+			<?php
+				printf(
+					/* translators: %s: WordPress. */
+					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
+					'<a href="' . esc_url( __( '#', 'twentytwentyone' ) ) . '">WordPress</a>'
+				);
+				?>
+
+
+
+				/* from footer */
+
+				<div class="site-info">
+			<div class="site-name">
+				<?php if ( has_custom_logo() ) : ?>
+					<div class="site-logo"><?php the_custom_logo(); ?></div>
+				<?php else : ?>
+					<?php if ( get_bloginfo( 'name' ) && get_theme_mod( 'display_title_and_tagline', true ) ) : ?>
+						<?php if ( is_front_page() && ! is_paged() ) : ?>
+							<?php bloginfo( 'name' ); ?>
+						<?php else : ?>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+						<?php endif; ?>
+					<?php endif; ?>
+				<?php endif; ?>
+			</div><!-- .site-name -->
+
+			<?php
+			if ( function_exists( 'the_privacy_policy_link' ) ) {
+				the_privacy_policy_link( '<div class="privacy-policy">', '</div>' );
+			}
+			?>
+			
