@@ -38,6 +38,10 @@ get_header( 'shop' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
 
+
+<!-- here I will add some code -->
+
+
 	<?php
 		/**
 		 * woocommerce_after_main_content hook.
