@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * Displays the site header.
@@ -62,6 +64,7 @@ $header_by_hands = "<nav class='navbar navbar-expand-lg bg-light'>
 <?php
     echo $header_by_hands;
 ?>
+   
    
 
 </header><!-- #masthead -->

@@ -1194,7 +1194,7 @@ input[type=color],
 	color: var(--form--color-text);
 	line-height: var(--global--line-height-body);
 	padding: var(--form--spacing-unit);
-	margin: 0 2px;
+	/*margin: 0 2px;*/
 	max-width: 100%;
 }
 
@@ -1703,9 +1703,9 @@ input[type=reset],
 	/*border: var(--button--border-width) 1px solid;*/
 	border-radius: var(--button--border-radius);
 	cursor: pointer;
-	font-weight: var(--button--font-weight);
-	font-family: var(--button--font-family);
-	font-size: var(--button--font-size);
+	/*font-weight: var(--button--font-weight);*/
+	font-family: var(--global--font-secondary);
+	font-size: 1.125rem;
 	line-height: var(--button--line-height);
 	padding: var(--button--padding-vertical) var(--button--padding-horizontal);
 	text-decoration: none;
@@ -1718,7 +1718,8 @@ input[type=reset]:not(:hover):not(:active):not(.has-text-color),
 .wp-block-search .wp-block-search__button:not(:hover):not(:active):not(.has-text-color),
 .wp-block-button .wp-block-button__link:not(:hover):not(:active):not(.has-text-color),
 .wp-block-file a.wp-block-file__button:not(:hover):not(:active):not(.has-text-color) {
-	color: var(--global--color-background);
+	color: var(--global--color-secondary);
+	font-family: var(--global--font-secondary);
 }
 
 .has-background .site .button:not(:hover):not(:active):not(.has-text-color),
@@ -1738,7 +1739,7 @@ input[type=reset]:not(:hover):not(:active):not(.has-text-color),
 .has-background .wp-block-search .wp-block-search__button:not(:hover):not(:active):not(.has-text-color).has-background,
 .has-background .wp-block-button .wp-block-button__link:not(:hover):not(:active):not(.has-text-color).has-background,
 .has-background .wp-block-file a.wp-block-file__button:not(:hover):not(:active):not(.has-text-color).has-background {
-	color: var(--global--color-primary);
+	color: var(--global--color-secondary);
 }
 
 .site .button:not(:hover):not(:active):not(.has-background),
@@ -1777,9 +1778,9 @@ input[type=reset]:active,
 .wp-block-button .wp-block-button__link:active,
 .wp-block-file a.wp-block-file__button:hover,
 .wp-block-file a.wp-block-file__button:active {
-	background-color: transparent;
 	border-color: currentColor;
 	color: inherit;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .site .button:focus,
@@ -4320,8 +4321,8 @@ h1.page-title {
 }
 
 .error404 main p {
-	font-size: var(--global--font-size-lg);
-	margin-bottom: calc(var(--global--spacing-vertical) * 1.6666666667);
+	/*font-size: var(--global--font-size-lg);*/
+	/*margin-bottom: calc(var(--global--spacing-vertical) * 1.6666666667);*/
 }
 
 .search-no-results .page-content {
@@ -5573,7 +5574,14 @@ h1.page-title {
 
 .search-form .search-submit {
 	margin-top: calc(var(--global--spacing-vertical) / 3);
-	margin-left: 10px;
+	/*margin-left: 10px;*/
+	background-color: transparent;
+	border: 3px solid var(--global--color-secondary);
+	color:var(--global--color-secondary);
+}
+.search-form .search-submit:hover{
+	border: 3px solid #9F8A88!important;
+	color: #9F8A88!important;
 }
 
 .widget_search > .search-form .search-field {

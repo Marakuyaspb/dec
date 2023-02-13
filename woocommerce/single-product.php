@@ -223,7 +223,7 @@ get_header( 'shop' ); ?>
                 <p id='prod_exterior_material'>
 				<img id='prod_exterior_material_photo'>
 				<p>Больше образцов тканей вы можете посмотреть в наших салонах.
-				<a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+				<p><a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
           	</div>
         </div>
     </div>
@@ -243,26 +243,22 @@ get_header( 'shop' ); ?>
 				</div>
 				<div class='container-fluid'>
 					<div class='row'>
-						<div class='col-md-6 col-sm-12'>
-							<div class='container-fluid'>
-								<p class="card-text">Sand</p>
-								<img class='pb1' src='http://decona.ru/wp-content/uploads/2023/02/Leg_sand.png'>
-							</div>
-							<div class='container-fluid'>
-								<p class="card-text">Black</p>
-								<img class='pb1' src='http://decona.ru/wp-content/uploads/2023/02/Leg_Black.png'>
-							</div>
+						<div class='col-md-3 col-sm-6 pt-2'>
+							<p>Sand</p>
+							<img class='pb-1 sofa-legs' src='http://decona.ru/wp-content/uploads/2023/02/Leg_sand.png'>
 						</div>
-						<div class='col-md-6 col-sm-12'>
-							<div class='container-fluid'>
-						    	<p class="card-text">Brandy</p>
-						    	<img class='pb1' src='http://decona.ru/wp-content/uploads/2023/02/Leg_Brandy.png'>
-									
-							</div>
-							<div class='container-fluid'>
-								<p class="card-text">Arctic</p>
-								<img class='pb1' src='http://decona.ru/wp-content/uploads/2023/02/Leg_Arctik.png'>					
-							</div>
+						<div class='col-md-3 col-sm-6 pt-2'>
+							<p>Black</p>
+							<img class='pb-1 sofa-legs' src='http://decona.ru/wp-content/uploads/2023/02/Leg_Black.png'>
+						</div>
+						<div class='col-md-3 col-sm-6 pt-2'>
+							<p>Brandy</p>
+						    <img class='pb-1 sofa-legs' src='http://decona.ru/wp-content/uploads/2023/02/Leg_Brandy.png'>
+						</div>
+						<div class='col-md-3 col-sm-6 pt-2'>
+							<p class="card-text">Arctic</p>
+							<img class='pb-1 sofa-legs' src='http://decona.ru/wp-content/uploads/2023/02/Leg_Arctik.png'>	
+						</div>
 					</div>
           		</div>
         	</div>

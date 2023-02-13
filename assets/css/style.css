@@ -208,7 +208,7 @@ a .icon-header:hover{
 .btn-outline-white{
 	background-color: transparent;
 	border: 1px solid #fff;
-	color: #fff;
+	color: #fff!important;
 	font-size: 1.125rem;
 	height: 2.25rem;
 	width: 10rem;
@@ -265,4 +265,10 @@ a .icon-header:hover{
 }
 .img-cover{
 	min-width: 100%!important;
+}
+
+
+
+.sofa-legs{
+	max-width: 20em;
 }

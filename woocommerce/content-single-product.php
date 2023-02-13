@@ -61,6 +61,8 @@ if ( post_password_required() ) {
 		?>
 	</div>
 
+	
+
 	<?php
 	/**
 	 * Hook: woocommerce_after_single_product_summary.
