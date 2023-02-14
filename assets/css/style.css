@@ -14,12 +14,15 @@ Theme name: Decona_
     font-style: normal;
 }
 
-
 body {
 	font-family: 'ALS Hauss', 'Georgia', serif;
-	/*color: #5E5B5B;*/
+	background: linear-gradient(to bottom, #5E5B5B, 0.1%, #fff)!important;
 	margin: 0;
 }
+.site{
+
+}
+
 h1, h2, h3 {
 	font-family: 'ALS Hauss Hairline';
 	color: #5E5B5B;
@@ -44,6 +47,10 @@ p {
 .small-text{
 	font-size: 0.75rem!important;
 	color: #5E5B5B!important;
+}
+.thin {
+	font-family: 'ALS Hauss Hairline'!important;
+	font-size: 1em!important;
 }
 
 
@@ -171,7 +178,7 @@ a .icon-header:hover{
 	max-width: 70%!important;
 	margin-left: auto!important;
 	margin-right:auto!important;
-	font-size: 1.6em!important;
+	font-size: 1.6em;
 
 }
 

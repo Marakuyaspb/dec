@@ -2,21 +2,19 @@
 /**
  * Template part for displaying posts
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
  */
 
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+		<div class='main-head-slider'>
+			<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+		</div>
 		<?php if ( is_singular() ) : ?>
-			<?php the_title( '<h1 class="entry-title default-max-width">', '</h1>' ); ?>
+			<?php the_title( '<h1 class="entry-title big-fields-content">', '</h1>' ); ?>
 		<?php else : ?>
-			<?php the_title( sprintf( '<h2 class="entry-title default-max-width"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+			<?php the_title( sprintf( '<h2 class="entry-title big-fields-content"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 		<?php endif; ?>
 
 		<?php twenty_twenty_one_post_thumbnail(); ?>
@@ -24,6 +22,11 @@
 
 	<div class="entry-content">
 		<?php
+		echo "
+			<div class='main-head-slider'>
+				<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+			</div>
+			";
 		the_content(
 			twenty_twenty_one_continue_reading_text()
 		);

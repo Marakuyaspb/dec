@@ -2,11 +2,6 @@
 /**
  * Functions and definitions
  *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
  */
 
 // This theme requires WordPress 5.3 or later.
@@ -122,6 +117,10 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 
 		// Add support for full and wide align images.
 		add_theme_support( 'align-wide' );
+
+		// поддержка миниатюр картинок в блоге
+		add_theme_support( 'post-thumbnails');
+	
 
 		// Add support for editor styles.
 		add_theme_support( 'editor-styles' );

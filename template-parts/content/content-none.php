@@ -2,17 +2,15 @@
 /**
  * Template part for displaying a message that posts cannot be found
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
  */
 
 ?>
 
 <section class="no-results not-found">
 	<header class="page-header alignwide">
+		<div class='main-head-slider'>
+			<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+		</div>
 		<?php if ( is_search() ) : ?>
 
 			<h1 class="page-title">

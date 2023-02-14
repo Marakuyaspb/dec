@@ -2,11 +2,6 @@
 /**
  * Template part for displaying page content in page.php
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
  */
 
 ?>
@@ -15,6 +10,9 @@
 
 	<?php if ( ! is_front_page() ) : ?>
 		<header class="entry-header alignwide">
+			<div class='main-head-slider'>
+				<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+			</div>
 			<?php get_template_part( 'template-parts/header/entry-header' ); ?>
 			<?php twenty_twenty_one_post_thumbnail(); ?>
 		</header><!-- .entry-header -->

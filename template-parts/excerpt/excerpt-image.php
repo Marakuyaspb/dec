@@ -2,11 +2,6 @@
 /**
  * Show the appropriate content for the Image post format.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
  */
 
 // If there is no featured-image, print the first image block found.
