@@ -105,8 +105,8 @@ Decona Theme, (C) 2023
 :root {
 
 	/* Font Family */
---global--font-primary: var(--font-headings, 'ALS Hauss Hairline', sans-serif);
---global--font-secondary: var(--font-base, 'ALS Hauss', sans-serif);
+--global--font-primary: var(--font-headings, 'ALS Hauss Hairline', sans-serif)!important;
+--global--font-secondary: var(--font-base, 'ALS Hauss', sans-serif)!important;
 
 	/* ANTIC INFO */
 	/*
@@ -225,10 +225,10 @@ Decona Theme, (C) 2023
 	--button--color-background: transparent;
 	--button--color-background-active: transparent;
 	--button--font-family: var(--global--font-secondary);
-	--button--font-size: var(--global--font-size-sm);
+	--button--font-size: var(--global--font-size-base);
 	--button--font-weight: 350;
 	--button--line-height: 1.5;
-	--button--border-width: 3px;
+	--button--border-width: 1.5px;
 	--button--border-radius: 0;
 	--button--padding-vertical: 15px;
 	--button--padding-horizontal: calc(2 * var(--button--padding-vertical));
@@ -529,7 +529,7 @@ button:-moz-focusring,
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
-	/*outline: 1px dotted ButtonText;*/
+
 }
 
 /**
@@ -1221,7 +1221,8 @@ input[type=color]:focus,
 .site textarea:focus {
 	color: var(--form--color-text);
 	outline-offset: 2px;
-	outline: 2px dotted var(--form--border-color);
+	outline: none;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 input[type=text]:disabled,
@@ -1756,7 +1757,6 @@ input[type=reset]:not(:hover):not(:active):not(.has-background),
 .wp-block-button .wp-block-button__link:not(:hover):not(:active):not(.has-background),
 .wp-block-file a.wp-block-file__button:not(:hover):not(:active):not(.has-background) {
 	background-color: transparent;
-	/*background-color: var(--global--color-primary);*/
 }
 
 .has-background .site .button:not(:hover):not(:active):not(.has-background),
@@ -5568,12 +5568,18 @@ h1.page-title {
 
 .search-form > label {
 	width: 100%;
+	color: #5E5B5B;
 	margin-bottom: 0;
-	font-weight: var(--form--label-weight);
+	font-family: var(--global--font-secondary);
+	font-size: 1.3em;
 }
 
 .search-form .search-field {
 	flex-grow: 1;
+	font-size: 1.125rem;
+	background-color: transparent;
+	color: #9F8A88;
+	border: 1.5px solid #9F8A88!important;
 	max-width: inherit;
 	margin-top: calc(var(--global--spacing-vertical) / 3);
 	margin-right: calc(0.66 * var(--global--spacing-horizontal));
@@ -5581,20 +5587,28 @@ h1.page-title {
 
 .search-form .search-submit {
 	margin-top: calc(var(--global--spacing-vertical) / 3);
-	/*margin-left: 10px;*/
 	background-color: transparent;
-	border: 3px solid var(--global--color-secondary);
+	border: 1.5px solid var(--global--color-secondary);
 	color:var(--global--color-secondary);
+	font-family: var(--global--font-secondary);
+	font-size: 1.125rem;
 }
 .search-form .search-submit:hover{
-	border: 3px solid #9F8A88!important;
-	color: #9F8A88!important;
+	border: 1.5px solid #9F8A88!important;
+	color: #5c4745!important;
+	background-color: #F6F1EE;
+}
+.search-form .search-submit:focus{
+	border: 1.5px solid #9F8A88!important;
+	color: #5c4745!important;
+	background-color: #F6F1EE;
 }
 
 .widget_search > .search-form .search-field {
 	margin-right: calc(-1 * var(--button--border-width));
 	-webkit-appearance: none;
 	margin-bottom: calc(0.5 * var(--global--spacing-vertical));
+	border: 2px solid #9F8A88!important;
 }
 
 .widget_search > .search-form .search-submit {

@@ -27,6 +27,7 @@ get_header();
 		<div class="col-md-6 col-sm-12 py-1">
 			<a href='http://decona.ru/product-category/armchairs/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/arm_chair.png"></a>
 		</div>
+	</div>
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1">
 			<a href='http://decona.ru/product-category/beds/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/bed.png"></a>

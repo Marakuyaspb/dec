@@ -15,8 +15,8 @@ Theme name: Decona_
 }
 
 body {
-	font-family: 'ALS Hauss', 'Georgia', serif;
-	background: linear-gradient(to bottom, #5E5B5B, 0.1%, #fff)!important;
+	font-family: 'ALS Hauss', 'Georgia'!important;
+	background: linear-gradient(to bottom, #5c4745, 0.1%, #fff)!important;
 	margin: 0;
 }
 .site{
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'ALS Hauss Hairline';
+	font-family: 'ALS Hauss Hairline'!important;
 	color: #5E5B5B;
 }
 h4, h5, h6 {
@@ -76,6 +76,9 @@ p {
 /* Fonts */
 .cacao {
 	color: #9F8A88!important; /* old prices etc */
+}
+.dark-cacao {
+	color: #5c4745;
 }
 .general-gray{
 	color: #5E5B5B!important;
