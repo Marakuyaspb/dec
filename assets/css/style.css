@@ -287,3 +287,38 @@ a .icon-header:hover{
 .sofa-legs{
 	max-width: 20em;
 }
+
+
+/* fabric change slider */
+
+.slide-fabric-nav {
+	text-align: center;
+	padding-bottom: 1em;
+}
+.slide-fabric-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.slide-fabric-button:active {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.slides-fabric {
+	text-align: center;
+}
+#sofaFabric1 {
+   display: none;
+}
+#sofaFabric2 {
+   display: none;
+}
+#sofaFabric3 {
+   display: none;
+}
+#sofaFabric4 {
+   display: none;
+}
+#sofaFabric5 {
+   display: none;
+}
