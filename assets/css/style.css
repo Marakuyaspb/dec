@@ -256,6 +256,9 @@ a .icon-header:hover{
 .rect-card {
 	padding-top: 4em;
 }
+.bottom-align {
+	vertical-align:bottom;
+}
 
 /* Static page cover */
 

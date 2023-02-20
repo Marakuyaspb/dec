@@ -640,4 +640,9 @@ function decona_wonder_add_woo_support(){
 	add_theme_support('woocommerce');
 }
 add_action('after_setup_theme', 'decona_wonder_add_woo_support');
+
+
+/* add woo functions */
+require get_template_directory() . '/woocommerce/includes/wc-functions.php';
+
 ?>
