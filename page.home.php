@@ -51,13 +51,43 @@ get_header();
 	</div>
 </div>
 
-<div class="banner">
-  <img src="http://decona.ru/wp-content/uploads/2023/02/Product_main-11.png" class="banner-img" alt="...">
-  <div class="banner-info">
-    <h2 class="white ms-5">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h2>
-    <a href='#'><button class="btn-outline-white ms-5">Подробнее</button></a>
-    </div>
+
+<!-- Black stylish banner -->
+<!-- DESCTOP -->
+<div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
+	<div class="card">
+	  <img src="http://decona.ru/wp-content/uploads/2023/02/Product_main-11.png" class="card-img" alt="...">
+	  <div class="card-img-overlay">
+	    <h2 class="white ms-5 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h2>
+	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-5">Подробнее</button></a>
+	  </div>
+	</div>
 </div>
+<!-- TABLET & PHONE -->
+<div class='pt-5 d-block d-md-none ' id='tablet-show'>
+	<div class="card">
+	  <img src="http://decona.ru/wp-content/uploads/2023/02/Product_main-11-1.png" class="card-img" alt="...">
+	  <div class="card-img-overlay">
+	    <h2 class="white ms-5 pt-5 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h2>
+	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-5">Подробнее</button></a>
+	  </div>
+	</div>
+
+
+</div>
+
+
+
+<!-- 
+<div class="container-fluid">
+	
+	  <img src="http://decona.ru/wp-content/uploads/2023/02/Product_main-11.png" class="banner-img img-fluid" alt="...">
+	  
+	    <h2 class="white ms-5 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h2>
+	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-5">Подробнее</button></a>
+	   
+	
+</div> -->
 
 <div class='container-fluid my-5'>
 	<div class='row'>

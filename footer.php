@@ -198,7 +198,7 @@
 
 
 <!-- SMARTPHONE START -->
-<div class='pt-5 db-block d-sm-none' id='phone-show'>
+<div class='pt-5 d-block d-sm-none' id='phone-show'>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">

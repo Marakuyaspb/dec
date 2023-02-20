@@ -196,18 +196,20 @@ a .icon-header:hover{
 	
 	}
 .banner-img{
-	z-index: 1;
+	z-index: 0;
 }
 .banner-info{
 	z-index: 2;
-	margin-top: -36em;
-	padding-bottom: 20em;
+	/*margin-top: -36em;
+	padding-bottom: 20em;*/
 }
 
 .card-title{
 	padding-top: -5em;
 }
-
+.card-img-overlay{
+	padding: 3rem!important;
+}
 
 
 .card-product-category:hover{
