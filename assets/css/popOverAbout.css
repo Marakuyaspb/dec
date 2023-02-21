@@ -1,0 +1,99 @@
+/* Pop over pins */
+
+.under-info{
+  z-index: 0;  
+  width: 88%;
+}
+#portland{
+  position: relative;
+}
+
+
+/* PINS */
+
+#pinStitches{
+  position:absolute;
+  z-index: 4;
+  height: 1.6em;
+  top: 8em;
+  left: 4em;
+}
+#pinPillow{
+  position:absolute;
+  z-index: 4;
+  height: 1.6em;
+  top: 5em;
+  left: 6em;
+  
+}
+#pinFront{
+  position:absolute;
+  z-index: 4;
+  height: 1.6em;
+  top: 8em;
+  left: 14em; 
+}
+#pinBack{
+  position:absolute;
+  z-index: 4;
+  height: 1.6em;
+  top: 3em;
+  left: 15em;
+}
+#pinPaw{
+  position:absolute;
+  z-index: 4;
+  height: 1.6em;
+  top: 11em;
+  left: 20em;
+}
+
+/* INFO */
+
+#popAboutStitches{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 1em;
+  padding: 1em;
+  display: none;
+  border: 1px solid #ebeced;
+  background: #fff;
+}
+#popAboutPillow{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 3em;
+  display: none;
+}
+#popAboutFront{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 6em;
+  padding: 1em;
+  display: none;
+  border: 1px solid #ebeced;
+  background: #fff;
+}
+#popAboutBack{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 9em;
+  padding: 1em;
+  display: none;
+  border: 1px solid #ebeced;
+  background: #fff;
+}
+#popAboutPaw{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 12em;
+  padding: 1em;
+  display: none;
+  border: 1px solid #ebeced;
+  background: #fff;
+}

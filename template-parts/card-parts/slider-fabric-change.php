@@ -1,7 +1,7 @@
 <div class='slider-fabric'>
 
   <div class='slide-fabric-nav'>  
-    <img class='slide-fabric-button active' id='fabric1' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16.png" onclick='changeFabric1()'> 
+    <img class='slide-fabric-button' id='fabric1' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16.png" onclick='changeFabric1()'> 
     <img class='slide-fabric-button' id='fabric2' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy.png" onclick='changeFabric2()'>
     <img class='slide-fabric-button' id='fabric3' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy.png" onclick='changeFabric3()'>
     <img class='slide-fabric-button' id='fabric4' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy.png" onclick='changeFabric4()'>

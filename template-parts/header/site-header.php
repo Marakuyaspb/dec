@@ -58,8 +58,9 @@
                     </a>
                     
                   </span>
-              </li>
-            </ul>
+            </li>
+            
+          </ul>
         </div>
       </div>
   </nav>
