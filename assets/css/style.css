@@ -3,19 +3,19 @@ Theme name: Decona_
 */
  
 @font-face {
-    font-family: 'ALS Hauss';
+    font-family: 'ALS Hauss', Georgia, serif;
     src: url('http://decona.ru/wp-content/themes/decona_craft/fonts/ALSHauss-Light.woff');
     font-style: normal;
  }
 
 @font-face {
-    font-family: 'ALS Hauss Hairline';
+    font-family: 'ALS Hauss Hairline', Georgia, serif;
     src: url('http://decona.ru/wp-content/themes/decona_craft/fonts/ALSHauss-Hairline.woff');
     font-style: normal;
 }
 
 body {
-	font-family: 'ALS Hauss', 'Georgia'!important;
+	font-family: 'ALS Hauss', 'Georgia', sans-serif !important;
 	background: linear-gradient(to bottom, #5c4745, 0.1%, #fff)!important;
 	margin: 0;
 }

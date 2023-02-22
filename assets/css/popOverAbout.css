@@ -1,27 +1,34 @@
 /* Pop over pins */
 
-.under-info{
-  z-index: 0;  
-  width: 88%;
+.popOverBlock{
+  position: relative;
+  width: 80%;
 }
-#portland{
+.popPosition{
+  margin: 0 auto;
   position: relative;
 }
-
+.under-info{
+  z-index: 0; 
+  position: absolute; 
+}
+#portland{
+  
+}
 
 /* PINS */
 
 #pinStitches{
   position:absolute;
   z-index: 4;
-  height: 1.6em;
+/*  height: 1.6em;*/
   top: 8em;
   left: 4em;
 }
 #pinPillow{
   position:absolute;
   z-index: 4;
-  height: 1.6em;
+  /*height: 1.6em;*/
   top: 5em;
   left: 6em;
   
@@ -55,10 +62,7 @@
   z-index: 4;
   top: 2em;
   left: 1em;
-  padding: 1em;
   display: none;
-  border: 1px solid #ebeced;
-  background: #fff;
 }
 #popAboutPillow{
   position: absolute;
