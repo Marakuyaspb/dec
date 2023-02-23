@@ -1,103 +1,325 @@
-/* Pop over pins */
+/* 
 
-.popOverBlock{
-  position: relative;
-  width: 80%;
+PHONES
+
+ */
+
+@media (min-width: 300px) { 
+/* Pop over pins */
+  .popOverBlock{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .popPosition{
+    
+    position: relative;
+  }
+  .under-info{
+    z-index: 0; 
+    position: absolute;
+    width:35em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #portland{
+    
+  }
+
+  /* PINS */
+
+  #pinStitches{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 6em;
+    left: 5em;
+  }
+  #pinPillow{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 3em;
+    left: 4em;
+    
+  }
+  #pinFront{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 5.5em;
+    left: 8em; 
+  }
+  #pinBack{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 2em;
+    left: 12em;
+  }
+  #pinPaw{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 8em;
+    left: 13.5em;
+  }
+
+  /* INFO */
+
+  #popAboutStitches{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 1em;
+    display: none;
+  }
+  #popAboutPillow{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 3em;
+    display: none;
+  }
+  #popAboutFront{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 6em;
+    display: none;
+  }
+  #popAboutBack{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 9em;
+    display: none;
+  }
+  #popAboutPaw{
+    position: absolute;
+    z-index: 4;
+    top: 3em;
+    left: 13em;
+    display: none;
+  }
 }
-.popPosition{
-  margin: 0 auto;
-  position: relative;
-}
-.under-info{
-  z-index: 0; 
-  position: absolute; 
-}
-#portland{
-  
-}
+
+
+
+
+/*
+
+TABLET
+
+*/
+
+@media (min-width: 768px) { 
+/* Pop over pins */
+  .popOverBlock{
+    position: relative;
+    margin: 0 auto;
+  }
+  .popPosition{
+    
+    position: relative;
+  }
+  .under-info{
+    z-index: 0; 
+    position: absolute;
+    width:60em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #portland{
+    
+  }
 
 /* PINS */
 
-#pinStitches{
-  position:absolute;
-  z-index: 4;
-/*  height: 1.6em;*/
-  top: 8em;
-  left: 4em;
-}
-#pinPillow{
-  position:absolute;
-  z-index: 4;
-  /*height: 1.6em;*/
-  top: 5em;
-  left: 6em;
-  
-}
-#pinFront{
-  position:absolute;
-  z-index: 4;
-  height: 1.6em;
-  top: 8em;
-  left: 14em; 
-}
-#pinBack{
-  position:absolute;
-  z-index: 4;
-  height: 1.6em;
-  top: 3em;
-  left: 15em;
-}
-#pinPaw{
-  position:absolute;
-  z-index: 4;
-  height: 1.6em;
-  top: 11em;
-  left: 20em;
+  #pinStitches{
+    position:absolute;
+    z-index: 4;
+    height: 2em;
+    top: 8em;
+    left: 4em;
+  }
+  #pinPillow{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 5em;
+    left: 6em;
+    
+  }
+  #pinFront{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 8em;
+    left: 14em; 
+  }
+  #pinBack{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 3em;
+    left: 15em;
+  }
+  #pinPaw{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 11em;
+    left: 20em;
+  }
+
+  /* INFO */
+
+  #popAboutStitches{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 1em;
+    display: none;
+  }
+  #popAboutPillow{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 3em;
+    display: none;
+  }
+  #popAboutFront{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 6em;
+    display: none;
+  }
+  #popAboutBack{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 9em;
+    display: none;
+  }
+  #popAboutPaw{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 12em;
+    display: none;
+  }
 }
 
-/* INFO */
 
-#popAboutStitches{
-  position: absolute;
-  z-index: 4;
-  top: 2em;
-  left: 1em;
-  display: none;
-}
-#popAboutPillow{
-  position: absolute;
-  z-index: 4;
-  top: 2em;
-  left: 3em;
-  display: none;
-}
-#popAboutFront{
-  position: absolute;
-  z-index: 4;
-  top: 2em;
-  left: 6em;
-  padding: 1em;
-  display: none;
-  border: 1px solid #ebeced;
-  background: #fff;
-}
-#popAboutBack{
-  position: absolute;
-  z-index: 4;
-  top: 2em;
-  left: 9em;
-  padding: 1em;
-  display: none;
-  border: 1px solid #ebeced;
-  background: #fff;
-}
-#popAboutPaw{
-  position: absolute;
-  z-index: 4;
-  top: 2em;
-  left: 12em;
-  padding: 1em;
-  display: none;
-  border: 1px solid #ebeced;
-  background: #fff;
+
+
+
+
+/*
+
+DESCTOP
+
+*/
+
+@media (min-width: 992px) { 
+/* Pop over pins */
+  .popOverBlock{
+    position: relative;
+    margin: 0 auto;
+  }
+  .popPosition{
+    position: relative;
+  }
+  .under-info{
+    z-index: 0; 
+    position: absolute;
+    width:50em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #portland{
+    
+  }
+
+/* PINS */
+
+  #pinStitches{
+    position:absolute;
+    z-index: 4;
+    height: 2em;
+    top: 15rem;
+    left: 10rem;
+  }
+  #pinPillow{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 300%;
+    left: 60%;
+    
+  }
+  #pinFront{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 8em;
+    left: 14em; 
+  }
+  #pinBack{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 3em;
+    left: 15em;
+  }
+  #pinPaw{
+    position:absolute;
+    z-index: 4;
+    height: 1.6em;
+    top: 11em;
+    left: 20em;
+  }
+
+  /* INFO */
+
+  #popAboutStitches{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 1em;
+    display: none;
+  }
+  #popAboutPillow{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 3em;
+    display: none;
+  }
+  #popAboutFront{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 6em;
+    padding: 1em;
+    display: none;
+    border: 1px solid #ebeced;
+    background: #fff;
+  }
+  #popAboutBack{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 9em;
+    display: none;
+  }
+  #popAboutPaw{
+    position: absolute;
+    z-index: 4;
+    top: 2em;
+    left: 12em;
+    display: none;
+  }
 }

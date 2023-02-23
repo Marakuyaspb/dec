@@ -1,0 +1,54 @@
+#canvas {
+  background-image: url('http://decona.ru/wp-content/uploads/2023/02/Portland_for-details-11.png');
+  cursor: none;
+  width: 400px;
+  height: 200px;
+  left:  50%;
+  position:  absolute;
+  transform: translate(-50%, -50%);
+}
+
+
+.popOverBlock{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+#popAboutStitches{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 1em;
+  display: none;
+}
+#popAboutPillow{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 3em;
+  display: none;
+}
+#popAboutFront{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 6em;
+  display: none;
+}
+#popAboutBack{
+  position: absolute;
+  z-index: 4;
+  top: 2em;
+  left: 9em;
+  display: none;
+}
+#popAboutPaw{
+  position: absolute;
+  z-index: 4;
+  top: 3em;
+  left: 13em;
+  display: none;
+}
