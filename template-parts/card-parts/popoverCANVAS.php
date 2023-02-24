@@ -1,6 +1,6 @@
 <div class='popOverBlock'>
 
-	<canvas id="canvas" style="display:none"></canvas>
+	<canvas id="canvas" style="display:block"></canvas>
 	
 
 	<div class = 'popOvers'>
