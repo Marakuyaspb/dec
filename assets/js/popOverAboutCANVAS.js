@@ -35,97 +35,49 @@ pinPaw.onload = function(){
         ctx.drawImage(pinPaw, 560, 325, 35, 35);
       }
 
-/*var Stitches = {x: 130, y: 200, w: 35, h: 35};
+/*
+var Stitches = {x: 130, y: 200, w: 35, h: 35};
 var Pillow = {x: 170, y: 130, w: 35, h: 35};
 var Front = {x: 390, y: 220, w: 35, h: 35};
 var Back = {x: 470, y: 90, w: 35, h: 35};
-var Paw = {x: 560, y: 325, w: 35, h: 35};*/
+var Paw = {x: 560, y: 325, w: 35, h: 35};
+*/
 
-canvas.addEventListener('mousemove', function(event, pinStitches) {
-  let popAboutStitches = document.getElementById('popAboutStitches');
-
-
-    let mouseX = event.clientX - canvas.offsetLeft;
-    let mouseY = event.clientY - canvas.offsetTop;
-  // Check whether point is inside circle
-  if (ctx.isPointInPath(390, 220)) {
-    console.log('yes');
-    popAboutStitches.style.display = 'block';
-  }
-  else {
-    console.log('no');
-    popAboutStitches.style.display = 'none';   
-  }
-});
-
-
-function windowToCanvas(canvas, x, y) {
-    var bbox = canvas.getBoundingClientRect();
-    return { x: x - bbox.left * (canvas.width / bbox.width),
-        y: y - bbox.top * (canvas.height / bbox.height)
-    };
-}
-canvas.onmousemove = function (e) {
-    var loc = windowToCanvas(canvas, e.clientX, e.clientY);
-    if (e.clientX < 390 && e.clientX > 425)
-   
-    {console.log('Hey?');}
-};
-
-
-
-/*
-
-
-let popAboutStitches = document.getElementById('popAboutStitches');
+let popAboutStitches = document.getElementById('popAboutStitches');     
 let popAboutPillow = document.getElementById('popAboutPillow');
 let popAboutFront = document.getElementById('popAboutFront');
 let popAboutBack = document.getElementById('popAboutBack');
 let popAboutPaw = document.getElementById('popAboutPaw');
 
 
+canvas.addEventListener('mousemove', function(e) {
+  let mouseX = e.clientX - canvas.offsetLeft;
+  let mouseY = e.clientY - canvas.offsetTop;
 
-function showStitches(){
-  popAboutStitches.style.display = 'block';
-}
-function hidStitches(){
-  popAboutStitches.style.display = 'none';
-}
+  /*console.log("Mouse coordinates: (" + mouseX + ", " + mouseY + ")");*/
 
-
-
-function showPillow(){
-  popAboutPillow.style.display = 'block';
-}
-function hidPillow(){
-  popAboutPillow.style.display = 'none';
-}
-
-
-
-function showFront(){
+  if (mouseX >= 260 && mouseX <= 295 && mouseY >= 280 && mouseY <= 315) {
+    popAboutStitches.style.display = 'block';
+  }
+  else if (mouseX >= 300 && mouseX <= 335 && mouseY >= 207 && mouseY <= 242) {
+    popAboutPillow.style.display = 'block';
+  }
+  else if (mouseX >= 520 && mouseX <= 555 && mouseY >= 300 && mouseY <= 335) {
     popAboutFront.style.display = 'block';
-}
-function hidFront(){
-  popAboutFront.style.display = 'none';
-}
+  }
+  else if (mouseX >= 585 && mouseX <= 620 && mouseY >= 182 && mouseY <= 218) {
+    popAboutBack.style.display = 'block';
+  }
+  else if (mouseX >= 675 && mouseX <= 710 && mouseY >= 420 && mouseY <= 455) {
+    popAboutPaw.style.display = 'block';
+  }
 
-
-
-function showBack(){
-  popAboutBack.style.display = 'block';
-}
-function hidBack(){
-  popAboutBack.style.display = 'none';
-}
-
-
-
-function showPaw(){
-  popAboutPaw.style.display = 'block';
-}
-function hidPaw(){
-  popAboutPaw.style.display = 'none';
-}
-
-*/
+  else {
+    popAboutStitches.style.display = 'none';
+    popAboutPillow.style.display = 'none'; 
+    popAboutFront.style.display = 'none'; 
+    popAboutFront.style.display = 'none'; 
+    popAboutBack.style.display = 'none'; 
+    popAboutPaw.style.display = 'none';   
+  }
+});
