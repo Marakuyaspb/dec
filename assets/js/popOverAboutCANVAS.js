@@ -42,6 +42,9 @@ var Front = {x: 390, y: 220, w: 35, h: 35};
 var Back = {x: 470, y: 90, w: 35, h: 35};
 var Paw = {x: 560, y: 325, w: 35, h: 35};
 */
+canvas.style.width = canvas.offsetWidth + 'px';
+canvas.style.height = canvas.offsetHeight + 'px';
+
 
 let popAboutStitches = document.getElementById('popAboutStitches');     
 let popAboutPillow = document.getElementById('popAboutPillow');
@@ -50,25 +53,34 @@ let popAboutBack = document.getElementById('popAboutBack');
 let popAboutPaw = document.getElementById('popAboutPaw');
 
 
+const mouse = {
+  x:0,
+  y:0,
+  left: false,
+  right: false,
+  over: false,
+}; 
+
 canvas.addEventListener('mousemove', function(e) {
-  let mouseX = e.clientX - canvas.offsetLeft;
-  let mouseY = e.clientY - canvas.offsetTop;
+  const rect = canvas.getBoundingClientRect();
+  mouse.x = e.clientX - rect.left;
+  mouse.y = e.clientY - rect.top;
+  console.log(mouse.x, mouse.y);
+  
 
-  /*console.log("Mouse coordinates: (" + mouseX + ", " + mouseY + ")");*/
-
-  if (mouseX >= 260 && mouseX <= 295 && mouseY >= 280 && mouseY <= 315) {
+  if (mouse.x >= 130 && mouse.x <= 165 && mouse.y >= 200 && mouse.y <= 235) {
     popAboutStitches.style.display = 'block';
   }
-  else if (mouseX >= 300 && mouseX <= 335 && mouseY >= 207 && mouseY <= 242) {
+  else if (mouse.x >= 170 && mouse.x <= 205 && mouse.y >= 130 && mouse.y <= 165) {
     popAboutPillow.style.display = 'block';
   }
-  else if (mouseX >= 520 && mouseX <= 555 && mouseY >= 300 && mouseY <= 335) {
+  else if (mouse.x >= 390 && mouse.x <= 425 && mouse.y >= 220 && mouse.y <= 255) {
     popAboutFront.style.display = 'block';
   }
-  else if (mouseX >= 585 && mouseX <= 620 && mouseY >= 182 && mouseY <= 218) {
+  else if (mouse.x >= 470 && mouse.x <= 505 && mouse.y >= 90 && mouse.y <= 125) {
     popAboutBack.style.display = 'block';
   }
-  else if (mouseX >= 675 && mouseX <= 710 && mouseY >= 420 && mouseY <= 455) {
+  else if (mouse.x >= 560 && mouse.x <= 595 && mouse.y >= 325 && mouse.y <= 360) {
     popAboutPaw.style.display = 'block';
   }
 
