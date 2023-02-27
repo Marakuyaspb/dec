@@ -172,12 +172,20 @@ a .icon-header:hover{
 #header-hover-change{
 	color: transparent;
 }
-.social-align {
-/*	margin-left: 15em;
-	margin-right: 2em;*/
+.desctop-menu{
+	display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+}
+.righted {
+  order: 999;
+  margin-left: auto;
 }
 
-
+/*.socials-menu-item a{
+  	display:block; float:left; 
+}
+*/
 
 
 .big-fields-content {
