@@ -19,7 +19,7 @@
                 <h4 class='mb-1'>Новости</h4>
                 <p class='small pb-1'><a href='#'>Акции</a></p>
                 <p class='small pb-1'><a href='#'>Новости</a></p>
-                <p class='small pb-1'><a href='#'>Статьи</a></p>
+                <p class='small pb-1'><a href='http://decona.ru/articles/'>Статьи</a></p>
             </div>
             <div class='col-2 pt-1'>
                 <h4 class='mb-1'>О компании</h4>
@@ -114,7 +114,7 @@
             <div class="accordion-body">
                 <p class='py-2 small'><a href='#'>Акции</a></p>
                 <p class='py-2 small'><a href='#'>Новости</a></p>
-                <p class='py-2 small'><a href='#'>Статьи</a></p>
+                <p class='py-2 small'><a href='http://decona.ru/articles/'>Статьи</a></p>
             </div>
             </div>
         </div>
@@ -221,7 +221,7 @@
               <div class="accordion-body">
                 <p class='py-2 small'><a href='#'>Акции</a></p>
                 <p class='py-2 small'><a href='#'>Новости</a></p>
-                <p class='py-2 small'><a href='#'>Статьи</a></p>
+                <p class='py-2 small'><a href='http://decona.ru/articles/'>Статьи</a></p>
               </div>
             </div>
         </div>

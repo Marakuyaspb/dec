@@ -18,7 +18,7 @@
               <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/blog/'>Блог</a>
+              <a class='nav-link white' href='http://decona.ru/articles/'>Блог</a>
             </li>
             <li class='nav-item'>
               <a class='nav-link white' href='http://decona.ru/about/'>О фабрике</a>
@@ -79,7 +79,7 @@
         <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
       </div>
       <div class='pt-2'> 
-        <a class='nav-link white' href='http://decona.ru/blog/'>Блог</a>
+        <a class='nav-link white' href='http://decona.ru/articles/'>Блог</a>
       </div>
       <div class='pt-2'>
         <a class='nav-link white' href='http://decona.ru/about/'>О фабрике</a>
