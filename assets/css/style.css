@@ -347,6 +347,10 @@ a .icon-header:hover{
 
 /* PRODUCNT CARD */
 
+.carousel-btn-bottom{
+	background-color: #9F8A88!important;
+}
+
 .sofa-legs{
 	max-width: 20em;
 }
@@ -355,7 +359,7 @@ a .icon-header:hover{
 }
 .h-center {
 	color: #9F8A88!important;
-	font-family: 'ALS Hauss', Georgia, serif!important;
+	font-family: 'ALS Hauss Book', Georgia, serif!important;
 	font-size: 2em;
 	text-align: center!important;
 }

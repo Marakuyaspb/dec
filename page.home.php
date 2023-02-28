@@ -14,17 +14,17 @@ get_header();
 		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		 </div>
- 	<div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img src="http://decona.ru/wp-content/uploads/2023/02/Main-slider11.png" class="d-block w-100" alt="...">
-	    </div>
-	    <div class="carousel-item">
-	      <img src="http://decona.ru/wp-content/uploads/2023/01/004_Post_LightMix-Interactive-copy-scaled.jpg" class="d-block w-100" alt="...">
-	    </div>
-	    <div class="carousel-item">
-	      <img src="http://decona.ru/wp-content/uploads/2023/01/cam003_-scaled.jpg" class="d-block w-100" alt="...">
-	    </div>
-  </div>
+	 	<div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="http://decona.ru/wp-content/uploads/2023/02/Main-slider11.png" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="http://decona.ru/wp-content/uploads/2023/01/004_Post_LightMix-Interactive-copy-scaled.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="http://decona.ru/wp-content/uploads/2023/01/cam003_-scaled.jpg" class="d-block w-100" alt="...">
+		    </div>
+	  </div>
 	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 	    <span class="visually-hidden">Previous</span>
