@@ -3,10 +3,10 @@
 Template name: showrooms
 */
 
-get_header(); ?>
+get_header('new'); ?>
 
-<div class='main-head-slider'>
-	<img src="http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11.png" class='banner img-fluid'>
+<div class='banner'>
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afed28a6a1b2299dd28de65e095ac4e55e9d408536b0d09f3c0c968a925334339&amp;width=100%25&amp;height=391&amp;lang=ru_RU&amp;scroll=true"></script>
 </div> 
 
 

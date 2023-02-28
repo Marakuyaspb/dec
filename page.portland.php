@@ -3,13 +3,8 @@
 Template name: portland
 */
 
-get_header(); 
+get_header('new'); 
 ?>
-
-<div class='main-head-slider'>
-	<img src="http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png" class='banner img-fluid'>
-</div> 
-
 
 <!-- Desctop -->
 	<div class='container-fluid my-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
@@ -67,24 +62,26 @@ get_header();
 			</div>
 
 			<div class='col-md-4 no-padding-right'>
-				<div class='col-md-4 no-padding-right'>
-					<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Card_side_POrtland-11.png" id='sofaPiece01'>
+			
+				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Card_side_POrtland-11.png" id='sofaPiece01'>
 
-					<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-08_sand_close_2.jpg" id='sofaPiece02'>
+				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-08_sand_close_2.jpg" id='sofaPiece02'>
 
-					<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-14_sand_close_20002.jpg" id='sofaPiece03'>
+				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-14_sand_close_20002.jpg" id='sofaPiece03'>
 
-					<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Velutto-16_brandy_close_2.jpg" id='sofaPiece04'>
+				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Velutto-16_brandy_close_2.jpg" id='sofaPiece04'>
 
-					<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Velutto-32_black_close_2-copy.jpg" id='sofaPiece05'>
-				</div>
+				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Velutto-32_black_close_2-copy.jpg" id='sofaPiece05'>
+				
 			</div>
 		</div>
 	</div>
 	
+
+
 <!-- Phone -->
-	<div class='container-fluid mt-2 d-block d-md-none'>
-		<div class='slider-fabric'>
+	<div class='container-fluid mt-5 d-block d-md-none'>
+		<div class='slider-fabric pt-5'>
 		  	<div class='slide-fabric-nav'>  
 			    <img class='slide-fabric-button fabric-var' id='fabric1' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onclick='changeFabric1()'> 
 
@@ -158,10 +155,12 @@ get_header();
 			</div>
 		</div>
 	</div>
+
+
 <!-- Phone -->
 	<div class=' mt-2 d-block d-md-none'>
-		<div class='prod-card-model ps-3'>Прямой диван Portland</div>
-		<div class='prod-card-price ps-3'>95 565 ₽</div>
+		<div class='ps-3'>Прямой диван Portland</div>
+		<div class='major-text ps-3'>95 565 ₽</div>
 		<div class="d-flex justify-content-around white btn-prod-card my-2 img-cover">
 				<a class='white p-2' href='#'>
 					Заказать

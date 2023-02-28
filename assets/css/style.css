@@ -3,19 +3,19 @@ Theme name: Decona_
 */
  
 @font-face {
-    font-family: 'ALS Hauss', Georgia, serif;
-    src: url('http://decona.ru/wp-content/themes/decona_craft/fonts/ALSHauss-Light.woff');
+    font-family: 'ALS Hauss Book', Georgia, serif;
+    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Book.woff');
     font-style: normal;
  }
 
 @font-face {
-    font-family: 'ALS Hauss Hairline', Georgia, serif;
-    src: url('http://decona.ru/wp-content/themes/decona_craft/fonts/ALSHauss-Hairline.woff');
+    font-family: 'ALS Hauss Thin', Georgia, serif;
+    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Thin.woff');
     font-style: normal;
 }
 
 body {
-	font-family: 'ALS Hauss', 'Georgia', sans-serif !important;
+	font-family: 'ALS Hauss Book', 'Georgia', sans-serif !important;
 	margin: 0;
 }
 .site{
@@ -23,11 +23,11 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'ALS Hauss Hairline'!important;
+	font-family: 'ALS Hauss Thin'!important;
 	color: #5E5B5B;
 }
 h4, h5, h6 {
-	font-family: 'ALS Hauss';
+	font-family: 'ALS Hauss Book';
 	color: #5E5B5B;
 }
 h1{
@@ -48,11 +48,12 @@ p {
 	color: #5E5B5B!important;
 }
 .thin {
-	font-family: 'ALS Hauss Hairline'!important;
+	font-family: 'ALS Hauss Thin'!important;
 	font-size: 1em!important;
 }
 .major-text {
 	font-size: 1.5em;
+	color: #5E5B5B;
 }
 
 /* THEME COLORS */
@@ -125,11 +126,11 @@ li .nav-link .nav-link-text{
 	padding-bottom: 2rem;
 }
 .navbar-brand {
-	font-family: 'ALS Hauss Hairline';
+	font-family: 'ALS Hauss Thin';
 	font-size: 2.6rem!important;
 }
 .accordion-header{
-	font-family: 'ALS Hauss'!important;
+	font-family: 'ALS Hauss Book'!important;
 	font-size: 1.125rem!important;
 }
 .accordion-button{
@@ -163,7 +164,7 @@ li .nav-link .nav-link-text{
 }
 /* SVG ICONS */
 a .icon-header{
-	fill: #fff!important;
+	/*fill: #fff!important;*/
 	width: 30px!important;
 	height: 30px!important;
 	margin: 0;

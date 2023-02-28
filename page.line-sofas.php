@@ -3,12 +3,8 @@
 Template name: line-sofas
 */
 
-get_header(); 
+get_header('new'); 
 ?>
-
-<div class='main-head-slider'>
-	<img src="http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png" class='banner img-fluid'>
-</div> 
 
 
 <!-- Desctop -->
@@ -25,7 +21,7 @@ get_header();
 </div>
 
 <!-- Phone -->
-<div class='container-fluid mt-2 d-block d-md-none'>
+<div class='container-fluid mt-4 d-block d-md-none'>
 	<p class='thin'><a href = 'http://decona.ru'>Главная</a> / <a href = ''>Продукция</a> / <a href = ''>Прямые диваны</a></p>
 	<h4>Прямые диваны</h4>
 	<div class='my-2 py-2 px-2 latte_bg banner'>

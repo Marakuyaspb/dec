@@ -90,14 +90,14 @@ Decona Theme, (C) 2023
 
  
 @font-face {
-    font-family: 'ALS Hauss';
-    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Light.woff');
+    font-family: 'ALS Hauss Book';
+    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Book.woff');
     font-style: normal;
  }
 
 @font-face {
-    font-family: 'ALS Hauss Hairline';
-    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Hairline.woff');
+    font-family: 'ALS Hauss Thin';
+    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Thin.woff');
     font-style: normal;
 }
 
@@ -105,8 +105,8 @@ Decona Theme, (C) 2023
 :root {
 
 	/* Font Family */
---global--font-primary: var(--font-headings, 'ALS Hauss Hairline', sans-serif)!important;
---global--font-secondary: var(--font-base, 'ALS Hauss', sans-serif)!important;
+--global--font-primary: var(--font-headings, 'ALS Hauss Thin', sans-serif)!important;
+--global--font-secondary: var(--font-base, 'ALS Hauss Book', sans-serif)!important;
 
 	/* ANTIC INFO */
 	/*
