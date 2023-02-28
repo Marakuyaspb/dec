@@ -11,7 +11,7 @@ function changeFabric01 () {
     document.getElementById('sofaPiece04').style.display = 'none';
     document.getElementById('sofaPiece05').style.display = 'none';
   } 
-changeFabric1 ();
+changeFabric01 ();
 
 function changeFabric02() {
     document.getElementById('sofaFabric01').style.display = 'none';
@@ -71,8 +71,8 @@ function changeFabric05() {
   }
 
 
-changeFabric1();
-changeFabric2();
-changeFabric3();
-changeFabric4();
-changeFabric5();
+changeFabric01();
+changeFabric02();
+changeFabric03();
+changeFabric04();
+changeFabric05();
