@@ -7,7 +7,7 @@ get_header();
 ?>
 
 <div class='main-head-slider'>
-	<img src="http://decona.ru/wp-content/uploads/2023/02/Work_2-11.png" class='fluid'>
+	<img src="http://decona.ru/wp-content/uploads/2023/02/Work_2-11.png" class='banner img-fluid'>
 </div> 
 
 <div class="container big-fields-content mt-5">

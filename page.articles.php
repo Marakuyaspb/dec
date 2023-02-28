@@ -6,7 +6,7 @@ Template name: articles
 get_header(); 
 ?>
 <div class='main-head-slider'>
-	<img src="http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png" class='fluid'>
+	<img src="http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png" class='banner img-fluid'>
 </div>
 
  <div class="container container-fluid my-5">
