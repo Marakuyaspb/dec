@@ -51,7 +51,9 @@ p {
 	font-family: 'ALS Hauss Hairline'!important;
 	font-size: 1em!important;
 }
-
+.major-text {
+	font-size: 1.5em;
+}
 
 /* THEME COLORS */
 
@@ -181,9 +183,16 @@ a .icon-header:hover{
   	flex-direction: row;
   	flex-wrap: nowrap;
 }
+.top-string{
+	line-height: 1.6!important;
+}
 .righted {
   order: 999;
   margin-left: auto;
+}
+.to-center{
+	margin-left: auto!important;
+	margin-right: auto!important;
 }
 
 

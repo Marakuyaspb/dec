@@ -2,7 +2,7 @@
 
 <!-- Tablet & phone -->
 <div class='d-block d-lg-none'>
-  <nav class='navbar navbar-expand-lg navbar-light header-milk-white-bg'>
+  <nav class='navbar navbar-expand-lg navbar-light'>
         <div class='container-fluid'>
           <a class='navbar-brand white' href='http://decona.ru'>Decona</a>
           <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
@@ -66,28 +66,23 @@
 
 <!-- Desctop -->
 <div class='d-none d-lg-block d-xl-block d-xxl-block '>
-  <div class="header-milk-white-bg desctop-menu">
+  <div class="desctop-menu">
     
       <div class="ps-4">
         <a class='navbar-brand white' href='http://decona.ru'>Decona</a>
       </div>
     
-      <div class='pt-2'>
+      <div class='pt-2 desctop-menu to-center'>
         <a class='nav-link white' aria-current='page' href='http://decona.ru/products/'>Продукция</a>
-      </div>
-      <div class='pt-2'>
+          <p class='white top-string major-text'>|</p>
         <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
-      </div>
-      <div class='pt-2'> 
+          <p class='white top-string major-text'>|</p>
         <a class='nav-link white' href='http://decona.ru/articles/'>Блог</a>
-      </div>
-      <div class='pt-2'>
+          <p class='white top-string major-text'>|</p>
         <a class='nav-link white' href='http://decona.ru/about/'>О фабрике</a>
-      </div>
-      <div class='pt-2'>
+          <p class='white top-string major-text'>|</p>
         <a class='nav-link white' href='http://decona.ru/payment/'>Оплата и доставка</a>
-      </div>
-      <div class='pt-2'>
+          <p class='white top-string major-text'>|</p>
         <a class='nav-link white' href='http://decona.ru/contact/'>Контакты</a>
       </div> 
      
