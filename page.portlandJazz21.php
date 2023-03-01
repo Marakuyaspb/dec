@@ -7,7 +7,7 @@ get_header('new');
 ?>
 
 <!-- Desctop -->
-	<div class='container-fluid my-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+	<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 		<div class='row'>
 			<div class='col-md-8'>
 				<p class='h-center'>Portland</p>
@@ -40,28 +40,33 @@ get_header('new');
 					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn-bottom" aria-current="true" aria-label="Slide 1"></button>
 					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom" aria-label="Slide 2"></button>
 					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom" aria-label="Slide 3"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom" aria-label="Slide 4"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="carousel-btn-bottom" aria-label="Slide 5"></button>
 					</div>
+
 
 				 	<div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-21_0000-1.jpg" class="d-block w-100" alt="...">
+					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_front-scaled.jpg" class="d-block w-100" alt="...">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-21_0003.jpg" class="d-block w-100" alt="...">
+					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_back-scaled.jpg" class="d-block w-100" alt="...">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-21_0008.jpg" class="d-block w-100" alt="...">
+					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_side-scaled.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_upclose-scaled.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_upopen-scaled.jpg" class="d-block w-100" alt="...">
 					    </div>
 					</div>
-				</div>
-				    
+				</div>    
 			</div>
-		
 
 			<div class='col-md-4 no-padding-right'>
-			
-				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-21_black_close_2.jpg" id='sofaPiece05'>
-				
+				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_close_2.jpg">
 			</div>
 		</div>
 	</div>
@@ -69,53 +74,61 @@ get_header('new');
 
 
 <!-- Phone -->
-<div class='container-fluid mt-5 d-block d-md-none'>
-	<div class='slider-fabric'>
-	    <div class='slide-fabric-nav'>  
-		    <a href='http://decona.ru/portlandJazz01/'>
-		    	<img class='slide-fabric-button fabric-var' id='fabric01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png">
-			</a>
-			<a href='http://decona.ru/portlandJazz08/'>
-		    	<img class='slide-fabric-button fabric-var' id='fabric02'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png'>
-		    </a>
-			<a href='http://decona.ru/portlandJazz14/'>
-		    	<img class='slide-fabric-button fabric-var' id='fabric03' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png">
-		    </a>
-			<a href='http://decona.ru/velutto16/'>
-		    	<img class='slide-fabric-button fabric-var' id='fabric04' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png">
-		    </a>
-			<a href='http://decona.ru/velutto32/'>
-			    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-21_black_close_2.jpg"> 
-			</a>
+	<div class='container-fluid mt-5 d-block d-md-none'>
+		<div class='slider-fabric'>
+		    <div class='slide-fabric-nav'>  
+			    <a href='http://decona.ru/portlandJazz01/'>
+			    	<img class='slide-fabric-button fabric-var' id='fabric01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png">
+				</a>
+				<a href='http://decona.ru/portlandJazz08/'>
+			    	<img class='slide-fabric-button fabric-var' id='fabric02'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png'>
+			    </a>
+				<a href='http://decona.ru/portlandJazz14/'>
+			    	<img class='slide-fabric-button fabric-var' id='fabric03' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png">
+			    </a>
+				<a href='http://decona.ru/velutto16/'>
+			    	<img class='slide-fabric-button fabric-var' id='fabric04' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png">
+			    </a>
+				<a href='http://decona.ru/velutto32/'>
+				    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png"> 
+				</a>
 
-			<center>
-          		<p class='small pt-4'>Ткань: Jazz 21
-        	</center>
+				<center>
+	          	<p class='small pt-4'>Ткань: Jazz 21
+	        	</center>
 
-	    </div>
+		    </div>
 
 
-	    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn-bottom" aria-current="true" aria-label="Slide 1"></button>
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"class="carousel-btn-bottom" aria-label="Slide 2"></button>
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom"aria-label="Slide 3"></button>
-			</div>
+		    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn-bottom" aria-current="true" aria-label="Slide 1"></button>
+				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom" aria-label="Slide 2"></button>
+				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom" aria-label="Slide 3"></button>
+				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom" aria-label="Slide 4"></button>
+				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="carousel-btn-bottom" aria-label="Slide 5"></button>
+				</div>
 
-		 	<div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-21_0000-1.jpg" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-21_0003.jpg" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-21_0008.jpg" class="d-block w-100" alt="...">
-			    </div>
+			 	<div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_front-scaled.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_back-scaled.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_side-scaled.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_upclose-scaled.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_upopen-scaled.jpg" class="d-block w-100" alt="...">
+				    </div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 <!--  -->
 
 
@@ -165,7 +178,7 @@ get_header('new');
 
 
 	<!-- ACCORDION -->
-	<div class="accordion" id="accordionExample">
+	<div class="accordion mx-5" id="accordionExample">
 	    <div class="accordion-item"><!-- Описание -->
 	        <h2 class="accordion-header" id="headingOne">
 	            <button class="accordion-button white_bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -181,13 +194,14 @@ get_header('new');
 	        </div>
 	    </div>
 
+
 	    <div class="accordion-item"><!-- Схема и габариты -->
-	        <h2 class="accordion-header" id="headingOne">
-	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	        <h2 class="accordion-header" id="headingTwo">
+	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 	            Схема и габариты
 	            </button>
 	        </h2>
-	        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+	        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
 	            <div class="accordion-body">
 	            	<div class='container-fluid'>
 						<div class='row'>
@@ -272,12 +286,12 @@ get_header('new');
 	    
 
 	    <div class="accordion-item"><!-- Характеристики -->
-	        <h2 class="accordion-header" id="headingOne">
-	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	        <h2 class="accordion-header" id="headingThree">
+	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
 	            Характеристики
 	            </button>
 	        </h2>
-	        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+	        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 	            <div class="accordion-body">
 	                <h4>Основные</h4>
 	                <div class='container'>
@@ -345,13 +359,14 @@ get_header('new');
 	    	</div>
 	    </div>
 
+
 	    <div class="accordion-item"><!-- Материал обивки -->
-	        <h2 class="accordion-header" id="headingOne">
-	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	        <h2 class="accordion-header" id="headingFour">
+	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
 	            Материал обивки
 	            </button>
 	        </h2>
-	        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+	        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
 	            <div class="accordion-body">
 	            	<div class='container-fluid'>
 						<div class='row'>
@@ -362,23 +377,22 @@ get_header('new');
 							<div class='col-md-4 col-sm-12'>
 								<img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg" class='img-fluid'>
 							</div>
-	                <p id='prod_exterior_material'>
-					<img id='prod_exterior_material_photo'>
+						</div>
+	                	<p>Больше образцов тканей вы можете посмотреть в наших салонах.
+							<a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+		          	</div>
+		        </div>
+		    </div>
+		</div>
 
-
-					<p>Больше образцов тканей вы можете посмотреть в наших салонах.
-					<a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
-	          	</div>
-	        </div>
-	    </div>
 
 	    <div class="accordion-item"><!-- Варианты исполнения ножек -->
-	        <h2 class="accordion-header" id="headingOne">
-	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	        <h2 class="accordion-header" id="headingFive">
+	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
 	            Варианты исполнения ножек
 	            </button>
 	        </h2>
-	        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+	        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 	            <div class="accordion-body">
 	            	<div class='container-fluid'>
 		                <p>Массив дуба - природный материал в неповторимым рисунком
@@ -387,36 +401,20 @@ get_header('new');
 					<div class='container-fluid'>
 						<div class='row'>
 							<div class='col-md-3 col-sm-6'>
-								<div class="card mb-3">
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_sand.png" class="card-img-top" alt="...">
-									  	<div class="card-body">
-									    	<p class="card-text">Sand</p>
-									  	</div>
-								</div>
+								<p class="major-text">Sand</p>
+								<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_sand.png" class="card-img-top" alt="...">
 							</div>
 							<div class='col-md-3 col-sm-6'>
-								<div class="card mb-3">
-									 <img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Black.png" class="card-img-top" alt="...">
-									  	<div class="card-body">
-									    	<p class="card-text">Black</p>
-									  	</div>
-								</div>
+								<p class="major-text">Black</p>
+								<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Black.png" class="card-img-top" alt="...">				 
 							</div>
 							<div class='col-md-3 col-sm-6'>
-								<div class="card mb-3">
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Brandy.png" class="card-img-top" alt="...">
-									  	<div class="card-body">
-									    	<p class="card-text">Brandy</p>
-									  	</div>
-								</div>
+								<p class="major-text">Brandy</p>
+								<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Brandy.png" class="card-img-top" alt="...">
 							</div>
 							<div class='col-md-3 col-sm-6'>
-								<div class="card mb-3">
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Arctik.png" class="card-img-top" alt="...">
-									  	<div class="card-body">
-									    	<p class="card-text">Arctic</p>
-									  	</div>
-								</div>
+								<p class="major-text">Arctic</p>
+								<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Arctik.png" class="card-img-top" alt="...">
 							</div>
 						</div>
 	          		</div>
@@ -425,14 +423,13 @@ get_header('new');
 		</div>
   
 
-
 	    <div class="accordion-item"><!-- Опции -->
-	        <h2 class="accordion-header" id="headingOne">
-	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	        <h2 class="accordion-header" id="headingSix">
+	            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
 	            Опции
 	            </button>
 	        </h2>
-	        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+	        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
 	            <div class="accordion-body">
 	            	<div>
 	                	<p>Вы можете заказать как диван с декоративными утяжками на сидении, 
@@ -441,11 +438,11 @@ get_header('new');
 	                </div>
 	                <div class='container-fluid'>
 	                	<div class='row'>
-							<div class='col-md-6 col-sm-12'>
+							<div class='ps-5 col-md-6 col-sm-12'>
 								<p>С утяжками
 								<img src="http://decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
 							</div>
-							<div class='col-md-6 col-sm-12'>
+							<div class='pe-5 col-md-6 col-sm-12'>
 								<p>Без утяжек
 								<img src="http://decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
 							</div>
@@ -454,18 +451,56 @@ get_header('new');
 	          	</div>
 	        </div>
 	    </div>
-	</div><!-- the end of accordion part -->
+	</div>
+		<!-- the end of accordion part -->
 
+	<!-- Slider with interiors -->
+	<div class='mt-5 banner'>
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel-btn-bottom active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom" aria-label="Slide 3"></button>
+			     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom" aria-label="Slide 4"></button>
+         		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="carousel-btn-bottom" aria-label="Slide 5"></button>
+			</div>
+
+		 	<div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="http://decona.ru/wp-content/uploads/2023/03/Interior_1_Portland-1-scaled.jpg" class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="http://decona.ru/wp-content/uploads/2023/03/Interior_1_Portland-1-scaled.jpg" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="http://decona.ru/wp-content/uploads/2023/03/Interior_1_Portland-1-scaled.jpg" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="http://decona.ru/wp-content/uploads/2023/03/Interior_1_Portland-1-scaled.jpg" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="http://decona.ru/wp-content/uploads/2023/03/Interior_1_Portland-1-scaled.jpg" alt="...">
+			    </div>
+			</div>
+
+			 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon pt-5" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			    <span class="carousel-control-next-icon pt-5" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+		</div>  
+	</div>
+	<!-- Slider end -->
 
 
 	<!-- POP OVER THING -->
 	<div class='popOverBlock'>
-
 		<canvas id="canvas" style="display:block"></canvas>
-		
 
-		<div class = 'popOvers'>
-			
+		<div class = 'popOvers'>	
 	        <div id='popAboutStitches'>
 	          	<div class='card' style='width: 15rem;'>
 	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
@@ -510,40 +545,39 @@ get_header('new');
 	            	</div>
 	         	</div>
 	       	</div>
-
 	    </div>
 	</div>
 
-	<div class='container-fluid mt-2'>
+	<div class='container-fluid big-fields-content mt-4'>
 		<p>
 			Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.
 		</p>
 	</div>
 
 	<div class='container-fluid my-5'>
-	<div class='row'>
-		<div class ='col-md-4 rectangle latte_bg'> <!-- #F6F1EE -->
-			<div class='bottom-align'>
-				<h2 class='rect-card ps-4'>Каталог</h2>
-				<h2 class='ps-4'>2023</h2>
-				<a href='#' class='ms-4'><button class='btn-outline-gray'>Скачать каталог</button></a>
+		<div class='row'>
+			<div class ='col-md-4 rectangle latte_bg'> <!-- #F6F1EE -->
+				<div class='bottom-align'>
+					<h2 class='rect-card ps-4'>Каталог</h2>
+					<h2 class='ps-4'>2023</h2>
+					<a href='#' class='ms-4'><button class='btn-outline-gray'>Скачать каталог</button></a>
+				</div>
 			</div>
-		</div>
-		<div class ='col-md-4 rectangle dark-gray'> <!-- #50504E -->
-			<div class='bottom-align'>
-				<h2 class='white rect-card ps-4'>Свяжитесь</h2>
-				<h2 class='white ps-4'>с нами</h2>
-				<a href='#' class='ms-4'><button class='btn-outline-white'>Обратная связь</button></a>
+			<div class ='col-md-4 rectangle dark-gray'> <!-- #50504E -->
+				<div class='bottom-align'>
+					<h2 class='white rect-card ps-4'>Свяжитесь</h2>
+					<h2 class='white ps-4'>с нами</h2>
+					<a href='#' class='ms-4'><button class='btn-outline-white'>Обратная связь</button></a>
+				</div>
 			</div>
-		</div>
-		<div class ='col-md-4 rectangle middle-gray ps-4'><!-- #CDCECF -->
-			<div class='bottom-align'>
-				<h2 class='rect-card ms-4'>Все акции и спецпредложения</h2>
-				<a href='#' class='ms-4'><button class='btn-outline-gray'>Все акции</button></a>
+			<div class ='col-md-4 rectangle middle-gray ps-4'><!-- #CDCECF -->
+				<div class='bottom-align'>
+					<h2 class='rect-card ms-4'>Все акции и спецпредложения</h2>
+					<a href='#' class='ms-4'><button class='btn-outline-gray'>Все акции</button></a>
+				</div>
 			</div>
 		</div>
 	</div>
-
 
 <?php
 get_footer();
