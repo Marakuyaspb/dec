@@ -1,4 +1,90 @@
-#canvas {
+
+/* DESCTOP */
+
+.popOverBlock{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#canvasBig {
+  background-image: url('http://decona.ru/wp-content/uploads/2023/02/Portland_for-details-11.png');
+  background-size: 1600px;
+  display: block;
+  width: 1600px;
+  height: 800px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#popAboutStitchesBig{
+  position: absolute;
+  z-index: 4;
+  display: none;
+  left: 20%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-20%, -50%);
+}
+#popAboutPillowBig{
+  position: absolute;
+  z-index: 4;
+  display: none;
+  left: 20%;
+  top: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-20%, -30%);
+ 
+}
+#popAboutFrontBig{
+  position: absolute;
+  z-index: 4;
+  display: none;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+#popAboutBackBig{
+  position: absolute;
+  z-index: 4;
+  display: none;
+  left: 60%;
+  top: 10%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-60%, -10%);
+  
+}
+#popAboutPawBig{
+  position: absolute;
+  z-index: 4;
+  display: none;
+  left: 70%;
+  top: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-70%, -80%);
+  
+}
+
+/*#canvas {
   background-image: url('http://decona.ru/wp-content/uploads/2023/02/Portland_for-details-11.png');
   background-size: 800px;
   display: block;
@@ -8,7 +94,6 @@
   margin-right: auto;
   margin-left: auto;
 }
-
 
 .popOverBlock{
   position: relative;
@@ -82,3 +167,8 @@
   transform: translate(-70%, -50%);
   
 }
+
+*/
+
+
+

@@ -189,7 +189,7 @@ a .icon-header:hover{
 }
 .righted {
   order: 999;
-  margin-left: auto;
+ /* margin-left: auto;*/
 }
 .to-center{
 	margin-left: auto!important;
@@ -373,4 +373,46 @@ a .icon-header:hover{
 	color: #5E5B5B;
 	font-size: 2.25em;
 	padding-top: .4em;
+}
+.accordion-item{
+	border: none!important;
+}
+.accordion-button{
+	font-size:  1.125rem !important;
+}
+
+
+
+/* Яндекс карта ЧБ */
+.ymaps-layers-pane {
+    -webkit-filter: grayscale(100%);
+}
+
+
+
+/* POP UP FORM */
+.wpcf7-form-control{
+	/*background-color: #9F8A88!important;*/
+	border: 2px solid #9F8A88!important;
+}
+.wpcf7-form-control:hover{
+	background-color: #F5F5F5!important;
+	border: 2px solid #9F8A88;
+	color: #9F8A88!important;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+  border-color: #dc3232!important;
+  color: #dc3232!important;
+  padding: .4em;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: none!important;
+  color:#46b450!important;
+  padding: .4em;
+}
+
+.wpcf7 form .wpcf7-response-output {
+	border: 2px solid #9F8A88!important;
 }

@@ -9,7 +9,7 @@ get_header('new');
 
 <!-- Desctop -->
 
-<div class="container container-fluid mt-2 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+<div class="container-fluid mx-3 mt-2 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
 	<p class='thin'><a href = 'http://decona.ru'>Главная</a> / <a href = ''>Продукция</a> / <a href = ''>Прямые диваны</a></p>
 	<h4>Прямые диваны</h4>
 
@@ -34,39 +34,78 @@ get_header('new');
 </div>
 <!--  -->
 
-<div class="container container-fluid mt-4">
-	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1">
-	  		<a href='http://decona.ru/portland/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
-	  	</div>
-	  	<div class="col-md-6 col-sm-12 py-1">
-			<a href='http://decona.ru/portland/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+<div class="container-fluid mx-3 mt-4">
+	<div class='d-none d-lg-block d-xl-block d-xxl-block'>
+		<div class='row'>
+			<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		  	<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		  	<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		</div>
+		<div class='row'>
+			<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		  	<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		  	<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		</div>
+		<div class='row'>
+			<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		  	<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		  	<div class="col-lg-4 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
 		</div>
 	</div>
-	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1">
-			<a href='http://decona.ru/portland/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+
+	<div class='d-block d-lg-none'>
+		<div class='row'>
+			<div class="col-md-6 col-sm-12 py-1">
+		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  	</div>
+		  	<div class="col-lg-4 col-md-6 col-sm-12 py-1">
+				<a href='http://decona.ru/portlandjazz08/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1">
-			<a href='http://decona.ru/portland/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		<div class='row'>
+			<div class="col-lg-4 col-md-6 col-sm-12 py-1">
+				<a href='http://decona.ru/portlandjazz21/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 py-1">
+				<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+			</div>
+		</div>
+		<div class='row'>
+			<div class="col-md-6 col-sm-12 py-1">
+				<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+			</div>
+			<div class="col-md-6 col-sm-12 py-1">
+				<a href='http://decona.ru/portlandvelutto16/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+			</div>
+		</div>
+		<div class='row'>
+			<div class="col-md-6 col-sm-12 py-1">
+				<a href='http://decona.ru/portlandvelutto16/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+			</div>
+			<div class="col-md-6 col-sm-12 py-1">
+				<a href='http://decona.ru/portlandvelutto32/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+			</div>
 		</div>
 	</div>
-	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1">
-			<a href='#'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
-		</div>
-		<div class="col-md-6 col-sm-12 py-1">
-			<a href='#'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
-		</div>
-	</div>
-	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1">
-			<a href='#'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
-		</div>
-		<div class="col-md-6 col-sm-12 py-1">
-			<a href='http://decona.ru/product-category/pillows/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
-		</div>
-	</div>
+
 </div>
 
 <div class='container-fluid my-5'>
