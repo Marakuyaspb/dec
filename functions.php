@@ -652,6 +652,8 @@ add_action('after_setup_theme', 'decona_wonder_add_woo_support');
 
 
 /* add woo functions */
-require get_template_directory() . '/woocommerce/includes/wc-functions.php';
+
+remove_all_actions( 'woocommerce_product_thumbnails' );
+remove_all_actions( 'woocommerce_before_main_content' );
 
 ?>
