@@ -9,7 +9,7 @@ render();
 
 
 
-fetch('products.json')
+fetch('http://decona.ru/wp-content/uploads/catalog/products.json')
     .then(res => res.json())
     .then(body => {
 		CATALOG = body;
@@ -23,3 +23,8 @@ fetch('products.json')
         spinnerPage.handleClear();
     	errorPage.render();
     })
+
+
+function showDetails(){
+	alert('I will show you smth interesting');
+}

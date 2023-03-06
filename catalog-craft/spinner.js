@@ -6,7 +6,7 @@ class Spinner {
     render() {
         const html = `
         	<div class="spinner-container">
-        		<img class="spinner__img" src="parts/spinner/img/spinner.svg" />
+        		<img class="spinner__img" src="http://decona.ru/wp-content/uploads/2023/03/spinner.svg" />
         	</div>`;
         ROOT_SPINNER.innerHTML = html;
     }

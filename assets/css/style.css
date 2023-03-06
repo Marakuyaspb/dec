@@ -344,7 +344,22 @@ a .icon-header:hover{
 }
 
 
-/* CATEGORIES PAGE HOVER */
+/* CATEGORIES PAGE */
+
+.spinner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.spinner__img {
+	width: 200px;
+	height: 200px;
+}
 
 /*.latte_wrap {
   background-color: transparent; 
@@ -392,6 +407,12 @@ a .icon-header:hover{
 .accordion-button{
 	font-size:  1.125rem !important;
 }
+
+.available_icon{
+	height: 2.5em;
+}
+
+
 
 
 
