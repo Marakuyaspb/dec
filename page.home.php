@@ -39,13 +39,13 @@ get_header();
 
 <div class='container-fluid'>
 	<div class='row'>
-		<div class ='col-md-4'>
+		<div class ='col-lg-4'>
 			<h1 class='pt-5 px-5'>Decona</h1>
 			<h2 class='px-5 pt-3 pb-5'>Мебельное производство полного цикла</h2>
 			<p class='px-5 major-text'>Наша задача – предложить потребителю ассортимент стилистически выверенных, качественных, логичных, современных товаров для обустройства интерьера, по таким ценам, чтобы как можно больше людей имели возможность ими обладать.</p>
 			<p class='ps-5 major-text'>Бренд ELEMENTA имеет производственные мощности, обеспечивающие полный цикл создания мебели и предлагает клиентам комплектацию их интерьера мягкой мебелью и предметами интерьера.</p>
 		</div>
-		<div class ='col-md-8 no-padding-right'>
+		<div class ='col-lg-8 no-padding-right'>
 			<img src='http://decona.ru/wp-content/uploads/2023/02/Work_1-main-1.png' class="img-fluid banner"/>
 		</div>
 	</div>
