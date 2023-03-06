@@ -9,7 +9,9 @@ get_header('new');
 <div class="container container-fluid mt-2">
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1">
-	  		<a href='http://decona.ru/line-sofas/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/mod_syst.png"></a>
+			<div class='latte_wrap'>
+	  			<a href='http://decona.ru/line-sofas/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/mod_syst.png"></a>
+	  		</div>
 	  	</div>
 	  	<div class="col-md-6 col-sm-12 py-1">
 			<a href='http://decona.ru/line-sofas/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/ygol_sofa.png"></a>

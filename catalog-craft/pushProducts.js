@@ -6,7 +6,7 @@ class Products {
 	render() {
 		let htmlCatalog = '';
 		
-		CATALOG.forEach(({model_name, photo, price, square, max_power, noize, inv_tech, en_eff_class, wi_fi}) => {
+		CATALOG.forEach(({carousel_item_1,carousel_item_2, carousel_item_3, carousel_item_4, carousel_item_5, product_name, price, price-sale, description, prod_width, prod_depth, prod_height, prod_weight, prod_seat_height, prod_seat_width, prod_seat_depth, prod_back_width, product_type, transform_type, matress_type, product_form, product_style, product_inside, features, about_product_fabric, product_fabric_about, product_fabric_img,}) => {
 			console.log('aaaa!');
 
 			htmlCatalog += `

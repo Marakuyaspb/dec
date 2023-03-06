@@ -629,7 +629,12 @@ add_action( 'wp_enqueue_scripts', function() {
 	/*wp_enqueue_script( 'sliderFabricChange', get_template_directory_uri() . '/assets/js/sliderFabricChange.js', array(), 'null', true );*/
 	/*wp_enqueue_script( 'sliderFabricChangeDESCTOP', get_template_directory_uri() . '/assets/js/sliderFabricChangeDESCTOP.js', array(), 'null', true );*/
 	/*wp_enqueue_script( 'popOverAbout', get_template_directory_uri() . '/assets/js/popOverAboutCANVAS.js', array(), 'null', true );*/
+	
 	wp_enqueue_script( 'popOverAboutAll', get_template_directory_uri() . '/assets/js/popOverAboutCANVASall.js', array(), 'null', true );
+
+/* add catalog*/
+
+
 });
 
 	add_theme_support('post-thumbnails');

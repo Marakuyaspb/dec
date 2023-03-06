@@ -1725,8 +1725,8 @@ input[type=reset]:not(:hover):not(:active):not(.has-text-color),
 .wp-block-search .wp-block-search__button:not(:hover):not(:active):not(.has-text-color),
 .wp-block-button .wp-block-button__link:not(:hover):not(:active):not(.has-text-color),
 .wp-block-file a.wp-block-file__button:not(:hover):not(:active):not(.has-text-color) {
-	color: var(--global--color-secondary);
-	font-family: var(--global--font-secondary);
+	/*color: var(--global--color-secondary);
+	font-family: var(--global--font-secondary);*/
 }
 
 .has-background .site .button:not(:hover):not(:active):not(.has-text-color),
@@ -1757,7 +1757,6 @@ input[type=reset]:not(:hover):not(:active):not(.has-background),
 .wp-block-button .wp-block-button__link:not(:hover):not(:active):not(.has-background),
 .wp-block-file a.wp-block-file__button:not(:hover):not(:active):not(.has-background) {
 	background-color: transparent;
-	border: 2px solid #9F8A88;
 }
 
 .has-background .site .button:not(:hover):not(:active):not(.has-background),
@@ -1785,9 +1784,9 @@ input[type=reset]:active,
 .wp-block-button .wp-block-button__link:active,
 .wp-block-file a.wp-block-file__button:hover,
 .wp-block-file a.wp-block-file__button:active {
-	border-color: currentColor;
+	/*border-color: currentColor;
 	color: inherit;
-	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;*/
 }
 
 .site .button:focus,

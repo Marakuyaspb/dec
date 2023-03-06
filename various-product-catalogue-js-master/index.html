@@ -4,21 +4,14 @@
   <head>
     <meta charset="utf-8">
     <title>Product Catalogue</title>
-    <link href="./styles.css" rel="stylesheet" />
+    <!-- <link href="./styles.css" rel="stylesheet" /> -->
   </head>
   <body>
     <main>
       <div class="app-container">
-        <nav>
-          <div class="nav-container">
-            <img src="./contentful.svg" width="157" height="32"/>
-              <ul>
-                <li><a href="" data-nav>Products</a></li>
-                <li><a href="categories" data-nav>Categories</a></li>
-                <li><a href="about" data-nav>About</a></li>
-              </ul>
-          </div>
-        </nav>
+        <div class="small">
+          <a href="" data-nav>Products</a> / <a href="categories" data-nav>Categories</a> / <a href="about" data-nav>About</a>
+        </div>
         <div id="content" class="content-container">
         </div>
       </div>
@@ -39,9 +32,8 @@
     <script src="./app.js" charset="utf-8"></script>
     <script src="./pages/products.js" charset="utf-8"></script>
     <script src="./pages/product.js" charset="utf-8"></script>
-    <script src="./pages/brand.js" charset="utf-8"></script>
     <script src="./pages/categories.js" charset="utf-8"></script>
-    <script src="./pages/about.js" charset="utf-8"></script>
+    
     <script>
       PC.init()
     </script>

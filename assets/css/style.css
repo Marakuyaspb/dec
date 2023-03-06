@@ -278,6 +278,7 @@ a .icon-header:hover{
 	height: 3em;
 	width: 12em;
 	font-size: .9rem;
+	line-height:1.1;
 	color: #5E5B5B;
 }
 .btn-filter:hover{
@@ -343,6 +344,17 @@ a .icon-header:hover{
 }
 
 
+/* CATEGORIES PAGE HOVER */
+
+/*.latte_wrap {
+  background-color: transparent; 
+}
+.latte_wrap:hover {
+  background-color: #F6F1EE; 
+  filter: opacity(80%);
+
+}
+*/
 
 
 /* PRODUCNT CARD */
