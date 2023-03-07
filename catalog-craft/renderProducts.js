@@ -26,5 +26,5 @@ fetch('http://decona.ru/wp-content/uploads/catalog/products.json')
 
 
 function showDetails(){
-	alert('I will show you smth interesting');
+	console.log('I will show you smth interesting');
 }
