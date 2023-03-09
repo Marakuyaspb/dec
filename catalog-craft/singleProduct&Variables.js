@@ -1,38 +1,34 @@
-<?php
-/*
-Template name: portlandJazz01
-*/
+({sku, product_name, product_img, is_new, available_for_delivery_2, available_for_delivery_28, available_in_showroom, carousel_item_1, carousel_item_2, carousel_item_3, carousel_item_4, carousel_item_5, right_sofa_piece, product_full_name, price, price_sale, description, prod_width, prod_depth, prod_height, prod_weight, prod_seat_height, prod_seat_width, prod_seat_depth, prod_back_width, product_type, transform_type, matress_type, product_form, product_style, product_inside, features, product_fabric_about, product_fabric_img})
 
-get_header('new'); 
-?>
-
-<!-- Desctop -->
+`
+<div id='${sku}'>
+	<!-- Desctop -->
 	<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 		<div class='row'>
 			<div class='col-md-8'>
-				<p class='h-center'>Portland</p>
+				<p class='h-center'>${product_name}</p>
 
 	<!-- fabric buttons -->
 				<div class='slide-fabric-nav'>  
-					    <a href='http://decona.ru/portlandjazz01/'>
-					    	<img class='slide-fabric-button fabric-var' id='fabric01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png">
-						</a>
-						<a href='http://decona.ru/portlandjazz08/'>
-					    	<img class='slide-fabric-button fabric-var' id='fabric02'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png'>
-					    </a>
-						<a href='http://decona.ru/portlandjazz21/'>
-					    	<img class='slide-fabric-button fabric-var' id='fabric03' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png">
-					    </a>
-						<a href='http://decona.ru/portlandvelutto16/'>
-					    	<img class='slide-fabric-button fabric-var' id='fabric04' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png">
-					    </a>
-						<a href='http://decona.ru/portlandvelutto32/'>
-						    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png"> 
-						</a>
+				    <a href='http://decona.ru/portlandjazz01/'>
+				    	<img class='slide-fabric-button fabric-var' id='fabric01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png">
+					</a>
+					<a href='http://decona.ru/portlandjazz08/'>
+				    	<img class='slide-fabric-button fabric-var' id='fabric02'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png'>
+				    </a>
+					<a href='http://decona.ru/portlandjazz21/'>
+				    	<img class='slide-fabric-button fabric-var' id='fabric03' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png">
+				    </a>
+					<a href='http://decona.ru/portlandvelutto16/'>
+				    	<img class='slide-fabric-button fabric-var' id='fabric04' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png">
+				    </a>
+					<a href='http://decona.ru/portlandvelutto32/'>
+					    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png"> 
+					</a>
 
-						<center>
-			          	<p class='small pt-4'>Ткань: Jazz 01
-			        	</center>
+					<center>
+		          	<p class='small pt-4'>Ткань: Jazz 01
+		        	</center>
 				</div>
 
 	<!-- slider with product -->
@@ -47,33 +43,33 @@ get_header('new');
 
 				 	<div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_front-scaled.jpg" class="d-block w-100" alt="...">
+					      <img src='${carousel_item_1}' class="d-block w-100" alt="...">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_back-scaled.jpg" class="d-block w-100" alt="...">
+					      <img src='${carousel_item_2}' class="d-block w-100" alt="...">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_side-scaled.jpg" class="d-block w-100" alt="...">
+					      <img src='${carousel_item_3}' class="d-block w-100" alt="...">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_upclose-scaled.jpg" class="d-block w-100" alt="...">
+					      <img src='${carousel_item_4}' class="d-block w-100" alt="...">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_upopen-scaled.jpg" class="d-block w-100" alt="...">
+					      <img src='${carousel_item_5}' class="d-block w-100" alt="...">
 					    </div>
 					</div>
 				</div>    
 			</div>
 
 			<div class='col-md-4 no-padding-right'>
-				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_close_2.jpg">
+				<img class='img-fluid banner' src='${right_sofa_piece}'>
 			</div>
 		</div>
 	</div>
 	
 
 
-<!-- Phone -->
+	<!-- Phone -->
 	<div class='container-fluid mt-5 d-block d-md-none'>
 		<div class='slider-fabric'>
 		    <div class='slide-fabric-nav'>  
@@ -111,34 +107,34 @@ get_header('new');
 
 			 	<div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_front-scaled.jpg" class="d-block w-100" alt="...">
+				      <img src="${carousel_item_1}" class="d-block w-100" alt="...">
 				    </div>
 				    <div class="carousel-item">
-				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_back-scaled.jpg" class="d-block w-100" alt="...">
+				      <img src="${carousel_item_2}" class="d-block w-100" alt="...">
 				    </div>
 				    <div class="carousel-item">
-				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_side-scaled.jpg" class="d-block w-100" alt="...">
+				      <img src="${carousel_item_3}" class="d-block w-100" alt="...">
 				    </div>
 				    <div class="carousel-item">
-				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_upclose-scaled.jpg" class="d-block w-100" alt="...">
+				      <img src="${carousel_item_4}" class="d-block w-100" alt="...">
 				    </div>
 				    <div class="carousel-item">
-				      <img src="http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_upopen-scaled.jpg" class="d-block w-100" alt="...">
+				      <img src="${carousel_item_5}" alt="...">
 				    </div>
 				</div>
 			</div>
 		</div>
 	</div>
-<!--  -->
+	<!--  -->
 
 
-<!-- Name & price -->
+	<!-- Name & price -->
 
-<!-- Desktop -->
+	<!-- Desktop -->
 	<div class='mb-4 px-5 latte_bg banner container-fluid d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 		<div class="d-flex justify-content-evenly">
-			<div class='mt-2 prod-card-model'>Прямой диван Portland</div>
-			<div class='mt-1 prod-card-price'>95 565 ₽</div>
+			<div class='mt-2 prod-card-model'>${product_full_name}</div>
+			<div class='mt-1 prod-card-price'>${price}</div>
 			<div class="mt-3 d-flex justify-content-between">
 				<a class='' href='#'>
 					<button class='to-order white btn-prod-card'>
@@ -160,10 +156,10 @@ get_header('new');
 	</div>
 
 
-<!-- Phone -->
+	<!-- Phone -->
 	<div class=' mt-2 d-block d-md-none'>
-		<div class='ps-3'>Прямой диван Portland</div>
-		<div class='major-text ps-3'>95 565 ₽</div>
+		<div class='ps-3'>${product_full_name}</div>
+		<div class='major-text ps-3'>${price}</div>
 		<div class="d-flex justify-content-around white btn-prod-card my-2 img-cover">
 				<a class='to-order white p-2' href='#'>
 					Заказать
@@ -193,7 +189,7 @@ get_header('new');
 		        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 		            <div class="accordion-body">
 		                <p id='description'>
-		                	Модель Портленд в стиле mid-century. Мебель "на ножках" признана трендом: она вписывается во все популярные стили интерьеров и более функциональна, так как уборка становится намного легче. Комфорт Портленда достигается глубиной сидения с большими приспинными подушками. 
+		                	${description}
 		                </p>
 		          	</div>
 		        </div>
@@ -217,7 +213,7 @@ get_header('new');
 												<p>Ширина, см
 											</td>
 											<td>
-												<p id='prod_width'>240
+												<p id='prod_width'>${prod_width}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -225,7 +221,7 @@ get_header('new');
 												<p>Глубина, см
 											</td>
 											<td>
-												<p id='prod_depth'>100
+												<p id='prod_depth'>${prod_depth}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -233,7 +229,7 @@ get_header('new');
 												<p>Высота, см
 											</td>
 											<td>
-												<p id='prod_height'>86
+												<p id='prod_height'>${prod_height}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -241,7 +237,7 @@ get_header('new');
 												<p>Вес товара, кг
 											</td>
 											<td>
-												<p id='prod_weight'>98
+												<p id='prod_weight'>${prod_weight}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -249,14 +245,14 @@ get_header('new');
 												<p>Высота сидения, см
 											</td>
 											<td>
-												<p id='prod_seat_height'>44
+												<p id='prod_seat_height'>${prod_seat_height}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
 											<td>Ширина сидения, см
 											</td>
 											<td>
-												<p id='prod_seat_width'>200
+												<p id='prod_seat_width'>${prod_seat_width}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -264,7 +260,7 @@ get_header('new');
 												<p>Глубина сидения, см
 											</td>
 											<td>
-												<p id='prod_seat_depth'>53
+												<p id='prod_seat_depth'>${prod_seat_depth}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -272,7 +268,7 @@ get_header('new');
 												<p>Ширина спинки, см
 											</td>
 											<td>
-												<p id='prod_back_width'>200
+												<p id='prod_back_width'>${prod_back_width}
 											</td>
 										</tr>
 									</table>
@@ -308,7 +304,7 @@ get_header('new');
 												<p class='cacao'>Тип
 											</td>
 											<td>
-												<p class='text-end'>Диван-кровать, Прямой диван
+												<p class='text-end'>${product_type}
 											</td>
 										</tr>
 										<tr>
@@ -316,7 +312,7 @@ get_header('new');
 												<p class='cacao'>Вид раскладывания
 											</td>
 											<td>
-												<p class='text-end'>Еврокнижка
+												<p class='text-end'>${transform_type}
 											</td>
 										</tr>
 										<tr>
@@ -324,7 +320,7 @@ get_header('new');
 												<p class='cacao'>Тип матраса
 											</td>
 											<td>
-												<p class='text-end'>Пружины "змейка"
+												<p class='text-end'>${matress_type}
 											</td>
 										</tr>
 									</table>
@@ -336,7 +332,7 @@ get_header('new');
 												<p class='cacao'>Форма диван
 											</td>
 											<td>
-												<p class='text-end'>Прямой
+												<p class='text-end'>${product_form}
 											</td>
 										</tr>
 										<tr>
@@ -344,7 +340,7 @@ get_header('new');
 												<p class='cacao'>Стиль дизайна
 											</td>
 											<td>
-												<p class='text-end'>Современная классика
+												<p class='text-end'>${product_style}
 											</td>
 										</tr>
 										<tr>
@@ -352,12 +348,12 @@ get_header('new');
 												<p class='cacao'>Материал наполнителя
 											</td>
 											<td>
-												<p class='text-end'>Пенополиуретан, Холлкон, Войлок, Спанбонд
+												<p class='text-end'>${product_inside}
 											</td>
 										</tr>
 									</table>
 								</div>
-								<p>Конструктивные особенности: Ящик для белья, Короб для хранения, Съемные подушки, Ортопедические свойства
+								<p>Конструктивные особенности: ${features}
 							</div>
 						</div>
 		        	</div>
@@ -376,11 +372,10 @@ get_header('new');
 		            	<div class='container-fluid'>
 							<div class='row'>
 								<div class='col-md-8 col-sm-12'>
-									<p>Jazz — матовая рогожка с выраженной текстурой в форме шахматного плетения. Полностью отсутствует изменение оттенка при проведении по ткани рукой (муаровый эффект). На ощупь поверхность слегка рельефная. Нити имеют разную толщину, а также различаются по насыщенности и яркости окраски, что придает ткани фактурность.
-									<p> Ткань имеет достаточную цветоустойчивость - 4 балла из 5-ти, а также высокую износостойкость и повышенную плотность. Рекомендуется к применению в гостиных комнатах, спальне. Специальная пропитка придает ткани начальные огнеупорные свойства – ткань не вспыхивает при попадании на нее пепла, небольших искр. Износостойкость (тест по Мартиндейлу) – 45 000 циклов (ткани более 40000 циклов считаются тканями для интенсивного использования).
+									<p>${${product_fabric_img}}
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg" class='img-fluid'>
+									<img src="${product_fabric_img}" class='img-fluid'>
 								</div>
 							</div>
 		                	<p>Больше образцов тканей вы можете посмотреть в наших салонах.
@@ -458,6 +453,7 @@ get_header('new');
 		    </div>
 		</div>
 	</div>
+
 	<!-- phone -->
 	<div class='d-block d-lg-none'>
 		<div class="accordion" id="accordionExample">
@@ -470,7 +466,7 @@ get_header('new');
 		        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 		            <div class="accordion-body">
 		                <p id='description'>
-		                	Модель Портленд в стиле mid-century. Мебель "на ножках" признана трендом: она вписывается во все популярные стили интерьеров и более функциональна, так как уборка становится намного легче. Комфорт Портленда достигается глубиной сидения с большими приспинными подушками. 
+		                	${description}
 		                </p>
 		          	</div>
 		        </div>
@@ -489,12 +485,11 @@ get_header('new');
 							<div class='row'>
 								<div class='col-md-4 col-sm-12'>
 			                		<table class='prod-card-table'>
-										<tr class='prod-card-table-row'>
-											<td>
+										<td>
 												<p>Ширина, см
 											</td>
 											<td>
-												<p id='prod_width'>240
+												<p id='prod_width'>${prod_width}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -502,7 +497,7 @@ get_header('new');
 												<p>Глубина, см
 											</td>
 											<td>
-												<p id='prod_depth'>100
+												<p id='prod_depth'>${prod_depth}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -510,7 +505,7 @@ get_header('new');
 												<p>Высота, см
 											</td>
 											<td>
-												<p id='prod_height'>86
+												<p id='prod_height'>${prod_height}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -518,7 +513,7 @@ get_header('new');
 												<p>Вес товара, кг
 											</td>
 											<td>
-												<p id='prod_weight'>98
+												<p id='prod_weight'>${prod_weight}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -526,14 +521,14 @@ get_header('new');
 												<p>Высота сидения, см
 											</td>
 											<td>
-												<p id='prod_seat_height'>44
+												<p id='prod_seat_height'>${prod_seat_height}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
 											<td>Ширина сидения, см
 											</td>
 											<td>
-												<p id='prod_seat_width'>200
+												<p id='prod_seat_width'>${prod_seat_width}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -541,7 +536,7 @@ get_header('new');
 												<p>Глубина сидения, см
 											</td>
 											<td>
-												<p id='prod_seat_depth'>53
+												<p id='prod_seat_depth'>${prod_seat_depth}
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -549,7 +544,7 @@ get_header('new');
 												<p>Ширина спинки, см
 											</td>
 											<td>
-												<p id='prod_back_width'>200
+												<p id='prod_back_width'>${prod_back_width}
 											</td>
 										</tr>
 									</table>
@@ -585,23 +580,23 @@ get_header('new');
 												<p class='cacao'>Тип
 											</td>
 											<td>
-												<p class='text-end'>Диван-кровать, Прямой диван
+												<p class='text-end'>${product_type}
 											</td>
-										</tr>
-										<tr>
+											</tr>
+											<tr>
 											<td>
 												<p class='cacao'>Вид раскладывания
 											</td>
 											<td>
-												<p class='text-end'>Еврокнижка
+												<p class='text-end'>${transform_type}
 											</td>
-										</tr>
-										<tr>
+											</tr>
+											<tr>
 											<td>
 												<p class='cacao'>Тип матраса
 											</td>
 											<td>
-												<p class='text-end'>Пружины "змейка"
+												<p class='text-end'>${matress_type}
 											</td>
 										</tr>
 									</table>
@@ -613,7 +608,7 @@ get_header('new');
 												<p class='cacao'>Форма диван
 											</td>
 											<td>
-												<p class='text-end'>Прямой
+												<p class='text-end'>${product_form}
 											</td>
 										</tr>
 										<tr>
@@ -621,7 +616,7 @@ get_header('new');
 												<p class='cacao'>Стиль дизайна
 											</td>
 											<td>
-												<p class='text-end'>Современная классика
+												<p class='text-end'>${product_style}
 											</td>
 										</tr>
 										<tr>
@@ -629,12 +624,12 @@ get_header('new');
 												<p class='cacao'>Материал наполнителя
 											</td>
 											<td>
-												<p class='text-end'>Пенополиуретан, Холлкон, Войлок, Спанбонд
+												<p class='text-end'>${product_inside}
 											</td>
 										</tr>
 									</table>
 								</div>
-								<p>Конструктивные особенности: Ящик для белья, Короб для хранения, Съемные подушки, Ортопедические свойства
+								<p>Конструктивные особенности: ${features}
 							</div>
 						</div>
 		        	</div>
@@ -653,11 +648,10 @@ get_header('new');
 		            	<div class='container-fluid'>
 							<div class='row'>
 								<div class='col-md-8 col-sm-12'>
-									<p>Jazz — матовая рогожка с выраженной текстурой в форме шахматного плетения. Полностью отсутствует изменение оттенка при проведении по ткани рукой (муаровый эффект). На ощупь поверхность слегка рельефная. Нити имеют разную толщину, а также различаются по насыщенности и яркости окраски, что придает ткани фактурность.
-									<p> Ткань имеет достаточную цветоустойчивость - 4 балла из 5-ти, а также высокую износостойкость и повышенную плотность. Рекомендуется к применению в гостиных комнатах, спальне. Специальная пропитка придает ткани начальные огнеупорные свойства – ткань не вспыхивает при попадании на нее пепла, небольших искр. Износостойкость (тест по Мартиндейлу) – 45 000 циклов (ткани более 40000 циклов считаются тканями для интенсивного использования).
+									<p>${product_fabric_about}
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg" class='img-fluid'>
+									<img src="${product_fabric_img}" class='img-fluid'>
 								</div>
 							</div>
 		                	<p>Больше образцов тканей вы можете посмотреть в наших салонах.
@@ -781,7 +775,7 @@ get_header('new');
 	<!-- Slider end -->
 
 
-<!-- DESCTOP POP OVER THING START -->
+	<!-- DESCTOP POP OVER THING START -->
 	<div class='popOverBlock pt-5 d-none d-lg-block d-xl-block d-xxl-block'>
 		<canvas id="canvasBig" style="display:block" width='1600' height='800'></canvas>
 
@@ -832,67 +826,6 @@ get_header('new');
 	       	</div>
 	    </div>
 	</div> 
-<!-- DESCTOP POP OVER END -->
-
-<!-- TABLET POP OVER THING // -->
-	<!-- <div class='popOverBlock pt-5 d-none d-sm-block  d-md-block d-lg-none'>
-		<canvas id="canvas" style="display:block"></canvas>
-		<div class = 'popOvers'>	
-	        <div id='popAboutStitches'>
-	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	             		<p class='card-text'>Мы прошиваем наши диваны турецкими мебельными нитями марки POLYART. Это синтетические армированные  нити с полиэфирной оплёткой. Нити обладают высокой прочностью и устойчивы к истиранию. </p>
-	            	</div>
-	         	</div>
-	       	</div>
-
-	       	<div id='popAboutPillow'>
-	          	<div class='card' style='width: 15rem;'>
-	           		<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	              		<p class='card-text'>Подушка может лежать на диване. А может быть сброшена кошкой. Ещё ей можно драться. </p>
-	            	</div>
-	         	</div>
-	       	</div>
-
-	       <div id='popAboutFront'>
-	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	              		<p class='card-text'>Край дивана. Наверное, здесь что-то о диванном внутреннем мире - какие там пружины внутри хитрые. Или нет? </p>
-		            </div>
-		         </div>
-	       	</div>
-
-	       	<div id='popAboutBack'>
-	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	              		<p class='card-text'>Спинка дивана. Наверное, здесь о наполнителе - какой он белый, пушистый и высокотехнологичный. Или нет? </p>
-	            	</div>
-	         	</div>
-	       	</div>
-
-	       	<div id='popAboutPaw'>
-	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	              		<p class='card-text'>Диванная ножка. Наверное, здесь о том, что она из дуба 4 сортов. Или нет? </p>
-	            	</div>
-	         	</div>
-	       	</div>
-	    </div>
-	</div>  -->
-<!-- TABLET POP OVER END -->
-
-<!-- PHONE POP OVER THING START -->
-	<div class=' popOverBlock pt-5 d-block d-sm-none' id='phone-show'>
-
-	</div>
-<!-- PHONE POP OVER END -->
-
-
 	<div class='container-fluid big-fields-content mt-4'>
 		<p>
 			Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.
@@ -923,6 +856,5 @@ get_header('new');
 			</div>
 		</div>
 	</div>
-
-<?php
-get_footer();
+</div>
+`

@@ -6,15 +6,14 @@ class Products {
 	render() {
 		let htmlProducts = '';
 		
-		CATALOG.forEach(({product_name, product_img, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, prod_width, prod_depth, prod_height, price, price_sale}) => {
-			console.log('aaaa!');
-
+		CATALOG.forEach(({sku, product_name, product_img, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, prod_width, prod_depth, prod_height, price, price_sale}) => {
+			
 			htmlProducts += `
 			
-			<div class = "product_card m-2" onClick='showDetails()'>
+			<div class = "product_card sku m-2" id='${sku}' onClick='showDetails()'>
 				<div class = 'd-flex justify-content-between'>
 					<h3>${product_name}</h3>
-					<div>
+				<div>
 					<img class = 'available_icon' src='${is_new}'>
 					<img class = 'available_icon' src='${available_in_showroom}'> 
 					<img class = 'available_icon'src='${available_for_delivery_2}'>
@@ -37,7 +36,7 @@ class Products {
 			});
 
 			const html = `
-			<div class = "container-fluid products_container">
+			<div class = "container-fluid products_container" id='products_container'>
 				
 					${htmlProducts}
 				
