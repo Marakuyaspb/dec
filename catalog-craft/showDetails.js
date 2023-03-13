@@ -23,6 +23,7 @@ function showDetails(event){
 
 /* define vars */
   			let sku = productAllDetails.sku;
+  			let fabric_type = productAllDetails.fabric_type;
   			let product_name = productAllDetails.product_name;
   			let product_img = productAllDetails.product_img;
   			let is_new = productAllDetails.is_new;
@@ -923,7 +924,9 @@ function showDetails(event){
 			`
 			<div id='${sku}'>
 				<!-- Desctop -->
+			<div class='thin ms-3'><a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/line-sofas/'>Прямые диваны</a> </div>
 				<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+
 					<div class='row'>
 						<div class='col-md-8'>
 							<p class='h-center'>${product_name}</p>
