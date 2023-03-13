@@ -8,7 +8,7 @@ function showDetails(event){
   	console.log(`Clicked element ID: ${currentSKU}`);
 
 /* compare the clicked SKU with all SKUs in [] */
-   	for (let i = 1; i < CATALOG.length; ++i) {
+   	for (let i = 0; i < CATALOG.length; ++i) {
 	  	console.log(CATALOG[i].sku);  
 		
 		if (CATALOG[i].sku == currentSKU){
