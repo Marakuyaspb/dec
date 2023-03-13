@@ -6,7 +6,7 @@ class Products {
 	render() {
 		let htmlProducts = '';
 		
-		CATALOG.forEach(({sku, product_name, product_img, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, prod_width, prod_depth, prod_height, price, price_sale}) => {
+		CATALOG.forEach(({sku, model, fabric_type, fabric_name, product_name, product_img, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, prod_width, prod_depth, prod_height, price, price_sale}) => {
 			
 			htmlProducts += `
 			

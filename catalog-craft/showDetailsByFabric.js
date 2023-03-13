@@ -1,24 +1,25 @@
 /* Change it! */
 
-function showDetails(event){
+function showDetailsByFabric(event){
 	
 /* get SKU of product by the CLICK */
  	const clickedElement = event.currentTarget;
   	const currentSKU = clickedElement.id;
-  	
+  	console.log(`Clicked element ID: ${currentSKU}`);
+
 /* compare the clicked SKU with all SKUs in [] */
-   	for (let i = 0; i < CATALOG.length; ++i) {		
-		if (CATALOG[i].sku == currentSKU){
+   	for (let i = 0; i < CATALOG.length; ++i) {
+	  	if (CATALOG[i].sku == currentSKU){
 
 /* create a new var with all info about the match sku */
   			let productAllDetails = CATALOG[i];
   			console.log(productAllDetails);
 
 /* remove current html */
-  			var allProducts = document.getElementById('line-sofas-show');
-  			allProducts.remove();
+  				var currentProduct = document.getElementById('sofa_details');
+  				currentProduct.remove();
 
-/* define vars */
+ /* define vars */
   			let sku = productAllDetails.sku;
   			let model = productAllDetails.model;
   			let fabric_type = productAllDetails.fabric_type;
@@ -58,7 +59,11 @@ function showDetails(event){
   			let product_fabric_img = productAllDetails.product_fabric_img;
 
 /* render new html about the single product */
-  			document.getElementById('sofa_details').innerHTML = 
+  		var anotherProduct = document.createElement("div");
+  		anotherProduct.id = 'newContent';
+		console.log(document.getElementById('newContent'));
+		console.log('hey');
+	  	document.getElementById('newContent').innerHTML =
 			`
 			<div id='${sku}'>
 				<!-- Desctop -->
@@ -71,16 +76,16 @@ function showDetails(event){
 							<p class='h-center'>${product_name}</p>
 
 				<!-- fabric buttons -->
-							<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-						    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
+							<div class='slide-fabric-nav' id ='${model}' onClick ='event.stopPropagation()'>  	  
+						    	<img class='slide-fabric-button fabric-var' id='_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
 							
-						    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
+						    	<img class='slide-fabric-button fabric-var' id='_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
 						    
-						    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
+						    	<img class='slide-fabric-button fabric-var' id='_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
 						    
-						    	<img class='slide-fabric-button fabric-var' id='${model}_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
+						    	<img class='slide-fabric-button fabric-var' id='_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
 						    
-							    <img class='slide-fabric-button fabric-var' id='${model}_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>
+							    <img class='slide-fabric-button fabric-var' id='_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>
 
 								<center>
 					          	<p class='small pt-4'>Ткань: ${fabric_name}
@@ -129,7 +134,7 @@ function showDetails(event){
 				<div class='container-fluid mt-5 d-block d-md-none'>
 					<div class='thin ms-4'><a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/line-sofas/'>Прямые диваны</a>
 					</div>
-
+					
 					<div class='slider-fabric'>
 					    <div class='slide-fabric-nav'>  
 						    <a href='http://decona.ru/portlandJazz01/'>
@@ -912,6 +917,7 @@ function showDetails(event){
 				</div>
 			</div>
 			`; 
-		} /*else console.log('Check your json!');*/
+		
+			} else console.log('Check your json!');
+		}
 	}
-}

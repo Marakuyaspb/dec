@@ -1,7 +1,9 @@
 [
 	{
-		"sku" : "001",
-		"fabric_type" : "jazz_01",
+		"sku" : "portland_jazz_01",
+		"model":"portland",
+		"fabric_type" : "_jazz_01",
+		"fabric_name" : "Jazz 01",
 		"product_name" : "Portland",
 		"product_img" : "http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_front-scaled.jpg",
 		"is_new" : "http://decona.ru/wp-content/uploads/catalog/new.svg",
@@ -37,8 +39,10 @@
 		"product_fabric_img" : "http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg"
 	},
 	{
-		"sku" : "002",
-		"fabric_type" : "jazz_08",
+		"sku" : "portland_jazz_08",
+		"model":"portland",
+		"fabric_type" : "_jazz_08",
+		"fabric_name" : "Jazz 08",
 		"product_name" : "Portland",
 		"product_img" : "http://decona.ru/wp-content/uploads/2023/03/Portland_1.png",
 		"is_new" : "http://decona.ru/wp-content/uploads/catalog/new.svg",
@@ -74,8 +78,10 @@
 		"product_fabric_img" : "http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg"
 	},
 	{
-		"sku" : "003",
-		"fabric_type" : "jazz_21",
+		"sku" : "portland_jazz_21",
+		"model":"portland",
+		"fabric_type" : "_jazz_21",
+		"fabric_name" : "Jazz 21",
 		"product_name" : "Portland",
 		"product_img" : "http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-21_black_front-scaled.jpg",
 		"is_new" : "http://decona.ru/wp-content/uploads/catalog/new.svg",
@@ -111,8 +117,10 @@
 		"product_fabric_img" : "http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg"
 	},
 	{
-		"sku" : "004",
-		"fabric_type" : "velutto_16",
+		"sku" : "portland_velutto_16",
+		"model":"portland",
+		"fabric_type" : "_velutto_16",
+		"fabric_name" : "Velutto 16",
 		"product_name" : "Portland",
 		"product_img" : "http://decona.ru/wp-content/uploads/2023/03/Portland_Velutto-16_brandy_front-scaled.jpg",
 		"is_new" : "http://decona.ru/wp-content/uploads/catalog/new.svg",
@@ -148,8 +156,9 @@
 		"product_fabric_img" : "http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg"
 	},
 	{
-		"sku" : "005",
-		"fabric_type" : "velutto_32",
+		"sku" : "portland_velutto_16",
+		"fabric_type" : "_velutto_16",
+		"fabric_name" : "Velutto 32",
 		"product_name" : "Portland",
 		"product_img" : "http://decona.ru/wp-content/uploads/2023/03/Portland_Velutto-32_black_front-scaled.jpg",
 		"is_new" : "http://decona.ru/wp-content/uploads/catalog/new.svg",
@@ -185,8 +194,9 @@
 		"product_fabric_img" : "http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg"
 	},
 	{
-		"sku" : "006",
-		"fabric_type" : "jazz_08",
+		"sku" : "naples_jazz_08",
+		"fabric_type" : "_jazz_08",
+		"model":"naples",
 		"product_name" : "Naples",
 		"product_img" : "http://decona.ru/wp-content/uploads/2023/03/Naples_1.png",
 		"is_new" : "http://decona.ru/wp-content/uploads/catalog/new.svg",
