@@ -14,14 +14,50 @@ function showDetails(event){
 		if (CATALOG[i].sku == currentSKU){
 
 /* create a new var with all info about the match sku */
-  			var productAllDetails = CATALOG[i];
+  			let productAllDetails = CATALOG[i];
   			console.log(productAllDetails);
 
 /* remove current html */
   			var allProducts = document.getElementById('line-sofas-show');
   			allProducts.remove();
 
-/* push vars in the html */
+/* define vars */
+  			let sku = productAllDetails.sku;
+  			let product_name = productAllDetails.product_name;
+  			let product_img = productAllDetails.product_img;
+  			let is_new = productAllDetails.is_new;
+  			let available_for_delivery_2 = productAllDetails.available_for_delivery_2;
+  			let available_for_delivery_28 = productAllDetails.available_for_delivery_28;
+  			let available_in_showroom = productAllDetails.available_in_showroom;
+  			let carousel_item_1 = productAllDetails.carousel_item_1;
+  			let carousel_item_2 = productAllDetails.carousel_item_2;
+  			let carousel_item_3 = productAllDetails.carousel_item_3;
+  			let carousel_item_4 = productAllDetails.carousel_item_4;
+  			let carousel_item_5 = productAllDetails.carousel_item_5;
+  			let right_sofa_piece = productAllDetails.right_sofa_piece;
+  			let product_full_name = productAllDetails.product_full_name;
+  			let price = productAllDetails.price;
+  			let price_sale = productAllDetails.price_sale;
+  			let description = productAllDetails.description;
+  			let prod_width = productAllDetails.prod_width;
+  			let prod_depth = productAllDetails.prod_depth;
+  			let prod_height = productAllDetails.prod_height;
+  			let prod_weight = productAllDetails.prod_weight;
+  			let prod_seat_height = productAllDetails.prod_seat_height;
+  			let prod_seat_width = productAllDetails.prod_seat_width;
+  			let prod_seat_depth = productAllDetails.prod_seat_depth;
+  			let prod_back_width = productAllDetails.prod_back_width;
+  			let product_type = productAllDetails.product_type;
+  			let transform_type = productAllDetails.transform_type;
+  			let matress_type = productAllDetails.matress_type;
+  			let product_form = productAllDetails.product_form;
+  			let product_style = productAllDetails.product_style;
+  			let product_inside = productAllDetails.product_inside;
+  			let features = productAllDetails.features;
+  			let product_fabric_about = productAllDetails.product_fabric_about;
+  			let product_fabric_img = productAllDetails.product_fabric_img;
+
+/* push vars in the html
   		function pushInfo(productAllDetails){
   				var theSingleProduct = 
 			`
@@ -881,11 +917,9 @@ function showDetails(event){
 			return theSingleProduct;
   			}
 		pushInfo();
-
+ */
 /* render new html about the single product */
-  			document.getElementById('sofa_details').innerHTML = theSingleProduct;
-
-  			/*
+  			document.getElementById('sofa_details').innerHTML = 
 			`
 			<div id='${sku}'>
 				<!-- Desctop -->
@@ -1738,7 +1772,7 @@ function showDetails(event){
 					</div>
 				</div>
 			</div>
-			`; */
+			`; 
 		} else console.log('Check your json!');
 	}
 }
