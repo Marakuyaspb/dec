@@ -1,5 +1,4 @@
 /* Change it! */
-
 function showDetailsByFabric(event){
 	
 /* get SKU of product by the CLICK */
@@ -18,6 +17,7 @@ function showDetailsByFabric(event){
 /* remove current html */
   				var currentProduct = document.getElementById('sofa_details');
   				currentProduct.remove();
+  				console.log('removed!');
 
  /* define vars */
   			let sku = productAllDetails.sku;
@@ -59,11 +59,11 @@ function showDetailsByFabric(event){
   			let product_fabric_img = productAllDetails.product_fabric_img;
 
 /* render new html about the single product */
-  		var anotherProduct = document.createElement("div");
-  		anotherProduct.id = 'newContent';
-		console.log(document.getElementById('newContent'));
-		console.log('hey');
-	  	document.getElementById('newContent').innerHTML =
+  		let anotherProduct = document.createElement("div");
+  		anotherProduct.id = 'sofa_details';
+  		let placeHere = document.getElementById('spinner');
+		placeHere.append(anotherProduct);
+		document.getElementById('sofa_details').innerHTML =
 			`
 			<div id='${sku}'>
 				<!-- Desctop -->
@@ -138,19 +138,19 @@ function showDetailsByFabric(event){
 					<div class='slider-fabric'>
 					    <div class='slide-fabric-nav'>  
 						    <a href='http://decona.ru/portlandJazz01/'>
-						    	<img class='slide-fabric-button fabric-var' id='fabric01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png">
+						    	<img class='slide-fabric-button fabric-var' id='fabric01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
 							</a>
 							<a href='http://decona.ru/portlandJazz08/'>
-						    	<img class='slide-fabric-button fabric-var' id='fabric02'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png'>
+						    	<img class='slide-fabric-button fabric-var' id='fabric02'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
 						    </a>
 							<a href='http://decona.ru/portlandJazz14/'>
-						    	<img class='slide-fabric-button fabric-var' id='fabric03' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png">
+						    	<img class='slide-fabric-button fabric-var' id='fabric03' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric(event);'>
 						    </a>
 							<a href='http://decona.ru/velutto16/'>
-						    	<img class='slide-fabric-button fabric-var' id='fabric04' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png">
+						    	<img class='slide-fabric-button fabric-var' id='fabric04' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
 						    </a>
 							<a href='http://decona.ru/velutto32/'>
-							    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png"> 
+							    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'> 
 							</a>
 
 							<center>
@@ -916,8 +916,9 @@ function showDetailsByFabric(event){
 					</div>
 				</div>
 			</div>
-			`; 
+			`;
+		console.log(document.getElementById('sofa_details'));
 		
-			} else console.log('Check your json!');
+			} else console.log('Check your json or code!');
 		}
 	}
