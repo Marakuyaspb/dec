@@ -36,6 +36,9 @@ class Products {
 			});
 
 			const html = `
+			<div class='thin ms-5'><a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/line-sofas/'>Прямые диваны</a>
+					</div>
+			<h4 class=ms-5 my-4>Прямые диваны</h4>
 			<div class = "products_container" id='products_container'>
 				
 					${htmlProducts}
