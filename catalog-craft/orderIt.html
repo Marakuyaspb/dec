@@ -1,0 +1,13 @@
+<div class =''>
+	<h3>Оформить заказ</h3>
+	<form onsubmit="orderIt(); reset(); return false;">
+		<input type="text" id="model_fabric" value ="Модель: ${product_name}${fabric_name}" required>
+		<input type="text" id="user_name" placeholder ="Ваше имя" required>
+		<input type="text" id="user_phone" placeholder ="Телефон" required>
+		<input type="text" id="user_mail" placeholder ="E-mail" required>
+
+		<button type="submit">Заказать</button>
+	</form>
+</div>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
