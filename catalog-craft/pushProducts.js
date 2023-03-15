@@ -36,7 +36,7 @@ class Products {
 			});
 
 			const html = `
-			<div class = "container-fluid products_container" id='products_container'>
+			<div class = "products_container" id='products_container'>
 				
 					${htmlProducts}
 				

@@ -11,5 +11,6 @@ get_header('new');
 
 <div id="spinner"></div> 
 <div id="error"></div> 
+
 <?php
 get_footer();
