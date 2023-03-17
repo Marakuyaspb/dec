@@ -60,7 +60,7 @@ function showDetails(event){
 /* render new html about the single product */
   			document.getElementById('sofa_details').innerHTML = 
 			`
-			<div id='${sku}'>
+			<div id='${sku}' class='sku'>
 				<!-- Desctop -->
 				<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 					<div class='thin ms-4'><a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/line-sofas/'>Прямые диваны</a>
@@ -218,7 +218,7 @@ function showDetails(event){
 						<div class='mt-1 prod-card-price'>${price}</div>
 						<div class="mt-3 d-flex justify-content-between">
 							<a class='' href='#'>
-								<button class='to-order white btn-prod-card'>
+								<button class='to-order white btn-prod-card' onClick='pushSKUinForm(event);'>
 									Заказать
 								</button>
 							</a>
@@ -242,7 +242,7 @@ function showDetails(event){
 					<div class='ps-3'>${product_full_name}</div>
 					<div class='major-text ps-3'>${price}</div>
 					<div class="d-flex justify-content-around white btn-prod-card my-2 img-cover">
-							<a class='to-order white p-2' href='#'>
+							<a class='to-order white p-2' onClick='pushSKUinForm(event);'>
 								Заказать
 							</a>
 							<a class='white p-2' href='#'>

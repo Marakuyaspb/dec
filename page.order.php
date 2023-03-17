@@ -1,4 +1,13 @@
-<div class =''>
+<?php
+/*
+Template name: order
+*/
+
+get_header('new'); 
+?>
+
+
+<div class ='container-fluid'>
   <h1 class = 'sku' id = 'porland_HipHop'>Итак</h1>
 	<h3>Оформить заказ</h3>
 	<form action="http://decona.ru/wp-content/uploads/mail_craft/mail.php" method="POST">
@@ -18,10 +27,11 @@
 			<option>Пятигорск</option>
 			<option>Ставрополь</option>
 		</select>
+		<br>
 		<input type="text" name="user_phone" placeholder ="Телефон" required>
 		<input type="text" name="user_email" placeholder ="E-mail" required>
-
-		<button type="submit">Заказать</button>
+		<br>
+		<button type="submit" class='btn-prod-card y-2'>Заказать</button>
 	</form>
 </div>
 
@@ -36,6 +46,3 @@ function pushSKUinForm(){
 pushSKUinForm();
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>

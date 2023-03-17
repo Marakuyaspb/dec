@@ -44,4 +44,3 @@ function showPaw(){
 function hidPaw(){
   popAboutPaw.style.display = 'none';
 }
-
