@@ -36,9 +36,16 @@ h1{
 h2{
 	font-size: 3rem!important;
 }
+h3{
+	font-size: 2.4rem!important;
+}
 h4{
 	padding-bottom: 3rem;
 }
+h5{
+	font-size: 1.8rem!important;
+}
+
 p {
 	font-size: 1.125rem;
 	color: #5E5B5B;
@@ -213,6 +220,9 @@ a .icon-header:hover{
 .no-padding-right{
 	padding-right: 0!important;
 }
+.no-padding-left{
+	padding-left: 0!important;
+}
 .no-border{
 	border: none!important;
 }
@@ -368,19 +378,36 @@ a .icon-header:hover{
 	margin-top: -10em!important;
 	z-index: -1!important;
 	min-width: 100%!important;
+	position: relative;
 }
 .img-cover{
 	min-width: 100%!important;
 }
+.carousel-indicators [data-bs-target]{
+	background-color: #fff !important;
+}
+.over-slider{
+	z-index: 5!important;
+	position: relative;
+	margin-top: -19em;
+	margin-bottom: 4em;
+}
+.over-slider-phone{
+	z-index: 5!important;
+	position: relative;
+	margin-top: -15em;
+	margin-bottom: 4em;
+}
+
 
 
 /* CATEGORIES PAGE */
 .products_container {
-    display: grid;
-    grid-gap: 25px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    width: 96%;
-    margin-left: auto;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 96%;
+  margin-left: auto;
 	margin-right: auto;
 }
 

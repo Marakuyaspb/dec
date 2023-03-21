@@ -10,7 +10,7 @@ class Products {
 			
 			htmlProducts += `
 			
-			<div class = "product_card sku m-2" id='${sku}' onClick='showDetails(event);' onClick='showPopOvers(event);'>
+			<div class = "product_card sku m-2" id='${sku}' onClick='showDetails(event);'>
 				<div class = 'd-flex justify-content-between'>
 					<h3>${product_name}</h3>
 				<div>

@@ -14,11 +14,6 @@ function showDetailsByFabric(event){
   			let productAllDetails = CATALOG[i];
   			console.log(productAllDetails);
 
-/* remove current html */
-  				var currentProduct = document.getElementById('sofa_details');
-  				currentProduct.remove();
-  				console.log('removed!');
-
  /* define vars */
   			let sku = productAllDetails.sku;
   			let model = productAllDetails.model;
@@ -76,16 +71,16 @@ function showDetailsByFabric(event){
 							<p class='h-center'>${product_name}</p>
 
 				<!-- fabric buttons -->
-							<div class='slide-fabric-nav' id ='${model}' onClick ='event.stopPropagation()'>  	  
-						    	<img class='slide-fabric-button fabric-var' id='_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
+							<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
+						    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
 							
-						    	<img class='slide-fabric-button fabric-var' id='_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
+						    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
 						    
-						    	<img class='slide-fabric-button fabric-var' id='_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
+						    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
 						    
-						    	<img class='slide-fabric-button fabric-var' id='_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
+						    	<img class='slide-fabric-button fabric-var' id='${model}_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
 						    
-							    <img class='slide-fabric-button fabric-var' id='_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>
+							    <img class='slide-fabric-button fabric-var' id='${model}_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>
 
 								<center>
 					          	<p class='small pt-4'>Ткань: ${fabric_name}
@@ -146,29 +141,21 @@ function showDetailsByFabric(event){
 					<div class='thin ms-4'><a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/line-sofas/'>Прямые диваны</a>
 					</div>
 					
-					<div class='slider-fabric'>
-					    <div class='slide-fabric-nav'>  
-						    <a href='http://decona.ru/portlandJazz01/'>
-						    	<img class='slide-fabric-button fabric-var' id='fabric01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
-							</a>
-							<a href='http://decona.ru/portlandJazz08/'>
-						    	<img class='slide-fabric-button fabric-var' id='fabric02'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
-						    </a>
-							<a href='http://decona.ru/portlandJazz14/'>
-						    	<img class='slide-fabric-button fabric-var' id='fabric03' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric(event);'>
-						    </a>
-							<a href='http://decona.ru/velutto16/'>
-						    	<img class='slide-fabric-button fabric-var' id='fabric04' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
-						    </a>
-							<a href='http://decona.ru/velutto32/'>
-							    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'> 
-							</a>
+					<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
+				    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
+					
+				    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
+				    
+				    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
+				    
+				    	<img class='slide-fabric-button fabric-var' id='${model}_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
+				    
+					    <img class='slide-fabric-button fabric-var' id='${model}_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>
 
-							<center>
-				          	<p class='small pt-4'>Ткань: Jazz 01
-				        	</center>
-
-					    </div>
+						<center>
+			          	<p class='small pt-4'>Ткань: ${fabric_name}
+			        	</center>
+					</div>
 
 
 					    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -827,7 +814,7 @@ function showDetailsByFabric(event){
 			         		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="carousel-btn-bottom" aria-label="Slide 5"></button>
 						</div>
 
-					 	<div class="carousel-inner">
+					 	<div class="carousel-inner" onmousemove='showPopOvers();'>
 						    <div class="carousel-item active">
 						      <img src="http://decona.ru/wp-content/uploads/2023/03/Interior_1_Portland-1-scaled.jpg" class="d-block w-100" alt="...">
 						    </div>
@@ -938,8 +925,10 @@ function showDetailsByFabric(event){
 				</div>
 			</div>
 			`;
-		console.log(document.getElementById('sofa_details'));
+		/*console.log(document.getElementById('sofa_details'));*/
 		
-			} else console.log('Check your json or code!');
+			} else 
+			console.log('Check your json or code!');
 		}
 	}
+showPopOvers(event);

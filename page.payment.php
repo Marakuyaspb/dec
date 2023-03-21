@@ -3,11 +3,8 @@
 Template name: payment
 */
 
-get_header(); 
+get_header('new'); 
 ?>
-<div class='main-head-slider'>
-	<img src="http://decona.ru/wp-content/uploads/2023/01/001_-scaled.jpg" class='banner img-fluid'>
-</div> 
 
 <div class="container big-fields-content mt-5">
 	<h2 class="mb-5">В рассрочку - можно</h2>
@@ -17,8 +14,9 @@ get_header();
 	</center>
 	<hr>
 	<h2 class="my-5">Доставка</h2>
-	<p>Доставим быстро и сколь угодно далеко.
-	<p> Но есть всякие нюансы. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	<p>Доставим быстро и сколь угодно далеко. Но есть всякие нюансы. 
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 </div>
 
 <?php

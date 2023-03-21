@@ -1,16 +1,13 @@
 function showPopOvers(event){
-
   var canvasBig = document.getElementById("canvasBig");
   var ctx = canvasBig.getContext('2d');
 
   const canvasBig_width = canvasBig.width = 1600;
   const canvasBig_heigh = canvasBig.height = 800;
-console.log('it works');
 
   /* сделать эту штуку вариативной из массива */
   const sofaBig = new Image();
   sofaBig.src = "http://decona.ru/wp-content/uploads/2023/02/Portland_for-details-11.png";
-
 
   var pinStitchesBig = new Image();
   pinStitchesBig.src = 'http://decona.ru/wp-content/uploads/2023/02/pin.svg';
@@ -43,17 +40,14 @@ console.log('it works');
           ctx.drawImage(pinPawBig, 1070, 620, 50, 50);
         }
 
-
   canvasBig.style.width = canvasBig.offsetWidth + 'px';
   canvasBig.style.height = canvasBig.offsetHeight + 'px';
-
 
   let popAboutStitchesBig = document.getElementById('popAboutStitchesBig');     
   let popAboutPillowBig = document.getElementById('popAboutPillowBig');
   let popAboutFrontBig = document.getElementById('popAboutFrontBig');
   let popAboutBackBig = document.getElementById('popAboutBackBig');
   let popAboutPawBig = document.getElementById('popAboutPawBig');
-
 
   const mouse = {
     x:0,
@@ -63,14 +57,11 @@ console.log('it works');
     over: false,
   }; 
 
-console.log('it works yet');
-
   canvasBig.addEventListener('mousemove', function(e) {
     const rect = canvasBig.getBoundingClientRect();
     mouse.x = e.clientX - rect.left;
     mouse.y = e.clientY - rect.top;
-    console.log(mouse.x, mouse.y);
-    
+    /*console.log(mouse.x, mouse.y);*/
 
     if (mouse.x >= 280 && mouse.x <= 330 && mouse.y >= 400 && mouse.y <= 450) {
       popAboutStitchesBig.style.display = 'block';
