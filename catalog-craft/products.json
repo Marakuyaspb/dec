@@ -157,6 +157,7 @@
 	},
 	{
 		"sku" : "portland_velutto_32",
+		"model":"portland",
 		"fabric_type" : "_velutto_32",
 		"fabric_name" : "Velutto 32",
 		"product_name" : "Portland",
