@@ -206,7 +206,7 @@ a .icon-header:hover{
 
 
 .big-fields-content {
-	max-width: 70%!important;
+	max-width: 60%!important;
 	margin-left: auto!important;
 	margin-right:auto!important;
 	font-size: 1.6em;
@@ -241,7 +241,10 @@ a .icon-header:hover{
 	padding-top: -5em;
 }
 .card-img-overlay{
-	padding: 3rem!important;
+	padding-top: 20rem!important;
+}
+.card-img-overlay-phone{
+	padding-top: 20rem!important;
 }
 
 

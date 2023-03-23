@@ -120,10 +120,10 @@ get_header();
 <!-- TABLET & PHONE -->
 <div class='pt-5 d-block d-md-none ' id='tablet-show'>
 	<div class="card no-border">
-	  <img src="http://decona.ru/wp-content/uploads/2023/02/Product_main-11-1.png" class="card-img" alt="...">
+	  <img src="http://decona.ru/wp-content/uploads/2023/03/Product_main-12.png" class="card-img" alt="...">
 	  <div class="card-img-overlay">
 	    <h3 class="white ms-2 pt-5 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h3>
-	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-5">Подробнее</button></a>
+	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-2">Подробнее</button></a>
 	  </div>
 	</div>
 </div>
