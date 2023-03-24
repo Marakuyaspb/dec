@@ -406,14 +406,15 @@ function showDetails(event){
 					            	<div class='container-fluid'>
 										<div class='row'>
 											<div class='col-md-8 col-sm-12'>
-												<p>${product_fabric_img}
+												<p>${product_fabric_about}
+												<p>Обращаем Ваше внимание, что реальный цвет ткани может значительно отличаться от изображения на экране. Это зависит от индивидуальных настроек монитора и восприятия цвета. Поэтому при заказе ткани ориентируйтесь на реальные образцы.
+					                			<p class='pt-2'>Больше образцов тканей вы можете посмотреть в наших салонах.
+												<p><a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
 											</div>
 											<div class='col-md-4 col-sm-12'>
 												<img src="${product_fabric_img}" class='img-fluid'>
 											</div>
-										</div>
-					                	<p>Больше образцов тканей вы можете посмотреть в наших салонах.
-											<a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+										</div>	
 						          	</div>
 						        </div>
 						    </div>

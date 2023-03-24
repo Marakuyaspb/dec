@@ -10,7 +10,7 @@ get_header('new');
 <!-- CATEGORIES -->
 <div class="container-fluid mt-2">
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
 			<div class='latte_wrap p-4'>
 	  			<a href='http://decona.ru/line-sofas/'>
 	  				<div class ='pt-3'>
@@ -21,7 +21,7 @@ get_header('new');
 		  		</a>
 	  		</div>
 	  	</div>
-	  	<div class="col-md-6 col-sm-12 py-1">
+	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
 	  		<div class='latte_wrap p-4'>
 				<a href='http://decona.ru/line-sofas/'>
 					<div class ='pt-2'>
@@ -33,8 +33,8 @@ get_header('new');
 			</div>
 		</div>
 	</div>
-	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1">
+	<div class='row '>
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
 			<div class='latte_wrap p-4'>
 				<a href='http://decona.ru/line-sofas/'>
 					<div class ='pt-5 ps-5'>
@@ -45,7 +45,7 @@ get_header('new');
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
 			<div class='latte_wrap p-4'>
 				<a href='http://decona.ru/line-sofas/'>
 					<div class ='pt-5 ps-5'>
@@ -58,7 +58,7 @@ get_header('new');
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
 			<div class='latte_wrap p-4'>
 				<a href='#'>
 					<div class ='pt-5 ps-5'>
@@ -69,7 +69,7 @@ get_header('new');
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
 			<div class='latte_wrap p-4'>
 				<a href='#'>
 					<div class ='pt-5 ps-5'>
@@ -82,7 +82,7 @@ get_header('new');
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
 			<div class='latte_wrap p-4'>
 				<a href='#'>
 					<div class ='pt-5 ps-5'>
@@ -93,7 +93,7 @@ get_header('new');
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
 			<div class='latte_wrap p-4'>
 				<a href='#'>
 					<div class ='pt-5 ps-5'>

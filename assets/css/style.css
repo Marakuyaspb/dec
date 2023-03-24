@@ -395,13 +395,6 @@ a .icon-header:hover{
 	margin-top: -19em;
 	margin-bottom: 4em;
 }
-.over-slider-phone{
-	z-index: 5!important;
-	position: relative;
-	margin-top: -15em;
-	margin-bottom: 4em;
-}
-
 
 
 /* CATEGORIES PAGE */
@@ -413,7 +406,6 @@ a .icon-header:hover{
   margin-left: auto;
 	margin-right: auto;
 }
-
 .product_card{
 	/* padding: 1em;*/
 	align-self: start;
@@ -423,7 +415,12 @@ a .icon-header:hover{
 .product_card:hover{
 	background-color: #F6F1EE;
 }
-
+.row_prod_catgories{
+	padding-left: 0!important;
+	padding-right: 0!important;
+	margin-left: .1em!important;	
+	margin-right: .1em!important;
+}
 .spinner-container {
     position: fixed;
     top: 0;
@@ -444,7 +441,6 @@ a .icon-header:hover{
 }
 .latte_wrap:hover {
   background-color: #F6F1EE!important; 
-
 }
 
 

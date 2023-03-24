@@ -70,7 +70,7 @@ get_header();
 		  </div>
 		</div>
 
-		<div class="ps-3 over-slider-phone">
+		<div class="ps-3 over-slider====">
 			<h1 class="white">BASE</h1>
 			<p class="white">Модульная система</p>
 			<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white'>Подробнее</button></a>
