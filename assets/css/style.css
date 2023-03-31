@@ -169,6 +169,7 @@ li .nav-link .nav-link-text{
 	color: #9F8A88!important;
 	transition: background-color 1s linear;
 }
+
 /* SVG ICONS */
 a .icon-header{
 	/*fill: #fff!important;*/
@@ -386,8 +387,9 @@ a .icon-header:hover{
 .img-cover{
 	min-width: 100%!important;
 }
-.carousel-indicators [data-bs-target]{
+.carousel-btn-bottom{
 	background-color: #fff !important;
+	opacity: .2!important;
 }
 .over-slider{
 	z-index: 5!important;
@@ -398,29 +400,45 @@ a .icon-header:hover{
 
 
 /* CATEGORIES PAGE */
+
 .products_container {
   display: grid;
   grid-gap: 25px;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   width: 96%;
   margin-left: auto;
 	margin-right: auto;
 }
 .product_card{
-	/* padding: 1em;*/
 	align-self: start;
-	/*width: 38em;
-	height: 28em;*/
 }
 .product_card:hover{
 	background-color: #F6F1EE;
 }
-.row_prod_catgories{
-	padding-left: 0!important;
-	padding-right: 0!important;
-	margin-left: .1em!important;	
-	margin-right: .1em!important;
+.product_card_header {
+	margin-top: 1em;
+	position: relative;
+	z-index: 5!important;
 }
+.product_img_under {
+	position: relative;
+	z-index: 1!important;
+	margin-top: -4em;
+}
+.price_cat_page{
+	font-size:1.250em;
+}
+.old-price_cat_page{
+	font-size:1.250em;
+}
+
+.row_prod_catgories{
+	padding-left: 0.5em!important;
+	padding-right: 0.5em!important;
+	/*margin-left: .1em!important;	
+	margin-right: .1em!important;*/
+}
+
 .spinner-container {
     position: fixed;
     top: 0;
@@ -446,31 +464,34 @@ a .icon-header:hover{
 
 
 /* PRODUCNT CARD */
-.old-price{
-	text-decoration: line-through;
-}
 
-
-.carousel-btn-bottom{
-	background-color: #9F8A88!important;
+.carousel-btn-bottom .carousel-goods {
+	background-color: #737171!important;
+	width: 0.75em!important;
+	height: 0.75em!important;
+	border-radius: 50%!important;
+	opacity: .2!important;
 }
 
 .sofa-legs{
 	max-width: 20em;
 }
 .fabric-var{
-	width: 28px;
+	width: 1.375em;
+}
+.fabric-name{
+	font-size: 1em;
 }
 .h-center {
 	color: #9F8A88!important;
 	font-family: 'ALS Hauss Book', Georgia, serif!important;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center!important;
 }
 
 .prod-card-model{
 	color: #5E5B5B;	
-	font-size: 1.7em;
+	font-size: 1.688em;
 	line-height: 2.4;
 }
 .prod-card-price {
@@ -478,6 +499,13 @@ a .icon-header:hover{
 	font-size: 2.25em;
 	padding-top: .4em;
 }
+.old-price{
+	color: #9F8A88;
+	font-size: 2.25em;
+	padding-top: .4em;
+	text-decoration: line-through;
+}
+
 .accordion-item{
 	border: none!important;
 }
@@ -485,8 +513,14 @@ a .icon-header:hover{
 	font-size:  1.125rem !important;
 }
 
+
 .available_icon{
-	height: 2.5em;
+	width: 4.250em;
+	padding-top: 1.875em;
+}
+.is_new_icon {
+	width: 4em;
+	padding-top: 1.875em;
 }
 
 

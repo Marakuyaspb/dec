@@ -634,14 +634,20 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'popOverAboutAll', get_template_directory_uri() . '/assets/js/popOverAboutCANVASall.js', array(), 'null', true );
 
 /* add catalog*/
+
 	wp_enqueue_script( 'catalog_root', get_template_directory_uri() . '/catalog-craft/root.js', array(), 'null', true );
 	wp_enqueue_script( 'catalog_pus_products', get_template_directory_uri() . '/catalog-craft/pushProducts.js', array(), 'null', true );
 	wp_enqueue_script( 'catalog_spinner', get_template_directory_uri() . '/catalog-craft/spinner.js', array(), 'null', true );
 	wp_enqueue_script( 'catalog_error', get_template_directory_uri() . '/catalog-craft/error.js', array(), 'null', true );
 	wp_enqueue_script( 'catalog_render', get_template_directory_uri() . '/catalog-craft/renderProducts.js', array(), 'null', true );
+/*
+	wp_enqueue_script( 'renderProductsInCategory', get_template_directory_uri() . '/catalog-craft/renderProductsInCategory.js', array(), 'null', true );
+	*/
+
 	wp_enqueue_script( 'catalog_change', get_template_directory_uri() . '/catalog-craft/showDetails.js', array(), 'null', true );
 	wp_enqueue_script( 'catalog_change_fabric', get_template_directory_uri() . '/catalog-craft/showDetailsByFabric.js', array(), 'null', true );
 	wp_enqueue_script( 'push_sku_in_form', get_template_directory_uri() . '/catalog-craft/pushSKUinForm.js', array(), 'null', true );
+	
 
 });
 

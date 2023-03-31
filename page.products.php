@@ -8,11 +8,11 @@ get_header('new');
 
 
 <!-- CATEGORIES -->
-<div class="container-fluid mt-2">
+<div class="container-fluid mt-2" id='goods_categories'>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r">
 			<div class='latte_wrap p-4'>
-	  			<a href='http://decona.ru/line-sofas/'>
+	  			<a href='http://decona.ru/category-var-content/'>
 	  				<div class ='pt-3'>
 			  			<p class='major-text'>Модульные системы</h4>
 			  			<p>Конфигурация под любое пространство
@@ -21,9 +21,9 @@ get_header('new');
 		  		</a>
 	  		</div>
 	  	</div>
-	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
+	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner">
 	  		<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/line-sofas/'>
+				<a href='http://decona.ru/category-var-content/'>
 					<div class ='pt-2'>
 			  			<p class='major-text'>Угловые диваны</h4>
 			  			<p>Конфигурация под любое пространство
@@ -34,9 +34,9 @@ get_header('new');
 		</div>
 	</div>
 	<div class='row '>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner">
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/line-sofas/'>
+				<a href='http://decona.ru/category-var-content/'>
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Прямые диваны</h4>
 			  			<p>Конфигурация под любое пространство
@@ -45,9 +45,9 @@ get_header('new');
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm">
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/line-sofas/'>
+				<a href='http://decona.ru/category-var-content/'>
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Кресла</h4>
 			  			<p>Конфигурация под любое пространство
@@ -58,9 +58,9 @@ get_header('new');
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed">
 			<div class='latte_wrap p-4'>
-				<a href='#'>
+				<a href='http://decona.ru/category-var-content/'>
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Кровати</h4>
 			  			<p>Конфигурация под любое пространство
@@ -69,9 +69,9 @@ get_header('new');
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="table">
 			<div class='latte_wrap p-4'>
-				<a href='#'>
+				<a href='http://decona.ru/category-var-content/'>
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Столы</h4>
 			  			<p>Конфигурация под любое пространство
@@ -82,9 +82,9 @@ get_header('new');
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf">
 			<div class='latte_wrap p-4'>
-				<a href='#'>
+				<a href='http://decona.ru/category-var-content/'>
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Пуфы</h4>
 			  			<p>Конфигурация под любое пространство
@@ -93,9 +93,9 @@ get_header('new');
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="accessory" >
 			<div class='latte_wrap p-4'>
-				<a href='#'>
+				<a href='http://decona.ru/category-var-content/'>
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Аксессуары</h4>
 			  			<p>Конфигурация под любое пространство
@@ -106,6 +106,8 @@ get_header('new');
 		</div>
 	</div>
 </div>
+
+<!-- div id="goods_show"></div --> 
 
 <!-- GRAY RECTANGLES START -->
 
