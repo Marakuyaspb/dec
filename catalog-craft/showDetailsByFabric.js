@@ -66,7 +66,7 @@ function showDetailsByFabric(event){
 		placeHere.append(anotherProduct);
 		document.getElementById('goods_details').innerHTML =
 			`
-			<div id='${sku}' class='sku'>
+<div id='${sku}' class='sku'>
 	<!-- Desctop -->
 	<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 		<div class='thin ms-4'><a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/line-sofas/'>Прямые диваны</a>
@@ -80,63 +80,58 @@ function showDetailsByFabric(event){
 		    	</center>
 			<!-- fabric buttons -->
 				<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-			    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_01' src="http://decona.ru/p-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
 				
-			    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_08' src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_21' src='http://decona.ru/p-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${model}_pixel_forest' src= "http://decona.ru/p-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var' id='${model}_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${model}_cambridge_600' src="http://decona.ru/p-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
 			    
-				    <img class='slide-fabric-button fabric-var' id='${model}_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>
+				    <img class='slide-fabric-button fabric-var' id='${model}_velutto_32' src="http://decona.ru/p-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png" onClick ='showDetailsByFabric(event);'>
 				</div>
 				<div class='ms-4'>
 					<img class = 'is_new_icon' src='${is_new}'>
 					<img class = 'available_icon' src='${available_in_showroom}'> 
 					<img class = 'available_icon'src='${available_for_delivery_2}'>
 				</div>
-				</div>
-	<!-- slider with product -->
-			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn-bottom carousel-goods" aria-current="true" aria-label="Slide 1"></button>
-				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom carousel-goods" aria-label="Slide 2"></button>
-				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom carousel-goods" aria-label="Slide 3"></button>
-				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom carousel-goods" aria-label="Slide 4"></button>
-				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="carousel-btn-bottom carousel-goods" aria-label="Slide 5"></button>
-				</div>
+			<!-- slider with product -->
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn-bottom carousel-goods" aria-current="true" aria-label="Slide 1"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom carousel-goods" aria-label="Slide 2"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom carousel-goods" aria-label="Slide 3"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom carousel-goods" aria-label="Slide 4"></button>
+					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="carousel-btn-bottom carousel-goods" aria-label="Slide 5"></button>
+					</div>
 
-			 	<div class="carousel-inner">
-				    <div class="carousel-item active">
-				      	<img src='${carousel_item_1}' class="d-block w-100" alt="...">
-				    </div>
-				    <div class="carousel-item">
-				      	<img src='${carousel_item_2}' class="d-block w-100" alt="...">
-				    </div>
-				    <div class="carousel-item">
-				      	<img src='${carousel_item_3}' class="d-block w-100" alt="...">
-				    </div>
-				    <div class="carousel-item">
-				      	<img src='${carousel_item_4}' class="d-block w-100" alt="...">
-				    </div>
-				    <div class="carousel-item">
-				      	<img src='${carousel_item_5}' class="d-block w-100" alt="...">
-				    </div>
-				</div>
+				 	<div class="carousel-inner">
+					    <div class="carousel-item active">
+					      	<img src='${carousel_item_1}' class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      	<img src='${carousel_item_2}' class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      	<img src='${carousel_item_3}' class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      	<img src='${carousel_item_4}' class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      	<img src='${carousel_item_5}' class="d-block w-100" alt="...">
+					    </div>
+					</div>
 
-
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				    <span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				    <span class="visually-hidden">Next</span>
-				</button>
-				
-				
-
-			</div>    
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					</button>
+				</div>    
 			</div>
 
 			<div class='col-md-4 no-padding-right'>
@@ -214,7 +209,6 @@ function showDetailsByFabric(event){
 			</div>  
 	</div>
 	<!--  -->
-
 
 	<!-- Name & price -->
 
