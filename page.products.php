@@ -36,7 +36,7 @@ get_header('new');
 	<div class='row '>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner">
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/category-var-content/'>
+				<a href='http://decona.ru/corner/'>
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Прямые диваны</h4>
 			  			<p>Конфигурация под любое пространство
@@ -47,7 +47,7 @@ get_header('new');
 		</div>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm">
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/category-var-content/'>
+				<a href='http://decona.ru/armchairs/'>
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Кресла</h4>
 			  			<p>Конфигурация под любое пространство

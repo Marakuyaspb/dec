@@ -1,23 +1,23 @@
 <?php
 /*
-Template name: arms
+Template name: corner
 */
 
 get_header('new'); 
 ?>
 
 <div class='thin ms-4'>
-	<a href='http://decona.ru/'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/#'>Кресла</a>
+	<a href='http://decona.ru/'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/#'>Прямые диваны</a>
 </div>
-<p class="ms-4 my-2 major-text">Кресла</p>
-
+ 
+<p class="ms-4 my-2 major-text">Прямые диваны</p>
 
 	<?php
 		
 		//connection
 		$conn = mysqli_connect("localhost", "deconaru", "WULk_JT76BF7KULL", "deconaru");
 		//render arms
-		$query = "SELECT * FROM goods_woder WHERE category = 'arm'";
+		$query = "SELECT * FROM goods_woder WHERE category = 'corner'";
 		$result = mysqli_query($conn, $query);	
 		
 		while ($row = mysqli_fetch_array($result)) {
