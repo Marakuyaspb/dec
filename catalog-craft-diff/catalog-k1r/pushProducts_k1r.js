@@ -1,16 +1,16 @@
 /* PRODUCTS */
 
 
-class Products {
+class Products_k1r {
 
 	render() {
 		let htmlProducts = '';
 		
-		CATALOG.forEach(({sku, category, model, fabric_type, fabric_name, product_name, product_img, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, prod_width, prod_depth, prod_height, price, price_sale}) => {
+		CATALOG_K1R.forEach(({sku, category, model, fabric_type, fabric_name, product_name, product_img, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, prod_width, prod_depth, prod_height, price, price_sale}) => {
 			
 			htmlProducts += `
 			
-			<div class = "product_card sku ${category} m-2 p-4" id='${sku}' onClick='showDetails(event);'>
+			<div class = "product_card sku m-2 p-4" id='${sku}' onClick='showDetails_arm(event);'>
 
 				<div class = 'd-flex justify-content-between'>
 					<h3 class='product_card_header'>${product_name}</h3>
@@ -36,16 +36,17 @@ class Products {
 			});
 
 			const html = `
-			<div class='thin ms-5'><a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a>
-					</div>
+			<div class='thin ms-5'><a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/category-k1r-system/'>Модульные системы</a>
+			</div>
+			<h4 class=ms-5 my-4>Кресла</h4>
 			<div class = "products_container" id='products_container'>
 				
 					${htmlProducts}
 				
 			</div>
 		`;
-		ROOT_PRODUCTS.innerHTML = html;
+		ROOT_PRODUCTS_K1R.innerHTML = html;
 		}
 	}
 
-const productsPage = new Products();
+const productsPage_k1r = new Products_k1r();

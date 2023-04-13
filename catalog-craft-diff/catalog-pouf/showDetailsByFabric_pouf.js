@@ -1,27 +1,23 @@
 /* Change it! */
-
-function showDetails(event){
+function showDetailsByFabric_pouf(event){
 	
 /* get SKU of product by the CLICK */
  	const clickedElement = event.currentTarget;
   	const currentSKU = clickedElement.id;
-  	
+  	console.log(`Clicked element ID: ${currentSKU}`);
+
 /* compare the clicked SKU with all SKUs in [] */
-   	for (let i = 0; i < CATALOG.length; ++i) {		
-		if (CATALOG[i].sku == currentSKU){
+   	for (let i = 0; i < CATALOG_POUF.length; ++i) {
+	  	if (CATALOG_POUF[i].sku == currentSKU){
 
 /* create a new var with all info about the match sku */
-  			let productAllDetails = CATALOG[i];
+  			let productAllDetails = CATALOG_POUF[i];
   			console.log(productAllDetails);
 
-/*remove current html */
-  			var allProducts = document.getElementById('goods_show');
-  			allProducts.remove();
-
-/* define vars */
+ /* define vars */
   			let sku = productAllDetails.sku;
-  			let model = productAllDetails.model;
   			let category = productAllDetails.category;
+  			let model = productAllDetails.model;
   			let fabric_type = productAllDetails.fabric_type;
   			let fabric_name = productAllDetails.fabric_name;
   			let product_name = productAllDetails.product_name;
@@ -64,13 +60,22 @@ function showDetails(event){
   			let product_fabric_about = productAllDetails.product_fabric_about;
   			let product_fabric_img = productAllDetails.product_fabric_img;
 
+/* remove current html */
+  		/*var oldProduct = document.getElementById('goods_details_arm');
+  		console.log(oldProduct);
+  		oldProduct.remove();*/
+
 /* render new html about the single product */
-  			document.getElementById('goods_details').innerHTML = 
+  		let anotherProduct = document.createElement("div");
+  		anotherProduct.id = 'goods_details_pouf';
+  		let placeHere = document.getElementById('spinner_pouf');
+		placeHere.append(anotherProduct);
+		document.getElementById('goods_details_pouf').innerHTML =
 			`
 <div id='${sku}' class='sku'>
 	<!-- Desctop -->
 	<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-		<div class='thin ms-4'><a href='http://decona.ru/products/'>Продукция</a>
+		<div class='thin ms-4'><a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/category-armchair/'>Пуфы</a>
 		</div>
 
 		<div class='row'>
@@ -81,15 +86,15 @@ function showDetails(event){
 		    	</center>
 			<!-- fabric buttons -->
 				<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-			    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric_pouf(event);'>
 				
-			    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric_pouf(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var' id='${category}_pixel_forest' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric_pouf(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var' id='${category}_cambridge_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_CAMBRIDGE_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric_pouf(event);'>
 			    
-				    <img class='slide-fabric-button fabric-var' id='${category}_velutto_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png" onClick ='showDetailsByFabric(event);'>
+				    <img class='slide-fabric-button fabric-var' id='${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png" onClick ='showDetailsByFabric_pouf(event);'>
 				</div>
 				<div class='ms-4'>
 					<img class = 'is_new_icon' src='${is_new}'>
@@ -155,13 +160,13 @@ function showDetails(event){
 		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
 	    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
 		
-	    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
 	    
-	    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
+	    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
 	    
-	    	<img class='slide-fabric-button fabric-var' id='${category}_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${model}_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
 	    
-		    <img class='slide-fabric-button fabric-var' id='${category}_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>	
+		    <img class='slide-fabric-button fabric-var' id='${model}_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>	
 		</div>
 
 		<div class='ms-4 d-block d-sm-none'>
@@ -996,10 +1001,11 @@ function showDetails(event){
 	<!-- GRAY RECTANGLES END -->
 	
 </div>
-			`; 
-		} /*else console.log('Check your json!');*/
-	}
+			`;
+		/*console.log(document.getElementById('sofa_details'));*/
+		
+			} else 
+			console.log('Check your json or code!');
+		}
 	showPopOvers();
 }
-
-

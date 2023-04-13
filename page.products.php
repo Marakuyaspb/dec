@@ -6,13 +6,19 @@ Template name: products
 get_header('new'); 
 ?>
 
+<div id="goods_all"></div> 
+<div id="goods_show" class ="products_container"></div> 
+<div id='goods_details'></div>
+
+<div id="spinner"></div> 
+<div id="error"></div> 
 
 <!-- CATEGORIES -->
 <div class="container-fluid mt-2" id='goods_categories'>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
 			<div class='latte_wrap p-4'>
-	  			<a href='http://decona.ru/category-var-content/'>
+	  			<!-- a href='http://decona.ru/category-k1r-system/' -->
 	  				<div class ='pt-3'>
 			  			<p class='major-text'>Модульные системы</h4>
 			  			<p>Конфигурация под любое пространство
@@ -21,9 +27,9 @@ get_header('new');
 		  		</a>
 	  		</div>
 	  	</div>
-	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner">
+	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner" onclick="filterProducts(event);">
 	  		<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/category-var-content/'>
+				<!-- a href='http://decona.ru/category-corner/' -->
 					<div class ='pt-2'>
 			  			<p class='major-text'>Угловые диваны</h4>
 			  			<p>Конфигурация под любое пространство
@@ -34,9 +40,9 @@ get_header('new');
 		</div>
 	</div>
 	<div class='row '>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="strict">
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/corner/'>
+				<!-- a href='#' -->
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Прямые диваны</h4>
 			  			<p>Конфигурация под любое пространство
@@ -45,9 +51,9 @@ get_header('new');
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm" onclick="filterProducts(event);">
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/armchairs/'>
+				<!-- a href='http://decona.ru/category-armchair/' -->
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Кресла</h4>
 			  			<p>Конфигурация под любое пространство
@@ -58,9 +64,9 @@ get_header('new');
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed" >
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/category-var-content/'>
+				<!-- a href='#' -->
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Кровати</h4>
 			  			<p>Конфигурация под любое пространство
@@ -71,7 +77,7 @@ get_header('new');
 		</div>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="table">
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/category-var-content/'>
+				<!-- a href='#' -->
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Столы</h4>
 			  			<p>Конфигурация под любое пространство
@@ -82,9 +88,9 @@ get_header('new');
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf" onclick="filterProducts(event);">
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/category-var-content/'>
+				<!-- a href='http://decona.ru/category-pouf/' -->
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Пуфы</h4>
 			  			<p>Конфигурация под любое пространство
@@ -95,7 +101,7 @@ get_header('new');
 		</div>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="accessory" >
 			<div class='latte_wrap p-4'>
-				<a href='http://decona.ru/category-var-content/'>
+				<!-- a href='#' -->
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Аксессуары</h4>
 			  			<p>Конфигурация под любое пространство
@@ -106,8 +112,7 @@ get_header('new');
 		</div>
 	</div>
 </div>
-
-<!-- div id="goods_show"></div --> 
+ 
 
 <!-- GRAY RECTANGLES START -->
 

@@ -17,6 +17,7 @@ function showDetailsByFabric(event){
  /* define vars */
   			let sku = productAllDetails.sku;
   			let model = productAllDetails.model;
+  			let category = productAllDetails.category;
   			let fabric_type = productAllDetails.fabric_type;
   			let fabric_name = productAllDetails.fabric_name;
   			let product_name = productAllDetails.product_name;
@@ -69,7 +70,7 @@ function showDetailsByFabric(event){
 <div id='${sku}' class='sku'>
 	<!-- Desctop -->
 	<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-		<div class='thin ms-4'><a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/line-sofas/'>Прямые диваны</a>
+		<div class='thin ms-4'><a href='http://decona.ru/products/'>Продукция</a>
 		</div>
 
 		<div class='row'>
@@ -80,15 +81,15 @@ function showDetailsByFabric(event){
 		    	</center>
 			<!-- fabric buttons -->
 				<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-			    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_01' src="http://decona.ru/p-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
 				
-			    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_21' src='http://decona.ru/p-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var' id='${model}_pixel_forest' src= "http://decona.ru/p-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_pixel_forest' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var' id='${model}_cambridge_600' src="http://decona.ru/p-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_cambridge_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
 			    
-				    <img class='slide-fabric-button fabric-var' id='${model}_velutto_32' src="http://decona.ru/p-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png" onClick ='showDetailsByFabric(event);'>
+				    <img class='slide-fabric-button fabric-var' id='${category}_velutto_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png" onClick ='showDetailsByFabric(event);'>
 				</div>
 				<div class='ms-4'>
 					<img class = 'is_new_icon' src='${is_new}'>
@@ -152,15 +153,15 @@ function showDetailsByFabric(event){
         </center>
 
 		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-	    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onClick ='showDetailsByFabric(event);'>
 		
-	    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_08'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onClick ='showDetailsByFabric(event);'>
 	    
-	    	<img class='slide-fabric-button fabric-var' id='${model}_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
+	    	<img class='slide-fabric-button fabric-var' id='${category}_jazz_21' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onClick ='showDetailsByFabric'>
 	    
-	    	<img class='slide-fabric-button fabric-var' id='${model}_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${category}_velutto_16' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onClick ='showDetailsByFabric(event);'>
 	    
-		    <img class='slide-fabric-button fabric-var' id='${model}_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>	
+		    <img class='slide-fabric-button fabric-var' id='${category}_velutto_32' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onClick ='showDetailsByFabric(event);'>	
 		</div>
 
 		<div class='ms-4 d-block d-sm-none'>

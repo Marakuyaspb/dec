@@ -257,6 +257,11 @@ a .icon-header:hover{
 }
 
 
+#goods_all{
+	display: none;
+}
+
+
 
 
 /* Different buttons */
