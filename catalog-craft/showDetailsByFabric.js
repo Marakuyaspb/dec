@@ -10,6 +10,10 @@ function showDetailsByFabric(event){
    	for (let i = 0; i < CATALOG.length; ++i) {
 	  	if (CATALOG[i].sku == currentSKU){
 
+/*remove current html */
+  			var currProduct = document.getElementById('goods_details');
+  			currProduct.remove();
+
 /* create a new var with all info about the match sku */
   			let productAllDetails = CATALOG[i];
   			console.log(productAllDetails);
@@ -912,89 +916,6 @@ function showDetailsByFabric(event){
 	<div class='container-fluid big-fields-content mt-4'>
 		<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
 	</div>
-
-	
-	<!-- GRAY RECTANGLES START -->
-
-	<!-- DESKTOP -->
-	<div class='container-fluid mb-5 d-none d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
-		<div class='row'>
-			<div class ='col-md-4 rectangle latte_bg'> <!-- #F6F1EE -->
-				<div class='bottom-align'>
-					<h2 class='rect-card ps-4'>Каталог</h2>
-					<h2 class='ps-4'>2023</h2>
-					<a href='#' class='ms-4'><button class='btn-outline-gray'>Скачать каталог</button></a>
-				</div>
-			</div>
-			<div class ='col-md-4 rectangle dark-gray'> <!-- #50504E -->
-				<div class='bottom-align'>
-					<h2 class='white rect-card ps-4'>Свяжитесь</h2>
-					<h2 class='white ps-4'>с нами</h2>
-					<a href='#' class='ms-4'><button class='btn-outline-white'>Обратная связь</button></a>
-				</div>
-			</div>
-			<div class ='col-md-4 rectangle middle-gray ps-4'><!-- #CDCECF -->
-				<div class='bottom-align'>
-					<h2 class='rect-card ms-4'>Все акции и спецпредложения</h2>
-					<a href='#' class='ms-4'><button class='btn-outline-gray'>Все акции</button></a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- TABLET -->
-	<div class='container-fluid pt-5 d-none d-sm-block d-md-block d-lg-none' id='tablet-show'>
-		<div class='row'>
-			<div class ='col-md-4 rectangle latte_bg'> <!-- #F6F1EE -->
-				<div class='bottom-align'>
-					<h3 class='rect-card ps-4'>Каталог</h3>
-					<h3 class='ps-4'>2023</h3>
-					<a href='#' class='ms-4'><button class='btn-outline-gray'>Скачать каталог</button></a>
-				</div>
-			</div>
-			<div class ='col-md-4 rectangle dark-gray'> <!-- #50504E -->
-				<div class='bottom-align'>
-					<h3 class='white rect-card ps-4'>Свяжитесь</h3>
-					<h3 class='white ps-4'>с нами</h3>
-					<a href='#' class='ms-4'><button class='btn-outline-white'>Обратная связь</button></a>
-				</div>
-			</div>
-			<div class ='col-md-4 rectangle middle-gray ps-4'><!-- #CDCECF -->
-				<div class='bottom-align'>
-					<h3 class='rect-card ps-4'>Все акции и спецпредложения</h3>
-					<a href='#' class='ms-4'><button class='btn-outline-gray'>Все акции</button></a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- PHONE -->
-	<div class='container-fluid pt-5 d-block d-sm-none' id='phone-show'>
-		<div class='row'>
-			<div class ='col-md-4 rectangle latte_bg'> <!-- #F6F1EE -->
-				<div class='bottom-align'>
-					<h3 class='rect-card ps-2'>Каталог</h3>
-					<h3 class='ps-2'>2023</h3>
-					<a href='#' class='ms-2'><button class='btn-outline-gray'>Скачать каталог</button></a>
-				</div>
-			</div>
-			<div class ='col-md-2 rectangle dark-gray'> <!-- #50504E -->
-				<div class='bottom-align'>
-					<h3 class='white rect-card ps-2'>Свяжитесь</h3>
-					<h3 class='white ps-2'>с нами</h3>
-					<a href='#' class='ms-2'><button class='btn-outline-white'>Обратная связь</button></a>
-				</div>
-			</div>
-			<div class ='col-md-4 rectangle middle-gray ps-2'><!-- #CDCECF -->
-				<div class='bottom-align'>
-					<h3 class='rect-card ms-2'>Все акции и спецпредложения</h3>
-					<a href='#' class='ms-2'><button class='btn-outline-gray'>Все акции</button></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- GRAY RECTANGLES END -->
-	
 </div>
 			`;
 		/*console.log(document.getElementById('sofa_details'));*/
