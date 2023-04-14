@@ -7,9 +7,11 @@ function filterProducts(event){
   	goodsCats.remove();
 
   	let categoryForShow = document.getElementsByClassName(currentCat);
+  	console.log(categoryForShow);
   	let filteredContent = document.getElementById('goods_show');
 
   	for (let i = 0; i < categoryForShow.length; i++) {
+  		console.log(categoryForShow);
   	filteredContent.appendChild(categoryForShow[i]);
 	};
 }
