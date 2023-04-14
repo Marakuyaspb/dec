@@ -920,5 +920,3 @@ function showDetails(event){
 	showPopOvers();
 	adaptationWidth();
 }
-
-
