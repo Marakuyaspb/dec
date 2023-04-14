@@ -78,12 +78,12 @@ function showDetailsByFabric(event){
 		</div>
 
 		<div class='row'>
-			<div class='col-md-8'>
+			<div class='${category}' id='content_left'>
 				<p class='h-center'>${product_name}</p>
 				<center>
 		      	<p class='fabric-name pt-4'>Ткань: ${fabric_name}
 		    	</center>
-			<!-- fabric buttons -->
+				<!-- fabric buttons -->
 				<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
 			    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
 				
@@ -100,7 +100,7 @@ function showDetailsByFabric(event){
 					<img class = 'available_icon' src='${available_in_showroom}'> 
 					<img class = 'available_icon'src='${available_for_delivery_2}'>
 				</div>
-			<!-- slider with product -->
+				<!-- slider with product -->
 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn-bottom carousel-goods" aria-current="true" aria-label="Slide 1"></button>
@@ -139,7 +139,7 @@ function showDetailsByFabric(event){
 				</div>    
 			</div>
 
-			<div class='col-md-4 no-padding-right'>
+			<div id='content_right' class='no-padding-right'>
 				<img class='img-fluid banner' src='${right_sofa_piece}'>
 			</div>
 		</div>
@@ -924,4 +924,5 @@ function showDetailsByFabric(event){
 			console.log('Check your json or code!');
 		}
 	showPopOvers();
+	adaptationWidth();
 }

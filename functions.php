@@ -644,6 +644,7 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'catalog_change_fabric', get_template_directory_uri() . '/catalog-craft/showDetailsByFabric.js', array(), 'null', true );
 	wp_enqueue_script( 'push_sku_in_form', get_template_directory_uri() . '/catalog-craft/pushSKUinForm.js', array(), 'null', true );
 	wp_enqueue_script( 'filter_products', get_template_directory_uri() . '/catalog-craft/filterProducts.js', array(), 'null', true );
+	wp_enqueue_script( 'adaptation_width', get_template_directory_uri() . '/assets/js/adaptationWidth.js', array(), 'null', true );
 
 	
 
