@@ -11,11 +11,13 @@ get_header();
 	<div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
 		<div class="main-head-slider">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
 				 <div class="carousel-indicators">
 				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 				    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 				 </div>
+
 			 	<div class="carousel-inner">
 			 		 <div class="carousel-item active">
 				      	<img src="http://decona.ru/wp-content/uploads/2023/03/Untitled-4-1.png" class="d-block w-100" alt="...">
@@ -27,6 +29,13 @@ get_header();
 				      	<img src="http://decona.ru/wp-content/uploads/2023/01/004_Post_LightMix-Interactive-copy-scaled.jpg" class="d-block w-100" alt="...">
 				    </div>
 			  </div>
+
+				<div class="ps-5 over-slider">
+					<h1 class="white">BASE</h1>
+					<p class="white mb-5 major-text">Модульная система</p>
+					<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>
+				</div>
+
 			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			    <span class="visually-hidden">Previous</span>
@@ -35,15 +44,13 @@ get_header();
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			    <span class="visually-hidden">Next</span>
 			  </button>
+
 			</div>
 
-			<div class="ps-5 over-slider">
-				<h1 class="white">BASE</h1>
-				<h5 class="white">Модульная система</h5>
-				<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white'>Подробнее</button></a>
-			</div>
+		
 		</div>
 	</div>
+
 	<!-- TABLET & PHONE -->
 	<div class='pt-5 d-block d-md-none ' id='tablet-show'>
 	<div class="main-head-slider">
@@ -70,7 +77,7 @@ get_header();
 		  </div>
 		</div>
 
-		<div class="ps-3 over-slider====">
+		<div class="over-slider-mobile">
 			<h1 class="white">BASE</h1>
 			<p class="white">Модульная система</p>
 			<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white'>Подробнее</button></a>
@@ -78,13 +85,14 @@ get_header();
 	</div>
 	</div>
 <!-- General slider end -->
+<div class="pt-4">
+	<div id="goods_all"></div> 
+	<div id="goods_show" class ="products_container"></div> 
+	<div id='goods_details'></div>
 
-<div id="goods_all"></div> 
-<div id="goods_show" class ="products_container"></div> 
-<div id='goods_details'></div>
-
-<div id="spinner"></div> 
-<div id="error"></div> 
+	<div id="spinner"></div> 
+	<div id="error"></div> 
+</div>
 
 <!-- CATEGORIES -->
 <div class="container-fluid mt-2" id='goods_categories'>

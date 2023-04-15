@@ -274,9 +274,22 @@ a .icon-header:hover{
 	width: 10rem;
 	line-height: 1;
 	padding: .5em;
-	margin-top: 3rem;
+	/*margin-top: 3rem;*/
 	z-index: 5;
 }
+.btn-outline-white-main-slider{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff!important;
+	font-size: 1.125rem;
+	height: 3rem;
+	width: 12rem;
+	line-height: 1;
+	padding: .5em;
+	z-index: 5;
+	margin-bottom: .5em;
+}
+
 .btn-outline-gray{
 	background-color: transparent;
 	border: 1px solid #5E5B5B;
@@ -286,7 +299,7 @@ a .icon-header:hover{
 	width: 10rem;
 	line-height: 1;
 	padding: .5em;
-	margin-top: 3rem;
+	/*margin-top: 3rem;*/
 	z-index: 5;
 }
 .btn-outline-gray:hover{
@@ -357,16 +370,16 @@ a .icon-header:hover{
 }
 
 .carousel-control-prev-icon{
-	background-image: url("http://decona.ru/wp-content/uploads/2023/03/prev.png")!important;
-	padding-top: 4em;
+	background-image: url("http://decona.ru/wp-content/uploads/goods_pics/prev.svg")!important;
+	padding-top: 3.6em;
 	margin-top: auto;
-	margin-bottom: 2em;
+	margin-bottom: .5;
 }
 .carousel-control-next-icon{
-	background-image: url("http://decona.ru/wp-content/uploads/2023/03/next.png")!important;
-	padding-top: 4em;
+	background-image: url("http://decona.ru/wp-content/uploads/goods_pics/next.svg")!important;
+	padding-top: 3.6em;
 	margin-top: auto;
-	margin-bottom: 2em;
+	margin-bottom: .5;
 }
 .control-prev .control-next {
   position: absolute;
@@ -387,7 +400,24 @@ a .icon-header:hover{
   transition: opacity .15s ease;
 }
 
+.carousel-indicators [data-bs-target] {
+	/*background-color: #737171!important;*/
+	background-color: #ebeced!important;
+	opacity: .2!important;
+	width: 0.75em!important;
+	height: 0.75em!important;
+	border-radius: 50%!important;
+}
+.carousel-indicators [data-bs-target] .active {
+	opacity: .6!important;
+}
 
+.carousel-indicators [data-bs-target]:hover {
+	opacity: .6!important;
+}
+.carousel-indicators [data-bs-target]:active {
+	opacity: .6!important;
+}
 
 /* Static page cover */
 
@@ -409,18 +439,26 @@ a .icon-header:hover{
 .img-cover{
 	min-width: 100%!important;
 }
-.carousel-btn-bottom{
+/*.carousel-btn-bottom{
 	background-color: #fff !important;
 	opacity: .2!important;
 	width: 0.75em!important;
 	height: 0.75em!important;
 	border-radius: 50%!important;
-}
+}*/
 
 .over-slider{
 	z-index: 5!important;
 	position: relative;
 	margin-top: -19em;
+	margin-bottom: 3em;
+	margin-left: 10em;
+}
+
+.over-slider-mobile{
+	z-index: 5!important;
+	position: relative;
+	margin-top: -15em;
 	margin-bottom: 4em;
 }
 
@@ -467,9 +505,9 @@ a .icon-header:hover{
 }
 
 .spinner-container {
-    position: fixed;
-    top: 0;
-    left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
 	display: flex;
 	width: 100%;
 	height: 100vh;

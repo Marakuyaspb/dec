@@ -22,6 +22,7 @@ function showDetailsByFabric(event){
   			let sku = productAllDetails.sku;
   			let model = productAllDetails.model;
   			let category = productAllDetails.category;
+  			let category_ru = productAllDetails.category_ru;
   			let fabric_type = productAllDetails.fabric_type;
   			let fabric_name = productAllDetails.fabric_name;
   			let product_name = productAllDetails.product_name;
@@ -74,7 +75,8 @@ function showDetailsByFabric(event){
 <div id='${sku}' class='sku'>
 	<!-- Desctop -->
 	<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-		<div class='thin ms-4'><a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a>
+		<div class='thin ms-4'>
+			<a href='http://decona.ru'>Продукция</a> / ${category_ru}
 		</div>
 
 		<div class='row'>

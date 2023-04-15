@@ -21,6 +21,7 @@ function showDetails(event){
 /* define vars */
   			let sku = productAllDetails.sku;
   			let model = productAllDetails.model;
+  			let category_ru = productAllDetails.category_ru;
   			let category = productAllDetails.category;
   			let fabric_type = productAllDetails.fabric_type;
   			let fabric_name = productAllDetails.fabric_name;
@@ -71,7 +72,7 @@ function showDetails(event){
 	<!-- Desctop -->
 	<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 		<div class='thin ms-4'>
-		<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a>
+			<a href='http://decona.ru'>Продукция</a> / ${category_ru}
 		</div>
 
 		<div class='row'>
