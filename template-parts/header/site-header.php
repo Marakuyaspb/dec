@@ -14,7 +14,7 @@
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul class='navbar-nav'>
             <li class='nav-item'>
-              <a class='nav-link white' aria-current='page' href='http://decona.ru/products/'>Продукция</a>
+              <a class='nav-link' aria-current='page' href='http://decona.ru/'>Продукция</a>
             </li>
             <li class='nav-item'>
               <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>

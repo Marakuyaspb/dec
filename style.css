@@ -5580,7 +5580,7 @@ h1.page-title {
 	background-color: transparent;
 	color: #9F8A88;
 	border: 1.5px solid #9F8A88!important;
-	max-width: inherit;
+	max-width: 15em;
 	margin-top: calc(var(--global--spacing-vertical) / 3);
 	margin-right: calc(0.66 * var(--global--spacing-horizontal));
 }

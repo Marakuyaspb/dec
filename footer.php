@@ -31,11 +31,15 @@
                 <h1 class='pb-1'>Decona</h1>
                 <p class='small py-2'>decona@info.ru</p>
                 <p class='pb-5'>8 800 500 13 72</p>
-
-                <form role="search" method="get" class="search-form" action="http://decona.ru/">
-                    <input type="search" id="search-form-1" class="search-field" value="" name="s" placeholder="Поиск">
-                    <input type="submit" class="search-submit" value="Искать">
-                </form>
+                <div class="d-flex justify-content-end">
+                    <div></div>
+                    <div>
+                    <form role="search" method="get" class="search-form" action="http://decona.ru/">
+                        <input type="search" id="search-form-1" class="search-field" value="" name="s" placeholder="Поиск">
+                        <input type="submit" class="search-submit" value="Искать">
+                    </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
