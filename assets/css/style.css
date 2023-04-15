@@ -318,16 +318,29 @@ a .icon-header:hover{
 	background-color: #9F8A88!important;
 	border: none!important;	
 	font-size: 1.3em;
+	line-height: 1.1;
 	margin: 0!important;
+	height: 2.4em;
 }
 .btn-prod-card:hover {
 	background-color: #5c4745!important;
-	border: none!important;
-	font-size: 1.3em;
-	margin: 0!important;
 	transition: background-color 1s linear;
 }
 
+.btn-prod-card_mob {
+	font-size: 1.4em;
+	line-height: 1.4;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.prod-card-table-row{
+	line-height: 1em!important;
+}
+.rel_pos{
+  margin-top: auto;
+	margin-bottom: 0px; 
+  }
 
 /* INFO CARDS */
 .rectangle {
@@ -346,10 +359,14 @@ a .icon-header:hover{
 .carousel-control-prev-icon{
 	background-image: url("http://decona.ru/wp-content/uploads/2023/03/prev.png")!important;
 	padding-top: 4em;
+	margin-top: auto;
+	margin-bottom: 2em;
 }
 .carousel-control-next-icon{
 	background-image: url("http://decona.ru/wp-content/uploads/2023/03/next.png")!important;
 	padding-top: 4em;
+	margin-top: auto;
+	margin-bottom: 2em;
 }
 .control-prev .control-next {
   position: absolute;
@@ -395,7 +412,11 @@ a .icon-header:hover{
 .carousel-btn-bottom{
 	background-color: #fff !important;
 	opacity: .2!important;
+	width: 0.75em!important;
+	height: 0.75em!important;
+	border-radius: 50%!important;
 }
+
 .over-slider{
 	z-index: 5!important;
 	position: relative;
@@ -409,7 +430,8 @@ a .icon-header:hover{
 .products_container {
   display: grid;
   grid-gap: 25px;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  /*grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));*/
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
   width: 96%;
   margin-left: auto;
 	margin-right: auto;
@@ -470,19 +492,25 @@ a .icon-header:hover{
 
 /* PRODUCNT CARD */
 
-.carousel-btn-bottom .carousel-goods {
+.carousel-goods {
 	background-color: #737171!important;
 	width: 0.75em!important;
 	height: 0.75em!important;
 	border-radius: 50%!important;
 	opacity: .2!important;
 }
+.carousel-goods:hover{
+	opacity: .6!important;
+}
+.carousel-goods:active{
+	opacity: .6!important;
+}
 
 .sofa-legs{
 	max-width: 20em;
 }
 .fabric-var{
-	width: 1.375em;
+	width: 1.6em;
 }
 .fabric-name{
 	font-size: 1em;
@@ -490,7 +518,7 @@ a .icon-header:hover{
 .h-center {
 	color: #9F8A88!important;
 	font-family: 'ALS Hauss Book', Georgia, serif!important;
-	font-size: 3em;
+	font-size: 2.7em;
 	text-align: center!important;
 }
 
@@ -511,6 +539,10 @@ a .icon-header:hover{
 	text-decoration: line-through;
 }
 
+.price_cat_page{
+	text-decoration: line-through;
+}
+
 .accordion-item{
 	border: none!important;
 }
@@ -521,11 +553,11 @@ a .icon-header:hover{
 
 .available_icon{
 	width: 4.250em;
-	padding-top: 1.875em;
+	padding-top: .5em;
 }
 .is_new_icon {
 	width: 4em;
-	padding-top: 1.875em;
+	padding-top: .5em;
 }
 
 

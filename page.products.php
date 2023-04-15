@@ -19,7 +19,7 @@ get_header('new');
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
 			<div class='latte_wrap p-4'>
 	  			<!-- a href='http://decona.ru/category-k1r-system/' -->
-	  				<div class ='pt-3'>
+	  				<div class ='pt-5'>
 			  			<p class='major-text'>Модульные системы</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
@@ -27,18 +27,21 @@ get_header('new');
 		  		</a>
 	  		</div>
 	  	</div>
+
 	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner" onclick="filterProducts(event);">
 	  		<div class='latte_wrap p-4'>
 				<!-- a href='http://decona.ru/category-corner/' -->
-					<div class ='pt-2'>
+					<div class ='pt-5'>
 			  			<p class='major-text'>Угловые диваны</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Naples-copy.png">
+	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Naples-copy-1568x784.png">
 				</a>
 			</div>
 		</div>
+	  	
 	</div>
+
 	<div class='row '>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="strict">
 			<div class='latte_wrap p-4'>
