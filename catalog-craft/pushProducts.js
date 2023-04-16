@@ -10,22 +10,34 @@ class Products {
 			
 			htmlProducts += `
 			
-			<div class = "product_card sku ${category} p-4" id='${sku}' onClick='showDetails(event);'>
+			<div class = "product_card p-2 sku ${category}" id='${sku}' onClick='showDetails(event);'>
 
-					<div class = 'd-flex justify-content-between'>
-						<h3 class='product_card_header'>${product_name}</h3>
+				<div class = 'd-flex justify-content-between mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+					<h3 class='product_card_header'>${product_name}</h3>
+				
 					<div>
 						<img class = 'is_new_icon' src='${is_new}'>
 						<img class = 'available_icon' src='${available_in_showroom}'> 
 						<img class = 'available_icon'src='${available_for_delivery_2}'>
-						</div>
 					</div>
+				</div>
+					
 
-					<center class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+				<div class='d-flex justify-content-between mt-5 d-block d-md-none'>
+					<h3 class='product_card_header'>${product_name}</h3>
+					<div>
+						<img class = 'is_new_icon_mobile' src='${is_new}'>
+						<img class = 'available_icon_mobile' src='${available_in_showroom}'> 
+						<img class = 'available_icon_mobile'src='${available_for_delivery_2}'>
+					</div>
+				</div>
+				
+
+					<center class='mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 						<img src="${product_img}" class="img-fluid product_img_under">
 					</center>
 
-					<center class='container-fluid mt-5 d-block d-md-none'>
+					<center class='mt-5 d-block d-md-none'>
 						<img src="${product_img_mob}" class="img-fluid product_img_under">
 					</center>
 
@@ -33,11 +45,12 @@ class Products {
 						<div class='cacao'>В наличии</div>
 						<div class='old-price_cat_page'>${price} ₽</div>
 					</div>
+
 					<div class = 'd-flex justify-content-between'>
 						<div class='cacao'>${prod_width}×${prod_depth}×${prod_height}</div>
 						<div class='cacao price_cat_page'>${price_sale} ₽</div>
 					</div>
-				</div>
+				
 
 			</div>
 			`;

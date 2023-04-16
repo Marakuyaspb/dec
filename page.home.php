@@ -30,11 +30,7 @@ get_header();
 				    </div>
 			  </div>
 
-				<div class="ps-5 over-slider">
-					<h1 class="white">BASE</h1>
-					<p class="white mb-5 major-text">Модульная система</p>
-					<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>
-				</div>
+				
 
 			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -47,7 +43,12 @@ get_header();
 
 			</div>
 
-		
+			<div class="ps-5 over-slider">
+				<h1 class="white">BASE</h1>
+				<p class="white ms-2 mb-5 major-text">Модульная система</p>
+				<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>
+			</div>
+	
 		</div>
 	</div>
 
@@ -79,7 +80,7 @@ get_header();
 
 		<div class="over-slider-mobile">
 			<h1 class="white">BASE</h1>
-			<p class="white">Модульная система</p>
+			<p class="white ms-2">Модульная система</p>
 			<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white'>Подробнее</button></a>
 		</div>
 	</div>

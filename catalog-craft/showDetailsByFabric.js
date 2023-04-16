@@ -4,7 +4,7 @@ function showDetailsByFabric(event){
 /* get SKU of product by the CLICK */
  	const clickedElement = event.currentTarget;
   	const currentSKU = clickedElement.id;
-  	console.log(`Clicked element ID: ${currentSKU}`);
+  	//console.log(`Clicked element ID: ${currentSKU}`);
 
 /* compare the clicked SKU with all SKUs in [] */
    	for (let i = 0; i < CATALOG.length; ++i) {
@@ -16,7 +16,7 @@ function showDetailsByFabric(event){
 
 /* create a new var with all info about the match sku */
   			let productAllDetails = CATALOG[i];
-  			console.log(productAllDetails);
+  			//console.log(productAllDetails);
 
  /* define vars */
   			let sku = productAllDetails.sku;
@@ -98,14 +98,14 @@ function showDetailsByFabric(event){
 
 				    <img class='slide-fabric-button fabric-var' id='${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
 				</div>
-				<div class='ms-4'>
+				<div class='d-flex flex-row ms-4 card_icons'>
 					<img class = 'is_new_icon' src='${is_new}'>
 					<img class = 'available_icon' src='${available_in_showroom}'> 
 					<img class = 'available_icon'src='${available_for_delivery_2}'>
 				</div>
 
 				<!-- slider with product -->
-				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-btn-bottom carousel-goods" aria-current="true" aria-label="Slide 1"></button>
 					    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom carousel-goods" aria-label="Slide 2"></button>
@@ -667,7 +667,7 @@ function showDetailsByFabric(event){
 		                <h4>Основные</h4>
 		                <div class='container'>
 							<div class='row'>
-								<div class='col-md-6 col-sm-12'>
+								<div class='col-md-5 col-sm-12'>
 									<table class='prod-card-table'>
 										<tr>
 											<td>
@@ -695,7 +695,8 @@ function showDetailsByFabric(event){
 										</tr>
 									</table>
 								</div>
-								<div class='col-md-6 col-sm-12'>
+								<div cass='col d-md-block d-none'></div>
+								<div class='col-md-5 col-sm-12'>
 									<table class='prod-card-table'>
 										<tr>
 											<td>
@@ -723,7 +724,7 @@ function showDetailsByFabric(event){
 										</tr>
 									</table>
 								</div>
-								<p>Конструктивные особенности: ${features}
+								<p class='mt-2'>Конструктивные особенности: ${features}
 							</div>
 						</div>
 		        	</div>

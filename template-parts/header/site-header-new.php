@@ -71,7 +71,9 @@
   <div class="desctop-menu">
     
       <div class="ps-4">
-        <a class='navbar-brand' href='http://decona.ru'>Decona</a>
+        <a class='navbar-brand white' href='http://decona.ru'>
+            <img src="http://decona.ru/wp-content/uploads/logo/DECONA_logo.svg">
+          </a>
       </div>
     
       <div class='pt-2 desctop-menu to-center'>
