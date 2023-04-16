@@ -78,7 +78,7 @@
 
     
       <div class='pt-2 desctop-menu to-center'>
-        <a class='nav-link white' aria-current='page' href='http://decona.ru/products/'>Продукция</a>
+        <a class='nav-link white' aria-current='page' href='http://decona.ru/'>Продукция</a>
           <p class='white top-string major-text'>|</p>
         <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
           <p class='white top-string major-text'>|</p>

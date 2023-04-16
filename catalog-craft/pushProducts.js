@@ -10,7 +10,7 @@ class Products {
 			
 			htmlProducts += `
 			
-			<div class = "product_card p-2 sku ${category}" id='${sku}' onClick='showDetails(event);'>
+			<div class = "product_card p-4 sku ${category}" id='${sku}' onClick='showDetails(event);'>
 
 				<div class = 'd-flex justify-content-between mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 					<h3 class='product_card_header'>${product_name}</h3>
@@ -59,7 +59,7 @@ class Products {
 			const html = `
 			<div class='thin ms-5'><a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a>
 					</div>
-			<div class = "products_container" id='products_container'>
+			
 				
 					${htmlProducts}
 				
