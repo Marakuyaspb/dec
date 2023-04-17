@@ -57,6 +57,7 @@ p {
 .thin {
 	font-family: 'ALS Hauss Thin'!important;
 	font-size: 1em!important;
+	margin-bottom: -1.5em;
 }
 .major-text {
 	font-size: 1.5em;

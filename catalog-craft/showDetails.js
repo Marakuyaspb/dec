@@ -14,9 +14,29 @@ function showDetails(event){
   			let productAllDetails = CATALOG[i];
   			//console.log(productAllDetails);
 
-/*remove current html */
+/* remove current html */
   			var allProducts = document.getElementById('goods_show');
   			allProducts.remove();
+
+/* remove slider */
+  			var mainHeadSlider = document.getElementById('desctop-show');
+  			mainHeadSlider.remove();
+
+/* change text&icons color in the menu */
+  			let logo = document.getElementsByClassName("navbar-brand");
+  			for (var i_1 = 0; i_1 < logo.length; i_1++) {
+    			logo[i_1].classList.remove("white");
+    		};
+
+    		let nl = document.getElementsByClassName('nav-link');
+    		for (var i_2 = 0; i_2 < nl.length; i_2++) {
+    			nl[i_2].classList.remove("white");
+    		};
+
+    		let ih = document.getElementsByClassName('icon-header');
+    		for (var i_3 = 0; i_3 < ih.length; i_3++) {
+    			ih[i_3].classList.remove("white");
+    		};
 
 /* define vars */
   			let sku = productAllDetails.sku;
@@ -70,8 +90,8 @@ function showDetails(event){
 			`
 <div id='${sku}' class='sku'>
 	<!-- Desctop -->
-	<div class='container-fluid mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-		<div class='thin ms-4'>
+	<div class='container-fluid ms-4 mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+		<div class='thin'>
 			<a href='http://decona.ru'>Продукция</a> / ${category_ru}
 		</div>
 
@@ -354,7 +374,7 @@ function showDetails(event){
 										</tr>
 									</table>
 
-									<button class="btn-outline-gray">Вся коллекция</button>
+									<!-- button class="btn-outline-gray">Вся коллекция</button -->
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
@@ -634,7 +654,7 @@ function showDetails(event){
 										</tr>
 									</table>
 
-									<button class="btn-outline-gray">Вся коллекция</button>
+									<!-- button class="btn-outline-gray">Вся коллекция</button -->
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
@@ -910,7 +930,7 @@ function showDetails(event){
 	</div> 
 	<div class='container-fluid ms-4 mt-4'>
 		<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
-		<button class="btn-outline-gray my-2">Вся коллекция</button>
+		<!-- button class="btn-outline-gray my-2">Вся коллекция</button>
 	</div>	
 </div>
 			`; 
