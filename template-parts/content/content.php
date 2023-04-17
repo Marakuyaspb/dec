@@ -8,9 +8,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<div class='main-head-slider'>
-			<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
-		</div>
+		
 		<?php if ( is_singular() ) : ?>
 			<?php the_title( '<h1 class="entry-title big-fields-content">', '</h1>' ); ?>
 		<?php else : ?>

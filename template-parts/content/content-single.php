@@ -9,11 +9,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header alignwide">
-		<div class='main-head-slider'>
-			<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+		<div class="big-fields-content">
+			<?php the_title( '<h2 class="my-5">', '</h2>' ); ?>
+			<?php twenty_twenty_one_post_thumbnail(); ?>
 		</div>
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<?php twenty_twenty_one_post_thumbnail(); ?>
 	</header><!-- .entry-header -->
 
 	<div class="big-fields-content">
