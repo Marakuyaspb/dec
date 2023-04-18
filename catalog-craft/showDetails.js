@@ -498,28 +498,13 @@ function showDetails(event){
 		        </h2>
 		        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 		            <div class="accordion-body">
-		            	<div class='container-fluid'>
-			                <p>Массив дуба - природный материал в неповторимым рисунком
-			                <p class='cacao small-text'>В вашем изделии узор будет уникальным и может отличаться отпредставленных
-						</div>
-						<div class='container-fluid'>
-							<div class='row'>
-								<div class='col-md-3 col-sm-6'>
-									<p class="major-text">Sand</p>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
-								</div>
-								<div class='col-md-3 col-sm-6'>
-									<p class="major-text">Black</p>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">				 
-								</div>
-								<div class='col-md-3 col-sm-6'>
-									<p class="major-text">Brandy</p>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
-								</div>
-								<div class='col-md-3 col-sm-6'>
-									<p class="major-text">Arctic</p>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
-								</div>
+		            	<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-6 col-sm-12">
+									<p>Стильные конусовидные металлические ножки как тонкий оммаж дизайну славных 1960-х: времени первых шагов человечества в космическом пространстве.
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" alt="..." class="mt-5 w-50">	
+								
+								</div>			 
 							</div>
 		          		</div>
 		        	</div>
@@ -560,6 +545,7 @@ function showDetails(event){
 	<!-- phone -->
 	<div class='d-block d-lg-none'>
 		<div class="accordion" id="accordionExample">
+
 		    <div class="accordion-item"><!-- Описание -->
 		        <h2 class="accordion-header" id="headingOne">
 		            <button class="accordion-button white_bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -774,28 +760,13 @@ function showDetails(event){
 		        </h2>
 		        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 		            <div class="accordion-body">
-		            	<div class='container-fluid'>
-			                <p>Массив дуба - природный материал в неповторимым рисунком
-			                <p class='cacao small-text'>В вашем изделии узор будет уникальным и может отличаться отпредставленных
-						</div>
-						<div class='container-fluid'>
-							<div class='row'>
-								<div class='col-md-3 col-sm-6'>
-									<p class="major-text">Sand</p>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
-								</div>
-								<div class='col-md-3 col-sm-6'>
-									<p class="major-text">Black</p>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">				 
-								</div>
-								<div class='col-md-3 col-sm-6'>
-									<p class="major-text">Brandy</p>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
-								</div>
-								<div class='col-md-3 col-sm-6'>
-									<p class="major-text">Arctic</p>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
-								</div>
+		            	<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-6 col-sm-12">
+									<p>Стильные конусовидные металлические ножки как тонкий оммаж дизайну славных 1960-х: времени первых шагов человечества в космическом пространстве.
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" alt="..." class="mt-5 w-50">	
+								
+								</div>			 
 							</div>
 		          		</div>
 		        	</div>
