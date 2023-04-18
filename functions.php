@@ -618,6 +618,7 @@ function twentytwentyone_the_html_classes() {
 <?php
 add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/assets/css/style.css');
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/assets/css/style.scss');
 	wp_enqueue_style( 'sliderFabricChange', get_template_directory_uri() . '/assets/css/sliderFabricChange.css');
 	wp_enqueue_style( 'animation', get_template_directory_uri() . '/assets/css/animate.min.css');
 
@@ -644,6 +645,7 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'catalog_change_fabric', get_template_directory_uri() . '/catalog-craft/showDetailsByFabric.js', array(), 'null', true );
 	wp_enqueue_script( 'push_sku_in_form', get_template_directory_uri() . '/catalog-craft/pushSKUinForm.js', array(), 'null', true );
 	wp_enqueue_script( 'filter_products', get_template_directory_uri() . '/catalog-craft/filterProducts.js', array(), 'null', true );
+	wp_enqueue_script( 'make_curent_fabric_big', get_template_directory_uri() . '/catalog-craft/makeCurentFabricBig.js', array(), 'null', true );
 	wp_enqueue_script( 'adaptation_width', get_template_directory_uri() . '/assets/js/adaptationWidth.js', array(), 'null', true );
 
 	

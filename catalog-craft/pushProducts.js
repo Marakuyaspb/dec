@@ -12,7 +12,7 @@ class Products {
 			
 			htmlProducts += `
 			
-			<div class = "product_card p-4 sku ${category}" id='${sku}' onClick='showDetails(event);'>
+			<div class = "product_card p-3 sku ${category}" id='${sku}' onClick='showDetails(event);'>
 
 				<div class = 'd-flex justify-content-between mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 					<h3 class='product_card_header'>${product_name}</h3>

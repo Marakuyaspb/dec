@@ -3462,7 +3462,7 @@ table td,
 table th,
 .wp-block-table td,
 .wp-block-table th {
-	padding: calc(0.5 * var(--global--spacing-unit));
+	/*padding: calc(0.5 * var(--global--spacing-unit));*/
 	/*border: 1px solid;*/
 }
 

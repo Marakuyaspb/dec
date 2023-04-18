@@ -22,7 +22,7 @@ function showDetails(event){
   			var mainHeadSlider = document.getElementById('desctop-show');
   			mainHeadSlider.remove();
 
-/* change text&icons color in the menu */
+/* change text & icons color in the menu */
   			let logo = document.getElementsByClassName("navbar-brand");
   			for (var i_1 = 0; i_1 < logo.length; i_1++) {
     			logo[i_1].classList.remove("white");
@@ -84,6 +84,7 @@ function showDetails(event){
   			let features = productAllDetails.features;
   			let product_fabric_about = productAllDetails.product_fabric_about;
   			let product_fabric_img = productAllDetails.product_fabric_img;
+  			let scheme = productAllDetails.scheme;
 
 /* render new html about the single product */
   			document.getElementById('goods_details').innerHTML = 
@@ -238,12 +239,12 @@ function showDetails(event){
 						Заказать
 					</button>
 				</a>
-				<a class='white rel_pos' href='#'>
+				<a class='white rel_pos' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
 					<button class='white btn-prod-card'>
 						3d модель
 					</button>
 				</a>
-				<a class='white rel_pos' href='#'>
+				<a class='white rel_pos' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
 					<button class='white btn-prod-card'>
 						PDF
 					</button>
@@ -264,10 +265,10 @@ function showDetails(event){
 				<a class='to-order white p-2' onClick='pushSKUinForm(event);'>
 					Заказать
 				</a>
-				<a class='white p-2' href='#'>
+				<a class='white p-2' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
 					3d модель
 				</a>
-				<a class='white p-2' href='#'>
+				<a class='white p-2' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
 					PDF
 				</a>
 			</div>
@@ -378,11 +379,9 @@ function showDetails(event){
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img id='' src='http://decona.ru/wp-content/uploads/2023/02/Размеры.jpg' class='img-fluid'>
+									<img id='' src='${scheme}' class='img-fluid'>
 								</div>
-								<div class='col-md-4 col-sm-12'>	
-									<img id='' src='http://decona.ru/wp-content/uploads/2023/02/Механизм.jpg' class='img-fluid'>
-								</div>
+								
 							</div>
 						</div>
 					</div>		
@@ -399,7 +398,7 @@ function showDetails(event){
 		        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 		            <div class="accordion-body">
 		                <h4>Основные</h4>
-		                <div class='container'>
+		                <div class='accordion-padding'>
 							<div class='row'>
 								<div class='col-md-6 col-sm-12'>
 									<table class='prod-card-table'>
@@ -507,19 +506,19 @@ function showDetails(event){
 							<div class='row'>
 								<div class='col-md-3 col-sm-6'>
 									<p class="major-text">Sand</p>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_sand.png" class="card-img-top" alt="...">
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
 								</div>
 								<div class='col-md-3 col-sm-6'>
 									<p class="major-text">Black</p>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Black.png" class="card-img-top" alt="...">				 
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">				 
 								</div>
 								<div class='col-md-3 col-sm-6'>
 									<p class="major-text">Brandy</p>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Brandy.png" class="card-img-top" alt="...">
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
 								</div>
 								<div class='col-md-3 col-sm-6'>
 									<p class="major-text">Arctic</p>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Arctik.png" class="card-img-top" alt="...">
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
 								</div>
 							</div>
 		          		</div>
@@ -537,19 +536,18 @@ function showDetails(event){
 		        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
 		            <div class="accordion-body">
 		            	<div>
-		                	<p>Вы можете заказать как диван с декоративными утяжками на сидении, 
-		                	<p>приспинных подушках и подлокотниках, так и без них
+		                	<p class='mb-2'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё.
 		                	</p>
 		                </div>
 		                <div class='container-fluid'>
 		                	<div class='row'>
 								<div class='ps-5 col-md-6 col-sm-12'>
-									<p>С утяжками
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
+									<p>Декоративные швы снаружи
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg">
 								</div>
 								<div class='pe-5 col-md-6 col-sm-12'>
-									<p>Без утяжек
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
+									<p>Без декоративных швов
+									<img src="wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_NOSEAMS.jpg">
 								</div>
 							</div>
 						</div>
@@ -658,10 +656,7 @@ function showDetails(event){
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img id='' src='http://decona.ru/wp-content/uploads/2023/02/Размеры.jpg' class='img-fluid'>
-								</div>
-								<div class='col-md-4 col-sm-12'>	
-									<img id='' src='http://decona.ru/wp-content/uploads/2023/02/Механизм.jpg' class='img-fluid'>
+									<img id='' src='${scheme}' class='img-fluid'>
 								</div>
 							</div>
 						</div>
@@ -763,8 +758,8 @@ function showDetails(event){
 									<img src="${product_fabric_img}" class='img-fluid'>
 								</div>
 							</div>
-		                	<p>Больше образцов тканей вы можете посмотреть в наших салонах.
-								<a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+		                	<p class='mt-2' >Больше образцов тканей вы можете посмотреть в наших салонах.
+							<a class='my-2' href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
 			          	</div>
 			        </div>
 			    </div>
@@ -787,19 +782,19 @@ function showDetails(event){
 							<div class='row'>
 								<div class='col-md-3 col-sm-6'>
 									<p class="major-text">Sand</p>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_sand.png" class="card-img-top" alt="...">
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
 								</div>
 								<div class='col-md-3 col-sm-6'>
 									<p class="major-text">Black</p>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Black.png" class="card-img-top" alt="...">				 
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">				 
 								</div>
 								<div class='col-md-3 col-sm-6'>
 									<p class="major-text">Brandy</p>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Brandy.png" class="card-img-top" alt="...">
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
 								</div>
 								<div class='col-md-3 col-sm-6'>
 									<p class="major-text">Arctic</p>
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Arctik.png" class="card-img-top" alt="...">
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" class="card-img-top" alt="...">
 								</div>
 							</div>
 		          		</div>
@@ -817,19 +812,18 @@ function showDetails(event){
 		        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
 		            <div class="accordion-body">
 		            	<div>
-		                	<p>Вы можете заказать как диван с декоративными утяжками на сидении, 
-		                	<p>приспинных подушках и подлокотниках, так и без них
+		                	<p>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё.
 		                	</p>
 		                </div>
 		                <div class='container-fluid'>
 		                	<div class='row'>
-								<div class='ps-5 col-md-6 col-sm-12'>
-									<p>С утяжками
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
+								<div class='col-md-6 col-sm-12'>
+									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg">
+									<p class="mt-2 thin">Декоративные швы снаружи
 								</div>
-								<div class='pe-5 col-md-6 col-sm-12'>
-									<p>Без утяжек
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
+								<div class='col-md-6 col-sm-12'>
+									<img src="wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_NOSEAMS.jpg">
+									<p class="mt-2 thin">Без декоративных швов
 								</div>
 							</div>
 						</div>
@@ -840,8 +834,9 @@ function showDetails(event){
 	</div>
 	<!-- the end of accordion part -->
 
-	<!-- Slider with interiors -->
-	<div class='mt-5 banner'>
+
+<!-- Slider with interiors DESCTOP -->
+	<div class='mt-5 banner d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel-btn-bottom active" aria-current="true" aria-label="Slide 1"></button>
@@ -875,7 +870,45 @@ function showDetails(event){
 			  </button>
 		</div>  
 	</div>
-	<!-- Slider end -->
+	<!-- Slider DESCTOP end -->
+
+	<!-- Slider with interiors PHONE & TABLET  -->
+	<div class='mt-3 banner d-block d-md-none'>
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel-btn-bottom active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom" aria-label="Slide 3"></button>
+			     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom" aria-label="Slide 4"></button>
+			</div>
+
+		 	<div class="carousel-inner" onmousemove='showPopOvers();'>
+			    <div class="carousel-item active">
+			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_1_mob.jpg" class="d-block w-100" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_2_mob.jpg" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_3_mob.jpg" alt="...">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_4_mob.jpg" alt="...">
+			    </div>
+			</div>
+
+			 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon pt-5" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			    <span class="carousel-control-next-icon pt-5" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+		</div>  
+	</div>
+	<!-- Slider PHONE end -->
+
 
 	<!-- DESCTOP POP OVER THING START -->
 	<div class='popOverBlock pt-5 d-none d-lg-block d-xl-block d-xxl-block'>
@@ -938,4 +971,5 @@ function showDetails(event){
 	}
 	showPopOvers();
 	adaptationWidth();
+
 }

@@ -10,6 +10,8 @@ get_header();
 	<!-- DESCTOP -->
 	<div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
 		<div class="main-head-slider">
+
+			
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			  <div class="carousel-indicators">
 			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -40,7 +42,7 @@ get_header();
 			<div class="ps-5 over-slider">
 				<h1 class="white">BASE</h1>
 				<p class="white ms-2 mb-5 major-text">Модульная система</p>
-				<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>
+				<a href='http://decona.ru/2023/04/18/great-offer/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>
 			</div>
 	
 		</div>
@@ -201,20 +203,20 @@ get_header();
 				<div class='bottom-align'>
 					<h2 class='rect-card ps-4'>Каталог</h2>
 					<h2 class='ps-4'>2023</h2>
-					<a href='#' class='ms-4'><button class='btn-outline-gray'>Скачать каталог</button></a>
+					<a href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf' class='ms-4'><button class='btn-outline-gray'>Скачать каталог</button></a>
 				</div>
 			</div>
 			<div class ='col-md-4 rectangle dark-gray'> <!-- #50504E -->
 				<div class='bottom-align'>
 					<h2 class='white rect-card ps-4'>Свяжитесь</h2>
 					<h2 class='white ps-4'>с нами</h2>
-					<a href='#' class='ms-4'><button class='btn-outline-white'>Обратная связь</button></a>
+					<a href='http://decona.ru/contact/' class='ms-4'><button class='btn-outline-white'>Обратная связь</button></a>
 				</div>
 			</div>
 			<div class ='col-md-4 rectangle middle-gray ps-4'><!-- #CDCECF -->
 				<div class='bottom-align'>
 					<h2 class='rect-card ms-4'>Все акции и спецпредложения</h2>
-					<a href='#' class='ms-4'><button class='btn-outline-gray'>Все акции</button></a>
+					<a href='http://decona.ru/2023/04/18/great-offer/' class='ms-4'><button class='btn-outline-gray'>Все акции</button></a>
 				</div>
 			</div>
 		</div>
