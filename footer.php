@@ -17,14 +17,14 @@
             </div>
             <div class='col-2 pt-1'>
                 <h4 class='mb-1'>Новости</h4>
-                <p class='small pb-1'><a href='#'>Акции</a></p>
+                <p class='small pb-1'><a href='http://decona.ru/2023/04/18/great-offer/'>Акции</a></p>
                 <p class='small pb-1'><a href='#'>Новости</a></p>
                 <p class='small pb-1'><a href='http://decona.ru/articles/'>Статьи</a></p>
             </div>
             <div class='col-2 pt-1'>
                 <h4 class='mb-1'>О компании</h4>
                 <p class='small pb-1'><a href='#'>Материалы</a></p>
-                <p class='small pb-1'><a href='#'>Салоны</a></p>
+                <p class='small pb-1'><a href='http://decona.ru/showrooms/'>Салоны</a></p>
                 <p class='small pb-1'><a href='#'>Вход для партнеров</a></p>
             </div>
             <div class='col pt-2 text-end'>
@@ -116,7 +116,7 @@
                 </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-                <p class='py-2 small'><a href='#'>Акции</a></p>
+                <p class='py-2 small'><a href='http://decona.ru/2023/04/18/great-offer/'>Акции</a></p>
                 <p class='py-2 small'><a href='#'>Новости</a></p>
                 <p class='py-2 small'><a href='http://decona.ru/articles/'>Статьи</a></p>
             </div>
@@ -130,7 +130,7 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <p class='py-2 small'><a href='#'>Материалы</a></p>
-                <p class='py-2 small'><a href='#'>Салоны</a></p>
+                <p class='py-2 small'><a href='http://decona.ru/showrooms/'>Салоны</a></p>
                 <p class='py-2 small'><a href='#'>Вход для партнеров</a></p>
             </div>
             </div>
@@ -223,7 +223,7 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p class='py-2 small'><a href='#'>Акции</a></p>
+                <p class='py-2 small'><a href='http://decona.ru/2023/04/18/great-offer/'>Акции</a></p>
                 <p class='py-2 small'><a href='#'>Новости</a></p>
                 <p class='py-2 small'><a href='http://decona.ru/articles/'>Статьи</a></p>
               </div>
@@ -237,7 +237,7 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <p class='py-2 small'><a href='#'>Материалы</a></p>
-                    <p class='py-2 small'><a href='#'>Салоны</a></p>
+                    <p class='py-2 small'><a href='http://decona.ru/showrooms/'>Салоны</a></p>
                     <p class='py-1 small'><a href='#'>Вход для партнеров</a></p>
                 </div>
             </div>
