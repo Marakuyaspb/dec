@@ -408,9 +408,16 @@ a .icon-header:hover{
   transition: opacity .15s ease;
 }
 
+.carousel-indicators [data-bs-target] {
+	height: 16px!important;
+	width: 16px!important;
+	border-radius: 50%!important;
+	background-color: #F6F1EE!important;
+}
 
-
-
+.carousel-dark .carousel-indicators [data-bs-target]{
+	background-color: #CDCECF!important;
+}
 
 
 
