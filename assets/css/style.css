@@ -417,7 +417,6 @@ a .icon-header:hover{
 /* Main page slider */
 .main-head-slider{
 	margin-top: -10em!important;
-	z-index: -1!important;
 	min-width: 100%!important;
 	position: relative;
 }

@@ -7,7 +7,7 @@ get_header('new'); ?>
 
 <div class='main-head-slider d-none d-lg-block d-xl-block d-xxl-block'>
 	<div class='banner ymaps-layers-pane'>
-		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa10706461c05017ce5d344365ee4a87d83954f11b6d30457909cfe6377a0f29f&amp;width=100%25&amp;height=672&amp;lang=ru_RU&amp;scroll=true"></script>
+		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa10706461c05017ce5d344365ee4a87d83954f11b6d30457909cfe6377a0f29f&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
 	</div> 
 </div> 
 <div class='d-block d-lg-none'>
