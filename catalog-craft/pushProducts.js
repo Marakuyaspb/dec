@@ -14,13 +14,17 @@ class Products {
 			
 			<div class = "product_card p-3 sku ${category}" id='${sku}' onClick='showDetails(event);'>
 
-				<div class = 'd-flex justify-content-between mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-					<h3 class='product_card_header'>${product_name}</h3>
+				<div class = ' mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+					<div class='row'>
+						<div class='col'>
+							<h3 class='product_card_header'>${product_name}</h3>
+						</div>
 				
-					<div>
-						<img class = 'is_new_icon' src='${is_new}'>
-						<img class = 'available_icon' src='${available_in_showroom}'> 
-						<img class = 'available_icon'src='${available_for_delivery_2}'>
+						<div class='col'>
+							<img class = 'is_new_icon' src='${is_new}'>
+							<img class = 'available_icon' src='${available_in_showroom}'> 
+							<img class = 'available_icon'src='${available_for_delivery_2}'>
+						</div>
 					</div>
 				</div>
 					

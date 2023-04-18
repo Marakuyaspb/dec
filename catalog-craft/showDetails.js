@@ -117,9 +117,9 @@ function showDetails(event){
 				</div>
 
 				<div class='d-flex flex-row ms-4 card_icons'>
-					<img class = 'is_new_icon' src='${is_new}'>
-					<img class = 'available_icon' src='${available_in_showroom}'> 
-					<img class = 'available_icon'src='${available_for_delivery_2}'>
+					<img class = 'is_new_icon_pr_card' src='${is_new}'>
+					<img class = 'available_icon_pr_card' src='${available_in_showroom}'> 
+					<img class = 'available_icon_pr_card'src='${available_for_delivery_2}'>
 				</div>
 				<!-- slider with product -->
 				<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">

@@ -596,6 +596,21 @@ a .icon-header:hover{
 	position: relative;
 }
 
+.available_icon_pr_card{
+	width: 4.250em;
+	padding-top: .5em;
+	margin-top: -9em;
+	z-index: 5!important;
+	position: relative;
+}
+.is_new_icon_pr_card {
+	width: 4em;
+	padding-top: .5em;
+	margin-top: -8em;
+	z-index: 5!important;
+	position: relative;
+}
+
 .available_icon_mobile{
 	width: 3.250em;
 	padding-top: .5em;
