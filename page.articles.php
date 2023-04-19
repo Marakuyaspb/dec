@@ -28,8 +28,6 @@ get_header('new');
 	<br>
 	<hr>
 	<br>
-
-
 </div>
 
 <?php

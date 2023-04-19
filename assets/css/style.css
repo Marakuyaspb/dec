@@ -49,6 +49,7 @@ h5{
 p {
 	font-size: 1.125rem;
 	color: #5E5B5B;
+	margin-bottom: 0!important;
 }
 .small-text{
 	font-size: 0.75rem!important;
@@ -151,7 +152,8 @@ li .nav-link .nav-link-text{
 	box-shadow: 0 0 0 .1rem #CDCECF!important;
 }
 .accordion-button:not(.collapsed){
-	background-color: #F6F1EE!important;
+	box-shadow:none!important;
+	background-color: transparent !important;
 }
 
 .accordion-button:not(.collapsed)::after{
@@ -179,7 +181,7 @@ a .icon-header{
 	/*fill: #fff!important;*/
 	width: 30px!important;
 	height: 30px!important;
-	margin: 0;
+	margin-top: .5em;
 	padding: 0;
 }
 a .icon-header:hover{
@@ -365,10 +367,11 @@ a .icon-header:hover{
 
 /* INFO CARDS */
 .rectangle {
-	padding-left: 14em;
+	/*padding-left: 14em;*/
 	paddind-right: 14em;
 	padding-top: 8em;
 	padding-bottom: 2em;
+	min-width: 33%;
 }
 .rect-card {
 	padding-top: 4em;
@@ -412,12 +415,16 @@ a .icon-header:hover{
 	height: 16px!important;
 	width: 16px!important;
 	border-radius: 50%!important;
-	background-color: #F6F1EE!important;
+	background-color: #fff!important;
 }
 
 .carousel-dark .carousel-indicators [data-bs-target]{
-	background-color: #CDCECF!important;
+	background-color: #737171!important;
 }
+.carousel-dark .carousel-indicators [data-bs-target]:active{
+	background-color: #F0EBE8!important;	
+}
+
 
 
 
@@ -479,7 +486,14 @@ a .icon-header:hover{
 .product_img_under {
 	position: relative;
 	z-index: 1!important;
-	margin-top: -4em;
+	margin-top: -8em;
+}
+
+.category_label{
+	margin-bottom: -7em !important;
+	  padding-left: 10em;
+  padding-top: 5em;
+}
 }
 .price_cat_page{
 	font-size:1.250em;
@@ -578,6 +592,8 @@ a .icon-header:hover{
 .accordion-button{
 	font-size:  1.125rem !important;
 }
+
+
 
 .card_icons{
 	position: absolute;

@@ -57,21 +57,20 @@ class Products {
 						<div class='cacao price_cat_page'>${price_sale} ₽</div>
 					</div>
 				
-
 			</div>
 			`;
 			});
 
 			const html = `
-			<div class='thin ms-5'><a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a>
-					</div>
+			<!-- div class='thin ms-5'><a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru'>Продукция</a>
+			</div -->
 			
-				
+			<div class="products_container">	
 					${htmlProducts}
-				
 			</div>
 		`;
 		ROOT_PRODUCTS.innerHTML = html;
+		console.log(htmlProducts);
 		}
 	}
 
