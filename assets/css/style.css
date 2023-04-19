@@ -14,12 +14,16 @@ Theme name: Decona_
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ALS Hauss Hairline', Georgia, serif;
+    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Hairline.woff');
+    font-style: normal;
+}
+
+
 body {
 	font-family: 'ALS Hauss Book', 'Georgia', sans-serif !important;
 	margin: 0;
-}
-.site{
-
 }
 
 h1, h2, h3 {
@@ -60,9 +64,16 @@ p {
 	font-size: 1em!important;
 	margin-bottom: -1.5em;
 }
+.just-thin{
+	font-family: 'ALS Hauss Thin'!important;
+}
 .major-text {
 	font-size: 1.5em;
 	color: #5E5B5B;
+}
+
+.book {
+	font-family: 'ALS Hauss Book';
 }
 
 /* THEME COLORS */
@@ -127,6 +138,8 @@ a:hover{
 	background-color: transparent;
 	font-size: 1.125rem!important;
 	text-decoration: none!important;
+	font-family: 'ALS Hauss Thin';
+	line-height: 1;
 }
 
 
@@ -456,7 +469,7 @@ a .icon-header:hover{
 .over-slider-mobile{
 	z-index: 5!important;
 	position: relative;
-	margin-top: -15em;
+	margin-top: -16em;
 	margin-bottom: 4em;
 }
 
@@ -614,14 +627,14 @@ a .icon-header:hover{
 
 .available_icon_pr_card{
 	width: 4.250em;
-	padding-top: .5em;
+	padding-top: 1.5em;
 	margin-top: -9em;
 	z-index: 5!important;
 	position: relative;
 }
 .is_new_icon_pr_card {
 	width: 4em;
-	padding-top: .5em;
+	padding-top: 1em;
 	margin-top: -8em;
 	z-index: 5!important;
 	position: relative;

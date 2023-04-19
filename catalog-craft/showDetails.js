@@ -100,7 +100,7 @@ function showDetails(event){
 			<div class='${category}' id='content_left'>
 				<p class='h-center'>${product_name}</p>
 				<center>
-		      	<p class='fabric-name'>Ткань: ${fabric_name}
+		      	<p class='fabric-name pb-3'>Ткань: ${fabric_name}
 		    	</center>
 
 			<!-- fabric buttons -->
@@ -176,7 +176,7 @@ function showDetails(event){
 
 		<p class='h-center pt-2'>${product_name}</p>
 		<center>
-          	<p class='fabric-name'>Ткань: ${fabric_name}
+          	<p class='fabric-name pb-3'>Ткань: ${fabric_name}
         </center>
 
 		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  

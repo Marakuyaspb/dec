@@ -42,7 +42,7 @@ get_header();
 
 			<div class="ps-5 over-slider">
 				<h1 class="white">BASE</h1>
-				<p class="white ms-2 mb-5 major-text">Модульная система</p>
+				<p class="white ms-2 mb-5 major-text just-thin">Модульная система</p>
 				<a href='http://decona.ru/2023/04/18/great-offer/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>
 			</div>
 		</div>
@@ -77,7 +77,7 @@ get_header();
 
 			<div class="over-slider-mobile">
 				<h1 class="white">BASE</h1>
-				<p class="white ms-2">Модульная система</p>
+				<p class="white just-thin ms-2 mb-4">Модульная система</p>
 				<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white'>Подробнее</button></a>
 			</div>
 		</div>
