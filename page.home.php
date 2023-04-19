@@ -41,7 +41,7 @@ get_header();
 			</div>
 
 			<div class="ps-5 over-slider">
-				<h1 class="white">BASE</h1>
+				<h1 class="white slider_h1">BASE</h1>
 				<p class="white ms-2 mb-5 major-text just-thin">Модульная система</p>
 				<a href='http://decona.ru/2023/04/18/great-offer/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>
 			</div>
@@ -76,9 +76,9 @@ get_header();
 			</div>
 
 			<div class="over-slider-mobile">
-				<h1 class="white">BASE</h1>
-				<p class="white just-thin ms-2 mb-4">Модульная система</p>
-				<a href='http://decona.ru/products/' class='ms-2 pb-3'><button class='btn-outline-white'>Подробнее</button></a>
+				<h2 class="white ps-2">BASE</h2>
+				<p class="white just-thin ps-2 ms-2 mb-4">Модульная система</p>
+				<a href='http://decona.ru/products/' class='ms-2 ps-2 pb-3'><button class='btn-outline-white'>Подробнее</button></a>
 			</div>
 		</div>
 	</div>
@@ -91,27 +91,29 @@ get_header();
 	<div id="spinner"></div> 
 	<div id="error"></div> 
 </div>
+<!-- slider finish -->
+
 
 <!-- CATEGORIES DESCTOP-->
 <div class="container-fluid mt-2 d-none d-md-block d-lg-block d-xl-block d-xxl-block" id='goods_categories'>
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
-			<div class='latte_wrap p-4'>
+			<div class='latte_wrap my-2 p-4'>
 	  			<!-- a href='http://decona.ru/category-k1r-system/' -->
 	  				<div class ='category_label'>
-			  			<h3>Модульные системы</h3>
-			  			<p>Конфигурация под любое пространство
+			  			<p class='major-text'>Модульные системы</p>
+			  			<p class='small-text'>Конфигурация под любое пространство
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Base-copy.png">
 		  		</a>
 	  		</div>
 	  	</div>
 	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner" onclick="filterProducts(event);">
-	  		<div class='latte_wrap p-4'>
+	  		<div class='latte_wrap my-2  p-4'>
 				<!-- a href='http://decona.ru/category-corner/' -->
 					<div class ='category_label'>
-			  			<h3>Угловые диваны</h3>
-			  			<p>Стиль и трансформация
+			  			<p class='major-text'>Угловые диваны</p>
+			  			<p class='small-text'>Стиль и трансформация
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Naples-copy-1568x784.png">
 				</a>
@@ -121,11 +123,11 @@ get_header();
 
 	<div class='row '>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="strict">
-			<div class='latte_wrap p-4'>
+			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
-			  			<h3>Прямые диваны</h3>
-			  			<p>Классика мягкой мебели
+			  			<p class='major-text'>Прямые диваны</p>
+			  			<p class='small-text'>Классика мягкой мебели
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Borneo-copy.png">
 				</a>
@@ -133,11 +135,11 @@ get_header();
 		</div>
 
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm" onclick="filterProducts(event);">
-			<div class='latte_wrap p-4'>
+			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='http://decona.ru/category-armchair/' -->
 					<div class ='category_label'>
-			  			<h3>Кресла</h3>
-			  			<p>Для гостиной и лаундж-зоны
+			  			<p class='major-text'>Кресла</p>
+			  			<p class='small-text'>Для гостиной и лаундж-зоны
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Brooklyn-copy.png">
 				</a>
@@ -147,22 +149,22 @@ get_header();
 
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed" >
-			<div class='latte_wrap p-4'>
+			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
-			  			<h3>Кровати</h3>
-			  			<p>Восстановление сил
+			  			<p class='major-text'>Кровати</p>
+			  			<p class='small-text'>Восстановление сил
 			  		</div>
 					<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Beds-copy.png">
 				</a>
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="table">
-			<div class='latte_wrap p-4'>
+			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
-			  			<h3>Столы</h3>
-			  			<p>Надежность и стиль
+			  			<p class='major-text'>Столы</p>
+			  			<p class='small-text'>Надежность и стиль
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Tables-copy.png">
 				</a>
@@ -171,22 +173,22 @@ get_header();
 	</div>
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf" onclick="filterProducts(event);">
-			<div class='latte_wrap p-4'>
+			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='http://decona.ru/category-pouf/' -->
 					<div class ='category_label'>
-			  			<h3>Пуфы</h3>
-			  			<p>Большие и маленькие
+			  			<p class='major-text'>Пуфы</p>
+			  			<p class='small-text'>Большие и маленькие
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Pouf-copy.png">
 				</a>
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="accessory" >
-			<div class='latte_wrap p-4'>
+			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
-			  			<h3 class='h3_fat'>Аксессуары</h3>
-			  			<p>Финальные штрихи к интерьеру
+			  			<p class='major-text'>Аксессуары</p>
+			  			<p class='small-text'>Финальные штрихи к интерьеру
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Pod-copy.png">
 				</a>
@@ -196,13 +198,13 @@ get_header();
 </div>
 
 <!-- CATEGORIES PHONE & TABLET-->
-<div class="container-fluid mt-2 d-block d-md-none" id='goods_categories'>
+<div class="container-fluid mt-5 d-block d-md-none" id='goods_categories'>
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>
 	  			<!-- a href='http://decona.ru/category-k1r-system/' -->
 	  				<div class ='pt-2'>
-			  			<p class='major-text'>Модульные системы</h4>
+			  			<p class='major-text just-thin'>Модульные системы</h4>
 			  		
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Base-copy.png">
@@ -214,7 +216,7 @@ get_header();
 	  		<div class='latte_wrap p-1'>
 				<!-- a href='http://decona.ru/category-corner/' -->
 					<div class ='pt-2'>
-			  			<p class='major-text'>Угловые диваны</h4>
+			  			<p class='major-text just-thin'>Угловые диваны</h4>
 			  			
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Naples-copy-1568x784.png">
@@ -229,7 +231,7 @@ get_header();
 			<div class='latte_wrap p-1'>
 				<!-- a href='#' -->
 					<div class ='pt-2'>
-			  			<p class='major-text'>Прямые диваны</h4>
+			  			<p class='major-text just-thin'>Прямые диваны</h4>
 			  			
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Borneo-copy.png">
@@ -240,7 +242,7 @@ get_header();
 			<div class='latte_wrap p-1'>
 				<!-- a href='http://decona.ru/category-armchair/' -->
 					<div class ='pt-2'>
-			  			<p class='major-text'>Кресла</h4>
+			  			<p class='major-text just-thin'>Кресла</h4>
 			  			
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Brooklyn-copy.png">
@@ -253,7 +255,7 @@ get_header();
 			<div class='latte_wrap p-1'>
 				<!-- a href='#' -->
 					<div class ='pt-2'>
-			  			<p class='major-text'>Кровати</h4>
+			  			<p class='major-text just-thin'>Кровати</h4>
 			  			
 			  		</div>
 					<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Beds-copy.png">
@@ -264,7 +266,7 @@ get_header();
 			<div class='latte_wrap p-1'>
 				<!-- a href='#' -->
 					<div class ='pt-2'>
-			  			<p class='major-text'>Столы</h4>
+			  			<p class='major-text just-thin'>Столы</h4>
 			  			
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Tables-copy.png">
@@ -277,7 +279,7 @@ get_header();
 			<div class='latte_wrap p-1'>
 				<!-- a href='http://decona.ru/category-pouf/' -->
 					<div class ='pt-2'>
-			  			<p class='major-text'>Пуфы</h4>
+			  			<p class='major-text just-thin'>Пуфы</h4>
 			  		
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Pouf-copy.png">
@@ -288,7 +290,7 @@ get_header();
 			<div class='latte_wrap p-1'>
 				<!-- a href='#' -->
 					<div class ='pt-2'>
-			  			<p class='major-text'>Аксессуары</h4>
+			  			<p class='major-text just-thin'>Аксессуары</h4>
 			  			
 			  		</div>
 	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Pod-copy.png">

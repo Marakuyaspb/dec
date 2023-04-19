@@ -444,7 +444,7 @@ function showDetailsByFabric(event){
 										</tr>
 									</table>
 								</div>
-								<p class='pt-2'>Конструктивные особенности: ${features}
+								<p class='pt-3'>Конструктивные особенности: ${features}
 							</div>
 						</div>
 		        	</div>

@@ -14,13 +14,13 @@ class Products {
 			
 			<div class = "product_card p-3 sku ${category}" id='${sku}' onClick='showDetails(event);'>
 
-				<div class = ' mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-					<div class='row'>
-						<div class='col'>
+				<div class = 'd-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+					<div class = 'd-flex justify-content-between'>
+						<div>
 							<h3 class='product_card_header'>${product_name}</h3>
 						</div>
 				
-						<div class='col'>
+						<div>
 							<img class = 'is_new_icon' src='${is_new}'>
 							<img class = 'available_icon' src='${available_in_showroom}'> 
 							<img class = 'available_icon'src='${available_for_delivery_2}'>
@@ -29,8 +29,8 @@ class Products {
 				</div>
 					
 
-				<div class='d-flex justify-content-between mt-5 d-block d-md-none'>
-					<h3 class='product_card_header'>${product_name}</h3>
+				<div class='d-flex justify-content-between d-block d-md-none'>
+					<h3 class='product_card_header product_card_name_mob '>${product_name}</h3>
 					<div>
 						<img class = 'is_new_icon_mobile' src='${is_new}'>
 						<img class = 'available_icon_mobile' src='${available_in_showroom}'> 
@@ -39,10 +39,11 @@ class Products {
 				</div>
 				
 
-					<center class='mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-						<img src="${product_img}" class="img-fluid product_img_under">
-					</center>
-
+				<center class='mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+					<img src="${product_img}" class="img-fluid product_img_under">
+				</center>
+				
+				<div class = 'card-bottom-info'>
 					<center class='mt-5 d-block d-md-none'>
 						<img src="${product_img_mob}" class="img-fluid product_img_under">
 					</center>
@@ -56,7 +57,7 @@ class Products {
 						<div class='cacao'>${prod_width}×${prod_depth}×${prod_height}</div>
 						<div class='cacao price_cat_page'>${price_sale} ₽</div>
 					</div>
-				
+				</div>
 			</div>
 			`;
 			});

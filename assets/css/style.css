@@ -155,14 +155,14 @@ li .nav-link .nav-link-text{
 	font-family: 'ALS Hauss Book'!important;
 	font-size: 1.125rem!important;
 	background: transparent;
-	border-top: 1px #CDCECF!important;
+	border-top: 1px #fff!important;
 }
 .accordion-button{
 	color: #5E5B5B!important;
 }
 .accordion-button:focus{
-	border-color: #CDCECF!important;
-	box-shadow: 0 0 0 .1rem #CDCECF!important;
+	border-color: #fff!important;
+	box-shadow: 0 0 0 .1rem #fff!important;
 }
 .accordion-button:not(.collapsed){
 	box-shadow:none!important;
@@ -208,11 +208,12 @@ a .icon-header:hover{
 }
 .desctop-menu{
 	display: flex;
-  	flex-direction: row;
-  	flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .top-string{
 	line-height: 1.6!important;
+	opacity: 60%;
 }
 .righted {
   order: 999;
@@ -465,14 +466,15 @@ a .icon-header:hover{
 	margin-bottom: 3em;
 	margin-left: 10em;
 }
-
 .over-slider-mobile{
 	z-index: 5!important;
 	position: relative;
 	margin-top: -16em;
 	margin-bottom: 4em;
 }
-
+. slider_h1{
+	font-size:4.375em!important;
+}
 
 /* CATEGORIES PAGE */
 
@@ -504,7 +506,7 @@ a .icon-header:hover{
 
 .category_label{
 	margin-bottom: -7em !important;
-	  padding-left: 10em;
+	padding-left: 8em;
   padding-top: 5em;
 }
 }
@@ -577,7 +579,17 @@ a .icon-header:hover{
 	font-size: 2.7em;
 	text-align: center!important;
 }
-
+.card-bottom-info{
+	z-index: 5 !important;
+	position: relative;
+	margin-top: -5em;
+}
+.product_card_header{
+	font-size: 2em!important;
+}
+.product_card_name_mob {
+	font-size: 1.25em;
+}
 .prod-card-model{
 	color: #5E5B5B;	
 	font-size: 1.688em;
@@ -626,14 +638,14 @@ a .icon-header:hover{
 }
 
 .available_icon_pr_card{
-	width: 4.250em;
+	width: 2.875em;
 	padding-top: 1.5em;
 	margin-top: -9em;
 	z-index: 5!important;
 	position: relative;
 }
 .is_new_icon_pr_card {
-	width: 4em;
+	width: 3em;
 	padding-top: 1em;
 	margin-top: -8em;
 	z-index: 5!important;
@@ -641,13 +653,13 @@ a .icon-header:hover{
 }
 
 .available_icon_mobile{
-	width: 3.250em;
+	width:  2.375em;
 	padding-top: .5em;
 	z-index: 5!important;
 	position: relative;
 }
 .is_new_icon_mobile{
-	width: 3em;
+	width: 2.2em;
 	padding-top: .5em;
 	z-index: 5!important;
 	position: relative;
