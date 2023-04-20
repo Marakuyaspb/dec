@@ -9,19 +9,22 @@
  * @since Twenty Twenty-One 1.0
  */
 
-get_header();
+get_header('new');
 ?>
 
-	<header class="page-header alignwide">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing here', 'twentytwentyone' ); ?></h1>
-	</header><!-- .page-header -->
-
-	<div class="error-404 not-found default-max-width">
-		<div class="page-content">
-			<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search?', 'twentytwentyone' ); ?></p>
+<div class="container-fluid ps-4 mt-5">
+	<div class='row'>
+		<div class='col-md-6'>
+			<h2 class='mb-5'>К сожалению, такой страницы нет</h2>
 			<?php get_search_form(); ?>
-		</div><!-- .page-content -->
-	</div><!-- .error-404 -->
+		</div>
+		<div class='col'>
+			<img class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' src='http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_side-scaled.jpg'>
+		</div>
+	</div>
+</div>
+
+
 
 <?php
 get_footer();
