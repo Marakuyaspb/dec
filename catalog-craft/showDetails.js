@@ -27,7 +27,7 @@ function showDetails(event){
   			for (var i_1 = 0; i_1 < logo.length; i_1++) {
     			logo[i_1].classList.remove("white");
     		};
-
+    		
     		let nl = document.getElementsByClassName('nav-link');
     		for (var i_2 = 0; i_2 < nl.length; i_2++) {
     			nl[i_2].classList.remove("white");
@@ -38,7 +38,12 @@ function showDetails(event){
     			ih[i_3].classList.remove("white");
     		};
 
-/* define vars */
+    		let ts = document.getElementsByClassName('top-string');
+    		for (var i_4 = 0; i_4 < ts.length; i_4++) {
+    			ts[i_4].classList.remove("white");
+    		};
+
+/* define vars  */
   			let sku = productAllDetails.sku;
   			let model = productAllDetails.model;
   			let category_ru = productAllDetails.category_ru;
@@ -91,9 +96,9 @@ function showDetails(event){
 			`
 <div id='${sku}' class='sku'>
 	<!-- Desctop -->
-	<div class='container-fluid ms-4 mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-		<div class='thin'>
-			<a href='http://decona.ru'>Продукция</a> / ${category_ru}
+	<div class='container-fluid ms-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+		<div class='thin ms-4'>
+			<a href='http://decona.ru/'>Продукция</a> / ${category_ru}
 		</div>
 
 		<div class='row'>
@@ -167,11 +172,10 @@ function showDetails(event){
 	</div>
 	
 
-
 	<!-- Phone & Tablet-->
 	<div class='container-fluid d-block d-md-none'>
 		<div class='thin'>
-			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a>
+			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/'>Продукция</a>
 		</div>
 
 		<p class='h-center pt-2'>${product_name}</p>

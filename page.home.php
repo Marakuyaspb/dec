@@ -307,17 +307,17 @@ get_header();
 		<div class='d-flex justify-content-between'>
 			<div class ='rectangle latte_bg ps-4'> <!-- #F6F1EE -->
 				<h2 class='rect-card ps-4'>Каталог</h2>
-				<h2 class='ps-4'>2023</h2>
+				<h2 class='ps-4 mb-5'>2023</h2>
 				<a href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf' class='ps-4'><button class='btn-outline-gray'>Скачать каталог</button></a>	
 			</div>
 			<div class ='rectangle dark-gray ps-4'> <!-- #50504E -->
 				<h2 class='white rect-card ps-4'>Покупка в рассрочку </h2>
-				<h2 class='white ps-4'>без первого взноса</h2>
+				<h2 class='white ps-4  mb-5'>без первого взноса</h2>
 				<a href='http://decona.ru/contact/' class='ps-4'><button class='btn-outline-white'>Обратная связь</button></a>
 			</div>
 			<div class ='rectangle middle-gray ps-4'><!-- #CDCECF -->
 					<h2 class='rect-card ms-4'>Все акции</h2>
-					<h2 class='ms-4'>и спецпредложения</h2>
+					<h2 class='ms-4 mb-5'>и спецпредложения</h2>
 					<a href='http://decona.ru/2023/04/18/great-offer/' class='ps-4'><button class='btn-outline-gray'>Все акции</button></a>
 			</div>
 			</div>
@@ -327,20 +327,19 @@ get_header();
 	<!-- TABLET -->
 	<div class='container-fluid pt-5 d-none d-sm-block d-md-block d-lg-none' id='tablet-show'>
 		<div class='row'>
-			<div class ='col-md-4 rectangle latte_bg'> <!-- #F6F1EE -->
+			<div class ='col-md-4 rectangle_mob latte_bg'> <!-- #F6F1EE -->
 				<div class='bottom-align'>
-					<h4 class='rect-card ps-2'>Каталог</h4>
-					<h4 class='ps-2'>2023</h4>
+					<h4 class='rect-card ps-2'>Каталог с новинками 2023 года</h4>
 					<a href='#' class='ps-2'><button class='btn-outline-gray'>Скачать каталог</button></a>
 				</div>
 			</div>
-			<div class ='col-md-4 rectangle dark-gray'> <!-- #50504E -->
+			<div class ='col-md-4 rectangle_mob dark-gray'> <!-- #50504E -->
 				<div class='bottom-align'>
 					<h4 class='white rect-card ps-4'>Покупка в рассрочку без первого взноса</h4>
 					<a href='#' class='ps-2'><button class='btn-outline-white'>Обратная связь</button></a>
 				</div>
 			</div>
-			<div class ='col-md-4 rectangle middle-gray ps-4'><!-- #CDCECF -->
+			<div class ='col-md-4 rectangle_mob middle-gray ps-4'><!-- #CDCECF -->
 				<div class='bottom-align'>
 					<h4 class='rect-card ps-2'>Все акции и спецпредложения</h4>
 					<a href='#' class='ps-2'><button class='btn-outline-gray'>Все акции</button></a>
@@ -352,21 +351,21 @@ get_header();
 	<!-- PHONE -->
 	<div class='container-fluid pt-5 d-block d-sm-none' id='phone-show'>
 		<div class='row'>
-			<div class ='col-md-4 rectangle latte_bg'> <!-- #F6F1EE -->
+			<div class ='col-md-4 rectangle_mob latte_bg'> <!-- #F6F1EE -->
 				<div class='bottom-align'>
 					<h3 class='rect-card ps-2'>Каталог</h3>
 					<h3 class='ps-2'>2023</h3>
 					<a href='#' class='ms-2'><button class='btn-outline-gray'>Скачать каталог</button></a>
 				</div>
 			</div>
-			<div class ='col-md-2 rectangle dark-gray'> <!-- #50504E -->
+			<div class ='col-md-2 rectangle_mob dark-gray'> <!-- #50504E -->
 				<div class='bottom-align'>
 					<h3 class='white rect-card ps-2'>Свяжитесь</h3>
 					<h3 class='white ps-2'>с нами</h3>
 					<a href='#' class='ms-2'><button class='btn-outline-white'>Обратная связь</button></a>
 				</div>
 			</div>
-			<div class ='col-md-4 rectangle middle-gray ps-2'><!-- #CDCECF -->
+			<div class ='col-md-4 rectangle_mob middle-gray ps-2'><!-- #CDCECF -->
 				<div class='bottom-align'>
 					<h3 class='rect-card ms-2'>Все акции и спецпредложения</h3>
 					<a href='#' class='ms-2'><button class='btn-outline-gray'>Все акции</button></a>

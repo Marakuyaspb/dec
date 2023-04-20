@@ -103,7 +103,7 @@ p {
 	color: #9F8A88!important; /* old prices etc */
 }
 .dark-cacao {
-	color: #5c4745;
+	color: #5c4745!important;
 }
 .general-gray{
 	color: #5E5B5B!important;
@@ -381,11 +381,13 @@ a .icon-header:hover{
 
 /* INFO CARDS */
 .rectangle {
-	/*padding-left: 14em;*/
-	paddind-right: 14em;
 	padding-top: 8em;
-	padding-bottom: 2em;
+	padding-bottom: 4em;
 	min-width: 33%;
+}
+.rectangle_mob {
+	padding-top: 3em;
+	padding-bottom: 2em;
 }
 .rect-card {
 	padding-top: 4em;

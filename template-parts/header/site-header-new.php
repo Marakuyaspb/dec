@@ -67,7 +67,7 @@
 
 
 <!-- Desctop -->
-<div class='d-none d-lg-block d-xl-block d-xxl-block mt-2'>
+<div class='d-none d-lg-block d-xl-block d-xxl-block'>
   <div class="desctop-menu">
     
       <div class="ps-4">

@@ -783,7 +783,7 @@ template {
 .site-main,
 .widget-area,
 .site-footer {
-	padding-top: 1em; 
+	/*padding-top: 1em;*/ 
 	/*padding-top:var(--global--spacing-vertical);*/
 	/*padding-bottom: var(--global--spacing-vertical);*/
 	margin-left: auto;

@@ -75,8 +75,8 @@ function showDetailsByFabric(event){
 			`
 <div id='${sku}' class='sku'>
 	<!-- Desctop -->
-	<div class='container-fluid ms-4 mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-		<div class='thin'>
+	<div class='container-fluid ms-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+		<div class='thin ms-4'>
 			<a href='http://decona.ru'>Продукция</a> / ${category_ru}
 		</div>
 
@@ -155,7 +155,7 @@ function showDetailsByFabric(event){
 	<!-- Phone & Tablet-->
 	<div class='container-fluid d-block d-md-none'>
 		<div class='thin'>
-			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a>
+			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/'>Продукция</a>
 		</div>
 
 		<p class='h-center pt-2'>${product_name}</p>
