@@ -6,13 +6,10 @@ function filterProducts(event){
   	var goodsCats = document.getElementById('goods_categories');
   	goodsCats.remove();
 
-  	let categoryForShow = document.getElementsByClassName(currentCat);
-  	//console.log(categoryForShow);
-  	let filteredContent = document.getElementById('goods_show');
-  	console.log(categoryForShow.length);
+  	const filteredDivs = document.querySelectorAll(`div.${currentCat}`);
+  	const filteredContent = document.getElementById('goods_show');
 
-  	for (let i = 0; i < categoryForShow.length; i++) {
-  		console.log(categoryForShow[i]);
-  		filteredContent.appendChild(categoryForShow[i]);
-	};
+  	filteredDivs.forEach(div => {
+      filteredContent.appendChild(div);
+    });
 }

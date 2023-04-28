@@ -178,7 +178,7 @@ function showDetails(event){
 			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/'>Продукция</a>
 		</div>
 
-		<p class='h-center pt-2'>${product_name}</p>
+		<p class='h-center pt-5'>${product_name}</p>
 		<center>
           	<p class='fabric-name pb-3'>Ткань: ${fabric_name}
         </center>

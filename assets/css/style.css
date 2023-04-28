@@ -467,6 +467,7 @@ a .icon-header:hover{
 	margin-top: -19em;
 	margin-bottom: 3em;
 	margin-left: 10em;
+	margin-right: 10em;
 }
 .over-slider-mobile{
 	z-index: 5!important;
@@ -503,7 +504,7 @@ a .icon-header:hover{
 .product_img_under {
 	position: relative;
 	z-index: 1!important;
-	margin-top: -8em;
+	margin-top: -2em;
 }
 
 .category_label{
