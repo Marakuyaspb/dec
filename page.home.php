@@ -83,14 +83,14 @@ get_header();
 		</div>
 	</div>
 <!-- General slider end -->
-<div class="">
+
 	<div id="goods_all"></div> 
 	<div id="goods_show" class ="products_container"></div> 
 	<div id='goods_details'></div>
 
 	<div id="spinner"></div> 
 	<div id="error"></div> 
-</div>
+
 <!-- slider finish -->
 
 

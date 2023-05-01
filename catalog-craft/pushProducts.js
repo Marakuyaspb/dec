@@ -71,7 +71,7 @@ class Products {
 			</div>
 		`;
 		ROOT_PRODUCTS.innerHTML = html;
-		console.log(htmlProducts);
+		
 		}
 	}
 
