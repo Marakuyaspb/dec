@@ -1,4 +1,4 @@
-function filterProducts(event){
+function filterFabricButtons(event){
 	let clickedEl = event.currentTarget;
   	let currentCat = clickedEl.id;
   	/*console.log(currentCat);*/

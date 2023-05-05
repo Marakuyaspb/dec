@@ -122,7 +122,7 @@ get_header();
 	</div>
 
 	<div class='row '>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="strict">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="sofa" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
@@ -148,7 +148,7 @@ get_header();
 	</div>
 
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed" >
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
