@@ -12,4 +12,7 @@ function filterProducts(event){
   	filteredDivs.forEach(div => {
       filteredContent.appendChild(div);
     });
+
+    /* Scroll to top */
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
