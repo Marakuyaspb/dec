@@ -1,4 +1,6 @@
 function adaptationWidth(){
+	
+/* Adaptation */
 	const content_left = document.getElementById('content_left');
 	const content_right = document.getElementById('content_right');
 
@@ -27,4 +29,7 @@ function adaptationWidth(){
   		content_right.classList.add("d-none");
   		content_right.classList.remove("no-padding-right");
 	}
+
+/* Scroll to top */
+	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }

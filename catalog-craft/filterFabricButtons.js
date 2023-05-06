@@ -5,8 +5,8 @@ function filterFabricButtons(){
     let fabricButtons = document.getElementsByClassName('fabric-var');
 
     if(currCollection == 'consono'){
-        for (let i = 0; i < fabricButtons.length; i++) {
-            const classes = fabricButtons[i].classList;
+        for (let i_0 = 0; i_0 < fabricButtons.length; i_0++) {
+            const classes = fabricButtons[i_0].classList;
               
             if (classes.contains('COSMIC_08')) {
                 classes.add('d-none');
@@ -57,7 +57,6 @@ function filterFabricButtons(){
                 classes.add('d-none');
             }
         }
-
     }
     else if (currCollection == 'nadwig' & currCat == 'pouf'){
         for (let i_3 = 0; i_3 < fabricButtons.length; i_3++) {

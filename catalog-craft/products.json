@@ -1034,11 +1034,11 @@
 		"scheme" : "http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/GYROS/GYROS_MODELS/GYROS-POUF_LARGE/2_TECHNICAL/Dimensions/GYROS_900.svg"
 	},
 	{
-		"sku" : "consono_pouf_COSMIC_08",
-		"collection" : "GIROS",
+		"sku" : "giros_pouf_COSMIC_08",
+		"collection" : "giros",
 		"category" : "pouf",
 		"category_ru" : "Пуфы",
-		"model":"GIROS",
+		"model":"giros",
 		"fabric_type" : "_COSMIC_08",
 		"fabric_name" : "Cosmic 08",
 		"product_name" : "Giros",
