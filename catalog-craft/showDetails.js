@@ -125,7 +125,7 @@ function showDetails(event){
 
 			    	<img class='slide-fabric-button fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>    	
+			    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png" onClick ='showDetailsByFabric(event);'>    	
 			    
 				    <img class='slide-fabric-button fabric-var ${category}' id='${collection}_${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
 				</div>
@@ -207,7 +207,7 @@ function showDetails(event){
 
 			    	<img class='slide-fabric-button fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>    	
+			    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png" onClick ='showDetailsByFabric(event);'>    	
 			    
 				    <img class='slide-fabric-button fabric-var ${category}' id='${collection}_${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
 				</div>
@@ -961,7 +961,7 @@ function showDetails(event){
 			`; 
 		} /*else console.log('Check your json!');*/
 	}
-	showPopOvers();
 	adaptationWidth();
 	filterFabricButtons();
+	showPopOvers();
 }
