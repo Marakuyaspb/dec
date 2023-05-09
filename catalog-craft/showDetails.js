@@ -91,6 +91,7 @@ function showDetails(event){
   			let product_fabric_about = productAllDetails.product_fabric_about;
   			let product_fabric_img = productAllDetails.product_fabric_img;
   			let scheme = productAllDetails.scheme;
+  			let paws_var = productAllDetails.paws_var;
 
 /* render new html about the single product */
   			document.getElementById('goods_details').innerHTML = 
@@ -317,7 +318,6 @@ function showDetails(event){
 		        </div>
 		    </div>
 
-
 		    <div class="accordion-item"><!-- Схема и габариты -->
 		        <h2 class="accordion-header" id="headingTwo">
 		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
@@ -363,44 +363,27 @@ function showDetails(event){
 											</td>
 										</tr>
 										<tr class='prod-card-table-row'>
-											<td>
-												<p>Высота сидения, см
-											</td>
-											<td>
-												<p id='prod_seat_height'>${prod_seat_height}
-											</td>
+											${prod_seat_height}
+										</tr>
+
+										<tr class='prod-card-table-row'>
+										${prod_seat_width}
+										</tr>
+
+										<tr class='prod-card-table-row'>
+											${prod_seat_depth}
 										</tr>
 										<tr class='prod-card-table-row'>
-											<td>
-											<p>Ширина сидения, см
-											</td>
-											<td>
-												<p id='prod_seat_width'>${prod_seat_width}
-											</td>
-										</tr>
-										<tr class='prod-card-table-row'>
-											<td>
-												<p>Глубина сидения, см
-											</td>
-											<td>
-												<p id='prod_seat_depth'>${prod_seat_depth}
-											</td>
-										</tr>
-										<tr class='prod-card-table-row'>
-											<td>
-												<p>Ширина спинки, см
-											</td>
-											<td>
-												<p id='prod_back_width'>${prod_back_width}
-											</td>
+											${prod_back_width}
 										</tr>
 									</table>
 
-									<!-- button class="btn-outline-gray">Вся коллекция</button -->
+									<!-- button class="btn-outline-gray mt-1">Вся коллекция</button -->
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img id='' src='${scheme}' class='img-fluid'>
+									<img id='' src='${scheme}' class='img-fluid pe-1'>
+									<img id='' src='${scheme_2}' class='img-fluid'>
 								</div>
 								
 							</div>
@@ -512,24 +495,7 @@ function showDetails(event){
 
 
 		    <div class="accordion-item"><!-- Варианты исполнения ножек -->
-		        <h2 class="accordion-header" id="headingFive">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-		            Варианты исполнения ножек
-		            </button>
-		        </h2>
-		        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
-		            	<div class="container-fluid">
-							<div class="row">
-								<div class="col-md-6 col-sm-12">
-									<p>Стильные конусовидные металлические ножки как тонкий оммаж дизайну славных 1960-х: времени первых шагов человечества в космическом пространстве.
-									<p><img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" alt="..." class="mt-5 w-50">	
-								
-								</div>			 
-							</div>
-		          		</div>
-		        	</div>
-				</div>
+		        ${paws_var}
 			</div>
 	  
 
@@ -562,6 +528,8 @@ function showDetails(event){
 		    </div>
 		</div>
 	</div>
+
+
 
 	<!-- phone -->
 	<div class='d-block d-lg-none'>
