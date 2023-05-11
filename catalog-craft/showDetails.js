@@ -91,6 +91,7 @@ function showDetails(event){
   			let product_fabric_about = productAllDetails.product_fabric_about;
   			let product_fabric_img = productAllDetails.product_fabric_img;
   			let scheme = productAllDetails.scheme;
+  			let scheme_2 = productAllDetails.scheme_2;
   			let paws_var = productAllDetails.paws_var;
 
 /* render new html about the single product */
@@ -192,27 +193,26 @@ function showDetails(event){
 		<center>
           	<p class='fabric-name pb-3'>Ткань: ${fabric_name}
         </center>
-
+        <!-- fabric buttons -->
 		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-					<img class='slide-fabric-button fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
+			<img class='slide-fabric-button fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
 
-					<img class='slide-fabric-button fabric-var COSMIC_08' id='${collection}_${category}_COSMIC_08' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/COSMIC/COSMIC_08.png" onClick ='showDetailsByFabric(event);'>
+			<img class='slide-fabric-button fabric-var COSMIC_08' id='${collection}_${category}_COSMIC_08' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/COSMIC/COSMIC_08.png" onClick ='showDetailsByFabric(event);'>
 
-					<img class='slide-fabric-button fabric-var HARMONY_SILVER' id='${collection}_${category}_HARMONY_SILVER' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/HARMONY_SILVER.png" onClick ='showDetailsByFabric(event);'>  
+			<img class='slide-fabric-button fabric-var HARMONY_SILVER' id='${collection}_${category}_HARMONY_SILVER' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/HARMONY_SILVER.png" onClick ='showDetailsByFabric(event);'>  
 
-			    	<img class='slide-fabric-button fabric-var JAZZ_01' id='${collection}_${category}_JAZZ_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var JAZZ_01' id='${collection}_${category}_JAZZ_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
 
-			    	<img class='slide-fabric-button fabric-var JAZZ_08' id='${collection}_${category}_JAZZ_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var JAZZ_08' id='${collection}_${category}_JAZZ_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png' onClick ='showDetailsByFabric(event);'>
 
-			    	<img class='slide-fabric-button fabric-var JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
 
-			    	<img class='slide-fabric-button fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
-			    
-			    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png" onClick ='showDetailsByFabric(event);'>    	
-			    
-				    <img class='slide-fabric-button fabric-var ${category}' id='${collection}_${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
-				</div>
-
+	    	<img class='slide-fabric-button fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
+	    
+	    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png" onClick ='showDetailsByFabric(event);'>    	
+	    
+		    <img class='slide-fabric-button fabric-var ${category}' id='${collection}_${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
+		</div>
 		
 		<!-- slider with product -->
 		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -240,7 +240,6 @@ function showDetails(event){
 		      <img src="${carousel_item_5_mob}" class="d-block w-100" alt="...">
 		    </div>
 		  </div>
-
 		</div>
 	</div>
 	<!--  -->
@@ -274,7 +273,6 @@ function showDetails(event){
 			</div>
 		</div>
 	</div>
-
 
 	<!-- Phone -->
 	<div class=' mt-2 d-block d-md-none'>
@@ -330,51 +328,18 @@ function showDetails(event){
 							<div class='row'>
 								<div class='col-md-4 col-sm-12'>
 			                		<table class='prod-card-table'>
-										<tr class='prod-card-table-row'>
-											<td>
-												<p>Ширина, см
-											</td>
-											<td>
-												<p id='prod_width'>${prod_width}
-											</td>
+				                		<tr class='prod-card-table-row'>
+											${prod_width}
 										</tr>
 										<tr class='prod-card-table-row'>
-											<td>
-												<p>Глубина, см
-											</td>
-											<td>
-												<p id='prod_depth'>${prod_depth}
-											</td>
+											${prod_depth}
 										</tr>
 										<tr class='prod-card-table-row'>
-											<td>
-												<p>Высота, см
-											</td>
-											<td>
-												<p id='prod_height'>${prod_height}
-											</td>
-										</tr>
-										<tr class='prod-card-table-row'>
-											<td>
-												<p>Вес товара, кг
-											</td>
-											<td>
-												<p id='prod_weight'>${prod_weight}
-											</td>
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_seat_height}
+											${prod_height}
 										</tr>
 
 										<tr class='prod-card-table-row'>
-										${prod_seat_width}
-										</tr>
-
-										<tr class='prod-card-table-row'>
-											${prod_seat_depth}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_back_width}
+											${prod_height}
 										</tr>
 									</table>
 
@@ -382,8 +347,8 @@ function showDetails(event){
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img id='' src='${scheme}' class='img-fluid pe-1'>
-									<img id='' src='${scheme_2}' class='img-fluid'>
+									${scheme}
+									${scheme_2}
 								</div>
 								
 							</div>
@@ -407,56 +372,26 @@ function showDetails(event){
 								<div class='col-md-6 col-sm-12'>
 									<table class='prod-card-table'>
 										<tr>
-											<td>
-												<p class='cacao'>Тип
-											</td>
-											<td>
-												<p class='text-end'>${product_type}
-											</td>
+											${product_type}
 										</tr>
 										<tr>
-											<td>
-												<p class='cacao'>Вид раскладывания
-											</td>
-											<td>
-												<p class='text-end'>${transform_type}
-											</td>
+											${transform_type}
 										</tr>
 										<tr>
-											<td>
-												<p class='cacao'>Тип матраса
-											</td>
-											<td>
-												<p class='text-end'>${matress_type}
-											</td>
+											${matress_type}
 										</tr>
 									</table>
 								</div>
 								<div class='col-md-6 col-sm-12'>
 									<table class='prod-card-table'>
 										<tr>
-											<td>
-												<p class='cacao'>Форма диван
-											</td>
-											<td>
-												<p class='text-end'>${product_form}
-											</td>
+											${product_form}
 										</tr>
 										<tr>
-											<td>
-												<p class='cacao'>Стиль дизайна
-											</td>
-											<td>
-												<p class='text-end'>${product_style}
-											</td>
+											${product_style}
 										</tr>
 										<tr>
-											<td>
-												<p class='cacao'>Материал наполнителя
-											</td>
-											<td>
-												<p class='text-end'>${product_inside}
-											</td>
+											${product_inside}
 										</tr>
 									</table>
 								</div>
@@ -482,7 +417,7 @@ function showDetails(event){
 									<p>${product_fabric_about}
 									<p>Обращаем Ваше внимание, что реальный цвет ткани может значительно отличаться от изображения на экране. Это зависит от индивидуальных настроек монитора и восприятия цвета. Поэтому при заказе ткани ориентируйтесь на реальные образцы.
 		                			<p class='pt-2'>Больше образцов тканей вы можете посмотреть в наших салонах.
-									<p><a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+									<p><a href='http://decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 								</div>
 								<div class='col-md-4 col-sm-12'>
 									<img src="${product_fabric_img}" class='img-fluid'>
@@ -492,7 +427,6 @@ function showDetails(event){
 			        </div>
 			    </div>
 			</div>
-
 
 		    <div class="accordion-item"><!-- Варианты исполнения ножек -->
 		        ${paws_var}
@@ -532,6 +466,7 @@ function showDetails(event){
 
 
 	<!-- phone -->
+
 	<div class='d-block d-lg-none'>
 		<div class="accordion" id="accordionExample">
 
@@ -563,67 +498,17 @@ function showDetails(event){
 							<div class='row'>
 								<div class='col-md-4 col-sm-12'>
 			                		<table class='prod-card-table'>
-										<td>
-												<p>Ширина, см
-											</td>
-											<td>
-												<p id='prod_width'>${prod_width}
-											</td>
+				                		<tr class='prod-card-table-row'>
+											${prod_width}
 										</tr>
 										<tr class='prod-card-table-row'>
-											<td>
-												<p>Глубина, см
-											</td>
-											<td>
-												<p id='prod_depth'>${prod_depth}
-											</td>
+											${prod_depth}
 										</tr>
 										<tr class='prod-card-table-row'>
-											<td>
-												<p>Высота, см
-											</td>
-											<td>
-												<p id='prod_height'>${prod_height}
-											</td>
+											${prod_height}
 										</tr>
 										<tr class='prod-card-table-row'>
-											<td>
-												<p>Вес товара, кг
-											</td>
-											<td>
-												<p id='prod_weight'>${prod_weight}
-											</td>
-										</tr>
-										<tr class='prod-card-table-row'>
-											<td>
-												<p>Высота сидения, см
-											</td>
-											<td>
-												<p id='prod_seat_height'>${prod_seat_height}
-											</td>
-										</tr>
-										<tr class='prod-card-table-row'>
-											<td>Ширина сидения, см
-											</td>
-											<td>
-												<p id='prod_seat_width'>${prod_seat_width}
-											</td>
-										</tr>
-										<tr class='prod-card-table-row'>
-											<td>
-												<p>Глубина сидения, см
-											</td>
-											<td>
-												<p id='prod_seat_depth'>${prod_seat_depth}
-											</td>
-										</tr>
-										<tr class='prod-card-table-row'>
-											<td>
-												<p>Ширина спинки, см
-											</td>
-											<td>
-												<p id='prod_back_width'>${prod_back_width}
-											</td>
+											${prod_height}
 										</tr>
 									</table>
 
@@ -631,7 +516,8 @@ function showDetails(event){
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img id='' src='${scheme}' class='img-fluid'>
+									${scheme}
+									${scheme_2}
 								</div>
 							</div>
 						</div>
@@ -651,64 +537,33 @@ function showDetails(event){
 		                <h4>Основные</h4>
 		                <div class='container'>
 							<div class='row'>
-								<div class='col-md-5 col-sm-12'>
+								<div class='col-md-6 col-sm-12'>
 									<table class='prod-card-table'>
 										<tr>
-											<td>
-												<p class='cacao'>Тип
-											</td>
-											<td>
-												<p class='text-end'>${product_type}
-											</td>
-											</tr>
-											<tr>
-											<td>
-												<p class='cacao'>Вид раскладывания
-											</td>
-											<td>
-												<p class='text-end'>${transform_type}
-											</td>
-											</tr>
-											<tr>
-											<td>
-												<p class='cacao'>Тип матраса
-											</td>
-											<td>
-												<p class='text-end'>${matress_type}
-											</td>
+											${product_type}
+										</tr>
+										<tr>
+											${transform_type}
+										</tr>
+										<tr>
+											${matress_type}
 										</tr>
 									</table>
 								</div>
-								<div cass='col d-md-block d-none'></div>
-								<div class='col-md-5 col-sm-12'>
+								<div class='col-md-6 col-sm-12'>
 									<table class='prod-card-table'>
 										<tr>
-											<td>
-												<p class='cacao'>Форма диван
-											</td>
-											<td>
-												<p class='text-end'>${product_form}
-											</td>
+											${product_form}
 										</tr>
 										<tr>
-											<td>
-												<p class='cacao'>Стиль дизайна
-											</td>
-											<td>
-												<p class='text-end'>${product_style}
-											</td>
+											${product_style}
 										</tr>
 										<tr>
-											<td>
-												<p class='cacao'>Материал наполнителя
-											</td>
-											<td>
-												<p class='text-end'>${product_inside}
-											</td>
+											${product_inside}
 										</tr>
 									</table>
 								</div>
-								<p class='mt-2'>Конструктивные особенности: ${features}
+								<p class='pt-3'>Конструктивные особенности: ${features}
 							</div>
 						</div>
 		        	</div>
@@ -734,7 +589,7 @@ function showDetails(event){
 								</div>
 							</div>
 		                	<p class='mt-2' >Больше образцов тканей вы можете посмотреть в наших салонах.
-							<a class='my-2' href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+							<a class='my-2' href='http://decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 			          	</div>
 			        </div>
 			    </div>
@@ -742,24 +597,7 @@ function showDetails(event){
 
 
 		    <div class="accordion-item"><!-- Варианты исполнения ножек -->
-		        <h2 class="accordion-header" id="headingFive">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-		            Варианты исполнения ножек
-		            </button>
-		        </h2>
-		        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
-		            	<div class="container-fluid">
-							<div class="row">
-								<div class="col-md-6 col-sm-12">
-									<p>Стильные конусовидные металлические ножки как тонкий оммаж дизайну славных 1960-х: времени первых шагов человечества в космическом пространстве.
-									<p><img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" alt="..." class="mt-5 w-50">	
-								
-								</div>			 
-							</div>
-		          		</div>
-		        	</div>
-				</div>
+		        ${paws_var}
 			</div>
 	  
 
