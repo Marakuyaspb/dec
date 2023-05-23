@@ -10,7 +10,6 @@ get_header();
 	<!-- DESCTOP -->
 	<div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
 		<div class="main-head-slider">
-			
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			  <div class="carousel-indicators">
 			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -49,7 +48,7 @@ get_header();
 	</div>
 
 	<!-- TABLET & PHONE -->
-	<div class='pt-5 d-block d-md-none ' id='tablet-show'>
+	<div class='pt-5 d-block d-md-none ' id='phone-show'>
 		<div class="main-head-slider">
 			<div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
 			  <div class="carousel-indicators">
@@ -95,7 +94,7 @@ get_header();
 
 
 <!-- CATEGORIES DESCTOP-->
-<div class="container-fluid mt-2 d-none d-md-block d-lg-block d-xl-block d-xxl-block" id='goods_categories'>
+<div class='container-fluid mt-2 d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='goods_categories_desctop'>
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
@@ -198,7 +197,7 @@ get_header();
 </div>
 
 <!-- CATEGORIES PHONE & TABLET-->
-<div class="container-fluid mt-5 d-block d-md-none" id='goods_categories'>
+<div class='container-fluid mt-5 d-block d-md-none' id='goods_categories_phone'>
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>

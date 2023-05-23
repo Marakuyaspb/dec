@@ -21,6 +21,8 @@ function showDetails(event){
 /* remove slider */
   			var mainHeadSlider = document.getElementById('desctop-show');
   			mainHeadSlider.remove();
+  			var mainHeadSlider = document.getElementById('phone-show');
+  			mainHeadSlider.remove();
 
 /* change text & icons color in the menu */
   			let logo = document.getElementsByClassName('navbar-brand');

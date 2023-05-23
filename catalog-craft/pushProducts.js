@@ -14,6 +14,7 @@ class Products {
 			
 			<div class = "product_card p-3 sku ${category}" id='${sku}' onClick='showDetails(event);'>
 
+				<!-- DESCTOP -->
 				<div class = 'd-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 					<div class = 'd-flex justify-content-between'>
 						<div>
@@ -28,7 +29,7 @@ class Products {
 					</div>
 				</div>
 					
-
+				<!-- PHONE -->
 				<div class='d-flex justify-content-between d-block d-md-none'>
 					<h3 class='product_card_header product_card_name_mob '>${product_name}</h3>
 					<div>
@@ -38,7 +39,6 @@ class Products {
 					</div>
 				</div>
 				
-
 				<center class='mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 					<img src="${product_img}" class="img-fluid product_img_under">
 				</center>
@@ -74,5 +74,5 @@ class Products {
 		
 		}
 	}
-
+console.log('goods rendered');
 const productsPage = new Products();
