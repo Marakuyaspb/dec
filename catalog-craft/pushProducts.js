@@ -8,7 +8,7 @@ class Products {
 		
 		let htmlProducts = '';
 		
-		CATALOG.forEach(({sku, category, model, fabric_type, fabric_name, product_name, product_img, product_img_mob, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, prod_width, prod_depth, prod_height, price, price_sale}) => {
+		CATALOG.forEach(({sku, category, model, fabric_type, fabric_name, product_name, product_img, product_img_mob, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, width, depth, height, price, price_sale}) => {
 			
 			htmlProducts += `
 			
@@ -54,7 +54,7 @@ class Products {
 					</div>
 
 					<div class = 'd-flex justify-content-between'>
-						<div class='cacao'>${prod_width}×${prod_depth}×${prod_height}</div>
+						<div class='cacao'>${width}×${depth}×${height}</div>
 						<div class='cacao price_cat_page'>${price_sale} ₽</div>
 					</div>
 				</div>

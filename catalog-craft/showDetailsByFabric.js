@@ -68,6 +68,15 @@ function showDetailsByFabric(event){
   			let scheme = productAllDetails.scheme;
   			let scheme_2 = productAllDetails.scheme_2;
   			let paws_var = productAllDetails.paws_var;
+  			let slider_interior_1 = productAllDetails.slider_interior_1;
+  			let slider_interior_2 = productAllDetails.slider_interior_2;
+  			let slider_interior_3 = productAllDetails.slider_interior_3;
+  			let slider_interior_4 = productAllDetails.slider_interior_4;
+  			let slider_interior_mob_1 = productAllDetails.slider_interior_mob_1;
+  			let slider_interior_mob_2 = productAllDetails.slider_interior_mob_2;
+  			let slider_interior_mob_3 = productAllDetails.slider_interior_mob_3;
+  			let slider_interior_mob_4 = productAllDetails.slider_interior_mob_4;
+			let canvas_background = productAllDetails.canvas_background;
 
 /* render new html about the single product */
   		let anotherProduct = document.createElement("div");
@@ -312,7 +321,7 @@ function showDetailsByFabric(event){
 							<div class='row'>
 								<div class='col-md-4 col-sm-12'>
 			                		<table class='prod-card-table'>
-										<tr class='prod-card-table-row'>
+				                		<tr class='prod-card-table-row'>
 											${prod_width}
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -322,8 +331,21 @@ function showDetailsByFabric(event){
 											${prod_height}
 										</tr>
 										<tr class='prod-card-table-row'>
-											${prod_height}
+											${prod_weight}
 										</tr>
+										<tr class='prod-card-table-row'>
+											${prod_seat_height}
+										</tr>
+										<tr class='prod-card-table-row'>
+											${prod_seat_width}
+										</tr>
+										<tr class='prod-card-table-row'>
+											${prod_seat_depth}
+										</tr>
+										<tr class='prod-card-table-row'>
+											${prod_back_width}
+										</tr>
+									</table>
 									</table>
 
 									<!-- button class="btn-outline-gray">Вся коллекция</button -->
@@ -481,7 +503,7 @@ function showDetailsByFabric(event){
 							<div class='row'>
 								<div class='col-md-4 col-sm-12'>
 			                		<table class='prod-card-table'>
-										<tr class='prod-card-table-row'>
+				                		<tr class='prod-card-table-row'>
 											${prod_width}
 										</tr>
 										<tr class='prod-card-table-row'>
@@ -491,8 +513,21 @@ function showDetailsByFabric(event){
 											${prod_height}
 										</tr>
 										<tr class='prod-card-table-row'>
-											${prod_height}
+											${prod_weight}
 										</tr>
+										<tr class='prod-card-table-row'>
+											${prod_seat_height}
+										</tr>
+										<tr class='prod-card-table-row'>
+											${prod_seat_width}
+										</tr>
+										<tr class='prod-card-table-row'>
+											${prod_seat_depth}
+										</tr>
+										<tr class='prod-card-table-row'>
+											${prod_back_width}
+										</tr>
+									</table>
 									</table>
 
 									<!-- button class="btn-outline-gray">Вся коллекция</button -->
@@ -616,7 +651,7 @@ function showDetailsByFabric(event){
 	<!-- the end of accordion part -->
 
 
-	<!-- Slider with interiors DESCTOP -->
+<!-- Slider with interiors DESCTOP -->
 	<div class='mt-5 banner d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
@@ -628,16 +663,16 @@ function showDetailsByFabric(event){
 
 		 	<div class="carousel-inner" onmousemove='showPopOvers();'>
 			    <div class="carousel-item active">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_1.jpg" class="d-block w-100" alt="...">
+			      <img src="${slider_interior_1}" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_2.jpg" alt="...">
+			      <img src="${slider_interior_2}" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_3.jpg" alt="...">
+			      <img src="${slider_interior_3}" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_4.jpg" alt="...">
+			      <img src="${slider_interior_4}" alt="...">
 			    </div>
 			</div>
 
@@ -651,9 +686,9 @@ function showDetailsByFabric(event){
 			  </button>
 		</div>  
 	</div>
-	<!-- Slider DESCTOP end -->
+<!-- Slider DESCTOP end -->
 
-	<!-- Slider with interiors PHONE & TABLET  -->
+<!-- Slider with interiors PHONE & TABLET  -->
 	<div class='mt-3 banner d-block d-md-none'>
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
@@ -663,18 +698,18 @@ function showDetailsByFabric(event){
 			     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom" aria-label="Slide 4"></button>
 			</div>
 
-		 	<div class="carousel-inner" onmousemove='showPopOvers();'>
+		 	<div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_1_mob.jpg" class="d-block w-100" alt="...">
+			      <img src="${slider_interior_mob_1}" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_2_mob.jpg" alt="...">
+			      <img src="${slider_interior_mob_2}" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_3_mob.jpg" alt="...">
+			      <img src="${slider_interior_mob_3}" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_4_mob.jpg" alt="...">
+			      <img src="${slider_interior_mob_4}" alt="...">
 			    </div>
 			</div>
 
@@ -688,12 +723,12 @@ function showDetailsByFabric(event){
 			  </button>
 		</div>  
 	</div>
-	<!-- Slider PHONE end -->
+<!-- Slider PHONE end -->
 
 
 	<!-- DESCTOP POP OVER THING START -->
 	<div class='popOverBlock pt-5 d-none d-lg-block d-xl-block d-xxl-block'>
-		<canvas id="canvasBig" style="display:block" width='1600' height='800'></canvas>
+		<canvas id="canvasBig" class="${canvas_background}" style="display:block" width='1600' height='800'></canvas>
 
 		<div class = 'popOvers'>	
 	        <div id='popAboutStitchesBig'>

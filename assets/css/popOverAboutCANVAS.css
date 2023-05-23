@@ -1,14 +1,12 @@
-
 /* DESCTOP */
 
-.popOverBlock{
+.popOvers{
   position: relative;
   width: 100%;
   margin: 0 auto;
 }
 
 #canvasBig {
-  background-image: url('http://decona.ru/wp-content/uploads/catalog/popOperBack.png');
   background-size: 1600px;
   display: block;
   width: 1600px;
@@ -18,13 +16,75 @@
   margin-left: auto;
 }
 
+.canvas_consono_arm{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_VELUTTO_32.png");
+}
+
+/* CONSONO CORNER */
+
+.canvas_consono_corner_cambridge_600{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_CAMBRIDGE_600.png");
+}
+.canvas_consono_corner_jazz_01{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_JAZZ_01.png");
+}
+.canvas_consono_corner_jazz_21{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_JAZZ_21.png");
+}
+.canvas_consono_corner_pixel_forest{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_PIXEL_FOREST.png");
+}
+.canvas_consono_corner_velutto_32{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_VELUTTO_32.png");
+}
+
+
+
+.canvas_consono_sofa{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_VELUTTO_32.png");
+}
+.canvas_consono_k1r{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_VELUTTO_32.png");
+}
+.canvas_consono_pouf{
+  background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/CONSONO-CORNER_VELUTTO_32.png");
+}
+
+
+.canvas_nadwig{
+   background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/NADWIG_SOFA_JAZZ_21.png");
+}
+
+
+/* NADWIG CORNER */
+.canvas_nadwig_corner_cambridge_600{
+   background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/NADWIG_CORNER_CAMBRIDGE_600.png");
+}
+.canvas_nadwig_corner_jazz_01{
+   background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/NADWIG_CORNER_JAZZ_01.png");
+}
+.canvas_nadwig_corner_jazz_21{
+   background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/NADWIG_CORNER_JAZZ_21.png");
+}
+.canvas_nadwig_corner_velutto_16{
+   background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/NADWIG_CORNER_VELUTTO_16.png");
+}
+.canvas_nadwigcorner_velutto_32{
+   background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/NADWIG_CORNER_VELUTTO_32.png");
+}
+
+
+.canvas_giros{
+   background-image: url("http://decona.ru/wp-content/uploads/catalog/popOversBack/NADWIG_SOFA_JAZZ_21.png");
+}
+
 
 #popAboutStitchesBig{
   position: absolute;
   z-index: 4;
   display: none;
-  left: 20%;
-  top: 50%;
+  left: 8%;
+  bottom: 4em;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -35,140 +95,47 @@
   position: absolute;
   z-index: 4;
   display: none;
-  left: 20%;
-  top: 30%;
+  left: 32%;
+  bottom: 23em;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-20%, -30%);
- 
 }
 #popAboutFrontBig{
   position: absolute;
   z-index: 4;
   display: none;
-  left: 50%;
-  top: 50%;
+  left: 40%;
+  bottom: 4em;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  
+  transform: translate(-50%, -50%); 
 }
 #popAboutBackBig{
   position: absolute;
   z-index: 4;
   display: none;
-  left: 60%;
-  top: 10%;
+  left: 67%;
+  bottom: 28em;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-60%, -10%);
-  
 }
 #popAboutPawBig{
   position: absolute;
   z-index: 4;
   display: none;
   left: 70%;
-  top: 80%;
+  bottom: 0;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-70%, -80%);
-  
 }
-
-/*#canvas {
-  background-image: url('http://decona.ru/wp-content/uploads/2023/02/Portland_for-details-11.png');
-  background-size: 800px;
-  display: block;
-  width: 800px;
-  height: 400px;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.popOverBlock{
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-}
-
-
-
-#popAboutStitches{
-  position: absolute;
-  z-index: 4;
-  display: none;
-  left: 30%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-30%, -50%);
-}
-#popAboutPillow{
-  position: absolute;
-  z-index: 4;
-  display: none;
-  left: 40%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-40%, -50%);
- 
-}
-#popAboutFront{
-  position: absolute;
-  z-index: 4;
-  display: none;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  
-}
-#popAboutBack{
-  position: absolute;
-  z-index: 4;
-  display: none;
-  left: 60%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-60%, -50%);
-  
-}
-#popAboutPaw{
-  position: absolute;
-  z-index: 4;
-  display: none;
-  left: 70%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-70%, -50%);
-  
-}
-
-*/
-
-
-
