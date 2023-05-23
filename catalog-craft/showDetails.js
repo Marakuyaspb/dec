@@ -18,32 +18,6 @@ function showDetails(event){
   			var allProducts = document.getElementById('goods_show');
   			allProducts.remove();
 
-/* remove slider */
-  			var mainHeadSlider = document.getElementById('desctop-show');
-  			mainHeadSlider.remove();
-  			var mainHeadSlider = document.getElementById('phone-show');
-  			mainHeadSlider.remove();
-
-/* change text & icons color in the menu */
-  			let logo = document.getElementsByClassName('navbar-brand');
-  			for (var i_1 = 0; i_1 < logo.length; i_1++) {
-    			logo[i_1].classList.remove('white');
-    		};
-    		
-    		let nl = document.getElementsByClassName('nav-link');
-    		for (var i_2 = 0; i_2 < nl.length; i_2++) {
-    			nl[i_2].classList.remove('white');
-    		};
-
-    		let ih = document.getElementsByClassName('icon-header');
-    		for (var i_3 = 0; i_3 < ih.length; i_3++) {
-    			ih[i_3].classList.remove('white');
-    		};
-
-    		let ts = document.getElementsByClassName('top-string');
-    		for (var i_4 = 0; i_4 < ts.length; i_4++) {
-    			ts[i_4].classList.remove('white');
-    		};
 
 /* define vars  */
   			let sku = productAllDetails.sku;
@@ -180,7 +154,6 @@ function showDetails(event){
 					    </div>
 					</div>
 
-
 					  <button class='carousel-control-prev' type='button' data-bs-target='#carouselExampleDark' data-bs-slide='prev'>
 					    <span class='carousel-control-prev-icon' aria-hidden='true'></span>
 					    <span class='visually-hidden'>Previous</span>
@@ -202,7 +175,9 @@ function showDetails(event){
 		<!-- Name & price -->
 	
 		<div class='d-flex justify-content-evenly latte_bg banner'>
-			<div class='mt-2 prod-card-model'>${product_full_name}</div>
+			<div class='mt-2 prod-card-model'>
+				${product_full_name}
+			</div>
 			<div class='mt-1 d-flex flex-row'>
 				<p class='prod-card-price pe-3'>${price_sale} ₽</p>
 				<p class='old-price'>${price} ₽</p>
@@ -297,7 +272,6 @@ function showDetails(event){
 		          </div>
 		    </div>
 		    
-
 		    <div class='accordion-item'><!-- Характеристики -->
 		        <h2 class='accordion-header' id='headingThree'>
 		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='true' aria-controls='collapseThree'>
@@ -342,7 +316,6 @@ function showDetails(event){
 		    	</div>
 		    </div>
 
-
 		    <div class='accordion-item'><!-- Материал обивки -->
 		        <h2 class='accordion-header' id='headingFour'>
 		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseFour' aria-expanded='true' aria-controls='collapseFour'>
@@ -372,7 +345,6 @@ function showDetails(event){
 		        ${paws_var}
 			</div>
 	  
-
 		    <div class='accordion-item'><!-- Опции -->
 		        <h2 class='accordion-header' id='headingSix'>
 		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseSix' aria-expanded='true' aria-controls='collapseSix'>
@@ -440,15 +412,14 @@ function showDetails(event){
 
 		<!-- DESCTOP POP OVER THING-->
 		${canvas_background}
-
 	</div>
-	<!-- DESCTOP END-->
+	</div>
+	<!-- DESCTOP END -->
 
 
 	<!-- PHONE & TABLET-->
 
 	<div class='container-fluid d-block d-md-none'>
-
 		<div class='thin'>
 			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/'>Продукция</a>
 		</div>
@@ -497,16 +468,16 @@ function showDetails(event){
 		      		<img src='${carousel_item_1_mob}' class='d-block w-100' alt='...'>
 		    	</div>
 		    	<div class='carousel-item' data-bs-interval='2000'>
-		      	<img src='${carousel_item_2_mob}' class='d-block w-100' alt='...'>
+		      		<img src='${carousel_item_2_mob}' class='d-block w-100' alt='...'>
 		    	</div>
 		    	<div class='carousel-item'>
-		      	<img src='${carousel_item_3_mob}' class='d-block w-100' alt='...'>
+		      		<img src='${carousel_item_3_mob}' class='d-block w-100' alt='...'>
 		    	</div>
 		    	<div class='carousel-item'>
-		      	<img src='${carousel_item_4_mob}' class='d-block w-100' alt='...'>
+		      		<img src='${carousel_item_4_mob}' class='d-block w-100' alt='...'>
 		    	</div>
 		    	<div class='carousel-item'>
-		      	<img src='${carousel_item_5_mob}' class='d-block w-100' alt='...'>
+		      		<img src='${carousel_item_5_mob}' class='d-block w-100' alt='...'>
 		    	</div>
 		  	</div>
 		</div>
@@ -748,12 +719,12 @@ function showDetails(event){
 		</div>
 
 	</div>
-	<!--  -->
+	<!-- end -->
 
 	
 	<div class='container-fluid ms-4 mt-4'>
 		<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
-		<!-- button class='btn-outline-gray my-2'>Вся коллекция</button>
+		<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
 	</div>	
 </div>
 			`; 
@@ -762,4 +733,7 @@ function showDetails(event){
 	adaptationWidth();
 	filterFabricButtons();
 	showPopOvers();
+
+	/* Scroll to top */
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
 }

@@ -44,7 +44,6 @@ function filterProducts(event){
             ts[i_4].classList.remove('white');
         };
 
-
     /* Scroll to top */
         document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
