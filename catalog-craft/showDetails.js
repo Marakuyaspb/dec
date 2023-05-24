@@ -419,8 +419,8 @@ function showDetails(event){
 
 	<!-- PHONE & TABLET-->
 
-	<div class='container-fluid d-block d-md-none'>
-		<div class='thin'>
+	<div class='d-block d-md-none'>
+		<div class='thin mt-3 ms-2'>
 			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/'>Продукция</a>
 		</div>
 
@@ -433,29 +433,29 @@ function showDetails(event){
         <!-- fabric buttons -->
 
 		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-			<img class='slide-fabric-button fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png' onClick ='showDetailsByFabric(event);'>
+			<img class='slide-fabric-button fabric-var-phone CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png' onClick ='showDetailsByFabric(event);'>
 
-			<img class='slide-fabric-button fabric-var COSMIC_08' id='${collection}_${category}_COSMIC_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/COSMIC/COSMIC_08.png' onClick ='showDetailsByFabric(event);'>
+			<img class='slide-fabric-button fabric-var-phone COSMIC_08' id='${collection}_${category}_COSMIC_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/COSMIC/COSMIC_08.png' onClick ='showDetailsByFabric(event);'>
 
-			<img class='slide-fabric-button fabric-var HARMONY_SILVER' id='${collection}_${category}_HARMONY_SILVER' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/HARMONY_SILVER.png' onClick ='showDetailsByFabric(event);'>  
+			<img class='slide-fabric-button fabric-var-phone HARMONY_SILVER' id='${collection}_${category}_HARMONY_SILVER' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/HARMONY_SILVER.png' onClick ='showDetailsByFabric(event);'>  
 
-	    	<img class='slide-fabric-button fabric-var JAZZ_01' id='${collection}_${category}_JAZZ_01' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var-phone JAZZ_01' id='${collection}_${category}_JAZZ_01' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png' onClick ='showDetailsByFabric(event);'>
 
-	    	<img class='slide-fabric-button fabric-var JAZZ_08' id='${collection}_${category}_JAZZ_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var-phone JAZZ_08' id='${collection}_${category}_JAZZ_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png' onClick ='showDetailsByFabric(event);'>
 
-	    	<img class='slide-fabric-button fabric-var JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var-phone JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
 
-	    	<img class='slide-fabric-button fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= 'http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var-phone PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= 'http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png' onClick ='showDetailsByFabric(event);'>
 	    
-	    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png' onClick ='showDetailsByFabric(event);'>    	
+	    	<img class='slide-fabric-button fabric-var-phone VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png' onClick ='showDetailsByFabric(event);'>    	
 	    
-		    <img class='slide-fabric-button fabric-var ${category}' id='${collection}_${category}_VELUTTO_32' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png' onClick ='showDetailsByFabric(event);'>
+		    <img class='slide-fabric-button fabric-var-phone ${category}' id='${collection}_${category}_VELUTTO_32' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png' onClick ='showDetailsByFabric(event);'>
 		</div>
 		
 
 		<!-- slider with product -->
 
-		<div id='carouselExampleDark' class='carousel carousel-dark slide' data-bs-ride='carousel'>
+		<div id='carouselExampleDark' class='carousel carousel-dark slide px-2' data-bs-ride='carousel'>
 		  	<div class='carousel-indicators'>
 			    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
 			    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='1' aria-label='Slide 2'></button>
@@ -486,12 +486,15 @@ function showDetails(event){
 		<!-- Name & price -->
 
 		<div class='mt-2'>
-			<div class='prod-card-model latte ps-3'>${product_full_name}</div>
-			<div class='mt-1 d-flex flex-row latte'>
-				<p class='prod-card-price px-3'>${price_sale} ₽</p>
-				<p class='old-price'>${price} ₽</p>
+			<div class='latte_bg pt-2'>
+				<div class='prod-card-model-phone ps-3'>${product_full_name}</div>
+				<div class='mt-1 d-flex flex-row'>
+					<p class='prod-card-price-phone px-3'>${price_sale} ₽</p>
+					<p class='old-price-phone'>${price} ₽</p>
+				</div>
 			</div>
-			<div class='d-flex justify-content-around white btn-prod-card_mob my-2 img-cover light-cacao'>
+
+			<div class='d-flex justify-content-around white btn-prod-card_mob py-2 img-cover cacao_bg'>
 				<a class='to-order white p-2' onClick='pushSKUinForm(event);'>
 					Заказать
 				</a>

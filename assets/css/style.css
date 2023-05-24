@@ -85,6 +85,9 @@ p {
 .light-cacao{
 	background-color: #e8d9d1;
 }
+.cacao_bg{
+	background-color: #9F8A88!important;
+}
 .middle-gray{
 	background-color: #CDCECF; /* info rectangle */
 }
@@ -586,6 +589,11 @@ a .icon-header:hover{
 .fabric-var{
 	width: 1.6em;
 }
+.fabric-var-phone{
+	width: 3.8em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
 .fabric-name{
 	font-size: 1em;
 }
@@ -611,15 +619,29 @@ a .icon-header:hover{
 	font-size: 1.688em;
 	line-height: 2.4;
 }
+.prod-card-model-phone{
+	color: #5E5B5B;	
+	font-size: 1.3em;
+	line-height: 1.5;
+}
 .prod-card-price {
 	color: #5E5B5B;
 	font-size: 2.25em;
 	padding-top: .4em;
 }
+.prod-card-price-phone {
+	color: #5E5B5B;
+	font-size: 1.7em;
+}
 .old-price{
 	color: #9F8A88;
 	font-size: 2.25em;
 	padding-top: .4em;
+	text-decoration: line-through;
+}
+.old-price-phone{
+	color: #9F8A88;
+	font-size: 1.7em;
 	text-decoration: line-through;
 }
 

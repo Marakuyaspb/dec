@@ -86,10 +86,12 @@ function showDetailsByFabric(event){
 		document.getElementById('goods_details').innerHTML =
 			`
 <div id='${sku}' class='sku'>
-	<!-- Desctop -->
-	<div class='container-fluid ms-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+
+	<!-- DESCTOP -->
+	<div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+
 		<div class='thin ms-4'>
-			<a id='collection' class='${collection}' href='http://decona.ru'>Продукция</a> / ${category_ru}
+			<a id='collection' class='${collection}' href='http://decona.ru/'>Продукция</a> / ${category_ru}
 		</div>
 
 		<div class='row'>
@@ -99,26 +101,28 @@ function showDetailsByFabric(event){
 		      	<p class='fabric-name pb-3'>Ткань: ${fabric_name}
 		    	</center>
 
-				<!-- fabric buttons -->
+			<!-- fabric buttons -->
+
 				<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-					<img class='slide-fabric-button fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
+					<img class='slide-fabric-button fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png' onClick ='showDetailsByFabric(event);'>
 
-					<img class='slide-fabric-button fabric-var COSMIC_08' id='${collection}_${category}_COSMIC_08' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/COSMIC/COSMIC_08.png" onClick ='showDetailsByFabric(event);'>
+					<img class='slide-fabric-button fabric-var COSMIC_08' id='${collection}_${category}_COSMIC_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/COSMIC/COSMIC_08.png' onClick ='showDetailsByFabric(event);'>
 
-					<img class='slide-fabric-button fabric-var HARMONY_SILVER' id='${collection}_${category}_HARMONY_SILVER' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/HARMONY_SILVER.png" onClick ='showDetailsByFabric(event);'>  
+					<img class='slide-fabric-button fabric-var HARMONY_SILVER' id='${collection}_${category}_HARMONY_SILVER' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/HARMONY_SILVER.png' onClick ='showDetailsByFabric(event);'>  
 
-			    	<img class='slide-fabric-button fabric-var JAZZ_01' id='${collection}_${category}_JAZZ_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var JAZZ_01' id='${collection}_${category}_JAZZ_01' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png' onClick ='showDetailsByFabric(event);'>
 
 			    	<img class='slide-fabric-button fabric-var JAZZ_08' id='${collection}_${category}_JAZZ_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png' onClick ='showDetailsByFabric(event);'>
 
 			    	<img class='slide-fabric-button fabric-var JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
 
-			    	<img class='slide-fabric-button fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= 'http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png' onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png" onClick ='showDetailsByFabric(event);'>    	
+			    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png' onClick ='showDetailsByFabric(event);'>    	
 			    
-				    <img class='slide-fabric-button fabric-var ${category}' id='${collection}_${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
+				    <img class='slide-fabric-button fabric-var ${category}' id='${collection}_${category}_VELUTTO_32' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png' onClick ='showDetailsByFabric(event);'>
 				</div>
+
 				<div class='d-flex flex-row ms-4 card_icons'>
 					<img class = 'is_new_icon_pr_card' src='${is_new}'>
 					<img class = 'available_icon_pr_card' src='${available_in_showroom}'> 
@@ -126,125 +130,62 @@ function showDetailsByFabric(event){
 				</div>
 
 				<!-- slider with product -->
-				<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-					  <div class="carousel-indicators">
-					    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-					    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-					    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-					  </div>
-					  <div class="carousel-inner">
-					    <div class="carousel-item active" data-bs-interval="10000">
-					      <img src="${carousel_item_1}" class="d-block w-100" alt="...">
-					    </div>
-					    <div class="carousel-item" data-bs-interval="2000">
-					      <img src="${carousel_item_2}" class="d-block w-100" alt="...">
-					    </div>
-					    <div class="carousel-item">
-					      <img src="${carousel_item_3}" class="d-block w-100" alt="...">
-					    </div>
-					    <div class="carousel-item">
-					      <img src="${carousel_item_4}" class="d-block w-100" alt="...">
-					    </div>
-					    <div class="carousel-item">
-					      <img src="${carousel_item_5}" class="d-block w-100" alt="...">
-					    </div>
-					  </div>
 
+				<div id='carouselExampleDark' class='carousel carousel-dark slide' data-bs-ride='carousel'>
+					<div class='carousel-indicators'>
+					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
+					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='1' aria-label='Slide 2'></button>
+					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='2' aria-label='Slide 3'></button>
+					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='3' aria-label='Slide 4'></button>
+					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='4' aria-label='Slide 5'></button>
+					</div>
+					<div class='carousel-inner'>
+					    <div class='carousel-item active' data-bs-interval='10000'>
+					      <img src='${carousel_item_1}' class='d-block w-100' alt='...'>
+					    </div>
+					    <div class='carousel-item' data-bs-interval='2000'>
+					      <img src='${carousel_item_2}' class='d-block w-100' alt='...'>
+					    </div>
+					    <div class='carousel-item'>
+					      <img src='${carousel_item_3}' class='d-block w-100' alt='...'>
+					    </div>
+					    <div class='carousel-item'>
+					      <img src='${carousel_item_4}' class='d-block w-100' alt='...'>
+					    </div>
+					    <div class='carousel-item'>
+					      <img src='${carousel_item_5}' class='d-block w-100' alt='...'>
+					    </div>
+					</div>
 
-					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					    <span class="visually-hidden">Previous</span>
+					  <button class='carousel-control-prev' type='button' data-bs-target='#carouselExampleDark' data-bs-slide='prev'>
+					    <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+					    <span class='visually-hidden'>Previous</span>
 					  </button>
-					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					    <span class="visually-hidden">Next</span>
+					  <button class='carousel-control-next' type='button' data-bs-target='#carouselExampleDark' data-bs-slide='next'>
+					    <span class='carousel-control-next-icon' aria-hidden='true'></span>
+					    <span class='visually-hidden'>Next</span>
 					  </button>
-					</div>   
+				</div>  
 			</div>
 
-			<div id='content_right' class='no-padding-right'>
+			<div class='no-padding-right' id='content_right'>
 				<img class='img-fluid banner' src='${right_sofa_piece}'>
 			</div>
 		</div>
-	</div>
+
+
+
+		<!-- Name & price -->
 	
-
-
-	<!-- Phone & Tablet-->
-	<div class='container-fluid d-block d-md-none'>
-		<div class='thin'>
-			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/'>Продукция</a>
-		</div>
-
-		<p class='h-center pt-5'>${product_name}</p>
-
-		<center>
-          	<p class='fabric-name pb-3'>Ткань: ${fabric_name}
-        </center>
-
-		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-			<img class='slide-fabric-button fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
-
-			<img class='slide-fabric-button fabric-var COSMIC_08' id='${collection}_${category}_COSMIC_08' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/COSMIC/COSMIC_08.png" onClick ='showDetailsByFabric(event);'>
-
-			<img class='slide-fabric-button fabric-var HARMONY_SILVER' id='${collection}_${category}_HARMONY_SILVER' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/HARMONY_SILVER.png" onClick ='showDetailsByFabric(event);'>  
-
-	    	<img class='slide-fabric-button fabric-var JAZZ_01' id='${collection}_${category}_JAZZ_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
-
-	    	<img class='slide-fabric-button fabric-var JAZZ_08' id='${collection}_${category}_JAZZ_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png' onClick ='showDetailsByFabric(event);'>
-
-	    	<img class='slide-fabric-button fabric-var JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
-
-	    	<img class='slide-fabric-button fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
-	    
-	    	<img class='slide-fabric-button fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png" onClick ='showDetailsByFabric(event);'>    	
-	    
-		    <img class='slide-fabric-button fabric-var ${category}' id='${collection}_${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
-		</div>
-
-		<!-- slider with product -->
-		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-			    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-			    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-			    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+		<div class='d-flex justify-content-evenly latte_bg banner'>
+			<div class='mt-2 prod-card-model'>
+				${product_full_name}
 			</div>
-			<div class="carousel-inner">
-			    <div class="carousel-item active" data-bs-interval="10000">
-			      <img src="${carousel_item_1_mob}" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item" data-bs-interval="2000">
-			      <img src="${carousel_item_2_mob}" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${carousel_item_3_mob}" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${carousel_item_4_mob}" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${carousel_item_5_mob}" class="d-block w-100" alt="...">
-			    </div>
-			 </div>
-		</div> 
-	</div>
-	<!--  -->
-
-	<!-- Name & price -->
-
-	<!-- Desktop -->
-	<div class='mb-4 px-5 latte_bg banner container-fluid d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-		<div class="d-flex justify-content-evenly">
-			<div class='mt-2 prod-card-model'>${product_full_name}</div>
 			<div class='mt-1 d-flex flex-row'>
 				<p class='prod-card-price pe-3'>${price_sale} ₽</p>
 				<p class='old-price'>${price} ₽</p>
 			</div>
-			<div class="mt-3 d-flex justify-content-between">
+			<div class='mt-3 d-flex justify-content-between'>
 				<a class='rel_pos' href='#'>
 					<button class='to-order white btn-prod-card' onClick='pushSKUinForm(event);'>
 						Заказать
@@ -262,45 +203,18 @@ function showDetailsByFabric(event){
 				</a>
 			</div>
 		</div>
-		</div>
-	</div>
 
-	<!-- Phone -->
-	<div class=' mt-2 d-block d-md-none'>
-		<div class='prod-card-model ps-3'>${product_full_name}</div>
-		<div class='mt-1 d-flex flex-row'>
-				<p class='prod-card-price px-3'>${price_sale} ₽</p>
-				<p class='old-price'>${price} ₽</p>
-			</div>
-		<div class="d-flex justify-content-around white btn-prod-card_mob my-2 img-cover">
-				<a class='to-order white p-2' onClick='pushSKUinForm(event);'>
-					Заказать
-				</a>
-				<a class='white p-2' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
-					3d модель
-				</a>
-				<a class='white p-2' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
-					PDF
-				</a>
-			</div>
-	</div>	
+		<!-- ACCORDION DESCTOP-->
 
-
-
-	<!-- ACCORDION -->
-
-	<!-- desctop -->
-	<div class='d-none d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
-		<div class="accordion mx-5" id="accordionExample">
-
-		    <div class="accordion-item"><!-- Описание -->
-		        <h2 class="accordion-header" id="headingOne">
-		            <button class="accordion-button white_bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		<div class='accordion mx-5' id='accordionExample'>
+		    <div class='accordion-item'><!-- Описание -->
+		        <h2 class='accordion-header' id='headingOne'>
+		            <button class='accordion-button white_bg' type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>
 		            Описание
 		            </button>
 		        </h2>
-		        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseOne' class='accordion-collapse collapse show' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		                <p id='description'>
 		                	${description}
 		                </p>
@@ -308,15 +222,14 @@ function showDetailsByFabric(event){
 		        </div>
 		    </div>
 
-
-		    <div class="accordion-item"><!-- Схема и габариты -->
-		        <h2 class="accordion-header" id="headingTwo">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+		    <div class='accordion-item'><!-- Схема и габариты -->
+		        <h2 class='accordion-header' id='headingTwo'>
+		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo' aria-expanded='true' aria-controls='collapseTwo'>
 		            Схема и габариты
 		            </button>
 		        </h2>
-		        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		            	<div class='container-fluid'>
 							<div class='row'>
 								<div class='col-md-4 col-sm-12'>
@@ -348,29 +261,28 @@ function showDetailsByFabric(event){
 									</table>
 									</table>
 
-									<!-- button class="btn-outline-gray">Вся коллекция</button -->
+									<!-- button class='btn-outline-gray mt-1'>Вся коллекция</button -->
 
 								</div>
-								
 								<div class='col-md-4 col-sm-12'>
 									${scheme}
 									${scheme_2}
 								</div>
+								
 							</div>
 						</div>
 					</div>		
 		          </div>
 		    </div>
 		    
-
-		    <div class="accordion-item"><!-- Характеристики -->
-		        <h2 class="accordion-header" id="headingThree">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+		    <div class='accordion-item'><!-- Характеристики -->
+		        <h2 class='accordion-header' id='headingThree'>
+		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='true' aria-controls='collapseThree'>
 		            Характеристики
 		            </button>
 		        </h2>
-		        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseThree' class='accordion-collapse collapse' aria-labelledby='headingThree' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		                <h4>Основные</h4>
 		                <div class='accordion-padding'>
 							<div class='row'>
@@ -407,15 +319,14 @@ function showDetailsByFabric(event){
 		    	</div>
 		    </div>
 
-
-		    <div class="accordion-item"><!-- Материал обивки -->
-		        <h2 class="accordion-header" id="headingFour">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+		    <div class='accordion-item'><!-- Материал обивки -->
+		        <h2 class='accordion-header' id='headingFour'>
+		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseFour' aria-expanded='true' aria-controls='collapseFour'>
 		            Материал обивки
 		            </button>
 		        </h2>
-		        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseFour' class='accordion-collapse collapse' aria-labelledby='headingFour' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		            	<div class='container-fluid'>
 							<div class='row'>
 								<div class='col-md-8 col-sm-12'>
@@ -425,7 +336,7 @@ function showDetailsByFabric(event){
 									<p><a href='http://decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img src="${product_fabric_img}" class='img-fluid'>
+									<img src='${product_fabric_img}' class='img-fluid'>
 								</div>
 							</div>	
 			          	</div>
@@ -433,20 +344,18 @@ function showDetailsByFabric(event){
 			    </div>
 			</div>
 
-
-		    <div class="accordion-item"><!-- Варианты исполнения ножек -->
+		    <div class='accordion-item'><!-- Варианты исполнения ножек -->
 		        ${paws_var}
 			</div>
 	  
-
-		    <div class="accordion-item"><!-- Опции -->
-		        <h2 class="accordion-header" id="headingSix">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+		    <div class='accordion-item'><!-- Опции -->
+		        <h2 class='accordion-header' id='headingSix'>
+		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseSix' aria-expanded='true' aria-controls='collapseSix'>
 		            Опции
 		            </button>
 		        </h2>
-		        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		            	<div>
 		                	<p class='mb-2'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё.
 		                	</p>
@@ -455,11 +364,11 @@ function showDetailsByFabric(event){
 		                	<div class='row'>
 								<div class='ps-5 col-md-6 col-sm-12'>
 									<p>Декоративные швы снаружи
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg">
+									<img src='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg'>
 								</div>
 								<div class='pe-5 col-md-6 col-sm-12'>
 									<p>Без декоративных швов
-									<img src="wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_NOSEAMS.jpg">
+									<img src='wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_NOSEAMS.jpg'>
 								</div>
 							</div>
 						</div>
@@ -467,22 +376,152 @@ function showDetailsByFabric(event){
 		        </div>
 		    </div>
 		</div>
+
+		<!-- Slider with interiors DESCTOP -->
+		<div class='banner mt-3'>
+			<div id='carouselExampleIndicators' class='carousel slide' data-bs-ride='carousel'>
+				<div class='carousel-indicators'>
+				    <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
+				    <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2'></button>
+				    <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3'></button>
+				    <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4'></button>
+				</div>
+
+				<div class='carousel-inner'>
+				    <div class='carousel-item active'>
+				      <img src='${slider_interior_1}' class='d-block w-100' alt='...'>
+				    </div>
+				    <div class='carousel-item'>
+				      <img src='${slider_interior_2}' class='d-block w-100' alt='...'>
+				    </div>
+				    <div class='carousel-item'>
+				      <img src='${slider_interior_3}' class='d-block w-100' alt='...'>
+				    </div>
+				    <div class='carousel-item'>
+				      <img src='${slider_interior_4}' class='d-block w-100' alt='...'>
+				    </div>
+				</div>
+				  
+				<button class='carousel-control-prev' type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev'>
+				    <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+				    <span class='visually-hidden'>Previous</span>
+				</button>
+				<button class='carousel-control-next' type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next'>
+				    <span class='carousel-control-next-icon' aria-hidden='true'></span>
+				    <span class='visually-hidden'>Next</span>
+				</button>
+			</div>
+		</div>
+
+		<!-- DESCTOP POP OVER THING-->
+		${canvas_background}
 	</div>
+	</div>
+	<!-- DESCTOP END -->
 
 
-	<!-- phone -->
+	<!-- PHONE & TABLET-->
 
-	<div class='d-block d-lg-none'>
-		<div class="accordion" id="accordionExample">
+	<div class='d-block d-md-none'>
+		<div class='thin mt-3 ms-2'>
+			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/'>Продукция</a>
+		</div>
 
-		    <div class="accordion-item"><!-- Описание -->
-		        <h2 class="accordion-header" id="headingOne">
-		            <button class="accordion-button white_bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		<p class='h-center pt-5'>${product_name}</p>
+		<center>
+          	<p class='fabric-name pb-3'>Ткань: ${fabric_name}
+        </center>
+
+
+        <!-- fabric buttons -->
+
+		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
+			<img class='slide-fabric-button fabric-var-phone CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png' onClick ='showDetailsByFabric(event);'>
+
+			<img class='slide-fabric-button fabric-var-phone COSMIC_08' id='${collection}_${category}_COSMIC_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/COSMIC/COSMIC_08.png' onClick ='showDetailsByFabric(event);'>
+
+			<img class='slide-fabric-button fabric-var-phone HARMONY_SILVER' id='${collection}_${category}_HARMONY_SILVER' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/HARMONY/HARMONY_SILVER.png' onClick ='showDetailsByFabric(event);'>  
+
+	    	<img class='slide-fabric-button fabric-var-phone JAZZ_01' id='${collection}_${category}_JAZZ_01' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png' onClick ='showDetailsByFabric(event);'>
+
+	    	<img class='slide-fabric-button fabric-var-phone JAZZ_08' id='${collection}_${category}_JAZZ_08' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_08.png' onClick ='showDetailsByFabric(event);'>
+
+	    	<img class='slide-fabric-button fabric-var-phone JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
+
+	    	<img class='slide-fabric-button fabric-var-phone PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= 'http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png' onClick ='showDetailsByFabric(event);'>
+	    
+	    	<img class='slide-fabric-button fabric-var-phone VELUTTO_16' id='${collection}_${category}_VELUTTO_16' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_16.png' onClick ='showDetailsByFabric(event);'>    	
+	    
+		    <img class='slide-fabric-button fabric-var-phone ${category}' id='${collection}_${category}_VELUTTO_32' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png' onClick ='showDetailsByFabric(event);'>
+		</div>
+		
+
+		<!-- slider with product -->
+
+		<div id='carouselExampleDark' class='carousel carousel-dark slide px-2' data-bs-ride='carousel'>
+		  	<div class='carousel-indicators'>
+			    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
+			    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='1' aria-label='Slide 2'></button>
+			    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='2' aria-label='Slide 3'></button>
+			    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='3' aria-label='Slide 4'></button>
+			    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='4' aria-label='Slide 5'></button>
+		  	</div>
+		  	<div class='carousel-inner'>
+		    	<div class='carousel-item active' data-bs-interval='10000'>
+		      		<img src='${carousel_item_1_mob}' class='d-block w-100' alt='...'>
+		    	</div>
+		    	<div class='carousel-item' data-bs-interval='2000'>
+		      		<img src='${carousel_item_2_mob}' class='d-block w-100' alt='...'>
+		    	</div>
+		    	<div class='carousel-item'>
+		      		<img src='${carousel_item_3_mob}' class='d-block w-100' alt='...'>
+		    	</div>
+		    	<div class='carousel-item'>
+		      		<img src='${carousel_item_4_mob}' class='d-block w-100' alt='...'>
+		    	</div>
+		    	<div class='carousel-item'>
+		      		<img src='${carousel_item_5_mob}' class='d-block w-100' alt='...'>
+		    	</div>
+		  	</div>
+		</div>
+
+
+		<!-- Name & price -->
+
+		<div class='mt-2'>
+			<div class='latte_bg pt-2'>
+				<div class='prod-card-model-phone ps-3'>${product_full_name}</div>
+				<div class='mt-1 d-flex flex-row'>
+					<p class='prod-card-price-phone px-3'>${price_sale} ₽</p>
+					<p class='old-price-phone'>${price} ₽</p>
+				</div>
+			</div>
+
+			<div class='d-flex justify-content-around white btn-prod-card_mob py-2 img-cover cacao_bg'>
+				<a class='to-order white p-2' onClick='pushSKUinForm(event);'>
+					Заказать
+				</a>
+				<a class='white p-2' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
+					3d модель
+				</a>
+				<a class='white p-2' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
+					PDF
+				</a>
+			</div>
+		</div>	
+
+
+		<!-- ACCORDION PHONE-->
+
+		<div class='accordion' id='accordionExample'>
+		    <div class='accordion-item'><!-- Описание -->
+		        <h2 class='accordion-header' id='headingOne'>
+		            <button class='accordion-button white_bg' type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>
 		            Описание
 		            </button>
 		        </h2>
-		        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseOne' class='accordion-collapse collapse show' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		                <p id='description'>
 		                	${description}
 		                </p>
@@ -491,14 +530,14 @@ function showDetailsByFabric(event){
 		    </div>
 
 
-		    <div class="accordion-item"><!-- Схема и габариты -->
-		        <h2 class="accordion-header" id="headingTwo">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+		    <div class='accordion-item'><!-- Схема и габариты -->
+		        <h2 class='accordion-header' id='headingTwo'>
+		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo' aria-expanded='true' aria-controls='collapseTwo'>
 		            Схема и габариты
 		            </button>
 		        </h2>
-		        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		            	<div class='container-fluid'>
 							<div class='row'>
 								<div class='col-md-4 col-sm-12'>
@@ -528,9 +567,8 @@ function showDetailsByFabric(event){
 											${prod_back_width}
 										</tr>
 									</table>
-									</table>
 
-									<!-- button class="btn-outline-gray">Вся коллекция</button -->
+									<!-- button class='btn-outline-gray'>Вся коллекция</button -->
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
@@ -544,14 +582,14 @@ function showDetailsByFabric(event){
 		    </div>
 		    
 
-		    <div class="accordion-item"><!-- Характеристики -->
-		        <h2 class="accordion-header" id="headingThree">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+		    <div class='accordion-item'><!-- Характеристики -->
+		        <h2 class='accordion-header' id='headingThree'>
+		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='true' aria-controls='collapseThree'>
 		            Характеристики
 		            </button>
 		        </h2>
-		        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseThree' class='accordion-collapse collapse' aria-labelledby='headingThree' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		                <h4>Основные</h4>
 		                <div class='container'>
 							<div class='row'>
@@ -589,21 +627,21 @@ function showDetailsByFabric(event){
 		    </div>
 
 
-		    <div class="accordion-item"><!-- Материал обивки -->
-		        <h2 class="accordion-header" id="headingFour">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+		    <div class='accordion-item'><!-- Материал обивки -->
+		        <h2 class='accordion-header' id='headingFour'>
+		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseFour' aria-expanded='true' aria-controls='collapseFour'>
 		            Материал обивки
 		            </button>
 		        </h2>
-		        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseFour' class='accordion-collapse collapse' aria-labelledby='headingFour' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		            	<div class='container-fluid'>
 							<div class='row'>
 								<div class='col-md-8 col-sm-12'>
 									<p>${product_fabric_about}
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img src="${product_fabric_img}" class='img-fluid'>
+									<img src='${product_fabric_img}' class='img-fluid'>
 								</div>
 							</div>
 		                	<p class='mt-2' >Больше образцов тканей вы можете посмотреть в наших салонах.
@@ -614,19 +652,19 @@ function showDetailsByFabric(event){
 			</div>
 
 
-		    <div class="accordion-item"><!-- Варианты исполнения ножек -->
+		    <div class='accordion-item'><!-- Варианты исполнения ножек -->
 		        ${paws_var}
 			</div>
 	  
 
-		    <div class="accordion-item"><!-- Опции -->
-		        <h2 class="accordion-header" id="headingSix">
-		            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+		    <div class='accordion-item'><!-- Опции -->
+		        <h2 class='accordion-header' id='headingSix'>
+		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseSix' aria-expanded='true' aria-controls='collapseSix'>
 		            Опции
 		            </button>
 		        </h2>
-		        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-		            <div class="accordion-body">
+		        <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionExample'>
+		            <div class='accordion-body'>
 		            	<div>
 		                	<p>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё.
 		                	</p>
@@ -634,12 +672,12 @@ function showDetailsByFabric(event){
 		                <div class='container-fluid'>
 		                	<div class='row'>
 								<div class='col-md-6 col-sm-12'>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg">
-									<p class="mt-2 thin">Декоративные швы снаружи
+									<img src='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg'>
+									<p class='mt-2 thin'>Декоративные швы снаружи
 								</div>
 								<div class='col-md-6 col-sm-12'>
-									<img src="wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_NOSEAMS.jpg">
-									<p class="mt-2 thin">Без декоративных швов
+									<img src='wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_NOSEAMS.jpg'>
+									<p class='mt-2 thin'>Без декоративных швов
 								</div>
 							</div>
 						</div>
@@ -647,140 +685,53 @@ function showDetailsByFabric(event){
 		        </div>
 		    </div>
 		</div>
+
+
+		<!-- SLIDER INTERIORS -->
+
+		<div class='banner mt-3'>
+			<div id='carouselExampleIndicators' class='carousel slide' data-bs-ride='carousel'>
+				<div class='carousel-indicators'>
+				    <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
+				    <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2'></button>
+				    <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3'></button>
+				    <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4'></button>
+				</div>
+
+				<div class='carousel-inner'>
+				    <div class='carousel-item active'>
+				      <img src='${slider_interior_mob_1}' class='d-block w-100' alt='...'>
+				    </div>
+				    <div class='carousel-item'>
+				      <img src='${slider_interior_mob_2}' class='d-block w-100' alt='...'>
+				    </div>
+				    <div class='carousel-item'>
+				      <img src='${slider_interior_mob_3}' class='d-block w-100' alt='...'>
+				    </div>
+				    <div class='carousel-item'>
+				      <img src='${slider_interior_mob_4}' class='d-block w-100' alt='...'>
+				    </div>
+				</div>
+				  
+				<button class='carousel-control-prev' type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev'>
+				    <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+				    <span class='visually-hidden'>Previous</span>
+				</button>
+				<button class='carousel-control-next' type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next'>
+				    <span class='carousel-control-next-icon' aria-hidden='true'></span>
+				    <span class='visually-hidden'>Next</span>
+				</button>
+			</div>
+		</div>
+
 	</div>
-	<!-- the end of accordion part -->
+	<!-- end -->
 
-
-<!-- Slider with interiors DESCTOP -->
-	<div class='mt-5 banner d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel-btn-bottom active" aria-current="true" aria-label="Slide 1"></button>
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom" aria-label="Slide 2"></button>
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom" aria-label="Slide 3"></button>
-			     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom" aria-label="Slide 4"></button>
-			</div>
-
-		 	<div class="carousel-inner" onmousemove='showPopOvers();'>
-			    <div class="carousel-item active">
-			      <img src="${slider_interior_1}" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${slider_interior_2}" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${slider_interior_3}" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${slider_interior_4}" alt="...">
-			    </div>
-			</div>
-
-			 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			    <span class="carousel-control-prev-icon pt-5" aria-hidden="true"></span>
-			    <span class="visually-hidden">Previous</span>
-			  </button>
-			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			    <span class="carousel-control-next-icon pt-5" aria-hidden="true"></span>
-			    <span class="visually-hidden">Next</span>
-			  </button>
-		</div>  
-	</div>
-<!-- Slider DESCTOP end -->
-
-<!-- Slider with interiors PHONE & TABLET  -->
-	<div class='mt-3 banner d-block d-md-none'>
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel-btn-bottom active" aria-current="true" aria-label="Slide 1"></button>
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-btn-bottom" aria-label="Slide 2"></button>
-			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-btn-bottom" aria-label="Slide 3"></button>
-			     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-btn-bottom" aria-label="Slide 4"></button>
-			</div>
-
-		 	<div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img src="${slider_interior_mob_1}" class="d-block w-100" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${slider_interior_mob_2}" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${slider_interior_mob_3}" alt="...">
-			    </div>
-			    <div class="carousel-item">
-			      <img src="${slider_interior_mob_4}" alt="...">
-			    </div>
-			</div>
-
-			 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			    <span class="carousel-control-prev-icon pt-5" aria-hidden="true"></span>
-			    <span class="visually-hidden">Previous</span>
-			  </button>
-			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			    <span class="carousel-control-next-icon pt-5" aria-hidden="true"></span>
-			    <span class="visually-hidden">Next</span>
-			  </button>
-		</div>  
-	</div>
-<!-- Slider PHONE end -->
-
-
-	<!-- DESCTOP POP OVER THING START -->
-	<div class='popOverBlock pt-5 d-none d-lg-block d-xl-block d-xxl-block'>
-		<canvas id="canvasBig" class="${canvas_background}" style="display:block" width='1600' height='800'></canvas>
-
-		<div class = 'popOvers'>	
-	        <div id='popAboutStitchesBig'>
-	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	             		<p class='card-text'>Мы прошиваем наши диваны турецкими мебельными нитями марки POLYART. Это синтетические армированные  нити с полиэфирной оплёткой. Нити обладают высокой прочностью и устойчивы к истиранию. </p>
-	            	</div>
-	         	</div>
-	       	</div>
-
-	       	<div id='popAboutPillowBig'>
-	          	<div class='card' style='width: 15rem;'>
-	           		<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	              		<p class='card-text'>Подушка может лежать на диване. А может быть сброшена кошкой. Ещё ей можно драться. </p>
-	            	</div>
-	         	</div>
-	       	</div>
-
-	       <div id='popAboutFrontBig'>
-	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	              		<p class='card-text'>Край дивана. Наверное, здесь что-то о диванном внутреннем мире - какие там пружины внутри хитрые. Или нет? </p>
-		            </div>
-		         </div>
-	       	</div>
-
-	       	<div id='popAboutBackBig'>
-	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	              		<p class='card-text'>Спинка дивана. Наверное, здесь о наполнителе - какой он белый, пушистый и высокотехнологичный. Или нет? </p>
-	            	</div>
-	         	</div>
-	       	</div>
-
-	       	<div id='popAboutPawBig'>
-	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
-	            	<div class='card-body'>
-	              		<p class='card-text'>Диванная ножка. Наверное, здесь о том, что она из дуба 4 сортов. Или нет? </p>
-	            	</div>
-	         	</div>
-	       	</div>
-	    </div>
-	</div> 
+	
 	<div class='container-fluid ms-4 mt-4'>
 		<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
-		<!-- button class="btn-outline-gray my-2">Вся коллекция</button -->
-	</div>
+		<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
+	</div>	
 </div>
 			`;
 		/*console.log(document.getElementById('sofa_details'));*/
