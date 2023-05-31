@@ -7,8 +7,8 @@ spinnerPage.render();
 let CATALOG = [];
 render();
 
-
-fetch('http://decona.ru/wp-content/uploads/catalog/products.json')
+/* redirect */
+fetch('http://temp.decona.ru/wp-content/uploads/catalog/products.json')
     .then(res => res.json())
     .then(body => {
 		CATALOG = body;

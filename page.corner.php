@@ -7,7 +7,7 @@ get_header('new');
 ?>
 
 <div class='thin ms-4'>
-	<a href='http://decona.ru/'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a> / <a href='http://decona.ru/#'>Прямые диваны</a>
+	<a href='http://temp.decona.ru/'>Главная</a> / <a href='http://temp.decona.ru/products/'>Продукция</a> / <a href='http://temp.decona.ru/#'>Прямые диваны</a>
 </div>
  
 <p class="ms-4 my-2 major-text">Прямые диваны</p>

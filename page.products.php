@@ -18,24 +18,24 @@ get_header('new');
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
 			<div class='latte_wrap p-4'>
-	  			<!-- a href='http://decona.ru/category-k1r-system/' -->
+	  			<!-- a href='http://temp.decona.ru/category-k1r-system/' -->
 	  				<div class ='pt-5'>
 			  			<p class='major-text'>Модульные системы</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Base-copy.png">
+	  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Base-copy.png">
 		  		</a>
 	  		</div>
 	  	</div>
 
 	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner" onclick="filterProducts(event);">
 	  		<div class='latte_wrap p-4'>
-				<!-- a href='http://decona.ru/category-corner/' -->
+				<!-- a href='http://temp.decona.ru/category-corner/' -->
 					<div class ='pt-5'>
 			  			<p class='major-text'>Угловые диваны</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Naples-copy-1568x784.png">
+	  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Naples-copy-1568x784.png">
 				</a>
 			</div>
 		</div>
@@ -50,18 +50,18 @@ get_header('new');
 			  			<p class='major-text'>Прямые диваны</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Borneo-copy.png">
+	  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Borneo-copy.png">
 				</a>
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm" onclick="filterProducts(event);">
 			<div class='latte_wrap p-4'>
-				<!-- a href='http://decona.ru/category-armchair/' -->
+				<!-- a href='http://temp.decona.ru/category-armchair/' -->
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Кресла</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Brooklyn-copy.png">
+	  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Brooklyn-copy.png">
 				</a>
 			</div>
 		</div>
@@ -74,7 +74,7 @@ get_header('new');
 			  			<p class='major-text'>Кровати</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-					<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Beds-copy.png">
+					<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Beds-copy.png">
 				</a>
 			</div>
 		</div>
@@ -85,7 +85,7 @@ get_header('new');
 			  			<p class='major-text'>Столы</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Tables-copy.png">
+	  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Tables-copy.png">
 				</a>
 			</div>
 		</div>
@@ -93,12 +93,12 @@ get_header('new');
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf" onclick="filterProducts(event);">
 			<div class='latte_wrap p-4'>
-				<!-- a href='http://decona.ru/category-pouf/' -->
+				<!-- a href='http://temp.decona.ru/category-pouf/' -->
 					<div class ='pt-5 ps-5'>
 			  			<p class='major-text'>Пуфы</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Pouf-copy.png">
+	  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Pouf-copy.png">
 				</a>
 			</div>
 		</div>
@@ -109,7 +109,7 @@ get_header('new');
 			  			<p class='major-text'>Аксессуары</h4>
 			  			<p>Конфигурация под любое пространство
 			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://decona.ru/wp-content/uploads/2023/03/Prod_Pod-copy.png">
+	  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Pod-copy.png">
 				</a>
 			</div>
 		</div>

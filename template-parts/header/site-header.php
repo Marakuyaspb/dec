@@ -4,7 +4,7 @@
 <div class='d-block d-lg-none'>
   <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
         <div class='container-fluid'>
-          <a class='navbar-brand white' href='http://decona.ru'>
+          <a class='navbar-brand white' href='http://temp.decona.ru'>
             <svg width="152px" height="27px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 13.06 2.286">
               <path fill="currentColor" class="fil0" d="M7.357 0c0.304,0 0.585,0.118 0.782,0.331 0.191,0.206 0.301,0.502 0.301,0.812 0,0.311 -0.11,0.606 -0.301,0.812 -0.197,0.213 -0.478,0.331 -0.782,0.331 -0.304,0 -0.585,-0.118 -0.782,-0.331 -0.191,-0.206 -0.301,-0.501 -0.301,-0.812 0,-0.31 0.11,-0.606 0.301,-0.812 0.197,-0.213 0.478,-0.331 0.782,-0.331zm0 1.887c0.159,0.004 0.318,-0.061 0.439,-0.199 0.13,-0.147 0.192,-0.346 0.188,-0.545 0.004,-0.199 -0.058,-0.398 -0.188,-0.545 -0.121,-0.138 -0.28,-0.203 -0.439,-0.199 -0.159,-0.004 -0.318,0.061 -0.44,0.199 -0.129,0.147 -0.191,0.346 -0.187,0.545 -0.004,0.199 0.058,0.398 0.187,0.545 0.122,0.138 0.281,0.203 0.44,0.199z"/>
               <path fill="currentColor"  class="fil0" d="M0.789 0.054c0.304,0 0.585,0.113 0.782,0.317 0.19,0.197 0.301,0.48 0.301,0.778 0,0.297 -0.111,0.581 -0.301,0.778 -0.197,0.204 -0.478,0.317 -0.782,0.317l-0.375 0 -0.414 0 0 -0.416 0 -1.358 0 -0.416 0.414 0 0.375 0zm-0.375 0.416l0 1.358 0.375 0 0 0c0.159,0.004 0.318,-0.048 0.439,-0.181 0.13,-0.141 0.191,-0.308 0.188,-0.498 0.003,-0.191 -0.058,-0.358 -0.188,-0.499 -0.121,-0.132 -0.28,-0.184 -0.439,-0.18l-0.375 0z"/>
@@ -22,22 +22,22 @@
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul class='navbar-nav'>
             <li class='nav-item'>
-              <a class='nav-link' aria-current='page' href='http://decona.ru/'>Продукция</a>
+              <a class='nav-link' aria-current='page' href='http://temp.decona.ru/'>Продукция</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
+              <a class='nav-link white' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/articles/'>Блог</a>
+              <a class='nav-link white' href='http://temp.decona.ru/articles/'>Блог</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/about/'>О фабрике</a>
+              <a class='nav-link white' href='http://temp.decona.ru/about/'>О фабрике</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/payment/'>Оплата и доставка</a>
+              <a class='nav-link white' href='http://temp.decona.ru/payment/'>Оплата и доставка</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/contact/'>Контакты</a>
+              <a class='nav-link white' href='http://temp.decona.ru/contact/'>Контакты</a>
             </li>
             <li class='nav-item'>
               <span class='ms-2'>
@@ -79,7 +79,7 @@
   <div class="desctop-menu">
     
       <div class="ps-4">
-        <a class='navbar-brand white' href='http://decona.ru'>
+        <a class='navbar-brand white' href='http://temp.decona.ru'>
             <svg width="152px" height="27px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 13.06 2.286">
               <path fill="currentColor" class="fil0" d="M7.357 0c0.304,0 0.585,0.118 0.782,0.331 0.191,0.206 0.301,0.502 0.301,0.812 0,0.311 -0.11,0.606 -0.301,0.812 -0.197,0.213 -0.478,0.331 -0.782,0.331 -0.304,0 -0.585,-0.118 -0.782,-0.331 -0.191,-0.206 -0.301,-0.501 -0.301,-0.812 0,-0.31 0.11,-0.606 0.301,-0.812 0.197,-0.213 0.478,-0.331 0.782,-0.331zm0 1.887c0.159,0.004 0.318,-0.061 0.439,-0.199 0.13,-0.147 0.192,-0.346 0.188,-0.545 0.004,-0.199 -0.058,-0.398 -0.188,-0.545 -0.121,-0.138 -0.28,-0.203 -0.439,-0.199 -0.159,-0.004 -0.318,0.061 -0.44,0.199 -0.129,0.147 -0.191,0.346 -0.187,0.545 -0.004,0.199 0.058,0.398 0.187,0.545 0.122,0.138 0.281,0.203 0.44,0.199z"/>
               <path fill="currentColor"  class="fil0" d="M0.789 0.054c0.304,0 0.585,0.113 0.782,0.317 0.19,0.197 0.301,0.48 0.301,0.778 0,0.297 -0.111,0.581 -0.301,0.778 -0.197,0.204 -0.478,0.317 -0.782,0.317l-0.375 0 -0.414 0 0 -0.416 0 -1.358 0 -0.416 0.414 0 0.375 0zm-0.375 0.416l0 1.358 0.375 0 0 0c0.159,0.004 0.318,-0.048 0.439,-0.181 0.13,-0.141 0.191,-0.308 0.188,-0.498 0.003,-0.191 -0.058,-0.358 -0.188,-0.499 -0.121,-0.132 -0.28,-0.184 -0.439,-0.18l-0.375 0z"/>
@@ -94,17 +94,17 @@
 
     
       <div class='pt-2 desctop-menu to-center'>
-        <a class='nav-link white' aria-current='page' href='http://decona.ru/'>Продукция</a>
+        <a class='nav-link white' aria-current='page' href='http://temp.decona.ru/'>Продукция</a>
           <p class='white top-string major-text'>|</p>
-        <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
+        <a class='nav-link white' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
           <p class='white top-string major-text'>|</p>
-        <a class='nav-link white' href='http://decona.ru/articles/'>Блог</a>
+        <a class='nav-link white' href='http://temp.decona.ru/articles/'>Блог</a>
           <p class='white top-string major-text'>|</p>
-        <a class='nav-link white' href='http://decona.ru/about/'>О фабрике</a>
+        <a class='nav-link white' href='http://temp.decona.ru/about/'>О фабрике</a>
           <p class='white top-string major-text'>|</p>
-        <a class='nav-link white' href='http://decona.ru/payment/'>Оплата и доставка</a>
+        <a class='nav-link white' href='http://temp.decona.ru/payment/'>Оплата и доставка</a>
           <p class='white top-string major-text'>|</p>
-        <a class='nav-link white' href='http://decona.ru/contact/'>Контакты</a>
+        <a class='nav-link white' href='http://temp.decona.ru/contact/'>Контакты</a>
       </div> 
      
       <div class="ps-4 pe-4 pt-2 righted">

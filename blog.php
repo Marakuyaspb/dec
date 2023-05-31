@@ -8,20 +8,20 @@ get_header(); ?>
 <?php
 $head_photo = "
 <div class='main-head-slider'>
-	<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
 </div>
 ";
 
 ?>
 <div class='main-head-slider'>
-			<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+			<img src='http://temp.decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
 		</div>
 <!--  -->
 <?php if ( is_home() && ! is_front_page() && ! empty( single_post_title( '', false ) ) ) :
  ?>
 	<header class="page-header alignwide">
 		<div class='main-head-slider'>
-			<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+			<img src='http://temp.decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
 		</div>
 		<h1 class="page-title"><?php single_post_title(); ?></h1>
 	</header><!-- .page-header -->
@@ -46,7 +46,7 @@ if ( have_posts() ) {
 	// If no content, include the "No posts found" template.
 	echo "
 		<div class='main-head-slider'>
-			<img src='http://decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
+			<img src='http://temp.decona.ru/wp-content/uploads/2023/02/New-showrooms-11-1.png' class='fluid'>
 		</div>
 		";
 	get_template_part( 'template-parts/content/content-none' );

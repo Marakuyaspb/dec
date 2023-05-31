@@ -4,19 +4,19 @@ Theme name: Decona_
  
 @font-face {
     font-family: 'ALS Hauss Book', Georgia, serif;
-    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Book.woff');
+    src: url('http://temp.decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Book.woff');
     font-style: normal;
  }
 
 @font-face {
     font-family: 'ALS Hauss Thin', Georgia, serif;
-    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Thin.woff');
+    src: url('http://temp.decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Thin.woff');
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ALS Hauss Hairline', Georgia, serif;
-    src: url('http://decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Hairline.woff');
+    src: url('http://temp.decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Hairline.woff');
     font-style: normal;
 }
 
@@ -400,13 +400,13 @@ a .icon-header:hover{
 }
 
 .carousel-control-prev-icon{
-	background-image: url("http://decona.ru/wp-content/uploads/goods_pics/prev.svg")!important;
+	background-image: url("http://temp.decona.ru/wp-content/uploads/goods_pics/prev.svg")!important;
 	padding-top: 3.6em;
 	margin-top: auto;
 	margin-bottom: 3.5em;
 }
 .carousel-control-next-icon{
-	background-image: url("http://decona.ru/wp-content/uploads/goods_pics/next.svg")!important;
+	background-image: url("http://temp.decona.ru/wp-content/uploads/goods_pics/next.svg")!important;
 	padding-top: 3.6em;
 	margin-top: auto;
 	margin-bottom: 3.5em;

@@ -23,12 +23,12 @@ Look at:
 <p><a href="#">Салоны</a>
 <p><a href="#">Вход для партнеров</a>
 <h2>DECONA</h2>
-<p>info@decona.ru
+<p>info@temp.decona.ru
 <p><a href="#">Угловые диваны</a>
 <p>8 800 500 13 72
 
 
-<img src="http://decona.ru/wp-content/uploads/2023/01/icon_dark_inst.png" alt="" class="wp-image-110"/>
+<img src="http://temp.decona.ru/wp-content/uploads/2023/01/icon_dark_inst.png" alt="" class="wp-image-110"/>
 
 Заголовки футера
 
@@ -43,13 +43,13 @@ ________________
 
 @font-face {
     font-family: 'ALS Hauss';
-    src: url('http://decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Light.woff');
+    src: url('http://temp.decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Light.woff');
     font-style: normal;
  }
 
 @font-face {
     font-family: 'ALS Hauss Hairline';
-    src: url('http://decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Hairline.woff');
+    src: url('http://temp.decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Hairline.woff');
     font-style: normal;
 }
 
@@ -176,19 +176,19 @@ $smm = "
 	<div id='site-socials' class='socials-nav menu-item'>
 			<ul class='socials-navigation'>
 				<li class='inline'><a href='#'>
-					<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_inst.png' class='wp-image-110' alt='instagram'></a>
+					<img src='http://temp.decona.ru/wp-content/uploads/2023/01/icon_dark_inst.png' class='wp-image-110' alt='instagram'></a>
 				</li>
 				<li class='inline'><a href='#'>
-					<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_tg.png' class='wp-image-110' alt='telegram'></a>
+					<img src='http://temp.decona.ru/wp-content/uploads/2023/01/icon_dark_tg.png' class='wp-image-110' alt='telegram'></a>
 				</li>
 				<li class='inline'><a href='#'>
-					<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_vk.png' class='wp-image-110' alt='vkontakte'></a>
+					<img src='http://temp.decona.ru/wp-content/uploads/2023/01/icon_dark_vk.png' class='wp-image-110' alt='vkontakte'></a>
 				</li>
 				<li class='inline'><a href='#'>
-						<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_ok.png' class='wp-image-110' alt='odnoklassniky'></a>
+						<img src='http://temp.decona.ru/wp-content/uploads/2023/01/icon_dark_ok.png' class='wp-image-110' alt='odnoklassniky'></a>
 				</li>
 				<li class='inline'><a href='#'>
-						<img src='http://decona.ru/wp-content/uploads/2023/01/icon_dark_fb.png' class='wp-image-110' alt='facebook'></a>
+						<img src='http://temp.decona.ru/wp-content/uploads/2023/01/icon_dark_fb.png' class='wp-image-110' alt='facebook'></a>
 					</li>
 				</ul>
 			</div>";

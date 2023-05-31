@@ -2,7 +2,7 @@
   <!-- desctop -->
   <nav class='navbar navbar-expand-lg navbar-light header-milk-white-bg' id='header-hover-change'>
         <div class='container-fluid'>
-          <a class='navbar-brand white' href='http://decona.ru'>Decona</a>
+          <a class='navbar-brand white' href='http://temp.decona.ru'>Decona</a>
           <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
             <span class='navbar-toggler-icon'></span>
           </button>
@@ -10,23 +10,23 @@
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul class='navbar-nav'>
             <li class='nav-item'>
-              <a class='nav-link white' aria-current='page' href='http://decona.ru/products/'>Продукция</a>
+              <a class='nav-link white' aria-current='page' href='http://temp.decona.ru/products/'>Продукция</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
+              <a class='nav-link white' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
             </li>
             <li>|</li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/blog/'>Блог</a>
+              <a class='nav-link white' href='http://temp.decona.ru/blog/'>Блог</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/about/'>О фабрике</a>
+              <a class='nav-link white' href='http://temp.decona.ru/about/'>О фабрике</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/payment/'>Оплата и доставка</a>
+              <a class='nav-link white' href='http://temp.decona.ru/payment/'>Оплата и доставка</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/contact/'>Контакты</a>
+              <a class='nav-link white' href='http://temp.decona.ru/contact/'>Контакты</a>
             </li>
             <li class='nav-item'>
                 <span class=''>
@@ -73,7 +73,7 @@
 
     <nav class='navbar navbar-expand-lg navbar-light header-milk-white-bg d-none d-sm-block d-md-none' id='header-hover-change'>
         <div class='container-fluid'>
-          <a class='navbar-brand white' href='http://decona.ru'>Decona</a>
+          <a class='navbar-brand white' href='http://temp.decona.ru'>Decona</a>
           <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
             <span class='navbar-toggler-icon'></span>
           </button>
@@ -81,22 +81,22 @@
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul class='navbar-nav'>
             <li class='nav-item'>
-              <a class='nav-link white' aria-current='page' href='http://decona.ru/products/'>Продукция</a>
+              <a class='nav-link white' aria-current='page' href='http://temp.decona.ru/products/'>Продукция</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
+              <a class='nav-link white' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/blog/'>Блог</a>
+              <a class='nav-link white' href='http://temp.decona.ru/blog/'>Блог</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/about/'>О фабрике</a>
+              <a class='nav-link white' href='http://temp.decona.ru/about/'>О фабрике</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/payment/'>Оплата и доставка</a>
+              <a class='nav-link white' href='http://temp.decona.ru/payment/'>Оплата и доставка</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/contact/'>Контакты</a>
+              <a class='nav-link white' href='http://temp.decona.ru/contact/'>Контакты</a>
             </li>
             <li class='nav-item'>
                 <span>
@@ -142,7 +142,7 @@
 
   <nav class='navbar navbar-expand-lg navbar-light header-milk-white-bg db-block d-sm-none' id='header-hover-change'>
         <div class='container-fluid'>
-          <a class='navbar-brand white' href='http://decona.ru'>Decona</a>
+          <a class='navbar-brand white' href='http://temp.decona.ru'>Decona</a>
           <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
             <span class='navbar-toggler-icon'></span>
           </button>
@@ -150,22 +150,22 @@
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul class='navbar-nav'>
             <li class='nav-item'>
-              <a class='nav-link white' aria-current='page' href='http://decona.ru/products/'>Продукция</a>
+              <a class='nav-link white' aria-current='page' href='http://temp.decona.ru/products/'>Продукция</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/showrooms/'>Шоурумы</a>
+              <a class='nav-link white' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/blog/'>Блог</a>
+              <a class='nav-link white' href='http://temp.decona.ru/blog/'>Блог</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/about/'>О фабрике</a>
+              <a class='nav-link white' href='http://temp.decona.ru/about/'>О фабрике</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/payment/'>Оплата и доставка</a>
+              <a class='nav-link white' href='http://temp.decona.ru/payment/'>Оплата и доставка</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link white' href='http://decona.ru/contact/'>Контакты</a>
+              <a class='nav-link white' href='http://temp.decona.ru/contact/'>Контакты</a>
             </li>
             <li class='nav-item'>
                 <span>

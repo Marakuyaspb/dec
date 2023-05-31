@@ -10,7 +10,7 @@ get_header('new');
 <!-- Desctop -->
 
 <div class="container-fluid mx-3 mt-2 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
-	<p class='thin'><a href = 'http://decona.ru'>Главная</a> / <a href = ''>Продукция</a> / <a href = ''>Прямые диваны</a></p>
+	<p class='thin'><a href = 'http://temp.decona.ru'>Главная</a> / <a href = ''>Продукция</a> / <a href = ''>Прямые диваны</a></p>
 	<h4>Прямые диваны</h4>
 
 	<span class='mb-2'>
@@ -22,7 +22,7 @@ get_header('new');
 
 <!-- Phone -->
 <div class='container-fluid mt-4 d-block d-md-none'>
-	<p class='thin'><a href = 'http://decona.ru'>Главная</a> / <a href = ''>Продукция</a> / <a href = ''>Прямые диваны</a></p>
+	<p class='thin'><a href = 'http://temp.decona.ru'>Главная</a> / <a href = ''>Продукция</a> / <a href = ''>Прямые диваны</a></p>
 	<h4>Прямые диваны</h4>
 	<div class='my-2 py-2 px-2 latte_bg banner'>
 		<div class='d-flex justify-content-around'>
@@ -38,35 +38,35 @@ get_header('new');
 	<div class='d-none d-lg-block d-xl-block d-xxl-block'>
 		<div class='row'>
 			<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		  	<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		  	<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		</div>
 		<div class='row'>
 			<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		  	<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		  	<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		</div>
 		<div class='row'>
 			<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		  	<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		  	<div class="col-lg-4 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		</div>
 	</div>
@@ -74,34 +74,34 @@ get_header('new');
 	<div class='d-block d-lg-none'>
 		<div class='row'>
 			<div class="col-md-6 col-sm-12 py-1">
-		  		<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+		  		<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 		  	</div>
 		  	<div class="col-lg-4 col-md-6 col-sm-12 py-1">
-				<a href='http://decona.ru/portlandjazz08/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+				<a href='http://temp.decona.ru/portlandjazz08/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 			</div>
 		</div>
 		<div class='row'>
 			<div class="col-lg-4 col-md-6 col-sm-12 py-1">
-				<a href='http://decona.ru/portlandjazz21/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+				<a href='http://temp.decona.ru/portlandjazz21/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-12 py-1">
-				<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+				<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 			</div>
 		</div>
 		<div class='row'>
 			<div class="col-md-6 col-sm-12 py-1">
-				<a href='http://decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+				<a href='http://temp.decona.ru/portlandjazz01/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 			</div>
 			<div class="col-md-6 col-sm-12 py-1">
-				<a href='http://decona.ru/portlandvelutto16/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+				<a href='http://temp.decona.ru/portlandvelutto16/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 			</div>
 		</div>
 		<div class='row'>
 			<div class="col-md-6 col-sm-12 py-1">
-				<a href='http://decona.ru/portlandvelutto16/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+				<a href='http://temp.decona.ru/portlandvelutto16/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 			</div>
 			<div class="col-md-6 col-sm-12 py-1">
-				<a href='http://decona.ru/portlandvelutto32/'><img class='img-fluid card-product-category' src="http://decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
+				<a href='http://temp.decona.ru/portlandvelutto32/'><img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/02/Frame-16.png"></a>
 			</div>
 		</div>
 	</div>

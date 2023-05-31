@@ -96,13 +96,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 @font-face {
     font-family: 'ALS Hauss';
-    src: url('http://decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Light.woff');
+    src: url('http://temp.decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Light.woff');
     font-style: normal;
  }
 
 @font-face {
     font-family: 'ALS Hauss Hairline';
-    src: url('http://decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Hairline.woff');
+    src: url('http://temp.decona.ru/wp-content/themes/deco_theme/fonts/ALSHauss-Hairline.woff');
     font-style: normal;
 }
 

@@ -15,15 +15,15 @@ get_header('new');
 				<!-- slider with product -->
 				<div class='slider-fabric'>
 				    <div class='slide-fabric-nav'>  
-					    <img class='slide-fabric-button fabric-var' id='fabric01' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onclick='changeFabric01()'> 
+					    <img class='slide-fabric-button fabric-var' id='fabric01' src="http://temp.decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onclick='changeFabric01()'> 
 
-					    <img class='slide-fabric-button fabric-var' id='fabric02'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onclick='changeFabric02()'>
+					    <img class='slide-fabric-button fabric-var' id='fabric02'src='http://temp.decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onclick='changeFabric02()'>
 
-					    <img class='slide-fabric-button fabric-var' id='fabric03' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onclick='changeFabric03()'>
+					    <img class='slide-fabric-button fabric-var' id='fabric03' src= "http://temp.decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onclick='changeFabric03()'>
 
-					    <img class='slide-fabric-button fabric-var' id='fabric04' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onclick='changeFabric04()'>
+					    <img class='slide-fabric-button fabric-var' id='fabric04' src="http://temp.decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onclick='changeFabric04()'>
 
-					    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onclick='changeFabric05()'> 
+					    <img class='slide-fabric-button fabric-var' id='fabric05' src="http://temp.decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onclick='changeFabric05()'> 
 				    </div>
 
 				    <div class="slides-fabric">
@@ -31,31 +31,31 @@ get_header('new');
 				        	<center>
 				          	<p class='small'>Ткань: Jazz 01
 				        	</center>
-				        	<img src='http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-01_0000.jpg' class="img">
+				        	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz-01_0000.jpg' class="img">
 				      	</div>
 				      	<div id='sofaFabric02'>
 				        	<center>
 				          	<p class='small'>Ткань: Jazz 08 
 				        	</center>
-				        	<img src='http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-08_360_0000.jpg' class="img">
+				        	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz-08_360_0000.jpg' class="img">
 				      	</div>
 				      	<div id='sofaFabric03'>
 				        	<center>
 				          	<p class='small'>Ткань: Jazz 14
 				        	</center>
-					        <img src='http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-14_0000.jpg' class="img">
+					        <img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz-14_0000.jpg' class="img">
 					      </div>
 				      	<div id='sofaFabric04'>
 				        	<center>
 				          	<p class='small'>Ткань: Velutto 16
 				        	</center>
-				        	<img src='http://decona.ru/wp-content/uploads/2023/02/Portland_Velutto-16_brandy_0000.jpg' class="img">
+				        	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Velutto-16_brandy_0000.jpg' class="img">
 				      	</div>
 				      	<div id='sofaFabric05'>
 				        	<center>
 				          	<p class='small'>Ткань: Velutto 32
 				        	</center>
-				        	<img src='http://decona.ru/wp-content/uploads/2023/02/Portland_velutto-32_0000.jpg' class="img">
+				        	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_velutto-32_0000.jpg' class="img">
 				      	</div>
 				    </div>
 				</div>
@@ -63,15 +63,15 @@ get_header('new');
 
 			<div class='col-md-4 no-padding-right'>
 			
-				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Card_side_POrtland-11.png" id='sofaPiece01'>
+				<img class='img-fluid banner' src="http://temp.decona.ru/wp-content/uploads/2023/02/Card_side_POrtland-11.png" id='sofaPiece01'>
 
-				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-08_sand_close_2.jpg" id='sofaPiece02'>
+				<img class='img-fluid banner' src="http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz-08_sand_close_2.jpg" id='sofaPiece02'>
 
-				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-14_sand_close_20002.jpg" id='sofaPiece03'>
+				<img class='img-fluid banner' src="http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz-14_sand_close_20002.jpg" id='sofaPiece03'>
 
-				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Velutto-16_brandy_close_2.jpg" id='sofaPiece04'>
+				<img class='img-fluid banner' src="http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Velutto-16_brandy_close_2.jpg" id='sofaPiece04'>
 
-				<img class='img-fluid banner' src="http://decona.ru/wp-content/uploads/2023/02/Portland_Velutto-32_black_close_2-copy.jpg" id='sofaPiece05'>
+				<img class='img-fluid banner' src="http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Velutto-32_black_close_2-copy.jpg" id='sofaPiece05'>
 				
 			</div>
 		</div>
@@ -83,15 +83,15 @@ get_header('new');
 	<div class='container-fluid mt-5 d-block d-md-none'>
 		<div class='slider-fabric pt-5'>
 		  	<div class='slide-fabric-nav'>  
-			    <img class='slide-fabric-button fabric-var' id='fabric1' src="http://decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onclick='changeFabric1()'> 
+			    <img class='slide-fabric-button fabric-var' id='fabric1' src="http://temp.decona.ru/wp-content/uploads/2023/02/Jazz-01-copy-1.png" onclick='changeFabric1()'> 
 
-			    <img class='slide-fabric-button fabric-var' id='fabric2'src='http://decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onclick='changeFabric2()'>
+			    <img class='slide-fabric-button fabric-var' id='fabric2'src='http://temp.decona.ru/wp-content/uploads/2023/02/Jazz-08-copy-1.png' onclick='changeFabric2()'>
 
-			    <img class='slide-fabric-button fabric-var' id='fabric3' src= "http://decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onclick='changeFabric3()'>
+			    <img class='slide-fabric-button fabric-var' id='fabric3' src= "http://temp.decona.ru/wp-content/uploads/2023/02/Jazz-21-copy-1.png" onclick='changeFabric3()'>
 
-			    <img class='slide-fabric-button fabric-var' id='fabric4' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onclick='changeFabric4()'>
+			    <img class='slide-fabric-button fabric-var' id='fabric4' src="http://temp.decona.ru/wp-content/uploads/2023/02/VElutto-16-1.png" onclick='changeFabric4()'>
 
-			    <img class='slide-fabric-button fabric-var' id='fabric5' src="http://decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onclick='changeFabric5()'> 
+			    <img class='slide-fabric-button fabric-var' id='fabric5' src="http://temp.decona.ru/wp-content/uploads/2023/02/VElutto-32-copy-1.png" onclick='changeFabric5()'> 
 			</div>
 
 			<div class="slides-fabric">
@@ -99,31 +99,31 @@ get_header('new');
 			      <center>
 			        <p class='small'>Ткань: Jazz 01 (Кат.5)
 			      </center>
-			      <img src='http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-01_0000.jpg' class="img-fluid">
+			      <img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz-01_0000.jpg' class="img-fluid">
 			    </div>
 			    <div id='sofaFabric2'>
 			      <center>
 			        <p class='small'>Ткань: Jazz 08 
 			      </center>
-			      <img src='http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-08_360_0000.jpg' class="img-fluid">
+			      <img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz-08_360_0000.jpg' class="img-fluid">
 			    </div>
 			    <div id='sofaFabric3'>
 			      <center>
 			        <p class='small'>Ткань: Jazz 14
 			      </center>
-			      <img src='http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz-14_0000.jpg' class="img-fluid">
+			      <img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz-14_0000.jpg' class="img-fluid">
 			    </div>
 			    <div id='sofaFabric4'>
 			      <center>
 			        <p class='small'>Ткань: Velutto 16
 			      </center>
-			      <img src='http://decona.ru/wp-content/uploads/2023/02/Portland_Velutto-16_brandy_0000.jpg' class="img-fluid">
+			      <img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Velutto-16_brandy_0000.jpg' class="img-fluid">
 			    </div>
 			    <div id='sofaFabric5'>
 			      <center>
 			        <p class='small'>Ткань: Velutto 32
 			      </center>
-			      <img src='http://decona.ru/wp-content/uploads/2023/02/Portland_velutto-32_0000.jpg' class="img-fluid">
+			      <img src='http://temp.decona.ru/wp-content/uploads/2023/02/Portland_velutto-32_0000.jpg' class="img-fluid">
 			    </div>
 			</div>
 		</div>
@@ -271,10 +271,10 @@ get_header('new');
 								</table>
 							</div>
 							<div class='col-md-4 col-sm-12'>
-								<img id='' src='http://decona.ru/wp-content/uploads/2023/02/Размеры.jpg' class='img-fluid'>
+								<img id='' src='http://temp.decona.ru/wp-content/uploads/2023/02/Размеры.jpg' class='img-fluid'>
 							</div>
 							<div class='col-md-4 col-sm-12'>	
-								<img id='' src='http://decona.ru/wp-content/uploads/2023/02/Механизм.jpg' class='img-fluid'>
+								<img id='' src='http://temp.decona.ru/wp-content/uploads/2023/02/Механизм.jpg' class='img-fluid'>
 							</div>
 						</div>
 					</div>
@@ -372,14 +372,14 @@ get_header('new');
 								<p> Ткань имеет достаточную цветоустойчивость - 4 балла из 5-ти, а также высокую износостойкость и повышенную плотность. Рекомендуется к применению в гостиных комнатах, спальне. Специальная пропитка придает ткани начальные огнеупорные свойства – ткань не вспыхивает при попадании на нее пепла, небольших искр. Износостойкость (тест по Мартиндейлу) – 45 000 циклов (ткани более 40000 циклов считаются тканями для интенсивного использования).
 							</div>
 							<div class='col-md-4 col-sm-12'>
-								<img src="http://decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg" class='img-fluid'>
+								<img src="http://temp.decona.ru/wp-content/uploads/2023/02/Portland_Jazz01_fabric.jpg" class='img-fluid'>
 							</div>
 	                <p id='prod_exterior_material'>
 					<img id='prod_exterior_material_photo'>
 
 
 					<p>Больше образцов тканей вы можете посмотреть в наших салонах.
-					<a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+					<a href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
 	          	</div>
 	        </div>
 	    </div>
@@ -400,7 +400,7 @@ get_header('new');
 						<div class='row'>
 							<div class='col-md-3 col-sm-6'>
 								<div class="card mb-3">
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_sand.png" class="card-img-top" alt="...">
+									<img src="http://temp.decona.ru/wp-content/uploads/2023/02/Leg_sand.png" class="card-img-top" alt="...">
 									  	<div class="card-body">
 									    	<p class="card-text">Sand</p>
 									  	</div>
@@ -408,7 +408,7 @@ get_header('new');
 							</div>
 							<div class='col-md-3 col-sm-6'>
 								<div class="card mb-3">
-									 <img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Black.png" class="card-img-top" alt="...">
+									 <img src="http://temp.decona.ru/wp-content/uploads/2023/02/Leg_Black.png" class="card-img-top" alt="...">
 									  	<div class="card-body">
 									    	<p class="card-text">Black</p>
 									  	</div>
@@ -416,7 +416,7 @@ get_header('new');
 							</div>
 							<div class='col-md-3 col-sm-6'>
 								<div class="card mb-3">
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Brandy.png" class="card-img-top" alt="...">
+									<img src="http://temp.decona.ru/wp-content/uploads/2023/02/Leg_Brandy.png" class="card-img-top" alt="...">
 									  	<div class="card-body">
 									    	<p class="card-text">Brandy</p>
 									  	</div>
@@ -424,7 +424,7 @@ get_header('new');
 							</div>
 							<div class='col-md-3 col-sm-6'>
 								<div class="card mb-3">
-									<img src="http://decona.ru/wp-content/uploads/2023/02/Leg_Arctik.png" class="card-img-top" alt="...">
+									<img src="http://temp.decona.ru/wp-content/uploads/2023/02/Leg_Arctik.png" class="card-img-top" alt="...">
 									  	<div class="card-body">
 									    	<p class="card-text">Arctic</p>
 									  	</div>
@@ -455,11 +455,11 @@ get_header('new');
 	                	<div class='row'>
 							<div class='col-md-6 col-sm-12'>
 								<p>С утяжками
-								<img src="http://decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
+								<img src="http://temp.decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
 							</div>
 							<div class='col-md-6 col-sm-12'>
 								<p>Без утяжек
-								<img src="http://decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
+								<img src="http://temp.decona.ru/wp-content/uploads/2023/02/Seat_WOs-4.png">
 							</div>
 						</div>
 					</div>
@@ -480,7 +480,7 @@ get_header('new');
 			
 	        <div id='popAboutStitches'>
 	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	            	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	             		<p class='card-text'>Мы прошиваем наши диваны турецкими мебельными нитями марки POLYART. Это синтетические армированные  нити с полиэфирной оплёткой. Нити обладают высокой прочностью и устойчивы к истиранию. </p>
 	            	</div>
@@ -489,7 +489,7 @@ get_header('new');
 
 	       	<div id='popAboutPillow'>
 	          	<div class='card' style='width: 15rem;'>
-	           		<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	           		<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	              		<p class='card-text'>Подушка может лежать на диване. А может быть сброшена кошкой. Ещё ей можно драться. </p>
 	            	</div>
@@ -498,7 +498,7 @@ get_header('new');
 
 	       <div id='popAboutFront'>
 	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	            	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	              		<p class='card-text'>Край дивана. Наверное, здесь что-то о диванном внутреннем мире - какие там пружины внутри хитрые. Или нет? </p>
 		            </div>
@@ -507,7 +507,7 @@ get_header('new');
 
 	       	<div id='popAboutBack'>
 	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	            	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	              		<p class='card-text'>Спинка дивана. Наверное, здесь о наполнителе - какой он белый, пушистый и высокотехнологичный. Или нет? </p>
 	            	</div>
@@ -516,7 +516,7 @@ get_header('new');
 
 	       	<div id='popAboutPaw'>
 	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	            	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	              		<p class='card-text'>Диванная ножка. Наверное, здесь о том, что она из дуба 4 сортов. Или нет? </p>
 	            	</div>

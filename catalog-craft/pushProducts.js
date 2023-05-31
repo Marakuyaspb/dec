@@ -63,7 +63,7 @@ class Products {
 			});
 
 			const html = `
-			<!-- div class='thin ms-5'><a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru'>Продукция</a>
+			<!-- div class='thin ms-5'><a href='http://temp.decona.ru'>Главная</a> / <a href='http://temp.decona.ru'>Продукция</a>
 			</div -->
 			
 			<div class="products_container">	

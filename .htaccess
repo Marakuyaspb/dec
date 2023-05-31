@@ -1,5 +1,5 @@
 RewrateEngine On
-RewriteBase /decona.ru/
+RewriteBase /temp.decona.ru/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

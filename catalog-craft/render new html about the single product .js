@@ -5,7 +5,7 @@
 	<!-- Desctop -->
 	<div class='container-fluid ms-4 mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 		<div class='thin'>
-			<a href='http://decona.ru'>Продукция</a> / ${category_ru}
+			<a href='http://temp.decona.ru'>Продукция</a> / ${category_ru}
 		</div>
 
 		<div class='row'>
@@ -17,15 +17,15 @@
 
 			<!-- fabric buttons -->
 				<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-			    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_01' src="http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var' id='${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_PIXEL_FOREST' src= "http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
 			    
-			    	<img class='slide-fabric-button fabric-var' id='${category}_CAMBRIDGE_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_CAMBRIDGE_600' src="http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
 
-			    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
+			    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_21' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
 			    
-				    <img class='slide-fabric-button fabric-var' id='${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
+				    <img class='slide-fabric-button fabric-var' id='${category}_VELUTTO_32' src="http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
 				</div>
 
 				<div class='d-flex flex-row ms-4 card_icons'>
@@ -83,7 +83,7 @@
 	<!-- Phone & Tablet-->
 	<div class='container-fluid d-block d-md-none'>
 		<div class='thin'>
-			<a href='http://decona.ru'>Главная</a> / <a href='http://decona.ru/products/'>Продукция</a>
+			<a href='http://temp.decona.ru'>Главная</a> / <a href='http://temp.decona.ru/products/'>Продукция</a>
 		</div>
 
 		<p class='h-center pt-2'>${product_name}</p>
@@ -92,15 +92,15 @@
         </center>
 
 		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-	    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_01' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_01' src="http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png" onClick ='showDetailsByFabric(event);'>
 	    
-	    	<img class='slide-fabric-button fabric-var' id='${category}_PIXEL_FOREST' src= "http://decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${category}_PIXEL_FOREST' src= "http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png" onClick ='showDetailsByFabric(event);'>
 	    
-	    	<img class='slide-fabric-button fabric-var' id='${category}_CAMBRIDGE_600' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${category}_CAMBRIDGE_600' src="http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png" onClick ='showDetailsByFabric(event);'>
 
-	    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_21' src='http://decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var' id='${category}_JAZZ_21' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
 	    
-		    <img class='slide-fabric-button fabric-var' id='${category}_VELUTTO_32' src="http://decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
+		    <img class='slide-fabric-button fabric-var' id='${category}_VELUTTO_32' src="http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png" onClick ='showDetailsByFabric(event);'>
 		</div>
 
 		
@@ -151,12 +151,12 @@
 						Заказать
 					</button>
 				</a>
-				<a class='white rel_pos' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
+				<a class='white rel_pos' href='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
 					<button class='white btn-prod-card'>
 						3d модель
 					</button>
 				</a>
-				<a class='white rel_pos' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
+				<a class='white rel_pos' href='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
 					<button class='white btn-prod-card'>
 						PDF
 					</button>
@@ -177,10 +177,10 @@
 				<a class='to-order white p-2' onClick='pushSKUinForm(event);'>
 					Заказать
 				</a>
-				<a class='white p-2' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
+				<a class='white p-2' href='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
 					3d модель
 				</a>
-				<a class='white p-2' href='http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
+				<a class='white p-2' href='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
 					PDF
 				</a>
 			</div>
@@ -390,7 +390,7 @@
 									<p>${product_fabric_about}
 									<p>Обращаем Ваше внимание, что реальный цвет ткани может значительно отличаться от изображения на экране. Это зависит от индивидуальных настроек монитора и восприятия цвета. Поэтому при заказе ткани ориентируйтесь на реальные образцы.
 		                			<p class='pt-2'>Больше образцов тканей вы можете посмотреть в наших салонах.
-									<p><a href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+									<p><a href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
 								</div>
 								<div class='col-md-4 col-sm-12'>
 									<img src="${product_fabric_img}" class='img-fluid'>
@@ -414,7 +414,7 @@
 							<div class="row">
 								<div class="col-md-6 col-sm-12">
 									<p>Стильные конусовидные металлические ножки как тонкий оммаж дизайну славных 1960-х: времени первых шагов человечества в космическом пространстве.
-									<p><img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" alt="..." class="mt-5 w-50">	
+									<p><img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" alt="..." class="mt-5 w-50">	
 								
 								</div>			 
 							</div>
@@ -440,7 +440,7 @@
 		                	<div class='row'>
 								<div class='ps-5 col-md-6 col-sm-12'>
 									<p>Декоративные швы снаружи
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg">
+									<img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg">
 								</div>
 								<div class='pe-5 col-md-6 col-sm-12'>
 									<p>Без декоративных швов
@@ -657,7 +657,7 @@
 								</div>
 							</div>
 		                	<p class='mt-2' >Больше образцов тканей вы можете посмотреть в наших салонах.
-							<a class='my-2' href='http://decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
+							<a class='my-2' href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray'>Адреса салонов</button></a>
 			          	</div>
 			        </div>
 			    </div>
@@ -676,7 +676,7 @@
 							<div class="row">
 								<div class="col-md-6 col-sm-12">
 									<p>Стильные конусовидные металлические ножки как тонкий оммаж дизайну славных 1960-х: времени первых шагов человечества в космическом пространстве.
-									<p><img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" alt="..." class="mt-5 w-50">	
+									<p><img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_LEG_CAMBRIDGE_600.jpg" alt="..." class="mt-5 w-50">	
 								
 								</div>			 
 							</div>
@@ -701,7 +701,7 @@
 		                <div class='container-fluid'>
 		                	<div class='row'>
 								<div class='col-md-6 col-sm-12'>
-									<img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg">
+									<img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg">
 									<p class="mt-2 thin">Декоративные швы снаружи
 								</div>
 								<div class='col-md-6 col-sm-12'>
@@ -730,16 +730,16 @@
 
 		 	<div class="carousel-inner" onmousemove='showPopOvers();'>
 			    <div class="carousel-item active">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_1.jpg" class="d-block w-100" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_1.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_2.jpg" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_2.jpg" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_3.jpg" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_3.jpg" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_4.jpg" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_4.jpg" alt="...">
 			    </div>
 			</div>
 
@@ -767,16 +767,16 @@
 
 		 	<div class="carousel-inner" onmousemove='showPopOvers();'>
 			    <div class="carousel-item active">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_1_mob.jpg" class="d-block w-100" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_1_mob.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_2_mob.jpg" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_2_mob.jpg" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_3_mob.jpg" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_3_mob.jpg" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_4_mob.jpg" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS_mob/CONSONO_4_mob.jpg" alt="...">
 			    </div>
 			</div>
 
@@ -800,7 +800,7 @@
 		<div class = 'popOvers'>	
 	        <div id='popAboutStitchesBig'>
 	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	            	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	             		<p class='card-text'>Мы прошиваем наши диваны турецкими мебельными нитями марки POLYART. Это синтетические армированные  нити с полиэфирной оплёткой. Нити обладают высокой прочностью и устойчивы к истиранию. </p>
 	            	</div>
@@ -809,7 +809,7 @@
 
 	       	<div id='popAboutPillowBig'>
 	          	<div class='card' style='width: 15rem;'>
-	           		<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	           		<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	              		<p class='card-text'>Подушка может лежать на диване. А может быть сброшена кошкой. Ещё ей можно драться. </p>
 	            	</div>
@@ -818,7 +818,7 @@
 
 	       <div id='popAboutFrontBig'>
 	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	            	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	              		<p class='card-text'>Край дивана. Наверное, здесь что-то о диванном внутреннем мире - какие там пружины внутри хитрые. Или нет? </p>
 		            </div>
@@ -827,7 +827,7 @@
 
 	       	<div id='popAboutBackBig'>
 	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	            	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	              		<p class='card-text'>Спинка дивана. Наверное, здесь о наполнителе - какой он белый, пушистый и высокотехнологичный. Или нет? </p>
 	            	</div>
@@ -836,7 +836,7 @@
 
 	       	<div id='popAboutPawBig'>
 	          	<div class='card' style='width: 15rem;'>
-	            	<img src='http://decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
+	            	<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Detail_1-1.png' class='card-img-top'>
 	            	<div class='card-body'>
 	              		<p class='card-text'>Диванная ножка. Наверное, здесь о том, что она из дуба 4 сортов. Или нет? </p>
 	            	</div>

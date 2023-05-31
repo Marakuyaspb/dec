@@ -17,14 +17,14 @@
             </div>
             <div class='col-2 pt-1'>
                 <h4 class='mb-1'>Новости</h4>
-                <p class='small  pb-2'><a href='http://decona.ru/2023/04/18/great-offer/'>Акции</a></p>
+                <p class='small  pb-2'><a href='http://temp.decona.ru/2023/04/18/great-offer/'>Акции</a></p>
                 <p class='small  pb-2'><a href='#'>Новости</a></p>
-                <p class='small  pb-2'><a href='http://decona.ru/articles/'>Статьи</a></p>
+                <p class='small  pb-2'><a href='http://temp.decona.ru/articles/'>Статьи</a></p>
             </div>
             <div class='col-2 pt-1'>
                 <h4 class='mb-1'>О компании</h4>
                 <p class='small  pb-2'><a href='#'>Материалы</a></p>
-                <p class='small  pb-2'><a href='http://decona.ru/showrooms/'>Салоны</a></p>
+                <p class='small  pb-2'><a href='http://temp.decona.ru/showrooms/'>Салоны</a></p>
                 <p class='small  pb-2'><a href='#'>Вход для партнеров</a></p>
             </div>
             <div class='col pt-2 text-end'>
@@ -34,7 +34,7 @@
                 <div class="d-flex justify-content-end">
                     <div></div>
                     <div>
-                    <form role="search" method="get" class="search-form" action="http://decona.ru/">
+                    <form role="search" method="get" class="search-form" action="http://temp.decona.ru/">
                         <input type="search" id="search-form-1" class="search-field" value="" name="s" placeholder="Поиск">
                         <input type="submit" class="search-submit" value="Искать">
                     </form>
@@ -116,9 +116,9 @@
                 </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-                <p class='py-2 small'><a href='http://decona.ru/2023/04/18/great-offer/'>Акции</a></p>
+                <p class='py-2 small'><a href='http://temp.decona.ru/2023/04/18/great-offer/'>Акции</a></p>
                 <p class='py-2 small'><a href='#'>Новости</a></p>
-                <p class='py-2 small'><a href='http://decona.ru/articles/'>Статьи</a></p>
+                <p class='py-2 small'><a href='http://temp.decona.ru/articles/'>Статьи</a></p>
             </div>
             </div>
         </div>
@@ -130,7 +130,7 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <p class='py-2 small'><a href='#'>Материалы</a></p>
-                <p class='py-2 small'><a href='http://decona.ru/showrooms/'>Салоны</a></p>
+                <p class='py-2 small'><a href='http://temp.decona.ru/showrooms/'>Салоны</a></p>
                 <p class='py-2 small'><a href='#'>Вход для партнеров</a></p>
             </div>
             </div>
@@ -166,7 +166,7 @@
                 </a> 
                 </span>
                 
-                <form role="search" method="get" class="search-form mt-3 ms-2" action="http://decona.ru/">
+                <form role="search" method="get" class="search-form mt-3 ms-2" action="http://temp.decona.ru/">
                     <input type="search" id="search-form-1" class="search-field" value="" name="s" placeholder="Поиск">
                     <input type="submit" class="search-submit" value="Искать">
                 </form>
@@ -223,9 +223,9 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p class='py-2 small'><a href='http://decona.ru/2023/04/18/great-offer/'>Акции</a></p>
+                <p class='py-2 small'><a href='http://temp.decona.ru/2023/04/18/great-offer/'>Акции</a></p>
                 <p class='py-2 small'><a href='#'>Новости</a></p>
-                <p class='py-2 small'><a href='http://decona.ru/articles/'>Статьи</a></p>
+                <p class='py-2 small'><a href='http://temp.decona.ru/articles/'>Статьи</a></p>
               </div>
             </div>
         </div>
@@ -237,7 +237,7 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <p class='py-2 small'><a href='#'>Материалы</a></p>
-                    <p class='py-2 small'><a href='http://decona.ru/showrooms/'>Салоны</a></p>
+                    <p class='py-2 small'><a href='http://temp.decona.ru/showrooms/'>Салоны</a></p>
                     <p class='py-1 small'><a href='#'>Вход для партнеров</a></p>
                 </div>
             </div>
@@ -251,7 +251,7 @@
     </div>
     
     <div class='pb-4'>
-        <form role="search" method="get" class="search-form" action="http://decona.ru/">
+        <form role="search" method="get" class="search-form" action="http://temp.decona.ru/">
             <input type="search" id="search-form-1" class="search-field" value="" name="s" placeholder="Поиск">
             <input type="submit" class="search-submit" value="Искать">
         </form>

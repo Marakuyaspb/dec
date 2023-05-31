@@ -19,7 +19,7 @@ get_header('new');
 			<?php get_search_form(); ?>
 		</div>
 		<div class='col'>
-			<img class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' src='http://decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_side-scaled.jpg'>
+			<img class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' src='http://temp.decona.ru/wp-content/uploads/2023/03/Portland_Jazz-01_sand_side-scaled.jpg'>
 		</div>
 	</div>
 </div>

@@ -10,7 +10,7 @@ get_header('new');
 <div class ='container-fluid'>
   <h1 class = 'sku' id = 'porland_HipHop'>Итак</h1>
 	<h3>Оформить заказ</h3>
-	<form action="http://decona.ru/wp-content/uploads/mail_craft/mail.php" method="POST">
+	<form action="http://temp.decona.ru/wp-content/uploads/mail_craft/mail.php" method="POST">
     	<p>Модель: 
     	<p class ='major-text' id="ordered_sku" name="user_sku"></p>
 		<input type="text" name="user_name" placeholder ="Ваше имя" required>

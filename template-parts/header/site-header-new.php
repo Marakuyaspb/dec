@@ -4,8 +4,8 @@
 <div class='d-block d-lg-none'>
   <nav class='navbar navbar-expand-lg navbar-light'>
         <div class='container-fluid'>
-          <a class='navbar-brand' href='http://decona.ru'>
-            <img src="http://decona.ru/wp-content/uploads/logo/DECONA_logo.svg">
+          <a class='navbar-brand' href='http://temp.decona.ru'>
+            <img src="http://temp.decona.ru/wp-content/uploads/logo/DECONA_logo.svg">
           </a>
           <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
             <span class='navbar-toggler-icon'></span>
@@ -14,22 +14,22 @@
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul class='navbar-nav'>
             <li class='nav-item'>
-              <a class='nav-link' aria-current='page' href='http://decona.ru/'>Продукция</a>
+              <a class='nav-link' aria-current='page' href='http://temp.decona.ru/'>Продукция</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link' href='http://decona.ru/showrooms/'>Шоурумы</a>
+              <a class='nav-link' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link' href='http://decona.ru/articles/'>Блог</a>
+              <a class='nav-link' href='http://temp.decona.ru/articles/'>Блог</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link' href='http://decona.ru/about/'>О фабрике</a>
+              <a class='nav-link' href='http://temp.decona.ru/about/'>О фабрике</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link' href='http://decona.ru/payment/'>Оплата и доставка</a>
+              <a class='nav-link' href='http://temp.decona.ru/payment/'>Оплата и доставка</a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link' href='http://decona.ru/contact/'>Контакты</a>
+              <a class='nav-link' href='http://temp.decona.ru/contact/'>Контакты</a>
             </li>
             <li class='nav-item'>
               <span class='ms-2'>
@@ -71,23 +71,23 @@
   <div class="desctop-menu">
     
       <div class="ps-4">
-        <a class='navbar-brand white' href='http://decona.ru'>
-            <img src="http://decona.ru/wp-content/uploads/logo/DECONA_logo.svg">
+        <a class='navbar-brand white' href='http://temp.decona.ru'>
+            <img src="http://temp.decona.ru/wp-content/uploads/logo/DECONA_logo.svg">
           </a>
       </div>
     
       <div class='pt-2 desctop-menu to-center'>
-        <a class='nav-link' aria-current='page' href='http://decona.ru/'>Продукция</a>
+        <a class='nav-link' aria-current='page' href='http://temp.decona.ru/'>Продукция</a>
           <p class='top-string major-text'>|</p>
-        <a class='nav-link ' href='http://decona.ru/showrooms/'>Шоурумы</a>
+        <a class='nav-link ' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
           <p class=' top-string major-text'>|</p>
-        <a class='nav-link ' href='http://decona.ru/articles/'>Блог</a>
+        <a class='nav-link ' href='http://temp.decona.ru/articles/'>Блог</a>
           <p class=' top-string major-text'>|</p>
-        <a class='nav-link ' href='http://decona.ru/about/'>О фабрике</a>
+        <a class='nav-link ' href='http://temp.decona.ru/about/'>О фабрике</a>
           <p class=' top-string major-text'>|</p>
-        <a class='nav-link' href='http://decona.ru/payment/'>Оплата и доставка</a>
+        <a class='nav-link' href='http://temp.decona.ru/payment/'>Оплата и доставка</a>
           <p class='top-string major-text'>|</p>
-        <a class='nav-link ' href='http://decona.ru/contact/'>Контакты</a>
+        <a class='nav-link ' href='http://temp.decona.ru/contact/'>Контакты</a>
       </div> 
      
       <div class="ps-4 pe-4 pt-2 righted">

@@ -8,31 +8,31 @@ function showPopOvers(event){
 /* сделать эту штуку вариативной из массива */
 
   var pinStitchesBig = new Image();
-  pinStitchesBig.src = 'http://decona.ru/wp-content/uploads/2023/02/pin.svg';
+  pinStitchesBig.src = 'http://temp.decona.ru/wp-content/uploads/2023/02/pin.svg';
   pinStitchesBig.onload = function(){
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(pinStitchesBig, 280, 400, 50, 50);
   }
   var pinPillowBig = new Image();
-  pinPillowBig.src = 'http://decona.ru/wp-content/uploads/2023/02/pin.svg';
+  pinPillowBig.src = 'http://temp.decona.ru/wp-content/uploads/2023/02/pin.svg';
   pinPillowBig.onload = function(){
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(pinPillowBig, 370, 260, 50, 50);
   }
   var pinFrontBig = new Image();
-  pinFrontBig.src = 'http://decona.ru/wp-content/uploads/2023/02/pin.svg';
+  pinFrontBig.src = 'http://temp.decona.ru/wp-content/uploads/2023/02/pin.svg';
   pinFrontBig.onload = function(){
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(pinFrontBig, 760, 470, 50, 50);
   }
   var pinBackBig = new Image();
-  pinBackBig.src = 'http://decona.ru/wp-content/uploads/2023/02/pin.svg';
+  pinBackBig.src = 'http://temp.decona.ru/wp-content/uploads/2023/02/pin.svg';
   pinBackBig.onload = function(){
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(pinBackBig, 890, 180, 50, 50);
   }
   var pinPawBig = new Image();
-  pinPawBig.src = 'http://decona.ru/wp-content/uploads/2023/02/pin.svg';
+  pinPawBig.src = 'http://temp.decona.ru/wp-content/uploads/2023/02/pin.svg';
   pinPawBig.onload = function(){
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(pinPawBig, 1070, 620, 50, 50);

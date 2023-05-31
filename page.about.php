@@ -9,7 +9,7 @@ get_header();
 <!-- DESCTOP -->
 	<div class='mb-5 d-none d-lg-block d-xl-block d-xxl-block'>
 		<div class='main-head-slider'>
-			<img src="http://decona.ru/wp-content/uploads/2023/02/Work_2-11.png" class='banner img-fluid'>
+			<img src="http://temp.decona.ru/wp-content/uploads/2023/02/Work_2-11.png" class='banner img-fluid'>
 		</div>
 	<!-- Who we are -->
 		<div class="container">
@@ -21,7 +21,7 @@ get_header();
 					
 				</div>
 				<div class ='col-lg-8 no-padding-right no-padding-left'>
-					<img src='http://decona.ru/wp-content/uploads/2023/02/Work_1-main-1.png' class="img-fluid banner"/>
+					<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Work_1-main-1.png' class="img-fluid banner"/>
 				</div>
 			</div>
 
@@ -31,7 +31,7 @@ get_header();
 	<!-- We are great -->
 		<div class="container px-5 mt-5">
 			
-			<img class="img-fluid" src="http://decona.ru/wp-content/uploads/2023/03/Work-3-12.png">
+			<img class="img-fluid" src="http://temp.decona.ru/wp-content/uploads/2023/03/Work-3-12.png">
 
 			<p class="major-text my-5">
 				Вы наконец-то нашли то, что так давно искали - мебель, которая отвечает всем вашим наиболее важным требованиям к такой ответственной покупке, как диван для вашей семьи. Философия нашей компании - дать честный продукт за честные деньги. Мы очень любим свою работу и с уважением относимся к Вам, наш покупатель, и благодарны за то, что Вы выбираете наши диваны. При создании любого изделия базовыми принципами нашей фабрики является комфорт, качество и соответствие трендам сегодняшнего дня. Спасибо, что выбираете нас!
@@ -48,7 +48,7 @@ get_header();
 <!-- TABLET & PHONE -->
 	<div class='mb-2 d-block d-lg-none'>
 		<div class='main-head-slider'>
-			<img src="http://decona.ru/wp-content/uploads/2023/03/vertical_about_hat.png" class='banner img-fluid'>
+			<img src="http://temp.decona.ru/wp-content/uploads/2023/03/vertical_about_hat.png" class='banner img-fluid'>
 		</div>
 
 	<!-- Who we are -->
@@ -60,7 +60,7 @@ get_header();
 		</div>	
 
 		<div class ='no-padding-right no-padding-left'>
-			<img src='http://decona.ru/wp-content/uploads/2023/02/Work_1-main-1.png' class="img-fluid banner"/>
+			<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Work_1-main-1.png' class="img-fluid banner"/>
 		</div>			
 		
 
@@ -71,7 +71,7 @@ get_header();
 		<p class="px-5 pb-4">
 			Философия нашей компании - дать честный продукт за честные деньги. Мы очень любим свою работу и с уважением относимся к Вам, наш покупатель, и благодарны за то, что Вы выбираете наши диваны. При создании любого изделия базовыми принципами нашей фабрики является комфорт, качество и соответствие трендам сегодняшнего дня. Спасибо, что выбираете нас!
 		</p>
-		<img class="banner" src="http://decona.ru/wp-content/uploads/2023/03/vertical_about.png">
+		<img class="banner" src="http://temp.decona.ru/wp-content/uploads/2023/03/vertical_about.png">
 		<p class="px-5 py-4">
 			Для нас изначально было важным превосходить ожидания, дать людям больше. Поэтому мы тщательно подходим к подбору материалов, используем только сертифицированные, высококачественные и проверенные годами. Новые технологии, современное оборудование и опытные мастера - залог нашего успеха.
 		</p>
@@ -81,7 +81,7 @@ get_header();
 <!-- DESCTOP -->
 <div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
 	<div class="card no-border">
-	  <img src="http://decona.ru/wp-content/uploads/2023/02/Product_main-11.png" class="card-img" alt="...">
+	  <img src="http://temp.decona.ru/wp-content/uploads/2023/02/Product_main-11.png" class="card-img" alt="...">
 	  <div class="card-img-overlay">
 	    <h2 class="white ms-5 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h2>
 	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-5">Подробнее</button></a>
@@ -92,7 +92,7 @@ get_header();
 <!-- TABLET & PHONE -->
 <div class='pt-5 d-block d-md-none ' id='tablet-show'>
 	<div class="card no-border">
-	  <img src="http://decona.ru/wp-content/uploads/2023/03/Product_main-12.png" class="card-img" alt="...">
+	  <img src="http://temp.decona.ru/wp-content/uploads/2023/03/Product_main-12.png" class="card-img" alt="...">
 	  <div class="card-img-overlay">
 	    <h3 class="white ms-2 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h3>
 	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-2">Подробнее</button></a>

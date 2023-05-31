@@ -40,7 +40,7 @@ if(isset($_POST['create_prod_pages'])){
 	    <?php
 	    get_footer();
 	";
-	$dir = 'http://decona.ru/wp-content/uploads/catalog/goods-pages';
+	$dir = 'http://temp.decona.ru/wp-content/uploads/catalog/goods-pages';
 
 	while ($row = mysqli_fetch_assoc($result)) {
 	    $sku = $row['sku'];
@@ -51,7 +51,7 @@ if(isset($_POST['create_prod_pages'])){
 	    
 	    print_r($sku . '<br>');
 	    $filename = $sku . '.php';
-	    $file_path = "http://decona.ru/wp-content/uploads/catalog/goods-pages/$filename.php";
+	    $file_path = "http://temp.decona.ru/wp-content/uploads/catalog/goods-pages/$filename.php";
 
 	    // open the file for writing
 		//$file = fopen($file_path, "w");
@@ -97,7 +97,7 @@ if(isset($_POST['create_prod_pages'])){
 		</div>
 
 		<div class='col'>
-			<img class='mt-3' src='http://decona.ru/wp-content/uploads/2023/04/simons-cat.jpg'>
+			<img class='mt-3' src='http://temp.decona.ru/wp-content/uploads/2023/04/simons-cat.jpg'>
 		</div>
 	</div>
 </div>
