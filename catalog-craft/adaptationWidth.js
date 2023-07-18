@@ -8,9 +8,9 @@ function adaptationWidth(){
   		content_left.classList.add("col-md-6");
   		content_right.classList.add("col-md-6");
   	} 
-	else if (content_left.classList.contains("sofa")) {
-  		content_left.classList.add("col-md-8");
-  		content_right.classList.add("col-md-4");
+	else if (content_left.classList.contains("str")) {
+  		content_left.classList.add("col-md-9");
+  		content_right.classList.add("col-md-3");
 	} 
 	else if (content_left.classList.contains("pouf")) {
   		content_left.classList.add("col-md-6");
@@ -25,8 +25,8 @@ function adaptationWidth(){
   		content_right.classList.add("col-md-4");
 	} 
 	else if (content_left.classList.contains("k1r")) {
-  		content_left.classList.add("col-md-12");
-  		content_right.classList.add("d-none");
+  		content_left.classList.add("col-md-9");
+  		content_right.classList.add("col-md-3");
   		content_right.classList.remove("no-padding-right");
 	}
 

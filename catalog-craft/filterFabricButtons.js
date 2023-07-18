@@ -6,7 +6,8 @@ function filterFabricButtons(){
 
 /* about desctop */
 
-   if(currCollection == 'consono'){
+/*    
+    if(currCollection == 'consono'){
         for (let i_0 = 0; i_0 < fabricButtons.length; i_0++) {
             const classes = fabricButtons[i_0].classList;
               
@@ -42,7 +43,7 @@ function filterFabricButtons(){
             }
         }
     }
-   else if (currCollection == 'nadwig'){
+    else if (currCollection == 'nadwig'){
         for (let i_2 = 0; i_2 < fabricButtons.length; i_2++) {
             const classes = fabricButtons[i_2].classList;
               
@@ -60,4 +61,6 @@ function filterFabricButtons(){
             }
         }
     }
+*/
+    
 }
