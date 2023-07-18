@@ -9,8 +9,8 @@ function adaptationWidth(){
   		content_right.classList.add("col-md-6");
   	} 
 	else if (content_left.classList.contains("str")) {
-  		content_left.classList.add("col-md-9");
-  		content_right.classList.add("col-md-3");
+  		content_left.classList.add("col-md-8");
+  		content_right.classList.add("col-md-4");
 	} 
 	else if (content_left.classList.contains("pouf")) {
   		content_left.classList.add("col-md-6");

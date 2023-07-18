@@ -247,6 +247,10 @@ a .icon-header:hover{
 .no-padding-left{
 	padding-left: 0!important;
 }
+.padding-left-4{
+	padding-left: 4em !important
+};
+
 .no-border{
 	border: none!important;
 }

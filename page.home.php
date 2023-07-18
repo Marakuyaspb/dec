@@ -98,13 +98,12 @@ get_header();
 	<div class='row'>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
-	  			<!-- a href='http://temp.decona.ru/category-k1r-system/' -->
-	  				<div class ='category_label'>
-			  			<p class='major-text'>Модульные системы</p>
-			  			<p class='small-text'>Конфигурация под любое пространство
-			  		</div>
-	  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Base-copy.png">
-		  		</a>
+  				<div class ='category_label'>
+		  			<p class='major-text'>Модульные системы</p>
+		  			<p class='small-text'>Конфигурация под любое пространство
+		  		</div>
+  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Base-copy.png">
+
 	  		</div>
 	  	</div>
 	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner" onclick="filterProducts(event);">

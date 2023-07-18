@@ -157,7 +157,7 @@ function showDetails(event){
 				</div>  
 			</div>
 
-			<div class='no-padding-right' id='content_right'>
+			<div class='no-padding-right padding-left-4' id='content_right'>
 				<img class='img-fluid banner' src='${right_sofa_piece}'>
 			</div>
 		</div>
