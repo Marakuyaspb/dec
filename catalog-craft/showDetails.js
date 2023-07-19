@@ -553,8 +553,8 @@ function showDetails(event){
 
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									${scheme}
-									${scheme_2}
+									<img src='${scheme}'>
+									<img src='${scheme_2}'>
 								</div>
 							</div>
 						</div>
