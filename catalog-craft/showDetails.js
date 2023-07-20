@@ -220,44 +220,10 @@ function showDetails(event){
 		        <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
 		            	<div class='container-fluid'>
-							<div class='row'>
-								<div class='col-md-4 col-sm-12'>
-			                		<table class='prod-card-table'>
-				                		<tr class='prod-card-table-row'>
-											${prod_width}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_depth}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_height}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_weight}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_seat_height}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_seat_width}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_seat_depth}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_back_width}
-										</tr>
-									</table>
-									</table>
-
-									<!-- button class='btn-outline-gray mt-1'>Вся коллекция</button -->
-
+		            		<div class='row'>
+								<div class='col'>
+		            			${scheme}
 								</div>
-								<div class='col-md-4 col-sm-12'>
-									${scheme}
-									${scheme_2}
-								</div>
-								
 							</div>
 						</div>
 					</div>		
@@ -503,9 +469,11 @@ function showDetails(event){
 		        </h2>
 		        <div id='collapseOne' class='accordion-collapse collapse show' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
-		                <p id='description'>
-		                	${description}
-		                </p>
+			            <div class='accordion-padding'>
+			                <p id='description'>
+			                	${description}
+			                </p>
+			          	</div>
 		          	</div>
 		        </div>
 		    </div>
@@ -519,47 +487,15 @@ function showDetails(event){
 		        </h2>
 		        <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
-		            	<div class='container-fluid'>
-							<div class='row'>
-								<div class='col-md-4 col-sm-12'>
-			                		<table class='prod-card-table'>
-				                		<tr class='prod-card-table-row'>
-											${prod_width}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_depth}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_height}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_weight}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_seat_height}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_seat_width}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_seat_depth}
-										</tr>
-										<tr class='prod-card-table-row'>
-											${prod_back_width}
-										</tr>
-									</table>
-
-									<!-- button class='btn-outline-gray'>Вся коллекция</button -->
-
-								</div>
-								<div class='col-md-4 col-sm-12'>
-									<img src='${scheme}'>
-									<img src='${scheme_2}'>
+		            	<div class='accordion-padding'>
+		            		<div class='row'>
+								<div class='col'>
+		            			${scheme}
 								</div>
 							</div>
 						</div>
 					</div>		
-		          </div>
+		        </div>
 		    </div>
 		    
 
