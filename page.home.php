@@ -39,7 +39,7 @@ get_header();
 			  </button>
 			</div>
 
-			<div class="ps-5 over-slider">
+			<div class="over-slider">
 				<h1 class="white slider_h1">BASE</h1>
 				<p class="white ms-2 mb-5 major-text just-thin">Модульная система</p>
 				<a href='http://temp.decona.ru/2023/04/18/great-offer/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>

@@ -276,6 +276,12 @@ a .icon-header:hover{
 }
 
 
+.padding-six{
+	padding-right: 6em !important;
+	padding-left: 6em !important;
+}
+
+
 .add-shadow:hover{
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -473,8 +479,8 @@ a .icon-header:hover{
 	position: relative;
 	margin-top: -19em;
 	margin-bottom: 3em;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 16em;
+	margin-right: 16em;
 }
 .over-slider-mobile{
 	z-index: 5!important;
