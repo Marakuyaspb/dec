@@ -98,7 +98,7 @@ function showDetails(event){
 		      	<p class='fabric-name pb-3'>Ткань: ${fabric_name}
 		    	</center>
 
-			<!-- fabric buttons -->
+				<!-- fabric buttons -->
 
 				<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
 					<img class='slide-fabric-button fabric-var-desctop fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png' onClick ='showDetailsByFabric(event);'>
@@ -161,7 +161,6 @@ function showDetails(event){
 				<img class='img-fluid banner' src='${right_sofa_piece}'>
 			</div>
 		</div>
-
 
 
 		<!-- Name & price -->
@@ -287,8 +286,8 @@ function showDetails(event){
 								<div class='col-md-8 col-sm-12'>
 									<p>${product_fabric_about}
 									<br>
-									<p>Обращаем Ваше внимание, что реальный цвет ткани может значительно отличаться от изображения на экране. Это зависит от индивидуальных настроек монитора и восприятия цвета. Поэтому при заказе ткани ориентируйтесь на реальные образцы.
-		                			<p class='pt-2'>Больше образцов тканей вы можете посмотреть в наших салонах.
+									<p  class='pt-4'>Обращаем Ваше внимание, что реальный цвет ткани может значительно отличаться от изображения на экране. Это зависит от индивидуальных настроек монитора и восприятия цвета. Поэтому при заказе ткани ориентируйтесь на реальные образцы.
+		                			<p class='pt-4'>Больше образцов тканей вы можете посмотреть в наших салонах.
 									<p><a href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 								</div>
 								<div class='col-md-4 col-sm-12'>
@@ -336,7 +335,8 @@ function showDetails(event){
 		        </div>
 		    </div>
 		</div>
-
+		
+		
 		<!-- Slider with interiors DESCTOP -->
 		<div class='banner mt-3'>
 			<div id='carouselExampleIndicators' class='carousel slide' data-bs-ride='carousel'>
@@ -376,7 +376,8 @@ function showDetails(event){
 		<!-- DESCTOP POP OVER THING-->
 		${canvas_background}
 	</div>
-	</div>
+
+	
 	<!-- DESCTOP END -->
 
 

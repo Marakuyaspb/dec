@@ -219,7 +219,7 @@ get_header();
 	</div>
 
 	<div class='row '>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="sofa" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="str" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>
 				<div class ='pt-2'>
 		  			<p class='major-text just-thin'>Прямые диваны</h4>	

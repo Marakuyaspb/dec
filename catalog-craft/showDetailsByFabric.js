@@ -222,7 +222,7 @@ function showDetailsByFabric(event){
 		        </h2>
 		        <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
-		            	<div class='accordion-padding'>
+		            	<div class='container-fluid'>
 		            		<div class='row'>
 								<div class='col'>
 		            			${scheme}
@@ -230,7 +230,7 @@ function showDetailsByFabric(event){
 							</div>
 						</div>
 					</div>		
-		        </div>
+		          </div>
 		    </div>
 		    
 		    <div class='accordion-item'><!-- Характеристики -->
@@ -270,7 +270,7 @@ function showDetailsByFabric(event){
 										</tr>
 									</table>
 								</div>
-								<p class='pt-3'>${features}
+								<p class='pt-3'>Конструктивные особенности: ${features}
 							</div>
 						</div>
 		        	</div>
@@ -290,8 +290,8 @@ function showDetailsByFabric(event){
 								<div class='col-md-8 col-sm-12'>
 									<p>${product_fabric_about}
 									<br>
-									<p>Обращаем Ваше внимание, что реальный цвет ткани может значительно отличаться от изображения на экране. Это зависит от индивидуальных настроек монитора и восприятия цвета. Поэтому при заказе ткани ориентируйтесь на реальные образцы.
-		                			<p class='pt-2'>Больше образцов тканей вы можете посмотреть в наших салонах.
+									<p  class='pt-4'>Обращаем Ваше внимание, что реальный цвет ткани может значительно отличаться от изображения на экране. Это зависит от индивидуальных настроек монитора и восприятия цвета. Поэтому при заказе ткани ориентируйтесь на реальные образцы.
+		                			<p class='pt-4'>Больше образцов тканей вы можете посмотреть в наших салонах.
 									<p><a href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 								</div>
 								<div class='col-md-4 col-sm-12'>
@@ -316,30 +316,29 @@ function showDetailsByFabric(event){
 		        <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
 		            	<div>
-		                	<p class='mb-3'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё.
+		                	<p class='mb-3'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё. Спинка дивана может быть дополнена подголовником.
 		                	</p>
 		                </div>
 		                <div class='container-fluid'>
 		                	<div class='row'>
-								<div class='col-md-6 col-sm-12 padding-six'>
+								<div class='col-md-4 col-sm-12 px-4'>
 									<center><p>Декоративные швы снаружи</center>
 									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/CONSONO_SEAMS.jpg'>
 								</div>
-								<div class='col-md-6 col-sm-12 padding-six'>
+								<div class='col-md-4 col-sm-12 px-4'>
 									<center><p>Без декоративных швов</center>
 									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/CONSONO_NOSEAMS.jpg'>
 								</div>
-							</div>
-						</div>
-						<div class='pt-4'>
-							<div class='col-md-6 col-sm-12 padding-six'>
-								<p>Спинка дивана может быть дополнена подголовником</p>
-								<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/headrest.jpg'>
+								<div class='col-md-4 col-sm-12 px-4'>
+									<center><p>Спинка дивана может быть дополнена подголовником</center>
+									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/headrest.jpg'>
+								</div>
 							</div>
 						</div>
 		          	</div>
 		        </div>
 		    </div>
+		</div>
 		</div>
 
 		<!-- Slider with interiors DESCTOP -->
@@ -381,7 +380,7 @@ function showDetailsByFabric(event){
 		<!-- DESCTOP POP OVER THING-->
 		${canvas_background}
 	</div>
-	</div>
+	
 	<!-- DESCTOP END -->
 
 
