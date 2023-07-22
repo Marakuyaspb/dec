@@ -379,6 +379,13 @@ function showDetailsByFabric(event){
 
 		<!-- DESCTOP POP OVER THING-->
 		${canvas_background}
+		
+	
+		<div class='container-fluid ms-4 mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, где прописаны все особенности товара, его доставка и гарантии.</p>
+			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
+		</div>	
+
 	</div>
 	
 	<!-- DESCTOP END -->
@@ -400,15 +407,15 @@ function showDetailsByFabric(event){
         <!-- fabric buttons -->
 
 		<div class='slide-fabric-nav' onClick ='event.stopPropagation()'>  	  
-			<img class='slide-fabric-button fabric-var-desctop fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png' onClick ='showDetailsByFabric(event);'>
+			<img class='slide-fabric-button fabric-var-phone fabric-var CAMBRIDGE_600' id='${collection}_${category}_CAMBRIDGE_600' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/CAMBRIDGE/ICONS/CAMBRIDGE_600.png' onClick ='showDetailsByFabric(event);'>
 
-	    	<img class='slide-fabric-button fabric-var-desctop fabric-var JAZZ_01' id='${collection}_${category}_JAZZ_01' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var-phone fabric-var JAZZ_01' id='${collection}_${category}_JAZZ_01' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_01.png' onClick ='showDetailsByFabric(event);'>
 
-	    	<img class='slide-fabric-button fabric-var-desctop fabric-var JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var-phone fabric-var JAZZ_21' id='${collection}_${category}_JAZZ_21' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/JAZZ/ICONS/JAZZ_21.png' onClick ='showDetailsByFabric(event);'>
 
-	    	<img class='slide-fabric-button fabric-var-desctop fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= 'http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png' onClick ='showDetailsByFabric(event);'>
+	    	<img class='slide-fabric-button fabric-var-phone fabric-var PIXEL_FOREST' id='${collection}_${category}_PIXEL_FOREST' src= 'http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/PIXEL/ICONS/PIXEL_FOREST.png' onClick ='showDetailsByFabric(event);'>
 	    
-	    	<img class='slide-fabric-button fabric-var-desctop fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_32' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png' onClick ='showDetailsByFabric(event);'>   	
+	    	<img class='slide-fabric-button fabric-var-phone fabric-var VELUTTO_16' id='${collection}_${category}_VELUTTO_32' src='http://temp.decona.ru/wp-content/uploads/goods_pics/FABRIC/VELUTTO/ICONS/VELUTTO_32.png' onClick ='showDetailsByFabric(event);'>    
 		</div>
 		
 
@@ -478,12 +485,12 @@ function showDetailsByFabric(event){
 		        </h2>
 		        <div id='collapseOne' class='accordion-collapse collapse show' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
-			            <div class='accordion-padding'>
+			            <div class=''>
 			                <p id='description'>
 			                	${description}
 			                </p>
 			          	</div>
-			        </div>' class='img-fluid pe-1'> 
+		          	</div>
 		        </div>
 		    </div>
 
@@ -496,7 +503,7 @@ function showDetailsByFabric(event){
 		        </h2>
 		        <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
-		            	<div class='accordion-padding'>
+		            	<div class=''>
 		            		<div class='row'>
 								<div class='col'>
 		            			${scheme}
@@ -504,7 +511,7 @@ function showDetailsByFabric(event){
 							</div>
 						</div>
 					</div>		
-		         </div>
+		        </div>
 		    </div>
 		    
 
@@ -563,15 +570,15 @@ function showDetailsByFabric(event){
 		            <div class='accordion-body'>
 		            	<div class='container-fluid'>
 							<div class='row'>
-								<div class='col-md-8 col-sm-12'>
+								<div class='col-md-8 col-sm-12 mb-3'>
 									<p>${product_fabric_about}
 								</div>
 								<div class='col-md-4 col-sm-12'>
 									<img src='${product_fabric_img}' class='img-fluid'>
 								</div>
 							</div>
-		                	<p class='mt-2' >Больше образцов тканей вы можете посмотреть в наших салонах.
-							<a class='my-2' href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
+							<p class='mt-3' >Больше образцов тканей вы можете посмотреть в наших салонах.</p>
+							<a class='my-3' href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 			          	</div>
 			        </div>
 			    </div>
@@ -592,18 +599,18 @@ function showDetailsByFabric(event){
 		        <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
 		            	<div>
-		                	<p>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё.
+		                	<p class='mb-3'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё.
 		                	</p>
 		                </div>
 		                <div class='container-fluid'>
 		                	<div class='row'>
 								<div class='col-md-6 col-sm-12'>
 									<img src='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg'>
-									<p class='mt-2 thin'>Декоративные швы снаружи
+									<p class='mb-4 mt-3 thin'>Декоративные швы снаружи
 								</div>
 								<div class='col-md-6 col-sm-12'>
 									<img src='wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_NOSEAMS.jpg'>
-									<p class='mt-2 thin'>Без декоративных швов
+									<p class='mb-4 mt-3 thin'>Без декоративных швов
 								</div>
 							</div>
 						</div>
@@ -650,14 +657,16 @@ function showDetailsByFabric(event){
 			</div>
 		</div>
 
+
+		<div class='container-fluid'>
+			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
+			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
+		</div>	
+
 	</div>
 	<!-- end -->
 
-	
-	<div class='container-fluid ms-4 mt-5'>
-		<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
-		<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
-	</div>	
+
 </div>
 			`;
 		/*console.log(document.getElementById('sofa_details'));*/

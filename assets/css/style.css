@@ -601,9 +601,9 @@ a .icon-header:hover{
 	width: 1.6em;
 }
 .fabric-var-phone{
-	width: 3.8em;
-  padding-left: .5em;
-  padding-right: .5em;
+	width: 3.5em;
+	padding-left: .1em;
+	padding-right: .1em
 }
 .fabric-name{
 	font-size: 1em;
