@@ -78,6 +78,7 @@ function showDetails(event){
   			let slider_interior_mob_3 = productAllDetails.slider_interior_mob_3;
   			let slider_interior_mob_4 = productAllDetails.slider_interior_mob_4;
 			let canvas_background = productAllDetails.canvas_background;
+			let popOverType = productAllDetails.popOverType;
 
 /* render new html about the single product */
   			document.getElementById('goods_details').innerHTML = 
@@ -661,13 +662,13 @@ function showDetails(event){
 	</div>
 
 	<!-- end -->
-
 </div>
+<script>${popOverType}</script>
 			`; 
 		} /*else console.log('Check your json!');*/
 	}
 	adaptationWidth();
-	filterFabricButtons();
+	/*filterFabricButtons();*/
 	showPopOvers();
 
 	/* Scroll to top */
