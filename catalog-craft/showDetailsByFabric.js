@@ -378,7 +378,7 @@ function showDetailsByFabric(event){
 		</div>
 
 		<!-- DESCTOP POP OVER THING-->
-		${canvas_background}
+		<!-- ${canvas_background} -->
 		
 	
 		<div class='container-fluid ms-4 mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
