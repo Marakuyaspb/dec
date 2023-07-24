@@ -19,13 +19,13 @@ get_header();
 
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img src="http://temp.decona.ru/wp-content/uploads/2023/03/Untitled-4-1.png" class="d-block w-100" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/ba.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_1.jpg" class="d-block w-100" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/bor.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_INTERIORS/CONSONO_3.jpg" class="d-block w-100" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/or.jpg" class="d-block w-100" alt="...">
 			    </div>
 			  </div>
 			  

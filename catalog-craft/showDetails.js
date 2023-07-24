@@ -668,8 +668,8 @@ function showDetails(event){
 		} /*else console.log('Check your json!');*/
 	}
 	adaptationWidth();
-	/*filterFabricButtons();*/
-	showPopOvers();
+	filterFabricButtons();
+	/*showPopOvers();*/
 
 	/* Scroll to top */
         document.body.scrollTop = document.documentElement.scrollTop = 0;
