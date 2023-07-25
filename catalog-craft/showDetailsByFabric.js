@@ -192,20 +192,53 @@ function showDetailsByFabric(event){
 		<!-- ACCORDION DESCTOP-->
 
 		<div class='accordion mx-5' id='accordionExample'>
-		    <div class='accordion-item'><!-- Описание -->
+		    <div class='accordion-item'><!-- Описание и характеристики -->
 		        <h2 class='accordion-header' id='headingOne'>
 		            <button class='accordion-button white_bg' type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>
-		            Описание
+		            Описание и характеристики
 		            </button>
 		        </h2>
 		        <div id='collapseOne' class='accordion-collapse collapse show' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
-		                <p id='description'>
-		                	${description}
-		                </p>
-		          	</div>
+		            	<div class='accordion-padding'>
+			                <p id='description' >
+			                	${description}
+			                </p>
+
+							<div class='my-4'>
+								<table class='prod-card-table col-5'>
+									<tr>
+										${product_type}
+									</tr>
+									<tr>
+										${transform_type}
+									</tr>
+									<tr>
+										${matress_type}
+									</tr>
+									<tr>
+										${product_form}
+									</tr>
+									<tr>
+										${product_style}
+									</tr>
+									<tr>
+										${product_inside}
+									</tr>
+								</table>
+
+								<div class='mt-3 d-flex flex-row'>
+									<p class='cacao pe-2'>Конструктивные особенности:</p>
+									<p>${features}</p>
+								</div>
+							</div>
+						</div>
+
+		        	</div>
 		        </div>
 		    </div>
+
+
 
 		    <div class='accordion-item'><!-- Схема и габариты -->
 		        <h2 class='accordion-header' id='headingTwo'>
@@ -226,49 +259,7 @@ function showDetailsByFabric(event){
 		          </div>
 		    </div>
 		    
-		    <div class='accordion-item'><!-- Характеристики -->
-		        <h2 class='accordion-header' id='headingThree'>
-		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='true' aria-controls='collapseThree'>
-		            Характеристики
-		            </button>
-		        </h2>
-		        <div id='collapseThree' class='accordion-collapse collapse' aria-labelledby='headingThree' data-bs-parent='#accordionExample'>
-		            <div class='accordion-body'>
-		                <h4>Основные</h4>
-		                <div class='accordion-padding'>
-							<div class='row'>
-								<div class='col-md-6 col-sm-12'>
-									<table class='prod-card-table'>
-										<tr>
-											${product_type}
-										</tr>
-										<tr>
-											${transform_type}
-										</tr>
-										<tr>
-											${matress_type}
-										</tr>
-									</table>
-								</div>
-								<div class='col-md-6 col-sm-12'>
-									<table class='prod-card-table'>
-										<tr>
-											${product_form}
-										</tr>
-										<tr>
-											${product_style}
-										</tr>
-										<tr>
-											${product_inside}
-										</tr>
-									</table>
-								</div>
-								<p class='pt-3'>Конструктивные особенности: ${features}
-							</div>
-						</div>
-		        	</div>
-		    	</div>
-		    </div>
+		    
 
 		    <div class='accordion-item'><!-- Материал обивки -->
 		        <h2 class='accordion-header' id='headingFour'>
@@ -296,10 +287,8 @@ function showDetailsByFabric(event){
 			    </div>
 			</div>
 
-		    <div class='accordion-item'><!-- Варианты исполнения ножек -->
-		        ${paws_var}
-			</div>
-	  
+
+
 		    <div class='accordion-item'><!-- Опции -->
 		        <h2 class='accordion-header' id='headingSix'>
 		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseSix' aria-expanded='true' aria-controls='collapseSix'>
@@ -331,7 +320,6 @@ function showDetailsByFabric(event){
 		          	</div>
 		        </div>
 		    </div>
-		</div>
 		</div>
 
 		<!-- Slider with interiors DESCTOP -->
@@ -469,23 +457,53 @@ function showDetailsByFabric(event){
 
 		<!-- ACCORDION PHONE-->
 
-		<div class='accordion' id='accordionExample'>
-		    <div class='accordion-item'><!-- Описание -->
+		<div class='accordion mx-1' id='accordionExample'>
+		    <div class='accordion-item'><!-- Описание и характеристики -->
 		        <h2 class='accordion-header' id='headingOne'>
 		            <button class='accordion-button white_bg' type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>
-		            Описание
+		            Описание и характеристики
 		            </button>
 		        </h2>
 		        <div id='collapseOne' class='accordion-collapse collapse show' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
-			            <div class=''>
-			                <p id='description'>
+		            	<div class=''>
+			                <p id='description' >
 			                	${description}
 			                </p>
-			          	</div>
-		          	</div>
+
+							<div class='my-4'>
+								<table class='prod-card-table'>
+									<tr>
+										${product_type}
+									</tr>
+									<tr>
+										${transform_type}
+									</tr>
+									<tr>
+										${matress_type}
+									</tr>
+									<tr>
+										${product_form}
+									</tr>
+									<tr>
+										${product_style}
+									</tr>
+									<tr>
+										${product_inside}
+									</tr>
+								</table>
+
+								<div class='mt-5 d-flex flex-row'>
+									<p class='cacao pe-2'>Конструктивные особенности:</p>
+									<p>${features}</p>
+								</div>
+							</div>
+						</div>
+
+		        	</div>
 		        </div>
 		    </div>
+
 
 
 		    <div class='accordion-item'><!-- Схема и габариты -->
@@ -496,7 +514,7 @@ function showDetailsByFabric(event){
 		        </h2>
 		        <div id='collapseTwo' class='accordion-collapse collapse' aria-labelledby='headingTwo' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
-		            	<div class=''>
+		            	<div class='container-fluid'>
 		            		<div class='row'>
 								<div class='col'>
 		            			${scheme}
@@ -504,54 +522,10 @@ function showDetailsByFabric(event){
 							</div>
 						</div>
 					</div>		
-		        </div>
+		          </div>
 		    </div>
 		    
-
-		    <div class='accordion-item'><!-- Характеристики -->
-		        <h2 class='accordion-header' id='headingThree'>
-		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='true' aria-controls='collapseThree'>
-		            Характеристики
-		            </button>
-		        </h2>
-		        <div id='collapseThree' class='accordion-collapse collapse' aria-labelledby='headingThree' data-bs-parent='#accordionExample'>
-		            <div class='accordion-body'>
-		                <h4>Основные</h4>
-		                <div class='container'>
-							<div class='row'>
-								<div class='col-md-6 col-sm-12'>
-									<table class='prod-card-table'>
-										<tr>
-											${product_type}
-										</tr>
-										<tr>
-											${transform_type}
-										</tr>
-										<tr>
-											${matress_type}
-										</tr>
-									</table>
-								</div>
-								<div class='col-md-6 col-sm-12'>
-									<table class='prod-card-table'>
-										<tr>
-											${product_form}
-										</tr>
-										<tr>
-											${product_style}
-										</tr>
-										<tr>
-											${product_inside}
-										</tr>
-									</table>
-								</div>
-								<p class='pt-3'>${features}
-							</div>
-						</div>
-		        	</div>
-		    	</div>
-		    </div>
-
+		    
 
 		    <div class='accordion-item'><!-- Материал обивки -->
 		        <h2 class='accordion-header' id='headingFour'>
@@ -563,25 +537,23 @@ function showDetailsByFabric(event){
 		            <div class='accordion-body'>
 		            	<div class='container-fluid'>
 							<div class='row'>
-								<div class='col-md-8 col-sm-12 mb-3'>
+								<div class='col-md-8 col-sm-12'>
 									<p>${product_fabric_about}
+									<br>
+									<p  class='pt-4'>Обращаем Ваше внимание, что реальный цвет ткани может значительно отличаться от изображения на экране. Это зависит от индивидуальных настроек монитора и восприятия цвета. Поэтому при заказе ткани ориентируйтесь на реальные образцы.
+		                			<p class='pt-4'>Больше образцов тканей вы можете посмотреть в наших салонах.
+									<p><a href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 								</div>
 								<div class='col-md-4 col-sm-12'>
 									<img src='${product_fabric_img}' class='img-fluid'>
 								</div>
-							</div>
-							<p class='mt-3' >Больше образцов тканей вы можете посмотреть в наших салонах.</p>
-							<a class='my-3' href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
+							</div>	
 			          	</div>
 			        </div>
 			    </div>
 			</div>
 
 
-		    <div class='accordion-item'><!-- Варианты исполнения ножек -->
-		        ${paws_var}
-			</div>
-	  
 
 		    <div class='accordion-item'><!-- Опции -->
 		        <h2 class='accordion-header' id='headingSix'>
@@ -592,18 +564,22 @@ function showDetailsByFabric(event){
 		        <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionExample'>
 		            <div class='accordion-body'>
 		            	<div>
-		                	<p class='mb-3'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё.
+		                	<p class='mb-3'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё. Спинка дивана может быть дополнена подголовником.
 		                	</p>
 		                </div>
 		                <div class='container-fluid'>
 		                	<div class='row'>
-								<div class='col-md-6 col-sm-12'>
-									<img src='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_SEAMS.jpg'>
-									<p class='mb-4 mt-3 thin'>Декоративные швы снаружи
+								<div class='col-md-4 col-sm-12 px-4'>
+									<center><p>Декоративные швы снаружи</center>
+									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/CONSONO_SEAMS.jpg'>
 								</div>
-								<div class='col-md-6 col-sm-12'>
-									<img src='wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_OPTIONS/SEAMS/CONSONO_NOSEAMS.jpg'>
-									<p class='mb-4 mt-3 thin'>Без декоративных швов
+								<div class='col-md-4 col-sm-12 px-4'>
+									<center><p>Без декоративных швов</center>
+									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/CONSONO_NOSEAMS.jpg'>
+								</div>
+								<div class='col-md-4 col-sm-12 px-4'>
+									<center><p>Спинка дивана может быть дополнена подголовником</center>
+									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/headrest.jpg'>
 								</div>
 							</div>
 						</div>
