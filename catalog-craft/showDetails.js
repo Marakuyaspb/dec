@@ -127,8 +127,6 @@ function showDetails(event){
 					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
 					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='1' aria-label='Slide 2'></button>
 					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='2' aria-label='Slide 3'></button>
-					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='3' aria-label='Slide 4'></button>
-					    <button type='button' data-bs-target='#carouselExampleDark' data-bs-slide-to='4' aria-label='Slide 5'></button>
 					</div>
 					<div class='carousel-inner'>
 					    <div class='carousel-item active' data-bs-interval='10000'>
@@ -139,12 +137,6 @@ function showDetails(event){
 					    </div>
 					    <div class='carousel-item'>
 					      <img src='${carousel_item_3}' class='d-block w-100' alt='...'>
-					    </div>
-					    <div class='carousel-item'>
-					      <img src='${carousel_item_4}' class='d-block w-100' alt='...'>
-					    </div>
-					    <div class='carousel-item'>
-					      <img src='${carousel_item_5}' class='d-block w-100' alt='...'>
 					    </div>
 					</div>
 

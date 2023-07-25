@@ -405,6 +405,9 @@ a .icon-header:hover{
 .rect-card {
 	padding-top: 4em;
 }
+.h2_w600{
+	font-weight: 600;
+}
 .bottom-align {
 	vertical-align:bottom;
 }
