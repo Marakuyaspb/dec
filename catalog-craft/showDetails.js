@@ -276,7 +276,7 @@ function showDetails(event){
 									<p><a href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img src='${product_fabric_img}' class='img-fluid'>
+									<img src='${right_sofa_piece}' class='img-fluid'>
 								</div>
 							</div>	
 			          	</div>
@@ -533,7 +533,7 @@ function showDetails(event){
 									<p><a href='http://temp.decona.ru/showrooms/'><button class='btn-outline-gray mt-3'>Адреса салонов</button></a>
 								</div>
 								<div class='col-md-4 col-sm-12'>
-									<img src='${product_fabric_img}' class='img-fluid'>
+									<img src='${right_sofa_piece}' class='img-fluid'>
 								</div>
 							</div>	
 			          	</div>
