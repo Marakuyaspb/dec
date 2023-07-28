@@ -96,7 +96,7 @@ get_header();
 <!-- CATEGORIES DESCTOP-->
 <div class='container-fluid mt-2 d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='goods_categories_desctop'>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
   				<div class ='category_label'>
 		  			<p class='major-text'>Модульные системы</p>
@@ -106,7 +106,7 @@ get_header();
 
 	  		</div>
 	  	</div>
-	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner" onclick="filterProducts(event);">
+	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner_PIXEL_FOREST" onclick="filterProducts(event);">
 	  		<div class='latte_wrap my-2  p-4'>
 				<!-- a href='http://temp.decona.ru/category-corner/' -->
 					<div class ='category_label'>
@@ -120,7 +120,7 @@ get_header();
 	</div>
 
 	<div class='row '>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="str" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="str_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
@@ -132,7 +132,7 @@ get_header();
 			</div>
 		</div>
 
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='http://temp.decona.ru/category-armchair/' -->
 					<div class ='category_label'>
@@ -146,7 +146,7 @@ get_header();
 	</div>
 
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
@@ -170,7 +170,7 @@ get_header();
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='http://temp.decona.ru/category-pouf/' -->
 					<div class ='category_label'>
@@ -198,7 +198,7 @@ get_header();
 <!-- CATEGORIES PHONE & TABLET-->
 <div class='container-fluid mt-5 d-block d-md-none' id='goods_categories_phone'>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="k1r_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>
 	  			<div class ='pt-2'>
 			  		<p class='major-text just-thin'>Модульные системы</h4>
@@ -207,7 +207,7 @@ get_header();
 	  		</div>
 	  	</div>
 
-	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner" onclick="filterProducts(event);">
+	  	<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="corner_PIXEL_FOREST" onclick="filterProducts(event);">
 	  		<div class='latte_wrap p-1'>
 				<div class ='pt-2'>
 			  		<p class='major-text just-thin'>Угловые диваны</h4>
@@ -219,7 +219,7 @@ get_header();
 	</div>
 
 	<div class='row '>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="str" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="str_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>
 				<div class ='pt-2'>
 		  			<p class='major-text just-thin'>Прямые диваны</h4>	
@@ -237,7 +237,7 @@ get_header();
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="bed_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>
 				<div class ='pt-2'>
 		  			<p class='major-text just-thin'>Кровати</h4>
@@ -257,7 +257,7 @@ get_header();
 		</div>
 	</div>
 	<div class='row'>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="pouf_PIXEL_FOREST" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>
 				<div class ='pt-2'>
 		  			<p class='major-text just-thin'>Пуфы</h4>

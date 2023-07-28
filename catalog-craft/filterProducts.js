@@ -11,6 +11,14 @@ function filterProducts(event){
       filteredContent.appendChild(div);
     });
 
+
+
+
+    /* Scroll to top */
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+        
+
+
     /* remove categories cards */
         var goods_categories_desctop = document.getElementById('goods_categories_desctop');
         goods_categories_desctop.remove();
@@ -44,6 +52,4 @@ function filterProducts(event){
             ts[i_4].classList.remove('white');
         };
 
-    /* Scroll to top */
-        document.body.scrollTop = document.documentElement.scrollTop = 0;
 }

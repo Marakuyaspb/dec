@@ -8,11 +8,11 @@ class Products {
 		
 		let htmlProducts = '';
 		
-		CATALOG.forEach(({sku, category, model, fabric_type, fabric_name, product_name, product_img, product_img_mob, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, width, depth, height, price, price_sale}) => {
+		CATALOG.forEach(({sku, category, model, filter_it, fabric_type, fabric_name, product_name, product_img, product_img_mob, is_new,available_in_showroom, available_for_delivery_2,available_for_delivery_28, width, depth, height, price, price_sale}) => {
 			
 			htmlProducts += `
 			
-			<div class = "product_card p-3 sku ${category}" id='${sku}' onClick='showDetails(event);'>
+			<div class = "product_card p-3 sku ${category} ${filter_it}" id='${sku}' onClick='showDetails(event);'>
 
 				<!-- DESCTOP -->
 				<div class = 'd-none d-md-block d-lg-block d-xl-block d-xxl-block'>
