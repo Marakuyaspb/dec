@@ -35,7 +35,7 @@ consono_corner
 Бельевой ящик Нет
 -----------------------
 
-nadwig_corner
+NADWIG_CORNER
 
 
 -----------------------
