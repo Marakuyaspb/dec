@@ -643,55 +643,29 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'catalog_render', get_template_directory_uri() . '/catalog-craft/renderProducts.js', array(), 'null', true );
 	wp_enqueue_script( 'catalog_change', get_template_directory_uri() . '/catalog-craft/showDetails.js', array(), 'null', true );
 	wp_enqueue_script( 'catalog_change_fabric', get_template_directory_uri() . '/catalog-craft/showDetailsByFabric.js', array(), 'null', true );
-	wp_enqueue_script( 'popOverAbout', get_template_directory_uri() . '/catalog-craft/popOverAboutCANVAS.js', array(), 'null', true );
 	wp_enqueue_script( 'push_sku_in_form', get_template_directory_uri() . '/catalog-craft/pushSKUinForm.js', array(), 'null', true );
 	wp_enqueue_script( 'filter_products', get_template_directory_uri() . '/catalog-craft/filterProducts.js', array(), 'null', true );
 	wp_enqueue_script( 'make_curent_fabric_big', get_template_directory_uri() . '/catalog-craft/makeCurentFabricBig.js', array(), 'null', true );
 	wp_enqueue_script( 'adaptation_width', get_template_directory_uri() . '/catalog-craft/adaptationWidth.js', array(), 'null', true );
 	wp_enqueue_script( 'filter_fabric_buttons', get_template_directory_uri() . '/catalog-craft/filterFabricButtons.js', array(), 'null', true );
 
+/* POP OVERS FEATURES */
+
+/*CONSONO*/
+	wp_enqueue_script( 'showPopOverscanvasConsonoArm', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasConsonoArm.js', array(), 'null', true );
+	wp_enqueue_script( 'showPopOverscanvasConsonoCorner', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasConsonoCorner.js', array(), 'null', true );
+	wp_enqueue_script( 'showPopOverscanvasConsonoK1r', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasConsonoK1r.js', array(), 'null', true );
+	wp_enqueue_script( 'showPopOverscanvasConsonoPouf', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasConsonoPouf.js', array(), 'null', true );
+	wp_enqueue_script( 'showPopOverscanvasConsonoStr', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasConsonoStr.js', array(), 'null', true );
+/* GIROS */
+	wp_enqueue_script( 'showPopOverscanvasGiros', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasGiros.js', array(), 'null', true );
+/* ELEMENTA*/
+	wp_enqueue_script( 'showPopOverscanvasElementaCorner', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasElementaCorner.js', array(), 'null', true );
+	wp_enqueue_script( 'showPopOverscanvasElementaK1r', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasElementaK1r.js', array(), 'null', true );
+	wp_enqueue_script( 'showPopOverscanvasElementaStr', get_template_directory_uri() . '/catalog-craft/popOverFeatures/showPopOverscanvasElementaStr.js', array(), 'null', true );
 	
 
-/* arms catalog add 
-	wp_enqueue_script( 'catalog_root_arm', get_template_directory_uri() . '/catalog-craft-diff/catalog-arm/root_arm.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_pus_products_arm', get_template_directory_uri() . '/catalog-craft-diff/catalog-arm/pushProducts_arm.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_spinner_arm', get_template_directory_uri() . '/catalog-craft-diff/catalog-arm/spinner_arm.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_error_arm', get_template_directory_uri() . '/catalog-craft-diff/catalog-arm/error_arm.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_render_arm', get_template_directory_uri() . '/catalog-craft-diff/catalog-arm/renderProducts_arm.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_change_arm', get_template_directory_uri() . '/catalog-craft-diff/catalog-arm/showDetails_arm.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_change_fabric_arm', get_template_directory_uri() . '/catalog-craft-diff/catalog-arm/showDetailsByFabric_arm.js', array(), 'null', true );
-	wp_enqueue_script( 'push_sku_in_form_arm', get_template_directory_uri() . '/catalog-craft-diff/catalog-arm/pushSKUinForm_arm.js', array(), 'null', true );
-
-//corner catalog add
-	wp_enqueue_script( 'catalog_root_corner', get_template_directory_uri() . '/catalog-craft-diff/catalog-corner/root_corner.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_pus_products_corner', get_template_directory_uri() . '/catalog-craft-diff/catalog-corner/pushProducts_corner.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_spinner_corner', get_template_directory_uri() . '/catalog-craft-diff/catalog-corner/spinner_corner.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_error_corner', get_template_directory_uri() . '/catalog-craft-diff/catalog-corner/error_corner.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_render_corner', get_template_directory_uri() . '/catalog-craft-diff/catalog-corner/renderProducts_corner.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_change_corner', get_template_directory_uri() . '/catalog-craft-diff/catalog-corner/showDetails_corner.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_change_fabric_corner', get_template_directory_uri() . '/catalog-craft-diff/catalog-corner/showDetailsByFabric_corner.js', array(), 'null', true );
-	wp_enqueue_script( 'push_sku_in_form_corner', get_template_directory_uri() . '/catalog-craft-diff/catalog-corner/pushSKUinForm_corner.js', array(), 'null', true );
-
-//k1r catalog add /
-	wp_enqueue_script( 'catalog_root_k1r', get_template_directory_uri() . '/catalog-craft-diff/catalog-k1r/root_k1r.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_pus_products_k1r', get_template_directory_uri() . '/catalog-craft-diff/catalog-k1r/pushProducts_k1r.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_spinner_k1r', get_template_directory_uri() . '/catalog-craft-diff/catalog-k1r/spinner_k1r.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_error_k1r', get_template_directory_uri() . '/catalog-craft-diff/catalog-k1r/error_k1r.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_render_k1r', get_template_directory_uri() . '/catalog-craft-diff/catalog-k1r/renderProducts_k1r.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_change_k1r', get_template_directory_uri() . '/catalog-craft-diff/catalog-k1r/showDetails_k1r.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_change_fabric_k1r', get_template_directory_uri() . '/catalog-craft-diff/catalog-k1r/showDetailsByFabric_k1r.js', array(), 'null', true );
-	wp_enqueue_script( 'push_sku_in_form_k1r', get_template_directory_uri() . '/catalog-craft-diff/catalog-k1r/pushSKUinForm_k1r.js', array(), 'null', true );
-
-//pouf catalog add 
-	wp_enqueue_script( 'catalog_root_pouf', get_template_directory_uri() . '/catalog-craft-diff/catalog-pouf/root_pouf.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_pus_products_pouf', get_template_directory_uri() . '/catalog-craft-diff/catalog-pouf/pushProducts_pouf.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_spinner_pouf', get_template_directory_uri() . '/catalog-craft-diff/catalog-pouf/spinner_pouf.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_error_pouf', get_template_directory_uri() . '/catalog-craft-diff/catalog-pouf/error_pouf.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_render_pouf', get_template_directory_uri() . '/catalog-craft-diff/catalog-pouf/renderProducts_pouf.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_change_pouf', get_template_directory_uri() . '/catalog-craft-diff/catalog-pouf/showDetails_pouf.js', array(), 'null', true );
-	wp_enqueue_script( 'catalog_change_fabric_pouf', get_template_directory_uri() . '/catalog-craft-diff/catalog-pouf/showDetailsByFabric_pouf.js', array(), 'null', true );
-	wp_enqueue_script( 'push_sku_in_form_pouf', get_template_directory_uri() . '/catalog-craft-diff/catalog-pouf/pushSKUinForm_pouf.js', array(), 'null', true );
-*/
+	
 
 
 });

@@ -366,7 +366,7 @@ function showDetails(event){
 		</div>
 
 		<!-- DESCTOP POP OVER THING-->
-		<!-- ${canvas_background} -->
+		${canvas_background} 
 		
 		<div class='container-fluid ms-4 mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
@@ -640,7 +640,7 @@ function showDetails(event){
 
 	<!-- end -->
 </div>
-<!-- script>${popOverType}</script -->
+<script>${popOverType}</script>
 			`; 
 		} /*else console.log('Check your json!');*/
 	}

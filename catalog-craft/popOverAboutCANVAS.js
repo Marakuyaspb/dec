@@ -1,8 +1,10 @@
 /* CONSONO */
 
 function showPopOverscanvasConsonoArm(event){
-  var canvasConsonoArm = document.getElementById("canvasConsonoCorner");
+  var canvasConsonoArm = document.getElementById("canvasConsonoArm");
   var ctx = canvasConsonoArm.getContext('2d');
+
+  console.log('Hey! You ll see armchair');
 
   const canvasConsonoArm_width = canvasConsonoArm.width = 1600;
   const canvasConsonoArm_heigh = canvasConsonoArm.height = 800;

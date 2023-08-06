@@ -16,7 +16,7 @@ function filterProducts(event){
 
     /* Scroll to top */
         document.body.scrollTop = document.documentElement.scrollTop = 0;
-        
+        /*console.log('scroll it!');*/
 
 
     /* remove categories cards */
