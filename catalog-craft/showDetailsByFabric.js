@@ -77,6 +77,8 @@ function showDetailsByFabric(event){
   			let slider_interior_mob_3 = productAllDetails.slider_interior_mob_3;
   			let slider_interior_mob_4 = productAllDetails.slider_interior_mob_4;
 			let canvas_background = productAllDetails.canvas_background;
+			let popOverType = productAllDetails.popOverType;
+			
 
 /* render new html about the single product */
   		let anotherProduct = document.createElement("div");
