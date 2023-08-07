@@ -4,6 +4,8 @@ function showPopOverscanvasConsonoArm(event){
 
   console.log('Hey! You ll see armchair');
 
+  
+
   const canvasConsonoArm_width = canvasConsonoArm.width = 1600;
   const canvasConsonoArm_heigh = canvasConsonoArm.height = 800;
 
