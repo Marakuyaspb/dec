@@ -643,7 +643,7 @@ function showDetails(event){
 	<!-- end -->
 </div>
 
-<script>${popOverType}</script>
+<!-- script>${popOverType}</script -->
 			`; 
 		} /*else console.log('Check your json!');*/
 	}

@@ -644,7 +644,7 @@ function showDetailsByFabric(event){
 	</div>
 	<!-- end -->
 </div>
-<script>${popOverType}</script>
+<!-- script>${popOverType}</script -->
 			`;
 		/*console.log(document.getElementById('sofa_details'));*/
 		
