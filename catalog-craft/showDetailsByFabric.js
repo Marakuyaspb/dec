@@ -653,5 +653,8 @@ function showDetailsByFabric(event){
 		}
 	adaptationWidth();
 	filterFabricButtons();
-	showPopOvers();
+	/*showPopOvers();*/
+
+	/* Scroll to top */
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
