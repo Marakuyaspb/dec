@@ -79,6 +79,8 @@ function showDetails(event){
   			let slider_interior_mob_4 = productAllDetails.slider_interior_mob_4;
 			let canvas_background = productAllDetails.canvas_background;
 			let popOverType = productAllDetails.popOverType;
+			let pdf = productAllDetails.pdf;
+			let d3 = productAllDetails.d3;
 
 /* render new html about the single product */
   			document.getElementById('goods_details').innerHTML = 
@@ -181,12 +183,12 @@ function showDetails(event){
 						Заказать
 					</button>
 				</a>
-				<a class='white rel_pos' href='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
+				<a class='white rel_pos' href='${d3}'>
 					<button class='white btn-prod-card'>
 						3d модель
 					</button>
 				</a>
-				<a class='white rel_pos' href='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
+				<a class='white rel_pos' href='${pdf}'>
 					<button class='white btn-prod-card'>
 						PDF
 					</button>
@@ -296,6 +298,11 @@ function showDetails(event){
 			<!-- Опции -->
 		    ${paws_var}
 		</div>
+
+		<div class='container-fluid ms-4 mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
+			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
+		</div>
 		
 		
 		<!-- Slider with interiors DESCTOP -->
@@ -337,13 +344,9 @@ function showDetails(event){
 
 		<!-- DESCTOP POP OVER THING-->
 		
-		${canvas_background} 
-		
+		<!-- ${canvas_background} -->
+			
 
-		<div class='container-fluid ms-4 mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
-			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
-		</div>	
 	</div>
 
 	<!-- DESCTOP END -->
@@ -421,10 +424,10 @@ function showDetails(event){
 				<a class='to-order white p-2' onClick='pushSKUinForm(event);'>
 					Заказать
 				</a>
-				<a class='white p-2' href='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/3D/CONSONO_mods.zip'>
+				<a class='white p-2' href='${d3}'>
 					3d модель
 				</a>
-				<a class='white p-2' href='http://temp.decona.ru/wp-content/uploads/goods_pics/COLLECTIONS/CONSONO/CONSONO_DOWNLOADS/PDF/CONSONO.pdf'>
+				<a class='white rel_pos' href='${pdf}'>
 					PDF
 				</a>
 			</div>
@@ -534,6 +537,11 @@ function showDetails(event){
 		</div>
 
 
+		<div class='container-fluid mt-5'>
+			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, где прописаны все особенности товара, его доставка и гарантии.</p>
+			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
+		</div>	
+
 		<!-- SLIDER INTERIORS -->
 
 		<div class='banner mt-3'>
@@ -571,11 +579,6 @@ function showDetails(event){
 			</div>
 		</div>
 
-
-		<div class='container-fluid mt-5'>
-			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, где прописаны все особенности товара, его доставка и гарантии.</p>
-			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
-		</div>	
 
 	</div>
 
