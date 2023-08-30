@@ -19,13 +19,13 @@ get_header();
 
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/ba.jpg" class="d-block w-100" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/ELEMENTA_1.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/bor.jpg" class="d-block w-100" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/ELEMENTA_5.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/or.jpg" class="d-block w-100" alt="...">
+			      <img src="http://temp.decona.ru/wp-content/uploads/all_pics/slider_main/ELEMENTA_6.jpg" class="d-block w-100" alt="...">
 			    </div>
 			  </div>
 			  
@@ -40,9 +40,11 @@ get_header();
 			</div>
 
 			<div class="over-slider">
-				<h1 class="white slider_h1">BASE</h1>
+				<h1 class="white slider_h1">ELEMENTA</h1>
 				<p class="white ms-2 mb-5 major-text just-thin">Модульная система</p>
-				<a href='http://temp.decona.ru/2023/04/18/great-offer/' class='ms-2 pb-3'><button class='btn-outline-white-main-slider'>Подробнее</button></a>
+				<div id='elementa_FILTER_IT' onclick="filterProducts(event);">
+					<button class='btn-outline-white-main-slider'>Подробнее</button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -75,9 +77,11 @@ get_header();
 			</div>
 
 			<div class="over-slider-mobile">
-				<h2 class="white ps-2">BASE</h2>
+				<h2 class="white ps-2">ELEMENTA</h2>
 				<p class="white just-thin ps-2 ms-2 mb-4">Модульная система</p>
-				<a href='http://temp.decona.ru/products/' class='ms-2 ps-2 pb-3'><button class='btn-outline-white'>Подробнее</button></a>
+				<div id='elementa_FILTER_IT' onclick="filterProducts(event);">
+					<button id='elementa_FILTER_IT' class='btn-outline-white-main-slider'>Подробнее</button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -227,12 +231,12 @@ get_header();
   				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Borneo-copy.png">
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="arm_FILTER_IT" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>
 				<div class ='pt-2'>
 		  			<p class='major-text just-thin'>Кресла</h4>
 		  		</div>
-  				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Brooklyn-copy.png">
+  				<img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Brooklyn-copy.png">
 			</div>
 		</div>
 	</div>
@@ -243,7 +247,7 @@ get_header();
 		  			<p class='major-text just-thin'>Кровати</h4>
 		  			
 		  		</div>
-				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Beds-copy.png">
+				<img class='img-fluid card-product-category' src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Beds-copy.png">
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="table">

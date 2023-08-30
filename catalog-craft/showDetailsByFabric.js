@@ -298,37 +298,8 @@ function showDetailsByFabric(event){
 
 
 
-		    <div class='accordion-item'><!-- Опции -->
-		        <h2 class='accordion-header' id='headingSix'>
-		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseSix' aria-expanded='true' aria-controls='collapseSix'>
-		            Опции
-		            </button>
-		        </h2>
-		        <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionExample'>
-		            <div class='accordion-body'>
-		            	<div>
-		                	<p class='mb-3'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё. Спинка дивана может быть дополнена подголовником.
-		                	</p>
-		                </div>
-		                <div class='container-fluid'>
-		                	<div class='row'>
-								<div class='col-md-4 col-sm-12 px-4'>
-									<center><p>Декоративные швы снаружи</center>
-									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/CONSONO_SEAMS.jpg'>
-								</div>
-								<div class='col-md-4 col-sm-12 px-4'>
-									<center><p>Без декоративных швов</center>
-									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/CONSONO_NOSEAMS.jpg'>
-								</div>
-								<div class='col-md-4 col-sm-12 px-4'>
-									<center><p>Спинка дивана может быть дополнена подголовником</center>
-									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/headrest.jpg'>
-								</div>
-							</div>
-						</div>
-		          	</div>
-		        </div>
-		    </div>
+		    <!-- Опции -->
+		    ${paws_var}
 		</div>
 
 		<!-- Slider with interiors DESCTOP -->
@@ -564,37 +535,8 @@ function showDetailsByFabric(event){
 
 
 
-		    <div class='accordion-item'><!-- Опции -->
-		        <h2 class='accordion-header' id='headingSix'>
-		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseSix' aria-expanded='true' aria-controls='collapseSix'>
-		            Опции
-		            </button>
-		        </h2>
-		        <div id='collapseSix' class='accordion-collapse collapse' aria-labelledby='headingSix' data-bs-parent='#accordionExample'>
-		            <div class='accordion-body'>
-		            	<div>
-		                	<p class='mb-3'>Вы можете заказать диван как с декоративной отстрочкой внешних швов, так и без неё. Спинка дивана может быть дополнена подголовником.
-		                	</p>
-		                </div>
-		                <div class='container-fluid'>
-		                	<div class='row'>
-								<div class='col-md-4 col-sm-12 px-4'>
-									<center><p>Декоративные швы снаружи</center>
-									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/CONSONO_SEAMS.jpg'>
-								</div>
-								<div class='col-md-4 col-sm-12 px-4'>
-									<center><p>Без декоративных швов</center>
-									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/CONSONO_NOSEAMS.jpg'>
-								</div>
-								<div class='col-md-4 col-sm-12 px-4'>
-									<center><p>Спинка дивана может быть дополнена подголовником</center>
-									<img src='http://temp.decona.ru/wp-content/uploads/catalog/universal_parts/headrest.jpg'>
-								</div>
-							</div>
-						</div>
-		          	</div>
-		        </div>
-		    </div>
+		    <!-- Опции -->
+		    ${paws_var}
 		</div>
 
 
