@@ -77,10 +77,10 @@ get_header();
 			</div>
 
 			<div class="over-slider-mobile">
-				<h2 class="white ps-2">ELEMENTA</h2>
-				<p class="white just-thin ps-2 ms-2 mb-4">Модульная система</p>
+				<h2 class="white ms-3">ELEMENTA</h2>
+				<p class="white just-thin ms-3 mb-4">Модульная система</p>
 				<div id='elementa_FILTER_IT' onclick="filterProducts(event);">
-					<button id='elementa_FILTER_IT' class='btn-outline-white-main-slider'>Подробнее</button>
+					<button class='ms-3 btn-outline-white-main-slider'>Подробнее</button>
 				</div>
 			</div>
 		</div>

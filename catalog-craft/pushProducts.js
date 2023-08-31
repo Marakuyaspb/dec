@@ -14,6 +14,8 @@ class Products {
 			
 			<div class = "product_card p-3 sku ${category} ${filter_it}" id='${sku}' onClick='showDetails(event);'>
 
+
+			<!-- HEAD OF THE CARD -->
 				<!-- DESCTOP -->
 				<div class = 'd-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 					<div class = 'd-flex justify-content-between'>
@@ -28,6 +30,7 @@ class Products {
 						</div>
 					</div>
 				</div>
+
 					
 				<!-- PHONE -->
 				<div class='d-flex justify-content-between d-block d-md-none'>
@@ -38,6 +41,9 @@ class Products {
 						<img class = 'available_icon_mobile'src='${available_for_delivery_2}'>
 					</div>
 				</div>
+
+			<!-- END OF THE HEAD OF THE CARD -->
+
 				
 				<center class='mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 					<img src="${product_img}" class="img-fluid product_img_under">
