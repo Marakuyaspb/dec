@@ -26,6 +26,7 @@ function showDetails(event){
   			let category_ru = productAllDetails.category_ru;
   			let category = productAllDetails.category;
   			let fabric_type = productAllDetails.fabric_type;
+  			let fabric = productAllDetails.fabric_type;
   			let fabric_name = productAllDetails.fabric_name;
   			let product_name = productAllDetails.product_name;
   			let product_img = productAllDetails.product_img;
