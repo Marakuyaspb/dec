@@ -158,7 +158,7 @@ li .nav-link .nav-link-text{
 	font-family: 'ALS Hauss Book'!important;
 	font-size: 1.125rem!important;
 	background: transparent;
-	border-top: 1px #fff!important;
+	/*border-top: 1px #fff!important;*/
 }
 .accordion-button{
 	color: #5E5B5B!important;
@@ -664,12 +664,21 @@ a .icon-header:hover{
 }
 
 .accordion-item{
-	border: none!important;
+	border-left:none!important;
+	border-right:none!important;
+	border-bottom:none!important;
+	/*border-top: 1px solid #9F8A88!important;*/
+	border-radius: 0;
 }
 .accordion-button{
 	font-size:  1.125rem !important;
 }
-
+.top-strip{
+	border-left:none!important;
+	border-right:none!important;
+	border-bottom:none!important;
+	border-top: 1px solid #9F8A88!important;
+}
 
 
 .card_icons{

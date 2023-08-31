@@ -247,8 +247,8 @@ function showDetails(event){
 
 
 
-		    <div class='accordion-item'><!-- Схема и габариты -->
-		        <h2 class='accordion-header' id='headingTwo'>
+		    <div class='accordion-item '><!-- Схема и габариты -->
+		        <h2 class='accordion-header top-strip' id='headingTwo'>
 		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo' aria-expanded='true' aria-controls='collapseTwo'>
 		            Схема и габариты
 		            </button>
@@ -268,8 +268,8 @@ function showDetails(event){
 		    
 		    
 
-		    <div class='accordion-item'><!-- Материал обивки -->
-		        <h2 class='accordion-header' id='headingFour'>
+		    <div class='accordion-item '><!-- Материал обивки -->
+		        <h2 class='accordion-header top-strip' id='headingFour'>
 		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseFour' aria-expanded='true' aria-controls='collapseFour'>
 		            Материал обивки
 		            </button>
@@ -437,6 +437,7 @@ function showDetails(event){
 		<!-- ACCORDION PHONE-->
 
 		<div class='accordion mx-1' id='accordionExample'>
+		    
 		    <div class='accordion-item'><!-- Описание и характеристики -->
 		        <h2 class='accordion-header' id='headingOne'>
 		            <button class='accordion-button white_bg' type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>
@@ -485,8 +486,8 @@ function showDetails(event){
 
 
 
-		    <div class='accordion-item'><!-- Схема и габариты -->
-		        <h2 class='accordion-header' id='headingTwo'>
+		    <div class='accordion-item '><!-- Схема и габариты -->
+		        <h2 class='accordion-header top-strip' id='headingTwo'>
 		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo' aria-expanded='true' aria-controls='collapseTwo'>
 		            Схема и габариты
 		            </button>
@@ -506,8 +507,8 @@ function showDetails(event){
 		    
 		    
 
-		    <div class='accordion-item'><!-- Материал обивки -->
-		        <h2 class='accordion-header' id='headingFour'>
+		    <div class='accordion-item '><!-- Материал обивки -->
+		        <h2 class='accordion-header top-strip' id='headingFour'>
 		            <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapseFour' aria-expanded='true' aria-controls='collapseFour'>
 		            Материал обивки
 		            </button>
