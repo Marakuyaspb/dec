@@ -29,6 +29,11 @@ function adaptationWidth(){
   		content_right.classList.add("col-md-4");
   		content_right.classList.remove("no-padding-right");
 	}
+	else if (content_left.classList.contains("pillow")) {
+  		content_left.classList.add("col-md-6");
+  		content_right.classList.add("col-md-6");
+  		content_right.classList.remove("no-padding-right");
+	}
 
 /* Scroll to top */
 	document.body.scrollTop = document.documentElement.scrollTop = 0;

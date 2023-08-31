@@ -185,7 +185,7 @@ get_header();
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="accessory" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="accessory_FILTER_IT" onclick="filterProducts(event);">
 			<div class='latte_wrap my-2 p-4'>
 				<!-- a href='#' -->
 					<div class ='category_label'>
@@ -269,7 +269,7 @@ get_header();
   				<img class='img-fluid card-product-category'  src="http://temp.decona.ru/wp-content/uploads/2023/03/Prod_Pouf-copy.png">
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="accessory" onclick="filterProducts(event);">
+		<div class="col-md-6 col-sm-12 py-1 row_prod_catgories" id="accessory_FILTER_IT" onclick="filterProducts(event);">
 			<div class='latte_wrap p-1'>
 				<div class ='pt-2'>
 		  			<p class='major-text just-thin'>Аксессуары</h4>	
