@@ -44,6 +44,7 @@ class Products {
 
 			<!-- END OF THE HEAD OF THE CARD -->
 
+
 				
 				<center class='mt-4 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
 					<img src="${product_img}" class="img-fluid product_img_under">
