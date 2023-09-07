@@ -43,7 +43,7 @@
 		"product_type": "Кресло",
 		"product_type": "<td><p class='cacao'>Тип</td><td><p class='text-end'>Кресло</td>",
 		"transform_type": "<td><p class='cacao'>Механизм</td><td><p class='text-end'>Нет</td>",
-		"matress_type": "<td><p class='cacao'>Каркас</td><td><p class='t		ext-end'>Массив дерева, фанера</td>",
+		"matress_type": "<td><p class='cacao'>Каркас</td><td><p class='text-end'>Массив дерева, фанера</td>",
 		"product_form": "<td><p class='cacao'>Спальное место</td><td><p class='text-end'>Нет</td>",
 		"product_style": "<td><p class='cacao'>Стиль дизайна</td><td><p class='text-end'>Современная классика</td>",
 		"product_inside": "<td><p class='cacao'>Материал наполнителя</td><td><p class='text-end'>Elax</td>",
