@@ -19,9 +19,9 @@
             <li class='nav-item'>
               <a class='nav-link' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
             </li>
-            <li class='nav-item'>
+            <!-- <li class='nav-item'>
               <a class='nav-link' href='http://temp.decona.ru/articles/'>Блог</a>
-            </li>
+            </li> -->
             <li class='nav-item'>
               <a class='nav-link' href='http://temp.decona.ru/about/'>О фабрике</a>
             </li>
@@ -81,8 +81,8 @@
           <p class='top-string major-text'>|</p>
         <a class='nav-link ' href='http://temp.decona.ru/showrooms/'>Шоурумы</a>
           <p class=' top-string major-text'>|</p>
-        <a class='nav-link ' href='http://temp.decona.ru/articles/'>Блог</a>
-          <p class=' top-string major-text'>|</p>
+        <!-- <a class='nav-link ' href='http://temp.decona.ru/articles/'>Блог</a>
+          <p class=' top-string major-text'>|</p> -->
         <a class='nav-link ' href='http://temp.decona.ru/about/'>О фабрике</a>
           <p class=' top-string major-text'>|</p>
         <a class='nav-link' href='http://temp.decona.ru/payment/'>Оплата и доставка</a>

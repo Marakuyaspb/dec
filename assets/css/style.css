@@ -2,7 +2,7 @@
 Theme name: Decona_
 */
  
-@font-face {
+/*@font-face {
     font-family: 'ALS Hauss Book', Georgia, serif;
     src: url('http://temp.decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Book.woff');
     font-style: normal;
@@ -18,20 +18,23 @@ Theme name: Decona_
     font-family: 'ALS Hauss Hairline', Georgia, serif;
     src: url('http://temp.decona.ru/wp-content/themes/decona_wonder/fonts/ALSHauss-Hairline.woff');
     font-style: normal;
-}
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
 
 
 body {
-	font-family: 'ALS Hauss Book', 'Georgia', sans-serif !important;
+	font-family: 'Montserrat', 'Georgia', sans-serif !important;
 	margin: 0;
 }
 
 h1, h2, h3 {
-	font-family: 'ALS Hauss Thin'!important;
+	font-family: 'Montserrat'!important;
 	color: #5E5B5B;
 }
 h4, h5, h6 {
-	font-family: 'ALS Hauss Book';
+	font-family: 'Montserrat';
 	color: #5E5B5B;
 }
 h1{
@@ -60,12 +63,14 @@ p {
 	color: #5E5B5B!important;
 }
 .thin {
-	font-family: 'ALS Hauss Thin'!important;
+	font-family: 'Montserrat'!important;
 	font-size: 1em!important;
+	font-weight: 100;
 	margin-bottom: -1.5em;
 }
 .just-thin{
-	font-family: 'ALS Hauss Thin'!important;
+	font-family: 'Montserrat'!important;
+	font-weight: 100;
 }
 .major-text {
 	font-size: 1.5em;
@@ -73,7 +78,8 @@ p {
 }
 
 .book {
-	font-family: 'ALS Hauss Book';
+	font-family: 'Montserrat';
+	font-weight: 400;
 }
 
 /* THEME COLORS */
@@ -141,7 +147,8 @@ a:hover{
 	background-color: transparent;
 	font-size: 1.125rem!important;
 	text-decoration: none!important;
-	font-family: 'ALS Hauss Thin';
+	font-family: 'Montserrat';
+	font-weight: 200;
 	line-height: 1;
 }
 
@@ -151,11 +158,13 @@ li .nav-link .nav-link-text{
 	padding-bottom: 2rem;
 }
 .navbar-brand {
-	font-family: 'ALS Hauss Thin';
+	font-family: 'Montserrat';
+	font-weight: 100;
 	font-size: 2.6rem!important;
 }
 .accordion-header{
-	font-family: 'ALS Hauss Book'!important;
+	font-family: 'Montserrat';
+	font-weight: 400;
 	font-size: 1.125rem!important;
 	background: transparent;
 	/*border-top: 1px #fff!important;*/
@@ -304,7 +313,7 @@ a .icon-header:hover{
 	color: #fff!important;
 	font-size: 1.125rem;
 	height: 2.25rem;
-	width: 10rem;
+	/*width: 10rem;*/
 	line-height: 1;
 	padding: .5em;
 	/*margin-top: 3rem;*/
@@ -329,7 +338,7 @@ a .icon-header:hover{
 	color: #5E5B5B!important;
 	font-size: 1.125rem;
 	height: 2.25rem;
-	width: 10rem;
+	/*width: 10rem;*/
 	line-height: 1;
 	padding: .5em;
 	/*margin-top: 3rem;*/
@@ -406,7 +415,7 @@ a .icon-header:hover{
 	padding-top: 4em;
 }
 .h2_w600{
-	font-weight: 600;
+	font-weight: 300;
 }
 .bottom-align {
 	vertical-align:bottom;
@@ -618,7 +627,8 @@ a .icon-header:hover{
 }
 .h-center {
 	color: #9F8A88!important;
-	font-family: 'ALS Hauss Book', Georgia, serif!important;
+	font-family: 'Montserrat', Georgia, serif!important;
+	font-weight: 400;
 	font-size: 2.7em;
 	text-align: center!important;
 }
