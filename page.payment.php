@@ -7,16 +7,13 @@ get_header('new');
 ?>
 
 <div class="container big-fields-content mt-5">
-	<h2 class="mb-5">В рассрочку - можно</h2>
-	<p> Некие условия рассрочки. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	<p> И всякие преимущества оной. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	<center class="mb-5"><a href='#' class='ms-4'><button class="btn-outline-gray">Оформить</button></a>
-	</center>
+	<h2 class="mb-5">Доставка</h2>
+	<p> Компания Decona предоставляет услуги доставки по всем регионам России, согласно индивидуальным договоренностям с каждым клиентом. Наша команда готова обеспечить быструю и надежную доставку, чтобы удовлетворить потребности наших клиентов.
+	<!-- <center class="my-5"><a href='#' class='ms-4'><button class="btn-outline-gray">Оформить</button></a>
+	</center> -->
 	<hr>
-	<h2 class="my-5">Доставка</h2>
-	<p>Доставим быстро и сколь угодно далеко. Но есть всякие нюансы. 
-	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	<h2 class="my-5">Рассрочка</h2>
+	<p>Наша компания рада предложить своим клиентам удобную услугу - рассрочку на мебель. Теперь вы можете приобрести мебель в наших салонах и оформить рассрочку на срок до 12 месяцев. Это отличный способ сделать покупку доступной и не перегружать свой бюджет. Мы заботимся о наших клиентах и стараемся сделать все возможное, чтобы удовлетворить их потребности. Приходите к нам в салон и выбирайте красивую и удобную мебель, не беспокоясь о финансах!
 </div>
 
 <?php

@@ -7,98 +7,59 @@ get_header();
 ?>
 
 <!-- DESCTOP -->
-	<div class='mb-5 d-none d-lg-block d-xl-block d-xxl-block'>
+	<div class='mb-5'>
 		<div class='main-head-slider'>
-			<img src="http://temp.decona.ru/wp-content/uploads/2023/02/Work_2-11.png" class='banner img-fluid'>
+			<img src="http://temp.decona.ru/wp-content/uploads/2023/09/about_hat.jpg" class='banner img-fluid'>
 		</div>
 	<!-- Who we are -->
-		<div class="container">
-			<div class='row'>
-				<div class ='col-lg-4'>
-					<h1 class='pt-5 px-5'>Decona</h1>
-					<h2 class='px-5 pt-3 pb-5'>Мебельное производство полного цикла</h2>
-					<p class='px-5 major-text'>Наша задача – предложить потребителю ассортимент стилистически выверенных, качественных, логичных, современных товаров для обустройства интерьера, по таким ценам, чтобы как можно больше людей имели возможность ими обладать.</p>
-					
-				</div>
-				<div class ='col-lg-8 no-padding-right no-padding-left'>
-					<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Work_1-main-1.png' class="img-fluid banner"/>
-				</div>
-			</div>
-
-			<p class='ps-5 my-5 major-text'>Бренд Decona имеет производственные мощности, обеспечивающие полный цикл создания мебели и предлагает клиентам комплектацию их интерьера мягкой мебелью и предметами интерьера.</p>
-		</div>
-
-	<!-- We are great -->
-		<div class="container px-5 mt-5">
+		<div class="container ps-5 my-5">
 			
-			<img class="img-fluid" src="http://temp.decona.ru/wp-content/uploads/2023/03/Work-3-12.png">
 
-			<p class="major-text my-5">
-				Вы наконец-то нашли то, что так давно искали - мебель, которая отвечает всем вашим наиболее важным требованиям к такой ответственной покупке, как диван для вашей семьи. Философия нашей компании - дать честный продукт за честные деньги. Мы очень любим свою работу и с уважением относимся к Вам, наш покупатель, и благодарны за то, что Вы выбираете наши диваны. При создании любого изделия базовыми принципами нашей фабрики является комфорт, качество и соответствие трендам сегодняшнего дня. Спасибо, что выбираете нас!
+			<h5>Мы верим, что мебель — это не просто предмет интерьера, а часть жизни наших клиентов</h5>
+			<p class='my-3'>Поэтому мы стремимся создавать не только красивые и удобные изделия, но и передавать в них частичку нашей любви к мебели и дизайну. 
+			</p>
+			<p class='mt-3'>Миссия компании Decona — предоставлять клиентам высококачественную мягкую мебель по оптимальной цене. Стремимся создавать уникальный и современный дизайн для каждого.
+			Наша цель - помочь воплотить комфортное и стильное пространство в доме, квартире или офисе. Мебель Decona проектируется и производится в Санкт-Петербурге. Мы привлекаем архитекторов, дизайнеров и конструкторов. В реализации используем только высококачественные экологичные материалы и технологии, чтобы гарантировать долговечность, экологичность и надёжность каждого изделия.
+			</p>
+			<p class='mt-3'>Мы считаем, что все заслуживают индивидуального подхода и наша команда готова помочь выбрать оптимальный вариант мебели, который будет соответствовать потребностям и пожеланиям. Создавая долгосрочные отношения с нашими клиентами, предоставляем лучший сервис и качество.
+			</p>
+			<p class='mb-4'>Мы уверены, что мебель должна быть удобной, эстетически привлекательной и действительно функциональной. Наша миссия – помочь создать уютное пространство, которое будет отражать индивидуальность и стиль жизни. Мы готовы сделать всё возможное, чтобы клиенты оставались довольны мебелью и сервисом.
 			</p>
 
-			<p class="major-text ">
-				Для нас изначально было важным превосходить ожидания, дать людям больше. Поэтому мы тщательно подходим к подбору материалов, используем только сертифицированные, высококачественные и проверенные годами. Новые технологии, современное оборудование и опытные мастера - залог нашего успеха.
-			</p>
-		</div>
-	</div>
+			<img src="http://temp.decona.ru/wp-content/uploads/2023/09/sign.png" class=''>
 
-
-
-<!-- TABLET & PHONE -->
-	<div class='mb-2 d-block d-lg-none'>
-		<div class='main-head-slider'>
-			<img src="http://temp.decona.ru/wp-content/uploads/2023/03/vertical_about_hat.png" class='banner img-fluid'>
 		</div>
 
-	<!-- Who we are -->
-		<div class="container">
-			<h1 class='pt-5 px-5'>Decona</h1>
-			<h3 class='pb-4 px-5'>Мебельное производство полного цикла</h3>
-			<p class='px-5'>Наша задача – предложить потребителю ассортимент стилистически выверенных, качественных, логичных, современных товаров для обустройства интерьера, по таким ценам, чтобы как можно больше людей имели возможность ими обладать.</p>
-			<p class='px-5 pb-4'>Бренд Decona имеет производственные мощности, обеспечивающие полный цикл создания мебели и предлагает клиентам комплектацию их интерьера мягкой мебелью и предметами интерьера.</p>
-		</div>	
-
-		<div class ='no-padding-right no-padding-left'>
-			<img src='http://temp.decona.ru/wp-content/uploads/2023/02/Work_1-main-1.png' class="img-fluid banner"/>
-		</div>			
 		
-
-		<!-- We are great -->
-		<p class="px-5 pt-5">
-			Вы наконец-то нашли то, что так давно искали - мебель, которая отвечает всем вашим наиболее важным требованиям к такой ответственной покупке, как диван для вашей семьи. 
-		</p>
-		<p class="px-5 pb-4">
-			Философия нашей компании - дать честный продукт за честные деньги. Мы очень любим свою работу и с уважением относимся к Вам, наш покупатель, и благодарны за то, что Вы выбираете наши диваны. При создании любого изделия базовыми принципами нашей фабрики является комфорт, качество и соответствие трендам сегодняшнего дня. Спасибо, что выбираете нас!
-		</p>
-		<img class="banner" src="http://temp.decona.ru/wp-content/uploads/2023/03/vertical_about.png">
-		<p class="px-5 py-4">
-			Для нас изначально было важным превосходить ожидания, дать людям больше. Поэтому мы тщательно подходим к подбору материалов, используем только сертифицированные, высококачественные и проверенные годами. Новые технологии, современное оборудование и опытные мастера - залог нашего успеха.
-		</p>
 	</div>
+
+
+
 
 <!-- Black stylish banner -->
-<!-- DESCTOP -->
-<div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
-	<div class="card no-border">
-	  <img src="http://temp.decona.ru/wp-content/uploads/2023/02/Product_main-11.png" class="card-img" alt="...">
-	  <div class="card-img-overlay">
-	    <h2 class="white ms-5 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h2>
-	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-5">Подробнее</button></a>
-	  </div>
+	<!-- DESCTOP -->
+	<div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
+		<div class="card no-border">
+		  <img src="http://temp.decona.ru/wp-content/uploads/2023/02/Product_main-11.png" class="card-img" alt="...">
+		  <div class="card-img-overlay">
+		    <h2 class="white ms-5 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h2>
+		    <a class="bottom-align" href='#'><button class="btn-outline-white ms-5">Подробнее</button></a>
+		  </div>
+		</div>
 	</div>
-</div>
 
-<!-- TABLET & PHONE -->
-<div class='pt-5 d-block d-md-none ' id='tablet-show'>
-	<div class="card no-border">
-	  <img src="http://temp.decona.ru/wp-content/uploads/2023/03/Product_main-12.png" class="card-img" alt="...">
-	  <div class="card-img-overlay">
-	    <h3 class="white ms-2 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h3>
-	    <a class="bottom-align" href='#'><button class="btn-outline-white ms-2">Подробнее</button></a>
-	  </div>
+	<!-- TABLET & PHONE -->
+	<div class='pt-5 d-block d-md-none ' id='tablet-show'>
+		<div class="card no-border">
+		  <img src="http://temp.decona.ru/wp-content/uploads/2023/03/Product_main-12.png" class="card-img" alt="...">
+		  <div class="card-img-overlay">
+		    <h3 class="white ms-2 bottom-align">НОВЫЕ КОЛЛЕКЦИИ СТОЛИКОВ</h3>
+		    <a class="bottom-align" href='#'><button class="btn-outline-white ms-2">Подробнее</button></a>
+		  </div>
+		</div>
 	</div>
-</div>
+
+
 
 <!-- GRAY RECTANGLES START -->
 
