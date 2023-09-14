@@ -26,7 +26,16 @@ get_header();
 			<p class='mb-4'>Мы уверены, что мебель должна быть удобной, эстетически привлекательной и действительно функциональной. Наша миссия – помочь создать уютное пространство, которое будет отражать индивидуальность и стиль жизни. Мы готовы сделать всё возможное, чтобы клиенты оставались довольны мебелью и сервисом.
 			</p>
 
-			<img src="http://temp.decona.ru/wp-content/uploads/2023/09/sign.png" class=''>
+			<div class="d-flex flex-row">
+			  <div class="p-2">
+			 	 <img src="http://temp.decona.ru/wp-content/uploads/2023/09/sign.svg" class=''></div>
+			  <div class="p-2 mt-3 thin">
+			  <p>Елфимова Л.А.
+			  <p>Генеральный директор
+			  </div>
+			</div>
+
+			
 
 		</div>
 
@@ -38,6 +47,7 @@ get_header();
 
 <!-- Black stylish banner -->
 	<!-- DESCTOP -->
+	<!--
 	<div class='d-none d-md-block d-lg-block d-xl-block d-xxl-block' id='desctop-show'>
 		<div class="card no-border">
 		  <img src="http://temp.decona.ru/wp-content/uploads/2023/02/Product_main-11.png" class="card-img" alt="...">
@@ -47,8 +57,9 @@ get_header();
 		  </div>
 		</div>
 	</div>
-
+	-->
 	<!-- TABLET & PHONE -->
+	<!--
 	<div class='pt-5 d-block d-md-none ' id='tablet-show'>
 		<div class="card no-border">
 		  <img src="http://temp.decona.ru/wp-content/uploads/2023/03/Product_main-12.png" class="card-img" alt="...">
@@ -57,7 +68,9 @@ get_header();
 		    <a class="bottom-align" href='#'><button class="btn-outline-white ms-2">Подробнее</button></a>
 		  </div>
 		</div>
-	</div>
+	</div> 
+	-->
+
 
 
 
