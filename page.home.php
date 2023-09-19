@@ -334,14 +334,14 @@ get_header();
 			<div class ='col-md-4 rectangle_mob latte_bg'> <!-- #F6F1EE -->
 				<div class='bottom-align'>
 					<h3 class='rect-card ps-2 h2_w600'>Каталог</h3>
-					<h3 class='ps-2'>2023</h3>
+					<h3 class='rect-card ps-2'>2023</h3>
 					<a href='#' class='ms-2'><button class='btn-outline-gray'>Скачать каталог</button></a>
 				</div>
 			</div>
 			<div class ='col-md-2 rectangle_mob dark-gray'> <!-- #50504E -->
 				<div class='bottom-align'>
 					<h3 class='white rect-card ps-2 h2_w600'>Свяжитесь</h3>
-					<h3 class='white ps-2'>с нами</h3>
+					<h3 class='white rect-card ps-2'>с нами</h3>
 					<a href='#' class='ms-2'><button class='btn-outline-white'>Обратная связь</button></a>
 				</div>
 			</div>
