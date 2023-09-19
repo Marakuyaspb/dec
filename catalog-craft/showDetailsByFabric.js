@@ -303,13 +303,6 @@ function showDetailsByFabric(event){
 		    ${paws_var}
 		</div>
 
-
-		<div class='container-fluid ms-4 mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, где прописаны все особенности товара, его доставка и гарантии.</p>
-			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
-		</div>	
-
-
 		<!-- Slider with interiors DESCTOP -->
 		<div class='banner mt-3'>
 			<div id='carouselExampleIndicators' class='carousel slide' data-bs-ride='carousel'>
@@ -344,6 +337,16 @@ function showDetailsByFabric(event){
 				    <span class='visually-hidden'>Next</span>
 				</button>
 			</div>
+		</div>
+
+
+		<div class=' big-fields-content mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
+			<center>
+				<a class='' href='http://temp.decona.ru/showrooms/'>
+					<button class='btn-outline-gray my-3'>Адреса шоурумов</button>
+				</a>
+			</center>
 		</div>
 
 		<!-- DESCTOP POP OVER THING-->
@@ -392,41 +395,41 @@ function showDetailsByFabric(event){
 		<!-- slider with product -->
 
 		<div id='carouselExampleCaptions' class='carousel carousel-dark slide' data-bs-ride='carousel'>
-	<div class='carousel-indicators'>
-	    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
-	    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='1' aria-label='Slide 2'></button>
-	    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='2' aria-label='Slide 3'></button>
-	    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='3' aria-label='Slide 4'></button>
-	    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='4' aria-label='Slide 5'></button>
-	</div>
-	
-	<div class='carousel-inner'>
-	    <div class='carousel-item active' data-bs-interval='10000'>
-	      <img src='${carousel_item_1_mob}' class='d-block w-100' alt='...'>
-	    </div>
-	    <div class='carousel-item' data-bs-interval='2000'>
-	      <img src='${carousel_item_2_mob}' class='d-block w-100' alt='...'>
-	    </div>
-	    <div class='carousel-item'>
-	      <img src='${carousel_item_3_mob}' class='d-block w-100' alt='...'>
-	    </div>
-	    <div class='carousel-item' data-bs-interval='2000'>
-	      <img src='${carousel_item_4_mob}' class='d-block w-100' alt='...'>
-	    </div>
-	    <div class='carousel-item'>
-	      <img src='${carousel_item_5_mob}' class='d-block w-100' alt='...'>
-	    </div>
-	</div>
+			<div class='carousel-indicators'>
+			    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
+			    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='1' aria-label='Slide 2'></button>
+			    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='2' aria-label='Slide 3'></button>
+			    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='3' aria-label='Slide 4'></button>
+			    <button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='4' aria-label='Slide 5'></button>
+			</div>
+			
+			<div class='carousel-inner'>
+			    <div class='carousel-item active' data-bs-interval='10000'>
+			      <img src='${carousel_item_1_mob}' class='d-block w-100' alt='...'>
+			    </div>
+			    <div class='carousel-item' data-bs-interval='2000'>
+			      <img src='${carousel_item_2_mob}' class='d-block w-100' alt='...'>
+			    </div>
+			    <div class='carousel-item'>
+			      <img src='${carousel_item_3_mob}' class='d-block w-100' alt='...'>
+			    </div>
+			    <div class='carousel-item' data-bs-interval='2000'>
+			      <img src='${carousel_item_4_mob}' class='d-block w-100' alt='...'>
+			    </div>
+			    <div class='carousel-item'>
+			      <img src='${carousel_item_5_mob}' class='d-block w-100' alt='...'>
+			    </div>
+			</div>
 
-	 <button class='carousel-control-prev' type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide='prev'>
-	    <span class='carousel-control-prev-icon' aria-hidden='true'></span>
-	    <span class='visually-hidden'>Previous</span>
-	</button>
-	<button class='carousel-control-next' type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide='next'>
-	    <span class='carousel-control-next-icon' aria-hidden='true'></span>
-	    <span class='visually-hidden'>Next</span>
-	</button>
-</div> 
+			 <button class='carousel-control-prev' type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide='prev'>
+			    <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+			    <span class='visually-hidden'>Previous</span>
+			</button>
+			<button class='carousel-control-next' type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide='next'>
+			    <span class='carousel-control-next-icon' aria-hidden='true'></span>
+			    <span class='visually-hidden'>Next</span>
+			</button>
+		</div> 
 
 
 		<!-- Name & price -->
@@ -560,11 +563,6 @@ function showDetailsByFabric(event){
 		</div>
 
 
-		<div class='container-fluid'>
-			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, где прописаны все особенности товара, его доставка и гарантии.</p>
-			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
-		</div>	
-
 
 		<!-- SLIDER INTERIORS -->
 
@@ -602,6 +600,17 @@ function showDetailsByFabric(event){
 				</button>
 			</div>
 		</div>
+
+
+		<div class='container-fluid mt-3'>
+			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
+			<center>
+				<a class='' href='http://temp.decona.ru/showrooms/'>
+					<button class='btn-outline-gray mt-4'>Адреса шоурумов</button>
+				</a>
+			</center>
+		</div>
+
 
 	</div>
 	<!-- end -->

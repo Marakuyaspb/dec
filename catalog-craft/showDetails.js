@@ -302,10 +302,7 @@ function showDetails(event){
 
 		</div>
 
-		<div class='container-fluid ms-4 mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
-			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
-			<!-- button class='btn-outline-gray my-2'>Вся коллекция</button -->
-		</div>
+		
 		
 		
 		<!-- Slider with interiors DESCTOP -->
@@ -343,6 +340,15 @@ function showDetails(event){
 				    <span class='visually-hidden'>Next</span>
 				</button>
 			</div>
+		</div>
+
+		<div class='big-fields-content mt-5 d-none d-md-block d-lg-block d-xl-block d-xxl-block'>
+			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
+			<center>
+				<a class='' href='http://temp.decona.ru/showrooms/'>
+					<button class='btn-outline-gray my-2'>Адреса шоурумов</button>
+				</a>
+			</center>
 		</div>
 
 		<!-- DESCTOP POP OVER THING-->
@@ -601,6 +607,14 @@ function showDetails(event){
 			</div>
 		</div>
 
+		<div class='container-fluid mt-5'>
+			<p>	Стоимость дивана в нестандартной комплектации рассчитывается в салоне, после выбора клиентом обивки и дополнительных опций. После того, как вы определилисть, подписывается договор, гле прописаны все особенности товара, его доставка и гарантии.</p>
+			<center>
+				<a class='' href='$http://temp.decona.ru/showrooms/'>
+					<button class='btn-outline-gray mt-4'>Адреса шоурумов</button>
+				</a>
+			</center>
+		</div>
 
 	</div>
 
